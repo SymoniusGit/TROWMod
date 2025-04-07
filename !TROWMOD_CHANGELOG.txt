@@ -1,0 +1,49 @@
+ //// TROWMOD CHANGELOG ////
+
+• BETA 0.34.2 (06/04/2025):
+- Reduced Keep Money Prod to 50
+- Reduced Outpost Money Prod to 60
+
+• BETA 0.34.1 (31/03/2025):
+- Added missing Mirkwood Icons
+- Added missing Elven Units Portraits
+
+• BETA 0.34.0 (30/03/2025):
+- Fix: Resource efficency decrease on higher farm number
+- Buffed Golems: Removed unit cap, faster locomotion, added fire damage on fire rune. Increased build cost
+- Mighty Cataput Buff: Almost same stat than Gorgoroth Spire
+- Increased Dwarven Riches Range to 300 (from 100) 
+- Increased Money Production Range to 150 (from 100)
+- Increased Keep Production to 75 (from 25)
+- Increased Outpost Money Production to 120 every 6 seconds (from 60 every 10 seconds)
+- Added Money Production of 60 to Inn and Shipwrigth
+- Dwarven Wagon Ballista increased damage to 150% against Monsters
+
+
+• BETA 0.33.3c (30/03/2025):
+- Fix: Missing armor Iron Hills Fighters
+- Fix: Friendly fire for Trolls Rock attacks
+- Fix: Warg attack range reduced to 20 (from 25)
+- Snow Troll cost reduction, damage reduction, resistant to frost, more vulnerable to fire
+
+• BETA 0.33.3b (30/03/2025):
+- Fix: Removed Dwarven Wagon ballista friendly damage
+
+• BETA 0.33.3 (27/03/2025):
+- Fix: Black uruk champions couldn't attack
+- Fix: Dwarven catapult can attack other catapults now
+- Fix: Normal eagles don't grab trolls
+- Fix: rimuovere la modalità di tiro sul posto dagli arcieri di bosco atro
+- Moved Hadhod, Idrial and Elegost in Wardenage
+- Mordor Catapult Damage Nerf to 600 (from 1000), Cost increase to 700 (from 300), build time to 40 (from 30)
+
+• BETA 0.33.2 (20/11/2024):
+- Fixed FOV of Minas Morgul Map
+
+• BETA 0.33.1 (30/07/2024):
+- Re-added aidata.ini strings in blanked file
+- Changed header mod files from ####### to ! (to be compatible with any new path202 version)
+- Added !TROWMOD_Bases.big to ovveride patched IA (which wasn't working)
+
+• BETA 0.33.0 (7 years of development):
+- many things to list
