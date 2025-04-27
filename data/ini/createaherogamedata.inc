@@ -238,7 +238,7 @@
 
 #define CREATE_A_HERO_ASSASSIN_RANGE							40
 #define CREATE_A_HERO_ASSASSIN_DO_POWER_RANGE					30
-#define CREATE_A_HERO_ASSASSIN_OBJECT_FILTER					NONE +HERO -MordorBalrog -SummonedDragon -SummonedDragonJH1 -MordorWitchKingOnFellBeast -MordorFellBeast -Drogoth -GondorGwaihir -GondorGwaihir_Summoned -ElvenFortressEagle -SpellBookDragonStrikeDragon
+#define CREATE_A_HERO_ASSASSIN_OBJECT_FILTER					NONE +HERO -MordorBalrog -SummonedDragon -SummonedDragonJH1 -MordorWitchKingOnFellBeast -MordorFellBeast -Drogoth -ElvenEagle -ElvenEagle_Summoned -ElvenFortressEagle -SpellBookDragonStrikeDragon
 
 //	Rain of Arrows
 #define CREATE_A_HERO_RAIN_OF_ARROWS_DO_POWER_RANGE				320
