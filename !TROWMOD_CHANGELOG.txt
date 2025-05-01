@@ -1,4 +1,5 @@
  //// TROWMOD CHANGELOG ////
+• BETA 0.36.0 (23/04/2025):
 
 • BETA 0.34.2 (06/04/2025):
 - Reduced Keep Money Prod to 50
