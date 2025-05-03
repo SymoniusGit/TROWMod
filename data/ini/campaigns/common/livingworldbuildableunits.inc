@@ -693,10 +693,10 @@ LivingWorldPlayerArmy
 End
 
 LivingWorldPlayerArmy
-	Name = MordorHaradrimSpearmanArmy
+	Name = MordorHaradrimHunterArmy
 	DisplayNameTag = LWA:Mordor
 	ArmyEntry
-		ThingTemplate = MordorHaradrimSpearmanHorde
+		ThingTemplate = MordorHaradrimHunterHorde
 		Quantity = 1
 	End
 End
