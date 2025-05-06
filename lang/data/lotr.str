@@ -53663,7 +53663,7 @@ CONTROLBAR:IsengardBerserkerBloodLust
 END
 
 CONTROLBAR:ToolTipIsengardBerserkerBloodLust
-"Richiede livello 3.\n"
+"Richiede livello 3.\nRipristina la salute del Berserker del 7.5% dei danni inflitti ai nemici.\n\nAbilità passiva."
 END
 
 CONTROLBAR:IsengardBerserkerCaptLeadership
@@ -53671,7 +53671,7 @@ CONTROLBAR:IsengardBerserkerCaptLeadership
 END
 
 CONTROLBAR:ToolTipIsengardBerserkerCaptLeadership
-"Richiede livello 5.\n"
+"Richiede livello 5.\nLa corazza, il danno, l'armatura, l'esperienza e la velocità d'attacco del Berserker aumentano del 20%."
 END
 
 OBJECT:IsengardExplosiveBerserker
