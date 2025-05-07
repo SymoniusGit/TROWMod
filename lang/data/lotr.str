@@ -55539,13 +55539,21 @@ OBJECT:EagleLandroval
 END
 
 CONTROLBAR:LandrovalLeadership
-"Comando"
+"Possanza della Grande Aquile"
 END
 
 CONTROLBAR:TooltipLandrovalLeadership
-"Richiede livello 2.\n Le Acquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 2.\n Le Aquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:EagleGwaihir
 "Gwaihir"
+END
+
+CONTROLBAR:GwaihirLeadership
+"Signore delle Grandi Aquile"
+END
+
+CONTROLBAR:TooltipLandrovalLeadership
+"Richiede livello 2.\n Le Aquile vicine a Gwaihir ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
