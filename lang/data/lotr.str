@@ -52695,7 +52695,7 @@ CONTROLBAR:BlackBreath
 END
 
 CONTROLBAR:ToolTipNazgulBlackBreath
-"Richiede livello 2.\nIl Nazgûl emana un miasma che danneggia le unità nemiche vicine e incute paura riducendo l'armatura."
+"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura, \n dimezza la velocità di movimento e dimezza la visione alle unità nemiche vicine."
 END
 
 OBJECT:MordorBlackNumenorean
@@ -53383,7 +53383,7 @@ CONTROLBAR:Infiltrate
 END
 
 CONTROLBAR:ToolTipInfiltrate
-"\nGrima diventa temporaneamente invisibile."
+"\nGrima diventa invisibile."
 END
 
 CONTROLBAR:WormtongueSabotage
@@ -53671,7 +53671,7 @@ CONTROLBAR:IsengardBerserkerCaptLeadership
 END
 
 CONTROLBAR:ToolTipIsengardBerserkerCaptLeadership
-"Richiede livello 5.\n"
+"Richiede livello 5.\n I berserker vicini ottengono +10% danni, +10 % armatura, +10%  esperienza.\n\n Abilità passiva. Non cumulabile"
 END
 
 OBJECT:IsengardExplosiveBerserker
@@ -54058,7 +54058,7 @@ CONTROLBAR:ToolTipBuildElvenLorienCavalryHorde
 "Efficace contro arcieri."
 END
 
-OBJECT:ElvenGaladhrimWarrior
+OBJECT:GaladhrimWarrior
 "Guerriero Galadhrim"
 END
 
@@ -54279,6 +54279,10 @@ CONTROLBAR:ToolTipBuildBuildElvenRivendellSpearmanHorde
 END
 
 OBJECT:ElvenRivendellWarrior
+"Guerrieri di Imladris"
+END
+
+OBJECT:RivendellWarrior
 "Guerriero di Imladris"
 END
 
@@ -54335,7 +54339,7 @@ CONTROLBAR:WildFury
 END
 
 CONTROLBAR:ToolTipMinorWildFury
-"Richiede livello 5.\n???"
+"Richiede livello 3.\n Aumenta del 50% i danni e raddoppia la velocità d'attacco per 20 secondi."
 END
 
 OBJECT:AngmarUndeadFighter
@@ -54683,7 +54687,7 @@ OBJECT:HordeMithlondSentry
 END
 
 OBJECT:IsengardWormTongue
-"Vermilinguo"
+"Grima Vermilinguo"
 END
 
 CONTROLBAR:ToolTipBarrage
@@ -54756,6 +54760,10 @@ END
 
 OBJECT:RivendellArchers
 "Arciere a cavallo di Lindon"
+END
+
+OBJECT:RivendellArcher
+"Arciere di Imladris"
 END
 
 CONTROLBAR:BuildElvenRivendellArchers
@@ -55532,4 +55540,20 @@ END
 
 CONTROLBAR:TooltipWightInfestation
 "Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
+END
+
+OBJECT:EagleLandroval
+"Landroval"
+END
+
+CONTROLBAR:LandrovalLeadership
+"Comando"
+END
+
+CONTROLBAR:TooltipLandrovalLeadership
+"Richiede livello 2.\n Le Acquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
+OBJECT:EagleGwaihir
+"Gwaihir"
 END
