@@ -54702,14 +54702,6 @@ DIALOGEVENT:MTrBas_OffT010subtitle
 "*Now for our mission here"
 END
 
-CONTROLBAR:WitchkingMorgulCorruption
-"Corruzione di Morgu&l"
-END
-
-CONTROLBAR:ToolTipWitchkingMorgulCorruption
-"Richiede livello 5.\nIl nemico bersaglio viene avvelenato nel tempo\ne diventa uno Spettro se muore.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
-END
-
 CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
 "Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
 END
