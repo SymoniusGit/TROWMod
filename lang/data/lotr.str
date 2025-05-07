@@ -55522,3 +55522,14 @@ CONTROLBAR:ToolTipJuggernautAuraProtection
 "Richiede livello 6.\nGli alleati vicini ai Juggernaut ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
 END
 
+CONTROLBAR:ToolTipWightDreadVisage
+"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
+END
+
+CONTROLBAR:WightInfestation
+"Infestazione"
+END
+
+CONTROLBAR:TooltipWightInfestation
+"Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
+END
