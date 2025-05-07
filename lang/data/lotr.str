@@ -52551,7 +52551,7 @@ CONTROLBAR:DragonHearth
 END
 
 CONTROLBAR:ToolTipSmaugDragonHearth
-"Richiede livello 3.\nGli alleati vicini a Smaug ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 3.\nGli alleati vicini a Smaug ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\nRiduce la corazza e il danno del nemico.\nDepreda i corpi dei nemici caduti e ottieni risorse.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SmaugHurricane
@@ -52567,7 +52567,7 @@ CONTROLBAR:SmaugPoisonMind
 END
 
 CONTROLBAR:ToolTipSmaugPoisonMind
-"Richiede livello 5.\n????"
+"Richiede livello 5.\nLe unità bersaglio cominciano a darsi battaglia.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:SmaugRampage
@@ -53663,7 +53663,7 @@ CONTROLBAR:IsengardBerserkerBloodLust
 END
 
 CONTROLBAR:ToolTipIsengardBerserkerBloodLust
-"Richiede livello 3.\n"
+"Richiede livello 3.\nRipristina la salute del Berserker del 7.5% dei danni inflitti ai nemici.\n\nAbilità passiva."
 END
 
 CONTROLBAR:IsengardBerserkerCaptLeadership
@@ -53671,7 +53671,7 @@ CONTROLBAR:IsengardBerserkerCaptLeadership
 END
 
 CONTROLBAR:ToolTipIsengardBerserkerCaptLeadership
-"Richiede livello 5.\n I berserker vicini ottengono +10% danni, +10 % armatura, +10%  esperienza.\n\n Abilità passiva. Non cumulabile"
+"Richiede livello 5.\nLa corazza, il danno, l'armatura, l'esperienza e la velocità d'attacco del Berserker aumentano del 20%."
 END
 
 OBJECT:IsengardExplosiveBerserker
@@ -54704,14 +54704,6 @@ END
 
 DIALOGEVENT:MTrBas_OffT010subtitle
 "*Now for our mission here"
-END
-
-CONTROLBAR:WitchkingMorgulCorruption
-"Corruzione di Morgu&l"
-END
-
-CONTROLBAR:ToolTipWitchkingMorgulCorruption
-"Richiede livello 5.\nIl nemico bersaglio viene avvelenato nel tempo\ne diventa uno Spettro se muore.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
