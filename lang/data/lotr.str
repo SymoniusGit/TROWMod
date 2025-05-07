@@ -52551,7 +52551,7 @@ CONTROLBAR:DragonHearth
 END
 
 CONTROLBAR:ToolTipSmaugDragonHearth
-"Richiede livello 3.\nGli alleati vicini a Smaug ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 3.\nGli alleati vicini a Smaug ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\nRiduce la corazza e il danno del nemico.\nDepreda i corpi dei nemici caduti e ottieni risorse.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SmaugHurricane
@@ -52567,7 +52567,7 @@ CONTROLBAR:SmaugPoisonMind
 END
 
 CONTROLBAR:ToolTipSmaugPoisonMind
-"Richiede livello 5.\n????"
+"Richiede livello 5.\nLe unità bersaglio cominciano a darsi battaglia.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
 
 CONTROLBAR:SmaugRampage
