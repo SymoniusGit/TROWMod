@@ -13598,12 +13598,28 @@ CONTROLBAR:TooltipSummonTomBombadil
 "Evoca Tom Bombadil.\nClicca con il pulsante sinistro sull'icona, quindi su una zona adatta."
 END
 
+CONTROLBAR:HobbitInspiration
+"Ispirazione"
+END
+
+CONTROLBAR:ToolTipHobbitInspiration
+"Richiede livello 3.\nL'ispirazione dell'eroe Hobbit potenzia gli alleati vicini:\nGli eroi alleati ottengono +5 danno e armatura\nAltre unità alleate ottengono +20% danno, armatura ed esperienza.\nAbilità passiva."
+END
+
 CONTROLBAR:SummonHobbitAllies
 "Evoca alleati Hobbit"
 END
 
 CONTROLBAR:TooltipSummonHobbitAllies
-"Evoca un gruppo di Hobbit.\nClicca con il pulsante sinistro sull'icona,\nquindi su una zona adatta."
+"Richiede livello 5.\nEvoca un gruppo di Hobbit.\nClicca con il pulsante sinistro sull'icona,\nquindi su una zona adatta."
+END
+
+CONTROLBAR:HobbitLeader
+"Hobbit Leader"
+END
+
+CONTROLBAR:ToolTipHobbitLeader
+"Richiede livello 7.\nGli Hobbit alleati ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:RallyingCall
