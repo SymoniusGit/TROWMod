@@ -15474,6 +15474,14 @@ CONTROLBAR:ToolTipDamrodWoundingArrow
 "Richiede livello 3.\nUn potente attacco singolo a distanza.\nMette in fuga il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
+CONTROLBAR:DamrodAmbush
+"Imboscata"
+END
+
+CONTROLBAR:ToolTipDamrodAmbush
+"Richiede livello 6.\nLe unità alleate vicine si mimetizzano."
+END
+
 CONTROLBAR:CaptainofGondor
 "&Capitano di Gondor"
 END
