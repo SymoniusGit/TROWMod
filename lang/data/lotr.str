@@ -15042,10 +15042,6 @@ CONTROLBAR:ToolTipDainLeadership
 "Gli alleati vicini a Re Dàin ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
-CONTROLBAR:ToolTipDamrodLeadership
-"Gli alleati vicini a Damrod ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nAbilità passiva. Non cumulabile."
-END
-
 CONTROLBAR:ToolTipBoromirLeadership
 "Richiede livello 5.\nGli alleati vicini a Boromir ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
@@ -15472,6 +15468,10 @@ END
 
 CONTROLBAR:ToolTipWoundingArrow
 "Richiede livello 2.\nUn potente attacco singolo a distanza.\nMette in fuga il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+END
+
+CONTROLBAR:ToolTipDamrodWoundingArrow
+"Richiede livello 3.\nUn potente attacco singolo a distanza.\nMette in fuga il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:CaptainofGondor
