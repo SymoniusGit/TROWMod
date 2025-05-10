@@ -50146,6 +50146,10 @@ CONTROLBAR:SpecialAbilityWKMorgulWing
 "Tifone di Angmar (&A)"
 END
 
+CONTROLBAR:ToolTipSpecialAbilityAngmarTyphon
+"Lancia un'onda shock sotto il Re Stregone, provocando danno da impatto ai nemici vicini.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+END
+
 CONTROLBAR:SpecialAbilityMorgulWing
 "Vento di Morgul (&M)"
 END
@@ -52703,6 +52707,10 @@ END
 
 CONTROLBAR:ToolTipNazgulBlackBreath
 "Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura, \n dimezza la velocità di movimento e dimezza la visione alle unità nemiche vicine."
+END
+
+CONTROLBAR:ToolTipWitchKingBlackBreath
+"Richiede livello 2.\nRiduce del 25% il danno e l'armatura delle unità nemiche vicine.\n\nPotenziamento livello 4.\nDimezza la velocità di movimento e riduce la visione alle unità nemiche vicine, infliggendo danni da veleno.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:MordorBlackNumenorean
