@@ -15479,7 +15479,7 @@ CONTROLBAR:DamrodAmbush
 END
 
 CONTROLBAR:ToolTipDamrodAmbush
-"Richiede livello 6.\nLe unità alleate vicine si mimetizzano."
+"Richiede livello 6.\nDamrod e le unità alleate vicine si mimetizzano.\nAbilità passiva."
 END
 
 CONTROLBAR:CaptainofGondor
