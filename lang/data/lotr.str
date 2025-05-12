@@ -54724,6 +54724,9 @@ END
 OBJECT:Gorhaud
 "Gorhaud"
 End
+CONTROLBAR:AngmarGorhaudHotkey
+"Gorhaud"
+END
 CONTROLBAR:SpecialAbilityGorhaudFrostball
 "Soffio gelido"
 END
