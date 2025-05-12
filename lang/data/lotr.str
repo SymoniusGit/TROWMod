@@ -4950,6 +4950,10 @@ INI:FactionWild
 "Goblin"
 END
 
+INI:FactionFellowship
+"Compagnia"
+END
+
 SIDE:Men
 "Uomini"
 END
@@ -14151,7 +14155,7 @@ CONTROLBAR:ConstructGoblinCaveTroll
 END
 
 CONTROLBAR:ToolTipBuildGoblinCaveTroll
-"Richiede fenditura di livello 2.\nEfficace contro spadaccini e strutture."
+"Richiede struttura di livello 2.\nEfficace contro spadaccini e strutture."
 END
 
 CONTROLBAR:ToolTipBuildGoblinCaveTrollLair
@@ -14307,7 +14311,7 @@ CONTROLBAR:ConstructWildMountainGiant
 END
 
 CONTROLBAR:ToolTipBuildWildMountainGiant
-"Richiede fenditura di livello 3.\nEfficace contro strutture.\nDebole contro arcieri e macchine d'assedio."
+"Richiede struttura di livello 3.\nEfficace contro strutture.\nDebole contro arcieri e macchine d'assedio."
 END
 
 CONTROLBAR:ConstructWildMarauderHorde
@@ -45399,34 +45403,6 @@ OBJECT:AngmarPorter
 "Costruttore"
 END
 
-OBJECT:HordeAngmarDarkRanger
-"Raminghi oscuri"
-END
-
-OBJECT:AngmarMorgramir
-"Morgomir"
-END
-
-OBJECT:AngmarDarkRanger
-"Raminghi oscuri"
-END
-
-OBJECT:AngmarWildMissle
-"Costruttore"
-END
-
-OBJECT:AngmarWolfRiders
-"Cavalieri di Lupi"
-END
-
-OBJECT:AngmarOrcWarrior
-"Guerriero di Gundabad"
-END
-
-OBJECT:HordeAngmarOrcWarriors
-"Guerrieri di Gundabad"
-END
-
 OBJECT:HordeWildmanAxeThrower
 "Uomini Selvaggi lanciatori d'ascia"
 END
@@ -47108,7 +47084,7 @@ CONTROLBAR:ConstructWildMarauderSwordHorde
 END
 
 CONTROLBAR:ToolTipBuildWildMarauderSwordHorde
-"Richiede fenditura di livello 2.\nEfficace contro picchieri."
+"Richiede struttura di livello 2.\nEfficace contro picchieri."
 END
 
 BANNERUI:WildMarauderSwordman
@@ -47184,7 +47160,7 @@ CONTROLBAR:ConstructWildBabyDrakeHorde
 END
 
 CONTROLBAR:ToolTipWildBabyDrakeHorde
-"Efficace contro tutte le truppe normali, eccetto i picchieri.\nRichiede fenditura di livello 3.\nPossono esistere solo 2 progenie di Drago in un determinato momento."
+"Efficace contro tutte le truppe normali, eccetto i picchieri.\nRichiede struttura di livello 3.\nPossono esistere solo 2 progenie di Drago in un determinato momento."
 END
 
 CONTROLBAR:PurchaseUpgradeDwarvenSiegeHammer
@@ -52273,7 +52249,7 @@ CONTROLBAR:ConstructWildSnowTroll
 END
 
 CONTROLBAR:ToolTipBuildWildSnowTroll
-"Richiede fenditura di livello 2.\nEfficace contro arcieri, cavalleria e strutture."
+"Richiede struttura di livello 2.\nEfficace contro arcieri, cavalleria e strutture."
 END
 
 CONTROLBAR:WarBatsDreadVisage
@@ -52289,7 +52265,7 @@ CONTROLBAR:ConstructWildWarriorBats
 END
 
 CONTROLBAR:ToolTipBuildWildWarriorBats
-"Richiede fenditura di livello 2.\nEfficace contro cavalleria e picchieri.\nIndebolisce le truppe nemiche."
+"Richiede struttura di livello 2.\nEfficace contro cavalleria e picchieri.\nIndebolisce le truppe nemiche."
 END
 
 CONTROLBAR:WarBatsBloodDrain
@@ -52623,7 +52599,7 @@ CONTROLBAR:ConstructWildColdDrake
 END
 
 CONTROLBAR:ToolTipWildColdDrake
-"Richiede fenditura di livello 3. \nEfficace contro tutto."
+"Richiede struttura di livello 3. \nEfficace contro tutto."
 END
 
 CONTROLBAR:ToolTipColdDrakeManEater
@@ -52723,11 +52699,11 @@ CONTROLBAR:BlackBreath
 END
 
 CONTROLBAR:ToolTipNazgulBlackBreath
-"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura, \n dimezza la velocità di movimento e dimezza la visione alle unità nemiche vicine."
+"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura e i danni delle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unnità nemiche vicine. \n Abilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipWitchKingBlackBreath
-"Richiede livello 2.\nRiduce del 25% il danno e l'armatura delle unità nemiche vicine.\n\nPotenziamento livello 4.\nDimezza la velocità di movimento e riduce la visione alle unità nemiche vicine, infliggendo danni da veleno.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura e i danni delle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unnità nemiche vicine. \n Abilità passiva. Non cumulabile."
 END
 
 OBJECT:MordorBlackNumenorean
@@ -53914,6 +53890,26 @@ CONTROLBAR:TooltipCommandSelectRivendellFaction
 "\nRecluta gli Alti Elfi dell'ultima Casa Accogliente a Est del mare."
 END
 
+OBJECT:EagleLandroval
+"Landroval"
+END
+
+CONTROLBAR:LandrovalLeadership
+"Possanza della Grande Aquile"
+END
+
+CONTROLBAR:TooltipLandrovalLeadership
+"Richiede livello 2.\n Le Aquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
+OBJECT:EagleGwaihir
+"Gwaihir"
+END
+
+CONTROLBAR:GwaihirLeadership
+"Signore delle Grandi Aquile"
+END
+
 CONTROLBAR:ElvenTreeBeardHotkey
 "Barbalbero"
 END
@@ -54362,82 +54358,6 @@ CONTROLBAR:ToolTipMinorWildFury
 "Richiede livello 3.\n Aumenta del 50% i danni e raddoppia la velocità d'attacco per 20 secondi."
 END
 
-OBJECT:AngmarUndeadFighter
-"Guerriero non-morto"
-END
-
-OBJECT:AngmarUndeadFighterHorde
-"Guerrieri non-morti"
-END
-
-CONTROLBAR:ConstructAngmarUndeadFighterHorde
-"Guerrieri non-morti"
-END
-
-CONTROLBAR:ToolTipBuildAngmarUndeadFighterHorde
-"Guerrieri non-morti"
-END
-
-OBJECT:AngmarUndeadPikeman
-"Picchiere non-morto"
-END
-
-OBJECT:AngmarUndeadPikemanHorde
-"Picchieri non-morti"
-END
-
-CONTROLBAR:ConstructAngmarUndeadPikemanHorde
-"Picchieri non-morti"
-END
-
-CONTROLBAR:ToolTipBuildAngmarUndeadPikemanHorde
-"Picchieri non-morti"
-END
-
-OBJECT:AngmarUndeadArcher
-"Arciere non-morto"
-END
-
-OBJECT:AngmarUndeadArcherHorde
-"Arcieri non-morti"
-END
-
-CONTROLBAR:ConstructAngmarUndeadArcherHorde
-"Arcieri non-morti"
-END
-
-CONTROLBAR:ToolTipBuildAngmarUndeadArcherHorde
-"Arcieri non-morti"
-END
-
-OBJECT:AngmarUndeadCavalry
-"Cavaliere non-morto"
-END
-
-OBJECT:AngmarUndeadCavalryHorde
-"Cavalieri non-morti"
-END
-
-CONTROLBAR:ConstructAngmarUndeadCavalryHorde
-"Cavalieri non-morti"
-END
-
-CONTROLBAR:ToolTipAngmarUndeadCavalryHorde
-"Cavalieri non-morti"
-END
-
-OBJECT:AngmarWerewolf
-"Lupo mannaro"
-END
-
-CONTROLBAR:ConstructAngmarWerewolf
-"Lupo mannaro"
-END
-
-CONTROLBAR:ToolTipAngmarWerewolf
-"Lupo mannaro"
-END
-
 CreateAHero:ClassName_Giant
 "Gigante"
 END
@@ -54446,39 +54366,17 @@ CreateAHero:SubClassName_Giant
 "Gigante di Montagna"
 END
 
-INI:FactionFellowship
-"Compagnia"
-END
-
-
-
-
 OBJECT:ElvenRivendellLancer
 "Lanciere di Gran Burrone"
 END
-
-
-
-
 
 OBJECT:ElvenImladrisWarrior
 "Guerriero di Imladris"
 END
 
-
-
-
-
 OBJECT:IsengardBerserker
 "Berserker Uruk-hai"
 END
-
-
-
-
-
-
-
 
 OBJECT:MordorEasterling
 "Esterling"
@@ -54492,23 +54390,6 @@ CONTROLBAR:ConstructMordorEasterlingHorde
 "Es&terling"
 END
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 OBJECT:HordeMordorEasterlings
 "Esterling"
 END
@@ -54516,8 +54397,6 @@ END
 OBJECT:HordeMordorHaradrim
 "Arcieri Haradrim"
 END
-
-
 
 CONTROLBAR:ConstructElvenImladrisWarriorHorde
 "Addestra guerrieri di Imladris (&W)"
@@ -54527,10 +54406,6 @@ CONTROLBAR:ToolTipBuildElvenImladrisWarriorHordeWithNoPrerequisites
 "Efficace contro picchieri."
 END
 
-
-
-
-
 CONTROLBAR:BuildElvenRivendellLancers
 "Addestra &lancieri di Gran Burrone"
 END
@@ -54539,33 +54414,13 @@ CONTROLBAR:ToolTipBuildElvenRivendellLancers
 "Efficace contro arcieri."
 END
 
-
-
-
-
-
-
-
-
-
 CONTROLBAR:ConstructMordorHaradrimArcherHorde
 "Arcieri H&aradrim"
 END
 
-
-
-
-
-
-
 CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
 "Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
 END
-
-
-
-
-
 
 CONTROLBAR:ConstructMordorHaradrimRiderHorde
 "&Cavalieri Haradrim"
@@ -54611,129 +54466,9 @@ OBJECT:HordeElvenRivendellArcher
 "Arcieri a cavallo di Lindon"
 END
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 OBJECT:HordeJuggernaut
 "Juggernaut"
 END
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 CONTROLBAR:ConstructElvenLindonSwordsmanHorde
 "Guerrieri di Lindon"
@@ -54743,46 +54478,21 @@ CONTROLBAR:ToolTipBuildElvenLindonSwordsmanHorde
 "Efficace contro picchieri."
 END
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 CONTROLBAR:ToolTipBuildElvenRivendellSpearmanHorde
 "Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
-
 
 CONTROLBAR:ToolTipBuildElvenRivendellKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
-
 CONTROLBAR:ToolTipBuildElvenRivendellWarriorHorde
 "Richiede caserma di livello 2.\nEfficace a distanza."
 END
 
-
 CONTROLBAR:ToolTipBuildElvenRivendellArcherHorde
 "Efficace a distanza."
 END
-
-
-
-
-
-
-
-
-
 
 CONTROLBAR:ConstructMordorHaradrimAssassin
 "Assassino Haradrim"
@@ -54864,21 +54574,6 @@ CONTROLBAR:ToolTipBuildMordorRhunRiderHorde
 "Richiede palazzo di livello 2.\nEfficaci contro arcieri."
 END
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 CONTROLBAR:ToolTipWightDreadVisage
 "Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
 END
@@ -54891,25 +54586,224 @@ CONTROLBAR:TooltipWightInfestation
 "Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
 END
 
-OBJECT:EagleLandroval
-"Landroval"
+
+
+
+
+
+OBJECT:AngmarUndeadFighter
+"Guerriero non-morto"
+END
+OBJECT:AngmarUndeadFighterHorde
+"Guerrieri non-morti"
+END
+CONTROLBAR:ConstructAngmarUndeadFighterHorde
+"Guerrieri non-morti"
+END
+CONTROLBAR:ToolTipBuildAngmarUndeadFighterHorde
+"Efficace contro picchieri."
 END
 
-CONTROLBAR:LandrovalLeadership
-"Possanza della Grande Aquile"
+OBJECT:AngmarUndeadPikeman
+"Picchiere non-morto"
+END
+OBJECT:AngmarUndeadPikemanHorde
+"Picchieri non-morti"
+END
+CONTROLBAR:ConstructAngmarUndeadPikemanHorde
+"Picchieri non-morti"
+END
+CONTROLBAR:ToolTipBuildAngmarUndeadPikemanHorde
+"Efficaci contro cavalleria."
 END
 
-CONTROLBAR:TooltipLandrovalLeadership
-"Richiede livello 2.\n Le Aquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+OBJECT:AngmarUndeadArcher
+"Arciere non-morto"
+END
+OBJECT:AngmarUndeadArcherHorde
+"Arcieri non-morti"
+END
+CONTROLBAR:ConstructAngmarUndeadArcherHorde
+"Arcieri non-morti"
+END
+CONTROLBAR:ToolTipBuildAngmarUndeadArcherHorde
+"Efficace contro fanteria."
 END
 
-OBJECT:EagleGwaihir
-"Gwaihir"
+OBJECT:AngmarUndeadCavalry
+"Cavaliere non-morto"
+END
+OBJECT:AngmarUndeadCavalryHorde
+"Cavalieri non-morti"
+END
+CONTROLBAR:ConstructAngmarUndeadCavalryHorde
+"Cavalieri non-morti"
+END
+CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
+"Efficace contro arcieri."
 END
 
-CONTROLBAR:GwaihirLeadership
-"Signore delle Grandi Aquile"
+
+
+CONTROLBAR:AngmarGundabadFighter
+"Combattente di Gundabad"
 END
+CONTROLBAR:AngmarGundabadFighterHorde
+"Combattenti di Gundabad"
+END
+CONTROLBAR:ConstructAngmarGundabadFighterHorde
+"Combattenti di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadFighterHorde
+"Efficace contro picchieri."
+END
+
+
+
+CONTROLBAR:AngmarGundabadPikeman
+"Picchiere  di Gundabad"
+END
+CONTROLBAR:ConstructAngmarGundabadPikemanHorde
+"Picchieri  di Gundabad"
+END
+CONTROLBAR:ConstructAngmarGundabadPikemanHorde
+"Picchieri  di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadPikemanHorde
+"Efficace contro cavalleria."
+END
+
+
+
+CONTROLBAR:AngmarGundabadArcher
+"Arcere di Gundabad"
+END
+CONTROLBAR:AngmarGundabadArcherHorde
+"Arceri di Gundabad"
+END
+CONTROLBAR:ConstructAngmarGundabadArcherHorde
+"Arceri di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
+"Efficace contro fanteria."
+END
+
+
+
+CONTROLBAR:AngmarGundabadWolfRiders
+"Cavalca lupi di Gundabad"
+END
+CONTROLBAR:AngmarGundabadWolfRiders
+"Cavalca lupi di Gundabad"
+END
+CONTROLBAR:ConstructAngmarGundabadWolfRiders
+"Cavalca lupi di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadWolfRiders
+"Efficace contro arcieri."
+END
+
+OBJECT:AngmarWerewolf
+"Lupo mannaro"
+END
+CONTROLBAR:ConstructAngmarWerewolf
+"Lupo mannaro"
+END
+CONTROLBAR:ToolTipBuildAngmarWerewolf
+"Richiede struttura di livello 2. \n Unità valoce e con elevati danni."
+END
+
+
+CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
+"Ricerca Gelo Mortale"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyAngmarMortalFrost
+"Consente alle orde di non-morti di acquistare il potenziamento Gelo Mortale"
+END
+
+OBJECT:Gorhaud
+"Gorhaud"
+End
+CONTROLBAR:SpecialAbilityGorhaudFrostball
+"Soffio gelido"
+END
+CONTROLBAR:ToolTipSpecialAbilityGorhaudFrostball
+"???"
+END
+CONTROLBAR:GorhaudFreezingHearth
+"Cuore gelido"
+END
+CONTROLBAR:ToolTipGorhaudFreezingHearth
+"???"
+END
+CONTROLBAR:GorhaudMorgulDevastation
+"Devastazione Morgul"
+END
+CONTROLBAR:ToolTipGorhaudMorgulDevastation
+"???"
+END
+CONTROLBAR:GorhaudBlizzard
+"Bufera"
+END
+CONTROLBAR:ToolTipGorhaudBlizzard
+"???"
+END
+CONTROLBAR:GorhaudDarkAnnihilation
+"Annichilimento"
+END
+CONTROLBAR:ToolTipGorhaudDarkAnnihilation
+"???"
+END
+
+
+
+OBJECT:HordeAngmarDarkRanger
+"Raminghi oscuri"
+END
+
+OBJECT:AngmarMorgramir
+"Morgomir"
+END
+
+OBJECT:AngmarDarkRanger
+"Raminghi oscuri"
+END
+
+OBJECT:AngmarWildMissle
+"Costruttore"
+END
+
+OBJECT:AngmarWolfRiders
+"Cavalieri di Lupi"
+END
+
+OBJECT:AngmarOrcWarrior
+"Guerriero di Gundabad"
+END
+
+OBJECT:HordeAngmarOrcWarriors
+"Guerrieri di Gundabad"
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54965,6 +54859,14 @@ END
 
 CONTROLBAR:ToolTipFactionConvertIronHills
 "\n Recluta i nani del nord-est, dotati delle migliori armi."
+END
+
+CONTROLBAR:FactionConvertDale
+"&Dale"
+END
+
+CONTROLBAR:ToolTipFactionConvertDale
+"\n Recluta gli uomini abitanti della città di Dale."
 END
 
 CONTROLBAR:FactionConvertGondor
