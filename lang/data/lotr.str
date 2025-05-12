@@ -51853,7 +51853,7 @@ CONTROLBAR:SelectEreborFaction
 END
 
 CONTROLBAR:ToolTipCommandSelectEreborFaction
-"\nRecluta le unità della Montagna Solitaria."
+"\nRecluta i nani della Montagna Solitaria."
 END
 
 CONTROLBAR:SelectIronHillsFaction
@@ -51861,7 +51861,7 @@ CONTROLBAR:SelectIronHillsFaction
 END
 
 CONTROLBAR:ToolTipCommandSelectIronHillsFaction
-"\nRecluta le unità dei nani del nord-est, dotati delle migliori armi."
+"\nRecluta i nani del nord-est, dotati delle migliori armi."
 END
 
 CONTROLBAR:SelectEredLuinFaction
@@ -53234,7 +53234,7 @@ CONTROLBAR:SelectGondorFaction
 END
 
 CONTROLBAR:TooltipCommandSelectGondorFaction
-"\nRecluta le unità del Regno del Sud dei Dùnedain."
+"\nRecluta gli uomini del Regno del Sud dei Dùnedain."
 END
 
 CONTROLBAR:SelectFallenArnorFaction
@@ -53242,7 +53242,7 @@ CONTROLBAR:SelectFallenArnorFaction
 END
 
 CONTROLBAR:TooltipCommandSelectFallenArnorFaction
-"\nRecluta le unità del Regno decaduto del Nord dei Dùnedain."
+"\nRecluta gli uomini del Regno decaduto del Nord dei Dùnedain."
 END
 
 CONTROLBAR:SelectRohanFaction
@@ -53250,7 +53250,7 @@ CONTROLBAR:SelectRohanFaction
 END
 
 CONTROLBAR:TooltipCommandSelectRohanFaction
-"\nRecluta le unità del regno dei Signori dei Cavalli"
+"\nRecluta gli uomini del regno dei Signori dei Cavalli"
 END
 
 OBJECT:RohanFighter
@@ -54911,3 +54911,122 @@ CONTROLBAR:GwaihirLeadership
 "Signore delle Grandi Aquile"
 END
 
+
+
+
+
+
+
+
+
+CONTROLBAR:FactionConvertMirkwood
+"&Bosco Atro"
+END
+
+CONTROLBAR:ToolTipFactionConvertMirkwood
+"\n Recluta gli Elfi Silvani di Bosco Atro."
+END
+
+CONTROLBAR:FactionConvertLorien
+"&Lothlórien"
+END
+
+CONTROLBAR:ToolTipFactionConvertLorien
+"\n Recluta i Galadhrim, gli Elfi Silvani del Bosco Dorato."
+END
+
+CONTROLBAR:FactionConvertRivendell
+"&Imladris"
+END
+
+CONTROLBAR:ToolTipFactionConvertRivendell
+"\n Recluta gli Alti Elfi dell'ultima Casa Accogliente a Est del mare."
+END
+
+CONTROLBAR:FactionConvertLindon
+"&Lindon"
+END
+
+CONTROLBAR:ToolTipFactionConvertLindon
+"\n Recluta gli Elfi Cantori dell'ovest."
+END
+
+CONTROLBAR:FactionConvertErebor
+"&Erebor"
+END
+
+CONTROLBAR:ToolTipFactionConvertErebor
+"\n Recluta i nani della Montagna Solitaria."
+END
+
+CONTROLBAR:FactionConvertIronHills
+"&Colli Ferrosi"
+END
+
+CONTROLBAR:ToolTipFactionConvertIronHills
+"\n Recluta i nani del nord-est, dotati delle migliori armi."
+END
+
+CONTROLBAR:FactionConvertGondor
+"&Gondor"
+END
+
+CONTROLBAR:ToolTipFactionConvertGondor
+"\n Recluta gli uomini del Regno del Sud dei Dùnedain."
+END
+
+CONTROLBAR:FactionConvertRohan
+"&Rohan"
+END
+
+CONTROLBAR:ToolTipFactionConvertRohan
+"\n Recluta gli uomini del regno dei Signori dei Cavalli"
+END
+
+CONTROLBAR:FactionConvertFallenArnor
+"&Arnor"
+END
+
+CONTROLBAR:ToolTipFactionConvertFallenArnor
+"\n Recluta gli uomini del Regno decaduto del Nord dei Dùnedain."
+END
+
+CONTROLBAR:FactionConvertRhun
+"&Rhun"
+END
+
+CONTROLBAR:ToolTipFactionConvertRhun
+"\n Recluta gli uomini corrotti della regione delle pianure orientali."
+END
+
+CONTROLBAR:FactionConvertHarad
+"&Harad"
+END
+
+CONTROLBAR:ToolTipFactionConvertHarad
+"\n Recluta gli uomini corrotti del deserto meridionale."
+END
+
+CONTROLBAR:FactionConvertMistyMountains
+"&Montagne Nebbiose"
+END
+
+CONTROLBAR:ToolTipFactionConvertMistyMountains
+"\n Recluta i goblin abitanti delle Montagne Nebbiose."
+END
+
+CONTROLBAR:FactionConvertEttenmoors
+"&Erenbrulli"
+END
+
+CONTROLBAR:ToolTipFactionConvertEttenmoors
+"\nRecluta i Mezzi-troll della regione collinare degli Erenbrulli."
+END
+
+CONTROLBAR:FactionConvertGundabad
+"&Gundabad"
+END
+
+CONTROLBAR:ToolTipFactionConvertGundabad
+"\nRecluta gli orchi del Monte Gundabad."
+END
