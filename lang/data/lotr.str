@@ -54663,7 +54663,7 @@ END
 CONTROLBAR:AngmarGundabadPikeman
 "Picchiere  di Gundabad"
 END
-CONTROLBAR:ConstructAngmarGundabadPikemanHorde
+CONTROLBAR:AngmarGundabadPikemanHorde
 "Picchieri  di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadPikemanHorde
@@ -54690,9 +54690,6 @@ END
 
 
 
-CONTROLBAR:AngmarGundabadWolfRiders
-"Cavalca lupi di Gundabad"
-END
 CONTROLBAR:AngmarGundabadWolfRiders
 "Cavalca lupi di Gundabad"
 END
