@@ -14461,15 +14461,12 @@ END
 CONTROLBAR:ToolTipBuildNazgulOnFellBeast
 "Recluta una cavalcatura."
 END
-
 CONTROLBAR:MordorFellBeastRecruit
 "Recluta una cavalcatura."
 END
-
 CONTROLBAR:MordorFellBeastRevive
 "Rianima la cavalcatura caduta."
 END
-
 CONTROLBAR:MordorFellBeastHotkey
 "Cavalcatura (&F)"
 END
@@ -14477,7 +14474,6 @@ END
 CONTROLBAR:MordorMouthofSauronHotkey
 "Bocca di Sauron (&M)"
 END
-
 CONTROLBAR:MordorMouthofSauronRecruit
 "Recluta il messaggero dell'Oscuro Sire"
 END
@@ -14485,15 +14481,12 @@ END
 CONTROLBAR:ToolTipBuildGlorfindel
 "Recluta il Signore degli Elfi dalla corazza d'argento"
 END
-
 CONTROLBAR:ElvenGlorfindelRecruit
 "Recluta il Signore degli Elfi dalla corazza d'argento"
 END
-
 CONTROLBAR:ElvenGlorfindelRevive
 "Rianima Glorfindel, l'Eroe caduto."
 END
-
 CONTROLBAR:ElvenGlorfindelHotkey
 "&Glorfindel"
 END
@@ -28442,31 +28435,25 @@ END
 CONTROLBAR:MouthOfSauronDoubt
 "Dubbio (&T)"
 END
-
 CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Richiede livello 4.\nRiduce notevolmente la corazza e il danno del nemico.\nClicca con il pulsante sinistro sull'icona, quindi sulle unità bersaglio."
+"Richiede livello 4.\n Riduce notevolmente l'armatura e il danno dell'unità bersaglio."
 END
-
 CONTROLBAR:MouthOfSauronDissent
 "D&issenso"
 END
-
 CONTROLBAR:ToolTipMouthOfSauronDissent
-"Richiede livello 6.\nLe unità bersaglio cominciano a darsi battaglia.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
+"Richiede livello 6.\n Le unità bersaglio cominciano a darsi battaglia."
 END
-
 CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
 "Occhio maligno (&Y)"
 END
-
 CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
-"Richiede livello 10.\nUn potente raggio luminoso che danneggia le unità bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Richiede livello 10.\n Un potente raggio magico che danneggia le unità bersaglio."
 END
 
 CONTROLBAR:DreadVisage
 "Visione raccapricciante"
 END
-
 CONTROLBAR:ToolTipDreadVisage
 "Riduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
 END
@@ -28474,7 +28461,6 @@ END
 CONTROLBAR:BlackRiderMorgulBlade
 "&Lama di Morgul"
 END
-
 CONTROLBAR:ToolTipBlackRiderMorgulBlade
 "Il nemico bersaglio viene avvelenato nel tempo\ne, dopo la morte, diventa uno Spettro.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
@@ -52669,7 +52655,6 @@ END
 CONTROLBAR:ArhalikEastFury
 "Furia dell'Est"
 END
-
 CONTROLBAR:TooltipArhalikEastFury
 "Richiede livello 7.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
 END
@@ -52677,21 +52662,17 @@ END
 CONTROLBAR:WillOfSauron
 "Volontà di Sauron"
 END
-
 CONTROLBAR:ToolTipWillOfSauron
-"Richiede livello 2.\nGli alleati vicini alla Bocca di Sauron ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 2.\n Gli alleati vicini alla Bocca di Sauron ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\n Abilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:MouthOfSauronDarkWave
 "Propagazione Oscura"
 END
-
 CONTROLBAR:ToolTipMouthOfSauronDarkWave
-"Richiede livello 3.\nAttira i nemici verso di sè danneggiandoli e rigenerandosi la vita."
+"Richiede livello 3.\n Attira i nemici verso di sè danneggiandoli e rigenerandosi la vita dell'ammontare dei danni inflitti. \n Si attiva anche automaticamente quando la vita è bassa."
 END
-
 CONTROLBAR:ToolTipMouthOfSauronDominate
-"Richiede livello 9.\nBocca di Sauron corrompe le unità nemiche. \nPermette al giocatore di prenderne il controllo."
+"Richiede livello 9.\n Bocca di Sauron corrompe le unità nemiche. \n Permette al giocatore di prenderne il controllo."
 END
 
 CONTROLBAR:BlackBreath
@@ -53387,7 +53368,7 @@ CONTROLBAR:WormtongueSabotage
 END
 
 CONTROLBAR:ToolTipWormtongueSabotage
-"???"
+"Grima rallenta la velocità di produzione dell'edificio bersaglio."
 END
 
 CONTROLBAR:Backstab
@@ -53663,11 +53644,10 @@ CONTROLBAR:ToolTipIsengardBerserkerBloodLust
 END
 
 CONTROLBAR:IsengardBerserkerCaptLeadership
-"Comando"
+"Capitano berserker"
 END
-
 CONTROLBAR:ToolTipIsengardBerserkerCaptLeadership
-"Richiede livello 5.\nLa corazza, il danno, l'armatura, l'esperienza e la velocità d'attacco del Berserker aumentano del 20%."
+"Richiede livello 5.\n I berserker vicini ottengono +20% corazza, +20% danno, +20% armatura, \n +20% velocità d'attacco e +20% esperienza ."
 END
 
 OBJECT:IsengardExplosiveBerserker
@@ -54589,7 +54569,49 @@ END
 
 
 
+OBJECT:Gorhaud
+"Gorhaud"
+End
+CONTROLBAR:AngmarGorhaudHotkey
+"Gorhaud"
+END
+CONTROLBAR:ToolTipAngmarGorhaudHotkey
+"Recluta il Drago Lich assoggettato da Angmar."
+END
+CONTROLBAR:SpecialAbilityGorhaudFrostball
+"Soffio gelido"
+END
+CONTROLBAR:ToolTipSpecialAbilityGorhaudFrostball
+"Gorhaud sputa una palla di ghiaccio che colpisce l'unità bersaglio."
+END
+CONTROLBAR:GorhaudFreezingHearth
+"Cuore gelido"
+END
+CONTROLBAR:ToolTipGorhaudFreezingHearth
+"Richiede livello 3. \n Gorhaud è circondato da un'aura gelida che fornisce \n +50% danni, +50% armatura e +100% esperienza alle unità non-morte alleate. \n Inoltre le unità nemiche vicine subiscono danni, \n -50% velocità di movimento -50% velocità di attacco, -25% armatura e -25% danni. \n Gli edifici vicini rallentano del -50% la velocità di produzione."
+END
+CONTROLBAR:GorhaudMorgulDevastation
+"Ecatombe"
+END
+CONTROLBAR:ToolTipGorhaudMorgulDevastation
+"Richiede livello 6. \n Gorhaud uccide all'istante le unità vicine e le converte in spettri minori (massimo 8)."
+END
+CONTROLBAR:GorhaudBlizzard
+"Bufera"
+END
+CONTROLBAR:ToolTipGorhaudBlizzard
+"Richiede livello 10. \n Gorhaud genera una bufera di ghiaccio che infligge elevati danni. \n Le unità nemiche subiscono -80% velocità di movimento, -70% velocità di attacco. \n Inoltre gli edifici rallentano del -99% la velocità di produzione."
+END
+CONTROLBAR:GorhaudDarkAnnihilation
+"Annichilimento"
+END
+CONTROLBAR:ToolTipGorhaudDarkAnnihilation
+"Richiede livello 10. \n Gorhaud spazza via le unità nemiche e si cura dell'ammontare dei danni inflitti."
+END
 
+OBJECT:AngmarMorgramir
+"Morgomir"
+END
 
 OBJECT:AngmarUndeadFighter
 "Guerriero non-morto"
@@ -54663,7 +54685,7 @@ END
 CONTROLBAR:AngmarGundabadPikeman
 "Picchiere  di Gundabad"
 END
-CONTROLBAR:AngmarGundabadPikemanHorde
+CONTROLBAR:HordeWildGundabadPikemanHorde
 "Picchieri  di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadPikemanHorde
@@ -54678,7 +54700,7 @@ END
 CONTROLBAR:AngmarGundabadArcher
 "Arcere di Gundabad"
 END
-CONTROLBAR:AngmarGundabadArcherHorde
+CONTROLBAR:HordeGundabadArcherHorde
 "Arceri di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadArcherHorde
@@ -54688,10 +54710,8 @@ CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
 END
 
-
-
-CONTROLBAR:AngmarGundabadWolfRiders
-"Cavalca lupi di Gundabad"
+CONTROLBAR:AngmarWolfRiders
+"Cavalca lupo di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadWolfRiders
 "Cavalca lupi di Gundabad"
@@ -54710,84 +54730,41 @@ CONTROLBAR:ToolTipBuildAngmarWerewolf
 "Richiede struttura di livello 2. \n Unità valoce e con elevati danni."
 END
 
+OBJECT:AngmarUndeadTroll
+"Troll non-morto"
+END
+CONTROLBAR:ConstructAngmarUndeadTroll
+"Troll non-morto"
+END
+CONTROLBAR:ToolTipBuildAngmarUndeadTroll
+"Richiede struttura di livello 2. \n Efficace contro fanteria."
+END
+
 
 CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
 "Ricerca Gelo Mortale"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyAngmarMortalFrost
-"Consente alle orde di non-morti di acquistare il potenziamento Gelo Mortale"
+"Consente alle unità di non-morti di acquistare il potenziamento Gelo Mortale che\n fornisce +100% all'armatura, +100% ai danni e infliggono danni da gelo."
+END
+CONTROLBAR:PurchaseUpgradeAngmarMortalFrost
+"Ricerca Gelo Mortale"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeAngmarMortalFrost
+"Le unità guadagnano +100% armatura, +100% danni e infliggono danni da gelo."
 END
 
-OBJECT:Gorhaud
-"Gorhaud"
-End
-CONTROLBAR:AngmarGorhaudHotkey
-"Gorhaud"
+OBJECT:AngmarDarkRanger
+"Ramingo oscuro"
 END
-CONTROLBAR:SpecialAbilityGorhaudFrostball
-"Soffio gelido"
-END
-CONTROLBAR:ToolTipSpecialAbilityGorhaudFrostball
-"???"
-END
-CONTROLBAR:GorhaudFreezingHearth
-"Cuore gelido"
-END
-CONTROLBAR:ToolTipGorhaudFreezingHearth
-"???"
-END
-CONTROLBAR:GorhaudMorgulDevastation
-"Devastazione Morgul"
-END
-CONTROLBAR:ToolTipGorhaudMorgulDevastation
-"???"
-END
-CONTROLBAR:GorhaudBlizzard
-"Bufera"
-END
-CONTROLBAR:ToolTipGorhaudBlizzard
-"???"
-END
-CONTROLBAR:GorhaudDarkAnnihilation
-"Annichilimento"
-END
-CONTROLBAR:ToolTipGorhaudDarkAnnihilation
-"???"
-END
-
-
-
 OBJECT:HordeAngmarDarkRanger
 "Raminghi oscuri"
 END
 
-OBJECT:AngmarMorgramir
-"Morgomir"
+
+OBJECT:WildGundabadBanner
+"Portastendardo"
 END
-
-OBJECT:AngmarDarkRanger
-"Raminghi oscuri"
-END
-
-OBJECT:AngmarWildMissle
-"Costruttore"
-END
-
-OBJECT:AngmarWolfRiders
-"Cavalieri di Lupi"
-END
-
-OBJECT:AngmarOrcWarrior
-"Guerriero di Gundabad"
-END
-
-OBJECT:HordeAngmarOrcWarriors
-"Guerrieri di Gundabad"
-END
-
-
-
-
 
 
 
