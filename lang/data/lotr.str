@@ -7462,6 +7462,10 @@ OBJECT:NeutralGollum
 "Gollum"
 END
 
+OBJECT:NeutralShelob
+"Shelob"
+END
+
 OBJECT:TomBombadil
 "Tom Bombadil"
 END
@@ -7622,10 +7626,6 @@ OBJECT:GondorBoromir
 "Boromir"
 END
 
-OBJECT:GondorAragorn
-"Aragorn"
-END
-
 OBJECT:GondorDamrod
 "Damrod"
 END
@@ -7714,14 +7714,6 @@ OBJECT:GondorTrebuchet
 "Trabocco"
 END
 
-OBJECT:GandalfTheWhite
-"Gandalf"
-END
-
-OBJECT:GandalfTheGrey
-"Gandalf il Grigio"
-END
-
 OBJECT:GondorBanner
 "Portastendardo"
 END
@@ -7752,10 +7744,6 @@ END
 
 OBJECT:DwarvenCatapult
 "Catapulta"
-END
-
-OBJECT:IsengardSaruman
-"Saruman"
 END
 
 OBJECT:IsengardSharku
@@ -8412,10 +8400,6 @@ END
 
 OBJECT:RohanFlag
 "Stendardo di Rohan"
-END
-
-OBJECT:MordorNazgul
-"Nazgûl"
 END
 
 OBJECT:MordorSiegeTower
@@ -9286,9 +9270,6 @@ OBJECT:RohirrimRoyalGuard
 "Guardia Reale di Rohan"
 END
 
-OBJECT:NeutralShelob
-"Shelob"
-END
 
 OBJECT:Spider
 "Ragno"
@@ -13322,14 +13303,6 @@ CONTROLBAR:ToolTipEvilBuildSentryTower
 "La torre d'osservazione bersaglia le unità nemiche."
 END
 
-CONTROLBAR:SpecialAbilitySarumanFireball
-"Sfe&ra di fuoco"
-END
-
-CONTROLBAR:ToolTipSpecialAbilitySarumanFireball
-"Richiede livello 2.\nLancia una sfera energetica.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
-END
-
 CONTROLBAR:ToolTipIndustry
 "La produzione di risorse nella struttura selezionata aumenta permanentemente del 300%.\nClicca con il pulsante sinistro sull'icona e quindi sulla struttura di produzione delle risorse."
 END
@@ -13502,17 +13475,6 @@ CONTROLBAR:ToolTipSummonElvenAllies
 "Evoca un gruppo di guerrieri di Lothlòrien.\nClicca con il pulsante sinistro sull'icona,\nquindi su una zona adatta."
 END
 
-CONTROLBAR:GandalftheWhite
-"Gandalf il Bianco"
-END
-
-CONTROLBAR:IstariPower
-"Potere degli Istari"
-END
-
-CONTROLBAR:ToolTipGandalftheWhite
-"+200% danno dai poteri di Gandalf.\nI poteri di Gandalf si ricaricano due volte più velocemente.\nPotere passivo."
-END
 
 CONTROLBAR:SummonRohanAllies
 "Evoca alleati di Rohan"
@@ -13847,27 +13809,11 @@ CONTROLBAR:CreateAHeroRecruit
 END
 
 CONTROLBAR:CreateAHeroRevive
-"Recluta un Eroe personalizzato"
+"Rianima un Eroe personalizzato"
 END
 
 CONTROLBAR:CreateAHeroHotkey
 "&Crea un Eroe"
-END
-
-CONTROLBAR:ToolTipBuildAragorn
-"Recluta l'erede al trono di Gondor."
-END
-
-CONTROLBAR:GondorAragornRecruit
-"Recluta l'erede al trono di Gondor."
-END
-
-CONTROLBAR:GondorAragornRevive
-"Rianima Aragorn, l'Eroe caduto."
-END
-
-CONTROLBAR:GondorAragornHotkey
-"&Aragorn"
 END
 
 CONTROLBAR:ToolTipBuildFaramir
@@ -13879,7 +13825,7 @@ CONTROLBAR:GondorFaramirRecruit
 END
 
 CONTROLBAR:GondorFaramirRevive
-"Rianima Faramir, l'Eroe caduto."
+"Rianima Faramir."
 END
 
 CONTROLBAR:GondorFaramirHotkey
@@ -13895,7 +13841,7 @@ CONTROLBAR:GondorDamrodRecruit
 END
 
 CONTROLBAR:GondorDamrodRevive
-"Rianima Damrod, l'Eroe caduto."
+"Rianima Damrod."
 END
 
 CONTROLBAR:GondorDamrodHotkey
@@ -13911,27 +13857,11 @@ CONTROLBAR:GondorBoromirRecruit
 END
 
 CONTROLBAR:GondorBoromirRevive
-"Rianima Boromir, l'Eroe caduto."
+"Rianima Boromir."
 END
 
 CONTROLBAR:GondorBoromirHotkey
 "Borom&ir"
-END
-
-CONTROLBAR:ToolTipBuildGandalf
-"Recluta lo Stregone conosciuto in tutta la Terra di Mezzo."
-END
-
-CONTROLBAR:GandalfTheWhiteRecruit
-"Recluta lo Stregone conosciuto in tutta la Terra di Mezzo."
-END
-
-CONTROLBAR:GandalfTheWhiteRevive
-"Rianima Gandalf, l'Eroe caduto."
-END
-
-CONTROLBAR:GandalfTheWhiteHotkey
-"&Gandalf"
 END
 
 CONTROLBAR:RohanPippinRecruit
@@ -13939,7 +13869,7 @@ CONTROLBAR:RohanPippinRecruit
 END
 
 CONTROLBAR:RohanPippinRevive
-"Rianima Pipino, l'Eroe caduto."
+"Rianima Pipino."
 END
 
 CONTROLBAR:RohanPippinHotkey
@@ -13952,10 +13882,6 @@ END
 
 CONTROLBAR:ToolTipConstructRohanBannerUnits
 "Richiede armeria di livello 2.\nPotenzia l'unità: +1 livello."
-END
-
-CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
-"Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildRohanRohirrimHorde
@@ -14027,7 +13953,7 @@ CONTROLBAR:RohanTheodenRecruit
 END
 
 CONTROLBAR:RohanTheodenRevive
-"Rianima Théoden, l'Eroe caduto."
+"Rianima Théoden."
 END
 
 CONTROLBAR:RohanTheodenHotkey
@@ -14039,7 +13965,7 @@ CONTROLBAR:ToolTipBuildEowyn
 END
 
 CONTROLBAR:RohanEowynRevive
-"Rianima Éowyn, l'Eroina caduta."
+"Rianima Éowyn."
 END
 
 CONTROLBAR:RohanEowynRecruit
@@ -14055,7 +13981,7 @@ CONTROLBAR:RohanMerryRecruit
 END
 
 CONTROLBAR:RohanMerryRevive
-"Rianima Merry, l'Eroe caduto."
+"Rianima Merry."
 END
 
 CONTROLBAR:RohanMerryHotkey
@@ -14071,7 +13997,7 @@ CONTROLBAR:RohanGimliRecruit
 END
 
 CONTROLBAR:RohanGimliRevive
-"Rianima Gimli, l'Eroe caduto."
+"Rianima Gimli."
 END
 
 CONTROLBAR:RohanGimliHotkey
@@ -14087,7 +14013,7 @@ CONTROLBAR:DwarvenDainRecruit
 END
 
 CONTROLBAR:DwarvenDainRevive
-"Rianima Re Dàin, l'Eroe caduto."
+"Rianima Re Dàin."
 END
 
 CONTROLBAR:DwarvenDainHotkey
@@ -14103,7 +14029,7 @@ CONTROLBAR:RohanEomerRecruit
 END
 
 CONTROLBAR:RohanEomerRevive
-"Rianima Éomer, l'Eroe caduto."
+"Rianima Éomer."
 END
 
 CONTROLBAR:RohanEomerHotkey
@@ -14119,7 +14045,7 @@ CONTROLBAR:RohanLegolasRecruit
 END
 
 CONTROLBAR:RohanLegolasRevive
-"Rianima Legolas, l'Eroe caduto."
+"Rianima Legolas."
 END
 
 CONTROLBAR:RohanLegolasHotkey
@@ -14442,42 +14368,6 @@ CONTROLBAR:ToolTipBuildMordorBannerOrc
 "Richiede abisso degli Orchetti di livello 2.\nPotenzia un'orda al livello 2."
 END
 
-CONTROLBAR:ToolTipBuildWitchKing
-"Recluta il Signore dei Nazgûl."
-END
-
-CONTROLBAR:MordorWitchKingOnFellBeastRecruit
-"Recluta il Signore dei Nazgûl."
-END
-
-CONTROLBAR:MordorWitchKingOnFellBeastRevive
-"Rianima il Re Stregone, l'Eroe caduto."
-END
-
-CONTROLBAR:MordorWitchKingOnFellBeastHotkey
-"Re Stregone (&W)"
-END
-
-CONTROLBAR:ToolTipBuildNazgulOnFellBeast
-"Recluta una cavalcatura."
-END
-CONTROLBAR:MordorFellBeastRecruit
-"Recluta una cavalcatura."
-END
-CONTROLBAR:MordorFellBeastRevive
-"Rianima la cavalcatura caduta."
-END
-CONTROLBAR:MordorFellBeastHotkey
-"Cavalcatura (&F)"
-END
-
-CONTROLBAR:MordorMouthofSauronHotkey
-"Bocca di Sauron (&M)"
-END
-CONTROLBAR:MordorMouthofSauronRecruit
-"Recluta il messaggero dell'Oscuro Sire"
-END
-
 CONTROLBAR:ToolTipBuildGlorfindel
 "Recluta il Signore degli Elfi dalla corazza d'argento"
 END
@@ -14485,7 +14375,7 @@ CONTROLBAR:ElvenGlorfindelRecruit
 "Recluta il Signore degli Elfi dalla corazza d'argento"
 END
 CONTROLBAR:ElvenGlorfindelRevive
-"Rianima Glorfindel, l'Eroe caduto."
+"Rianima Glorfindel."
 END
 CONTROLBAR:ElvenGlorfindelHotkey
 "&Glorfindel"
@@ -14500,7 +14390,7 @@ CONTROLBAR:ElvenThranduilRecruit
 END
 
 CONTROLBAR:ElvenThranduilRevive
-"Rianima Thranduil, l'Eroe caduto."
+"Rianima Thranduil."
 END
 
 CONTROLBAR:ElvenThranduilHotkey
@@ -14600,27 +14490,11 @@ CONTROLBAR:IsengardLurtzRecruit
 END
 
 CONTROLBAR:IsengardLurtzRevive
-"Rianima Lurtz, l'Eroe caduto."
+"Rianima Lurtz."
 END
 
 CONTROLBAR:IsengardLurtzHotkey
 "&Lurtz"
-END
-
-CONTROLBAR:ToolTipBuildSaruman
-"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
-END
-
-CONTROLBAR:IsengardSarumanRecruit
-"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
-END
-
-CONTROLBAR:IsengardSarumanRevive
-"Rianima Saruman, l'Eroe caduto."
-END
-
-CONTROLBAR:IsengardSarumanHotkey
-"&Saruman"
 END
 
 CONTROLBAR:ConstructEnt
@@ -14705,26 +14579,6 @@ END
 
 CONTROLBAR:TooltipFireArrowUpgrade
 "Realizza potenziamento frecce infuocate."
-END
-
-CONTROLBAR:FireWitchKingMace
-"Usa mazza da guerra"
-END
-
-CONTROLBAR:MountFellBeast
-"Sali su una cavalcatura alata dei Nazgûl."
-END
-
-CONTROLBAR:ToolTipFireWitchKingMace
-"Attacco devastante con la mazza."
-END
-
-CONTROLBAR:FireWitchKingMorgulBlade
-"Lama di Morgul"
-END
-
-CONTROLBAR:ToolTipMorgulBlade
-"Attacco con lama avvelenata.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
 
 CONTROLBAR:ShadeChomp
@@ -15061,10 +14915,6 @@ END
 
 CONTROLBAR:ToolTipEomerLeadership
 "La cavalleria vicina a Éomer ottiene\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:ToolTipGandalfLeadership
-"Richiede livello 4.\nGli alleati vicini a Gandalf ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
@@ -24893,7 +24743,7 @@ CONTROLBAR:GloinRecruit
 END
 
 CONTROLBAR:GloinRevive
-"Rianima Glòin, l'Eroe caduto."
+"Rianima Glòin."
 END
 
 OBJECT:DwarvenBuildingFoundation
@@ -28432,25 +28282,6 @@ CONTROLBAR:ToolTipAncientMaster
 "Incuti timore ai nemici vicini."
 END
 
-CONTROLBAR:MouthOfSauronDoubt
-"Dubbio (&T)"
-END
-CONTROLBAR:ToolTipMouthOfSauronDoubt
-"Richiede livello 4.\n Riduce notevolmente l'armatura e il danno dell'unità bersaglio."
-END
-CONTROLBAR:MouthOfSauronDissent
-"D&issenso"
-END
-CONTROLBAR:ToolTipMouthOfSauronDissent
-"Richiede livello 6.\n Le unità bersaglio cominciano a darsi battaglia."
-END
-CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
-"Occhio maligno (&Y)"
-END
-CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
-"Richiede livello 10.\n Un potente raggio magico che danneggia le unità bersaglio."
-END
-
 CONTROLBAR:DreadVisage
 "Visione raccapricciante"
 END
@@ -29009,10 +28840,6 @@ CONTROLBAR:MithlondSentryZephyrStrike
 "Colpo di Zefiro"
 END
 
-CONTROLBAR:MordorMouthOfSauronRevive
-"Rianima la Bocca di Sauron, l'Eroe caduto."
-END
-
 CONTROLBAR:OCLTimerDesc
 "Descrizione necessaria"
 END
@@ -29051,10 +28878,6 @@ END
 
 CONTROLBAR:SharkuWargMount
 "Monta\nSmonta"
-END
-
-CONTROLBAR:ShelobWebbing
-"Ragnatela"
 END
 
 CONTROLBAR:SpecialAbilityBatCloud
@@ -29345,10 +29168,6 @@ CONTROLBAR:ToolTipWildMountainGiantStomp
 "Attacco potente, provoca danni aggiuntivi e danno da impatto."
 END
 
-CONTROLBAR:ToolTipWildShelobPoisonedStinger
-"Richiede livello 6.\nAvvelena il nemico, causando danni nel tempo."
-END
-
 CONTROLBAR:ToolTipWitchKingDismount
 "Monta e smonta dalla cavalcatura del Re Stregone.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona desiderata."
 END
@@ -29530,11 +29349,11 @@ CONTROLBAR:UpgradeMordorTrollCageLevel3
 END
 
 CONTROLBAR:WildDrogothRevive
-"Rianima Drogoth, l'Eroe caduto."
+"Rianima Drogoth."
 END
 
 CONTROLBAR:WildGoblinKingRevive
-"Rianima il Re dei Goblin, l'Eroe caduto."
+"Rianima il Re dei Goblin."
 END
 
 CONTROLBAR:WildMountainGiantGrab
@@ -29543,10 +29362,6 @@ END
 
 CONTROLBAR:WildMountainGiantStomp
 "Schiaccia (&T)"
-END
-
-CONTROLBAR:WildShelobPoisonedStinger
-"Aculeo avvelenato (&R)"
 END
 
 CONTROLBAR:WitchKingDismount
@@ -30421,10 +30236,6 @@ OBJECT:IsengardWallCliffCap
 "Dirupo di Isengard"
 END
 
-OBJECT:IsengardWormTongue
-"Grima Vermilinguo"
-END
-
 OBJECT:JustaFish
 "Pesce"
 END
@@ -30687,10 +30498,6 @@ END
 
 OBJECT:MordorLumberMillDescription
 "Raccoglie risorse dagli alberi vicini.\nCosto ridotto degli edifici.\n2 segherie: -10%.\n3 segherie: -20%.\n4 segherie: -30%."
-END
-
-OBJECT:MordorMouthOfSauron
-"Bocca di Sauron"
 END
 
 OBJECT:MordorPagoda
@@ -31211,6 +31018,14 @@ END
 
 OBJECT:GondorKnights
 "Cavaliere di Gondor"
+END
+
+CreateAHero:ClassName_Giant
+"Gigante"
+END
+
+CreateAHero:SubClassName_Giant
+"Gigante di Montagna"
 END
 
 CreateAHero:ClassName_HeroesOfTheWest
@@ -32478,7 +32293,7 @@ CONTROLBAR:HaldirRecruit
 END
 
 CONTROLBAR:HaldirRevive
-"Rianima Haldir, l'Eroe caduto."
+"Rianima Haldir."
 END
 
 CONTROLBAR:ElrondRecruit
@@ -32486,17 +32301,15 @@ CONTROLBAR:ElrondRecruit
 END
 
 CONTROLBAR:ElrondRevive
-"Rianima Elrond, l'Eroe caduto."
+"Rianima Elrond."
 END
 
 CONTROLBAR:ArwenRecruit
 "Recluta la figlia di Elrond."
 END
-
 CONTROLBAR:ArwenRevive
-"Rianima Arwen, l'Eroina caduta."
+"Rianima Arwen."
 END
-
 CONTROLBAR:ElvenArwenHotkey
 "&Arwen"
 END
@@ -32512,57 +32325,22 @@ END
 CONTROLBAR:FrodoRecruit
 "Recluta il nobile Hobbit della Contea."
 END
-
 CONTROLBAR:FrodoRevive
-"Rianima Frodo, l'Eroe caduto."
+"Rianima Frodo."
 END
 
 CONTROLBAR:ElvenFrodoHotkey
 "Fro&do"
 END
 
-CONTROLBAR:IsengardWormtongueHotkey
-"Grima &Vermilinguo"
-END
-
 CONTROLBAR:IsengardSharkuHotkey
 "Sh&arku"
 END
-
 CONTROLBAR:IsengardSharkuRecruit
 "Recluta il leader dei cavalieri Warg"
 END
-
-CONTROLBAR:IsengardWormtongueRecruit
-"Recluta la spia di Saruman"
-END
-
 CONTROLBAR:IsengardSharkuRevive
-"Rianima Sharku, l'Eroe caduto."
-END
-
-CONTROLBAR:IsengardWormtongueRevive
-"Rianima Vermilinguo, l'Eroe caduto."
-END
-
-CONTROLBAR:ShelobRecruit
-"Recluta il Ragno del passo di Cirith Ungol."
-END
-
-CONTROLBAR:ShelobRevive
-"Rianima Shelob, il ragno caduto."
-END
-
-CONTROLBAR:ShelobHotkey
-"&Shelob"
-END
-
-CONTROLBAR:BlackRiderRevive
-"Rianima il Nazgûl caduto."
-END
-
-CONTROLBAR:BlackRiderHotkey
-"&Nazgûl"
+"Rianima Sharku."
 END
 
 DIALOGEVENT:MGRiven_Glor001subtitle
@@ -37278,7 +37056,7 @@ CONTROLBAR:GaladrielRecruit
 END
 
 CONTROLBAR:GaladrielRevive
-"Rianima Galadriel, l'Eroina caduta."
+"Rianima Galadriel."
 END
 
 CONTROLBAR:GaladrielHotkey
@@ -37286,7 +37064,7 @@ CONTROLBAR:GaladrielHotkey
 END
 
 CONTROLBAR:SauronRevive
-"Rianima Sauron, l'Eroe caduto."
+"Rianima Sauron."
 END
 
 CONTROLBAR:SauronHotkey
@@ -43746,7 +43524,7 @@ CONTROLBAR:ArnorArvelegRecruit
 END
 
 CONTROLBAR:ArnorArvelegRevive
-"Rianima Arveleg, l'Eroe caduto."
+"Rianima Arveleg."
 END
 
 CONTROLBAR:ArnorArvelegHotkey
@@ -43770,7 +43548,7 @@ CONTROLBAR:ArnorArgelebRecruit
 END
 
 CONTROLBAR:ArnorArgelebRevive
-"Rianima Argeleb, l'Eroe caduto."
+"Rianima Argeleb."
 END
 
 CONTROLBAR:ArnorArgelebHotkey
@@ -43790,7 +43568,7 @@ CONTROLBAR:ArnorArveduiRecruit
 END
 
 CONTROLBAR:ArnorArveduiRevive
-"Rianima Arvedui, l'Eroe caduto."
+"Rianima Arvedui."
 END
 
 CONTROLBAR:ArnorArveduiHotkey
@@ -44842,7 +44620,7 @@ CONTROLBAR:AngmarWitchKingRecruit
 END
 
 CONTROLBAR:AngmarWitchKingRevive
-"Rianima il Re Stregone, l'Eroe caduto."
+"Rianima il Re Stregone."
 END
 
 CONTROLBAR:AngmarWitchKingHotkey
@@ -45530,7 +45308,7 @@ CONTROLBAR:AngmarMorgramirHotkey
 END
 
 CONTROLBAR:AngmarMorgramirRevive
-"Rianima Morgomir, l'Eroe caduto."
+"Rianima Morgomir."
 END
 
 CONTROLBAR:RogashLeap
@@ -45558,7 +45336,7 @@ CONTROLBAR:AngmarHwaldarHotkey
 END
 
 CONTROLBAR:AngmarHwaldarRevive
-"Rianima Hwaldar, l'Eroe caduto."
+"Rianima Hwaldar."
 END
 
 CONTROLBAR:HwaldarLeadership
@@ -45902,7 +45680,7 @@ CONTROLBAR:AngmarRogashHotkey
 END
 
 CONTROLBAR:AngmarRogashRevive
-"Rianima Rogash, l'Eroe caduto."
+"Rianima Rogash."
 END
 
 CONTROLBAR:AngmarKarshRecruit
@@ -45910,7 +45688,7 @@ CONTROLBAR:AngmarKarshRecruit
 END
 
 CONTROLBAR:AngmarKarshRevive
-"Rianima Karsh, l'Eroe caduto."
+"Rianima Karsh."
 END
 
 CONTROLBAR:AngmarKarshHotkey
@@ -46734,7 +46512,7 @@ CONTROLBAR:MordorGothmogRecruit
 END
 
 CONTROLBAR:MordorGothmogRevive
-"Rianima Gothmog, l'Eroe caduto."
+"Rianima Gothmog."
 END
 
 CONTROLBAR:MordorGothmogHotkey
@@ -47097,36 +46875,8 @@ CONTROLBAR:LW_ToolTip_WildMarauderSwordHorde
 "\nTipo unità: fanteria scelta\nEfficace contro picchieri"
 END
 
-CONTROLBAR:WildAzogRecruit
-"Recluta il Capitano degli Orchi di Gundabad."
-END
-
-CONTROLBAR:WildAzogRevive
-"Rianima Azog, l'Eroe caduto."
-END
-
-CONTROLBAR:WildAzogHotKey
-"A&zog di Gundabad"
-END
-
-CONTROLBAR:AzogBrigandage
-"Saccheggio"
-END
-
-CONTROLBAR:ToolTipAzogFury
-"Richiede livello 4.\nAzog ottiene un aumento notevole di corazza, danno e velocità d'attacco.\nClicca con il pulsante sinistro per attivare."
-END
-
-CONTROLBAR:ToolTipAzogCracktheWhip
-"Richiede livello 6.\nGoblin e mezzi-Troll ottengono esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
-END
-
 OBJECT:BabyFireDrake
 "Progenie di Drago di fuoco"
-END
-
-CONTROLBAR:AzogCracktheWhip
-"Schiocco di frusta (&W)"
 END
 
 CONTROLBAR:LW_Unit_WildBabyDrakeHorde
@@ -49585,10 +49335,6 @@ TOOLTIP:LackAngmarBasicTraining
 "Ricerca il potenziamento nella Sala degli Uomini del Re per attivare questo equipaggiamento.\nQuando in uso, porta l'orda al livello 2."
 END
 
-CONTROLBAR:ToolTipAzogBrigandage
-"Richiede livello 2.\nI Goblin vicini ad Azog sottraggono risorse quando infliggono danni alle unità nemiche.\nAbilità passiva."
-END
-
 SUBTITLE:BABME_01
 "*The trail of blood and suffering is over -- Angmar is defeated."
 END
@@ -50106,7 +49852,7 @@ CONTROLBAR:GondorEarnurHotkey
 END
 
 OBJECT:GondorEarnurRevive
-"Rianima Earnur, l'Eroe caduto."
+"Rianima Earnur."
 END
 
 BANNERUI:IsengardWargPack
@@ -50146,7 +49892,7 @@ CONTROLBAR:MoriaHadhodRecruit
 END
 
 CONTROLBAR:MoriaHadhodRevive
-"Resuscita Hadhod."
+"Rianima Hadhod."
 END
 
 CONTROLBAR:MoriaHadhodHotkey
@@ -50234,7 +49980,7 @@ CONTROLBAR:ToolTipMablungLeadership
 END
 
 CONTROLBAR:GondorMablungRevive
-"Resuscita Mablung."
+"Rianima Mablung."
 END
 
 CONTROLBAR:GondorMablungHotkey
@@ -50250,7 +49996,7 @@ CONTROLBAR:GondorDamroddRecruit
 END
 
 CONTROLBAR:GondorDamroddRevive
-"Resuscita Damrod."
+"Rianima Damrod."
 END
 
 CONTROLBAR:GondorDamroddHotkey
@@ -50322,7 +50068,7 @@ CONTROLBAR:GondorElegostRecruit
 END
 
 CONTROLBAR:GondorElegostRevive
-"Resuscita Elegost."
+"Rianima Elegost."
 END
 
 CONTROLBAR:GondorElegostHotkey
@@ -50414,7 +50160,7 @@ CONTROLBAR:WildGreatTrollRecruit
 END
 
 CONTROLBAR:WildGGreatTrollRevive
-"Resuscita Gurak."
+"Rianima Gurak."
 END
 
 CONTROLBAR:WildGreatTrollHotkey
@@ -50997,13 +50743,6 @@ CONTROLBAR:ToolTipDrakeMetamorphWinged
 "Richiede livello 10. \nIl drago si evolve ulteriormente e sviluppa le ali."
 END
 
-OBJECT:DwarvenJuggernautHorde
-"Juggernaut"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenJuggernautHorde
-"Recluta i nani veterani altamente corazzati e con grande capacità difensiva.\nRichiede Sala dei Guerriei al livello 3."
-END
 
 CONTROLBAR:LW_Unit_DwarvenJuggernautHorde
 "Battaglione di nani Juggernaut"
@@ -51013,9 +50752,6 @@ CONTROLBAR:LW_ToolTip_DwarvenJuggernautHorde
 "Tipo unità: fanteria eroica"
 END
 
-CONTROLBAR:ConstructDwarvenJuggernautHorde
-"Nani &Juggernaut"
-END
 
 
 OBJECT:DwarvenBerserker
@@ -51038,13 +50774,6 @@ CONTROLBAR:ToolTipDwarvenBerserkerSlayer
 "Richiede livello 3. \nLa furia berserker rende più forti e veloci. \nAumenta attacco e velocità del 150%"
 END
 
-CONTROLBAR:JuggernautSkin
-"Corazza del Juggernaut"
-END
-
-CONTROLBAR:ToolTipJuggernautSkin
-"Richiede livello 7. \nSe usate correttamente le corazze dei Juggernaut possono coprire totalmente chi le indossa e annullare qualsiasi danno in arrivo per un po' di tempo. \nRende invulnerabili per un corto lasso di tempo."
-END
 
 OBJECT:GondorImrahil
 "Principe Imrahil"
@@ -51055,7 +50784,7 @@ CONTROLBAR:GondorImrahilRecruit
 END
 
 CONTROLBAR:GondorImrahilRevive
-"Resuscita Imrahil"
+"Rianima Imrahil"
 END
 
 CONTROLBAR:GondorImrahilHotkey
@@ -51071,15 +50800,11 @@ CONTROLBAR:BorenRecruit
 END
 
 CONTROLBAR:BorenRevive
-"Resuscita Boren."
+"Rianima Boren."
 END
 
 CONTROLBAR:BorenHotkey
 "B&oren"
-END
-
-OBJECT:DwarvenJuggernaut
-"Juggernaut"
 END
 
 OBJECT:IsengardGergof
@@ -51091,7 +50816,7 @@ CONTROLBAR:IsengardGergofRecruit
 END
 
 CONTROLBAR:IsengardGergofRevive
-"Resuscita Gergof"
+"Rianima Gergof"
 END
 
 CONTROLBAR:IsengardGergofHotkey
@@ -51210,30 +50935,6 @@ CONTROLBAR:ToolTipWildSpiderPoisonedStinger
 "Richiede livello 5. \nParalizza il bersaglio ed infligge danni da avvelenamento."
 END
 
-CONTROLBAR:ShelobLeap
-"Salticida"
-END
-
-CONTROLBAR:ToolTipShelobLeap
-"Richiede livello 8. \nShelob salta in aria per poi atterrare sopra gli avversari."
-END
-
-OBJECT:Smaug
-"Smaug"
-END
-
-CONTROLBAR:WildSmaugRecruit
-"Recluta Smaug, il dorato, guardiano del tesoro di Erebor ed uno dei più potenti draghi della Terza Era."
-END
-
-CONTROLBAR:WildSmaugRevive
-"Resuscita Smaug, il dorato."
-END
-
-CONTROLBAR:WildSmaugHotkey
-"Sma&ug"
-END
-
 CONTROLBAR:EntShout
 "Urlo di rabbia"
 END
@@ -51248,34 +50949,6 @@ END
 
 CONTROLBAR:ToolTipTreeBeardDreadVisage
 "Richiede livello 3. \nL'imponenza di Barbalbero incute timore negli avversari."
-END
-
-CONTROLBAR:UrgannLeap
-"Balzo"
-END
-
-CONTROLBAR:ToolTipUrgannLeap
-"Urgann balza in aria per poi atterrare pesantemente sugli avversari."
-END
-
-CONTROLBAR:ToolTipUrgannDreadVisage
-"Richiede livello 3. \nUrgann terrorizza gli avversari con la sua terrificante mole ed il suo sguardo furente."
-END
-
-CONTROLBAR:ToolTipUrgannOilFire
-"Richiede livello 5. \nUrgann getta una chiazza d'olio infiammabile a terra. \n"
-END
-
-CONTROLBAR:ToolTipUrgannIgniteOilFire
-"Richiede livello 5. \nUrgann incendia la chiazza d'olio precedentemente gettata."
-END
-
-CONTROLBAR:ToolTipUrgannBerserkerRage
-"Richiede livello 7. \nLa furia berserker pervade Urgann fornendogli una potenza mostruosa."
-END
-
-CONTROLBAR:ToolTipUrgannFireBomb
-"Richiede livello 9. \nUrgann getta una bomba esplosiva contro gli avversari."
 END
 
 CONTROLBAR:PallandoTeleport
@@ -51356,34 +51029,6 @@ END
 
 CONTROLBAR:ToolTipAlatarDarkSlayer
 "Richiede livello 10. \nAlatar emana un potente fascio di luce che fende l'oscurità come una lama e danneggia fortemente gli avversari."
-END
-
-CONTROLBAR:UglukSummonUrukHai
-"Chiamata degli Uruk-hai"
-END
-
-CONTROLBAR:TooltipUglukSummonUrukHai
-"Richiede livello 3. \nUgluk chiama a combattere 2 orde di spadaccini uruk-hai e 1 di arceri."
-END
-
-CONTROLBAR:ToolTipUglukAxeThrow
-"Richiede livello 5. \nUgluk lanci la sua ascia per colpire gli avversari."
-END
-
-CONTROLBAR:UglukShieldCrush
-"Carica impetuosa"
-END
-
-CONTROLBAR:ToolTipUglukShieldCrush
-"Richiede livello 7. \nUgluk carica i nemici a testa bassa facendoli cadere al suo passaggio, \nMaggior difesa per le armi a distanza."
-END
-
-CONTROLBAR:UglukHowlOfRage
-"Grido di battaglia"
-END
-
-CONTROLBAR:TooltipUglukHowlOfRage
-"Richiede livello 9. \nGrido di incoraggiamento per gli alleati che li chiama a combattere aumentandone attacco e difesa."
 END
 
 CONTROLBAR:KanoTrain
@@ -51483,7 +51128,7 @@ CONTROLBAR:AlatarRecruit
 END
 
 CONTROLBAR:PallandoRevive
-"Resuscita Alatar, lo stregone blu."
+"Rianima Alatar, lo stregone blu."
 END
 
 CONTROLBAR:PallandoHotkey
@@ -51491,7 +51136,7 @@ CONTROLBAR:PallandoHotkey
 END
 
 CONTROLBAR:AlatarRevive
-"Resuscita Alatar, lo stregone blu."
+"Rianima Alatar, lo stregone blu."
 END
 
 CONTROLBAR:AlatarHotkey
@@ -51519,7 +51164,7 @@ CONTROLBAR:RohanHamaRecruit
 END
 
 CONTROLBAR:RohanHamaRevive
-"Riporta in vita Hama."
+"Rianima Hama."
 END
 
 CONTROLBAR:RohanHamaHotkey
@@ -51591,7 +51236,7 @@ CONTROLBAR:RohanErkenbrandRecruit
 END
 
 CONTROLBAR:RohanErkenbrandRevive
-"Riporta in vita Erkenbrand."
+"Rianima Erkenbrand."
 END
 
 CONTROLBAR:RohanErkenbrandHotkey
@@ -51607,7 +51252,7 @@ CONTROLBAR:ElvenCirdanRecruit
 END
 
 CONTROLBAR:ElvenCirdanRevive
-"Riporta in vita Cirdan."
+"Rianima Cirdan."
 END
 
 CONTROLBAR:ElvenCirdanHotkey
@@ -51623,7 +51268,7 @@ CONTROLBAR:ElvenElladanHotkey
 END
 
 CONTROLBAR:ElladanRevive
-"Riporta in vita Elladan."
+"Rianima Elladan."
 END
 
 CONTROLBAR:ElladanRecruit
@@ -51639,7 +51284,7 @@ CONTROLBAR:ElvenElrohirHotkey
 END
 
 CONTROLBAR:ElrohirRevive
-"Riporta in vita Elrohir."
+"Rianima Elrohir."
 END
 
 CONTROLBAR:ElrohirRecruit
@@ -51651,7 +51296,7 @@ CONTROLBAR:ElvenCelebornRecruit
 END
 
 CONTROLBAR:ElvenCelebornRevive
-"Riporta in vita Celeborn."
+"Rianima Celeborn."
 END
 
 CONTROLBAR:ElvenCelebornHotkey
@@ -51667,7 +51312,7 @@ CONTROLBAR:ElvenGrimbeornRecruit
 END
 
 CONTROLBAR:ElvenGrimbeornRevive
-"Riporta in vita Grimbeorn."
+"Rianima Grimbeorn."
 END
 
 CONTROLBAR:ElvenGrimbeornHotkey
@@ -51683,7 +51328,7 @@ CONTROLBAR:RadagastRecruit
 END
 
 CONTROLBAR:RadagastRevive
-"Riporta in vita Radagast."
+"Rianima Radagast."
 END
 
 CONTROLBAR:RadagastHotkey
@@ -51693,127 +51338,77 @@ END
 CONTROLBAR:ElvenGaladrielRecruit
 "Recluta Dama Galadriel, la Lucente Signora di Lothlòrien."
 END
-
 CONTROLBAR:ElvenGaladrielRevive
-"Riporta in vita Galadriel."
+"Rianima Galadriel."
 END
-
 CONTROLBAR:ElvenGaladrielHotkey
 "&Galadriel"
 END
 
+
+
+
+
+
+
+
+
+
+
+
 OBJECT:DwarvenThorinStonehelm
 "Thorin Elminpietra"
 END
-
 CONTROLBAR:DwarvenThorinStonehelmRecruit
 "Recluta Thorin Elminpietra, Signore dei Colli Ferrosi."
 END
-
 CONTROLBAR:DwarvenThorinStonehelmRevive
-"Riporta in vita Thorin."
+"Rianima Thorin Elminpietra."
 END
-
 CONTROLBAR:DwarvenThorinStonehelmHotkey
-"&Thorin"
+"&Thorin Elminpietra"
 END
-
-OBJECT:WildBolg
-"Bolg"
-END
-
-CONTROLBAR:WildBolgRecruit
-"Recluta Bolg, il figlio di Azog."
-END
-
-CONTROLBAR:WildBolgRevive
-"Rianima Bolg, l'Eore caduto."
-END
-
-CONTROLBAR:WildBolgHotkey
-"&Bolg"
-END
-
-CONTROLBAR:WildAgandaurRevive
-"Rianima Agandaur, l'Eroe Caduto."
-END
-
-CONTROLBAR:WildAgandaurHotkey
-"&Agandaur"
-END
-
-OBJECT:WildHargont
-"Hargont"
-END
-
-OBJECT:WildHargontDescription
-"Hargont, Re dei Giganti"
-END
-
-CONTROLBAR:WildHargontRecruit
-"Recluta Hargont, il Re dei giganti delle Montagne Nebbiose."
-END
-
-CONTROLBAR:WildHargontRevive
-"Rianima Hargont, l'Eroe caduto."
-END
-
-CONTROLBAR:WildHargontHotkey
-"&Hargont"
-END
-
-OBJECT:WildAbzagDurinu
-"Abzag Durinu"
-END
-
-CONTROLBAR:WildAbzagDurinuRecruit
-"Recluta il Flagello di Durin, il Balrog che ha mandato in rovina lo splendente reame di Moria."
-END
-
-CONTROLBAR:WildAbzagDurinuRevive
-"Rianima Abzag Durinu, il Balrog caduto."
-END
-
-CONTROLBAR:WildAbzagDurinuHotkey
-"Abzag &Durinu"
-END
-
 CONTROLBAR:ThorinHeadbutt
 "Testata"
 END
-
 CONTROLBAR:ToolTipThorinHeadbutt
 "Richiede livello 2.\nStordisce un bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
-
 CONTROLBAR:ThorinIncreasedMining
 "Scavare in Profondità"
 END
-
 CONTROLBAR:ToolTipThorinIncreasedMining
 "Richiede livello 3.\nAumento +200% produzione delle miniere vicine.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:ThorinLeadership
 "Comando"
 END
-
 CONTROLBAR:ToolTipThorinLeadership
 "Richiede livello 5.\nGli alleati vicini a Thorin ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:ThorinIronHillsForge
 "Forgia dei Colli Ferrosi"
 END
-
 CONTROLBAR:ToolTipThorinIronHillsForge
 "Richiede livello 7.\nLe macchine d'assedio vicine a Thorin ottengono \n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
+CONTROLBAR:ThorinArmorBreaker
+"Frantuma Corazza"
+END
+CONTROLBAR:ToolTipThorinArmorBreaker
+"Riduce del 30% la corazza dei nemici colpiti\n e aumenta i danni inflitti alle strutture.\n\nAbilità Passiva. Non cumulabile."
+END
+CONTROLBAR:ArmorBreakerPassive
+"Frantuma Corazza"
+END
+CONTROLBAR:ToolTipArmorBreakerPassive
+"Riduce del 30% la corazza dei nemici colpiti\n e aumenta i danni inflitti alle strutture.\n\nAbilità Passiva. Non cumulabile."
+END
+
 
 CONTROLBAR:SelectEreborFaction
 "&Erebor"
 END
-
 CONTROLBAR:ToolTipCommandSelectEreborFaction
 "\nRecluta i nani della Montagna Solitaria."
 END
@@ -51821,7 +51416,6 @@ END
 CONTROLBAR:SelectIronHillsFaction
 "&Colli Ferrosi"
 END
-
 CONTROLBAR:ToolTipCommandSelectIronHillsFaction
 "\nRecluta i nani del nord-est, dotati delle migliori armi."
 END
@@ -51829,7 +51423,6 @@ END
 CONTROLBAR:SelectEredLuinFaction
 "Ered &Luin"
 END
-
 CONTROLBAR:ToolTipCommandSelectEredLuinFaction
 "\nRecluta le unità dei nani dei Monti Azzurri."
 END
@@ -51837,9 +51430,185 @@ END
 CONTROLBAR:SelectDaleFaction
 "&Dale"
 END
-
 CONTROLBAR:ToolTipCommandSelectDaleFaction
 "\nRecluta gli uomini della città di Dale."
+END
+
+OBJECT:DwarvenEreborCrossbowman
+"Balestriere di Erebor"
+END
+OBJECT:DwarvenEreborCrossbowmanHorde
+"Balestrieri di Erebor"
+END
+CONTROLBAR:ConstructDwarvenEreborCrossbowmanHorde
+"Balestrieri di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborCrossbowmanHorde
+"Efficace a distanza."
+END
+
+OBJECT:DwarvenEreborThroneGuard
+"Guardia del trono di Erebor"
+END
+OBJECT:DwarvenEreborThroneGuardHorde
+"Guardie del trono di Erebor"
+END
+CONTROLBAR:ConstructDwarvenEreborThroneGuardHorde
+"Guardie del Trono di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborThroneGuardHorde
+"Richiede caserma di livello 2. \nEfficace contro cavalleria."
+END
+
+OBJECT:DwarvenEreborPhalanx
+"Picchiere di Erebor"
+END
+OBJECT:DwarvenEreborPhalanxHorde
+"Falange di Erebor"
+END
+CONTROLBAR:ConstructDwarvenEreborPhalanxHorde
+"Falange di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborPhalanxHorde
+"Efficace contro cavalleria."
+END
+
+OBJECT:DwarvenEreborWarrior
+"Guerriero di Erebor"
+END
+OBJECT:DwarvenEreborWarriorHorde
+"Guerrieri di Erebor"
+END
+CONTROLBAR:ConstructDwarvenEreborWarriorHorde
+"Guerrieri di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborWarriorHorde
+"Efficace contro picchieri."
+END
+
+OBJECT:DwarvenEreborArkenguard
+"Arkenguardia"
+END
+OBJECT:DwarvenEreborArkenguardHorde
+"Arkenguardie"
+END
+CONTROLBAR:ConstructDwarvenEreborArkenguardHorde
+"Arkenguardie di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborArkenguardHorde
+"Richiede caserma di livello 3. \nEfficace contro picchieri."
+END
+
+OBJECT:DwarvenEreborGuardian
+"Guardiano di Erebor"
+END
+OBJECT:DwarvenEreborGuardianHorde
+"Guardiani di Erebor"
+END
+CONTROLBAR:ConstructDwarvenEreborGuardianHorde
+"Guardiani di Erebor"
+END
+CONTROLBAR:ToolTipBuildDwarvenEreborGuardianHorde
+"Richiede caserma di livello 2. \nEfficace contro picchieri."
+END
+
+OBJECT:DwarvenIronHillsGoatRider
+"Cavalca caprone dei Colli Ferrosi"
+END
+OBJECT:DwarvenIronHillsGoatRiderHorde
+"Cavalca caproni dei Colli Ferrosi"
+END
+CONTROLBAR:ConstructDwarvenIronHillsGoatRiderHorde
+"Cavalca caproni dei Colli Ferrosi"
+END
+CONTROLBAR:ToolTipBuildDwarvenIronHillsGoatRiderHorde
+"Recluta l'unità di cavalleria dei Colli Ferrosi.\nEfficace contro Arcieri."
+END
+
+OBJECT:DwarvenIronHillsPikeman
+"Picchiere dei Colli Ferrosi"
+END
+OBJECT:DwarvenIronHillsPikemanHorde
+"Picchieri dei Colli Ferrosi"
+END
+CONTROLBAR:ConstructDwarvenIronHillsPikemanHorde
+"Picchieri dei Colli Ferrosi"
+END
+CONTROLBAR:ToolTipBuildDwarvenIronHillsPikemanHorde
+"Efficace contro cavalleria"
+END
+
+OBJECT:DwarvenIronHillsWarrior
+"Guerriero dei Colli Ferrosi"
+END
+OBJECT:DwarvenIronHillsWarriorHorde
+"Guerrieri dei Colli Ferrosi"
+END
+CONTROLBAR:ConstructDwarvenIronHillsWarriorHorde
+"Guerrieri dei Colli Ferrosi"
+END
+CONTROLBAR:ToolTipBuildDwarvenIronHillsWarriorHorde
+"Efficace contro picchieri."
+END
+
+OBJECT:DwarvenIronHillsSmasher
+"Frantumatore dei Colli Ferrosi"
+END
+OBJECT:DwarvenIronHillsSmasherHorde
+"Frantumatori dei Colli Ferrosi"
+END
+CONTROLBAR:ConstructDwarvenIronHillsSmasherHorde
+"Frantumatori dei Colli Ferrosi"
+END
+CONTROLBAR:ToolTipBuildDwarvenIronHillsSmasherHorde
+"Richiede caserma di livello 2.\nEfficace contro picchieri."
+END
+
+OBJECT:DwarvenIronHillsCrossbowman
+"Balestriere dei Colli Ferrosi"
+END
+OBJECT:DwarvenIronHillsCrossbowmanHorde
+"Balestrieri dei Colli Ferrosi"
+END
+CONTROLBAR:ConstructDwarvenIronHillsCrossbowmanHorde
+"Balestrieri dei Colli Ferrosi"
+END
+CONTROLBAR:ToolTipBuildDwarvenIronHillsCrossbowmanHorde
+"Efficace a distanza."
+END
+
+OBJECT:DwarvenJuggernaut
+"Juggernaut"
+END
+OBJECT:HordeJuggernaut
+"Juggernaut"
+END
+OBJECT:DwarvenJuggernautHorde
+"Juggernaut"
+END
+CONTROLBAR:ToolTipBuildDwarvenJuggernautHorde
+"Recluta i nani veterani altamente corazzati e con grande capacità difensiva.\nRichiede Sala dei Guerriei al livello 3."
+END
+CONTROLBAR:ConstructDwarvenJuggernautHorde
+"Nani &Juggernaut"
+END
+CONTROLBAR:JuggernautSkin
+"Corazza del Juggernaut"
+END
+CONTROLBAR:ToolTipJuggernautSkin
+"Richiede livello 7. \nSe usate correttamente le corazze dei Juggernaut possono coprire totalmente chi le indossa e annullare qualsiasi danno in arrivo per un po' di tempo. \nRende invulnerabili per un corto lasso di tempo."
+END
+CONTROLBAR:JuggernautSteadiness
+"Fermezza"
+END
+CONTROLBAR:ToolTipJuggernautSteadiness
+"Richiede livello 2.\nI Juggernaut si mantengono ben saldi e resistono alla maggior parte degli impatti oltre che diventare immuni al terrore.\n\nAbilit? passiva. Non cumulabile."
+END
+CONTROLBAR:JuggernautAuraProtection
+"Aura di Protezione"
+END
+CONTROLBAR:ToolTipJuggernautAuraProtection
+"Richiede livello 5.\nGli alleati vicini ai Juggernaut ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:DwarvenMenOfDale
@@ -51849,567 +51618,52 @@ END
 CONTROLBAR:BattleWagonBallista
 "Potenzia con balista"
 END
-
 CONTROLBAR:ToolTipBattleWagonBallista
 "Aggiunge un balista al carro\nEfficace contro unità e mostri, lievemente contro strutture."
 END
 
-OBJECT:DwarvenEreborCrossbowman
-"Balestriere di Erebor"
-END
 
-OBJECT:DwarvenEreborCrossbowmanHorde
-"Balestrieri di Erebor"
-END
 
-CONTROLBAR:ConstructDwarvenEreborCrossbowmanHorde
-"Balestrieri di Erebor"
-END
 
-CONTROLBAR:ToolTipBuildDwarvenEreborCrossbowmanHorde
-"Efficace a distanza."
-END
 
-OBJECT:DwarvenEreborThroneGuard
-"Guardia del trono di Erebor"
-END
 
-OBJECT:DwarvenEreborThroneGuardHorde
-"Guardie del trono di Erebor"
-END
 
-CONTROLBAR:ConstructDwarvenEreborThroneGuardHorde
-"Guardie del Trono di Erebor"
-END
 
-CONTROLBAR:ToolTipBuildDwarvenEreborThroneGuardHorde
-"Richiede caserma di livello 2. \nEfficace contro cavalleria."
-END
 
-OBJECT:DwarvenEreborPhalanx
-"Picchiere di Erebor"
-END
-
-OBJECT:DwarvenEreborPhalanxHorde
-"Falange di Erebor"
-END
-
-CONTROLBAR:ConstructDwarvenEreborPhalanxHorde
-"Falange di Erebor"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenEreborPhalanxHorde
-"Efficace contro cavalleria."
-END
-
-OBJECT:DwarvenEreborWarrior
-"Guerriero di Erebor"
-END
-
-OBJECT:DwarvenEreborWarriorHorde
-"Guerrieri di Erebor"
-END
-
-CONTROLBAR:ConstructDwarvenEreborWarriorHorde
-"Guerrieri di Erebor"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenEreborWarriorHorde
-"Efficace contro picchieri."
-END
-
-OBJECT:DwarvenEreborArkenguard
-"Arkenguardia"
-END
-
-OBJECT:DwarvenEreborArkenguardHorde
-"Arkenguardie"
-END
-
-CONTROLBAR:ConstructDwarvenEreborArkenguardHorde
-"Arkenguardie di Erebor"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenEreborArkenguardHorde
-"Richiede caserma di livello 3. \nEfficace contro picchieri."
-END
-
-OBJECT:DwarvenEreborGuardian
-"Guardiano di Erebor"
-END
-
-OBJECT:DwarvenEreborGuardianHorde
-"Guardiani di Erebor"
-END
-
-CONTROLBAR:ConstructDwarvenEreborGuardianHorde
-"Guardiani di Erebor"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenEreborGuardianHorde
-"Richiede caserma di livello 2. \nEfficace contro picchieri."
-END
-
-OBJECT:DwarvenIronHillsGoatRider
-"Cavalca caprone dei Colli Ferrosi"
-END
-
-OBJECT:DwarvenIronHillsGoatRiderHorde
-"Cavalca caproni dei Colli Ferrosi"
-END
-
-CONTROLBAR:ConstructDwarvenIronHillsGoatRiderHorde
-"Cavalca caproni dei Colli Ferrosi"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenIronHillsGoatRiderHorde
-"Recluta l'unità di cavalleria dei Colli Ferrosi.\nEfficace contro Arcieri."
-END
-
-OBJECT:DwarvenIronHillsPikeman
-"Picchiere dei Colli Ferrosi"
-END
-
-OBJECT:DwarvenIronHillsPikemanHorde
-"Picchieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ConstructDwarvenIronHillsPikemanHorde
-"Picchieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenIronHillsPikemanHorde
-"Efficace contro cavalleria"
-END
-
-OBJECT:DwarvenIronHillsWarrior
-"Guerriero dei Colli Ferrosi"
-END
-
-OBJECT:DwarvenIronHillsWarriorHorde
-"Guerrieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ConstructDwarvenIronHillsWarriorHorde
-"Guerrieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenIronHillsWarriorHorde
-"Efficace contro picchieri."
-END
-
-OBJECT:DwarvenIronHillsSmasher
-"Frantumatore dei Colli Ferrosi"
-END
-
-OBJECT:DwarvenIronHillsSmasherHorde
-"Frantumatori dei Colli Ferrosi"
-END
-
-CONTROLBAR:ConstructDwarvenIronHillsSmasherHorde
-"Frantumatori dei Colli Ferrosi"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenIronHillsSmasherHorde
-"Richiede caserma di livello 2.\nEfficace contro picchieri."
-END
-
-OBJECT:DwarvenIronHillsCrossbowman
-"Balestriere dei Colli Ferrosi"
-END
-
-OBJECT:DwarvenIronHillsCrossbowmanHorde
-"Balestrieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ConstructDwarvenIronHillsCrossbowmanHorde
-"Balestrieri dei Colli Ferrosi"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenIronHillsCrossbowmanHorde
-"Efficace a distanza."
-END
-
-CONTROLBAR:ThorinArmorBreaker
-"Frantuma Corazza"
-END
-
-CONTROLBAR:ToolTipThorinArmorBreaker
-"Riduce del 30% la corazza dei nemici colpiti\n e aumenta i danni inflitti alle strutture.\n\nAbilità Passiva. Non cumulabile."
-END
-
-CONTROLBAR:ArmorBreakerPassive
-"Frantuma Corazza"
-END
-
-CONTROLBAR:ToolTipArmorBreakerPassive
-"Riduce del 30% la corazza dei nemici colpiti\n e aumenta i danni inflitti alle strutture.\n\nAbilità Passiva. Non cumulabile."
-END
-
-CONTROLBAR:SelectMistyMountainsFaction
-"Montagne Nebbiose"
-END
-
-CONTROLBAR:TooltipCommandSelectMistyMountainsFaction
-"\nRecluta i goblin abitanti delle Montagne Nebbiose."
-END
-
-CONTROLBAR:SelectGundabadFaction
-"Gundabad"
-END
-
-CONTROLBAR:TooltipCommandSelectGundabadFaction
-"\nRecluta gli orchi del Monte Gundabad."
-END
-
-CONTROLBAR:SelectEttenmoorsFaction
-"Erenbrulli"
-END
-
-CONTROLBAR:TooltipCommandSelectEttenmoorsFaction
-"\nRecluta i Mezzi-troll della regione collinare degli Erenbrulli."
-END
-
-CONTROLBAR:PurchaseUpgradeWildPoisonArrows
-"Potenziamento Frecce velenose"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeWildPoisonArrows
-"Potenzia l'unità con frecce avvelenate che fanno danno da veleno nel tempo."
-END
-
-OBJECT:WildGoblinPikeman
-"Picchiere Goblin"
-END
-
-OBJECT:WildGoblinPikemanHorde
-"Picchieri Goblin"
-END
-
-CONTROLBAR:ConstructWildGoblinPikemanHorde
-"Picchieri Goblin"
-END
-
-CONTROLBAR:ToolTipBuildWildGoblinPikemanHorde
-"Efficace contro cavalleria."
-END
-
-OBJECT:WildGundabadArcher
-"Arciere di Gundabad"
-END
-
-OBJECT:WildGundabadArcherHorde
-"Arceri di Gundabad"
-END
-
-CONTROLBAR:ConstructWildGundabadArcherHorde
-"Arcieri di Gundabad"
-END
-
-CONTROLBAR:ToolTipBuildWildGundabadArcherHorde
-"Efficace a distanza."
-END
-
-OBJECT:WildGundabadOrcFighter
-"Combattente di Gundabad"
-END
-
-OBJECT:WildGundabadFighterHorde
-"Combattenti di Gundabad"
-END
-
-CONTROLBAR:ConstructWildGundabadFighterHorde
-"Combattenti di Gundabad"
-END
-
-CONTROLBAR:ToolTipBuildWildGundabadFighterHorde
-"Efficace contro picchieri."
-END
-
-OBJECT:WildGundabadPikeman
-"Picchiere di Gundabad"
-END
-
-OBJECT:WildGundabadPikemanHorde
-"Picchieri di Gundabad"
-END
-
-CONTROLBAR:ConstructWildGundabadPikemanHorde
-"Picchieri di Gundabad"
-END
-
-CONTROLBAR:ToolTipBuildWildGundabadPikemanHorde
-"Efficace contro cavalleria."
-END
-
-OBJECT:WildGundabadWolfRider
-"Cavalca lupo di Gundabad"
-END
-
-OBJECT:WildGundabadWolfRiderHorde
-"Cavalca lupi di Gundabad"
-END
-
-CONTROLBAR:ConstructWildGundabadWolfRiders
-"Cavalieri Warg di Gundabad"
-END
-
-CONTROLBAR:ToolTipBuildWildGundabadWolfRiders
-"Efficace contro arcieri."
-END
-
-OBJECT:WildGundabadWarg
-"Warg di Gundabad"
-END
-
-OBJECT:WildGundabadWargHorde
-"Warg di Gundabad"
-END
-
-CONTROLBAR:ConstructWildGundabadWargHorde
-"Branco Warg di Gundabad"
-END
-
-CONTROLBAR:ToolTipBuildWildGundabadWargHorde
-"Efficace contro arcieri."
-END
-
-OBJECT:WildHobgoblinFighter
-"Guerriero Hobgoblin"
-END
-
-OBJECT:WildHobgoblinFighterHorde
-"Guerrieri Hobgoblin"
-END
-
-CONTROLBAR:ConstructHobgoblinFighterHorde
-"Guerrieri Hobgoblin"
-END
-
-CONTROLBAR:ToolTipBuildHobgoblinFighterHorde
-"Richiede caverna di livello 2.\nEfficace contro picchieri."
-END
-
-OBJECT:WildDrummerGoblin
-"Goblin tamburello"
-END
-
-CONTROLBAR:ConstructWildDrummerGoblin
-"Goblin tamburello"
-END
-
-CONTROLBAR:ToolTipConstructWildDrummerGoblin
-"Richiede caverna di livello 2.\nFornisce bonus comando alle truppe vicine."
-END
-
-OBJECT:WildJumpSpiderHorde
-"Ragni salticidi"
-END
-
-CONTROLBAR:ConstructWildJumpSpiderHorde
-"Ragni salticidi"
-END
-
-CONTROLBAR:ToolTipBuildWildJumpSpiderHorde
-"Recluta i ragni che si scagliano contro il nemico con ampi balzi.\nEfficaci contro arcieri."
-END
-
-OBJECT:WildForestTroll
-"Troll di foresta"
-END
-
-CONTROLBAR:ConstructWildForestTroll
-"Troll di Foresta"
-END
-
-CONTROLBAR:ToolTipBuildWildForestTroll
-"Efficace contro arcieri e strutture."
-END
-
-OBJECT:WildSnowTroll
-"Troll delle nevi"
-END
-
-CONTROLBAR:ConstructWildSnowTroll
-"Troll delle Nevi"
-END
-
-CONTROLBAR:ToolTipBuildWildSnowTroll
-"Richiede struttura di livello 2.\nEfficace contro arcieri, cavalleria e strutture."
-END
-
-CONTROLBAR:WarBatsDreadVisage
-"Visione raccapricciante"
-END
-
-CONTROLBAR:ToolTipWarBatsDreadVisage
-"Riduce la corazza e il danno del nemico.\nAbilità passiva."
-END
-
-CONTROLBAR:ConstructWildWarriorBats
-"Pipistrelli da Guerra"
-END
-
-CONTROLBAR:ToolTipBuildWildWarriorBats
-"Richiede struttura di livello 2.\nEfficace contro cavalleria e picchieri.\nIndebolisce le truppe nemiche."
-END
-
-CONTROLBAR:WarBatsBloodDrain
-"Risucchio di Sangue"
-END
-
-CONTROLBAR:ToolTipWarBatsBloodDrain
-"Danneggia le unità nemiche vicine curandosi di \nparte dei danni inflitti.\nAbilità passiva."
-END
-
-CONTROLBAR:BolgSummonGundabadWarriors
-"Richiama guardie del corpo"
-END
-
-CONTROLBAR:TooltipBolgSummonGundabadWarriors
-"Richiede livello 10.\nEvoca diverse unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
-END
-
-CONTROLBAR:JuggernautSteadiness
-"Fermezza"
-END
-
-CONTROLBAR:ToolTipJuggernautSteadiness
-"Richiede livello 2.\nI Juggernaut si mantengono ben saldi e resistono alla maggior parte degli impatti oltre che diventare immuni al terrore.\n\nAbilit? passiva. Non cumulabile."
-END
-
-CONTROLBAR:JuggernautAuraProtection
-"Aura di Protezione"
-END
-
-CONTROLBAR:ToolTipJuggernautAuraProtection
-"Richiede livello 5.\nGli alleati vicini ai Juggernaut ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:NoldorBlessingOfValinor
-"Benedizione di Valinor"
-END
-
-CONTROLBAR:ToolTipNoldorBlessingOfValinor
-"Richiede livello 2.\nI Noldor ottengono un aumento della rigenerazione e +20% velocità d'attacco e distanza di tiro.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:NoldorWeaponSongAura
-"Canto Marziale"
-END
-
-CONTROLBAR:ToolTipNoldorWeaponSongAura
-"Richiede livello 5.\nGli alleati vicini ai Noldor ottengono +20% danni e velocità d'attacco.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:DolAmrothValor
-"Valore"
-END
-
-CONTROLBAR:ToolTipDolAmrothValor
-"Richiede livello 2.\nI Cavalieri di Dol Amroth ottengono +50% corazza contro i picchieri e immunità al terrore.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:DolAmrothChivalricGlory
-"Gloria Cavalleresca"
-END
-
-CONTROLBAR:ToolTipDolAmrothChivalricGlory
-"Richiede livello 5.\nGli alleati vicini ai Cavalieri di Dol Amroth ottengono +30% corazza, danni e immunità alla paura.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:BlackNumenoreanLacerate
-"Lacerazione"
-END
-
-CONTROLBAR:ToolTipBlackNumenoreanLacerate
-"Richiede livello 2.\nI Numenoreani Neri infliggono sanguinamento con i loro attacchi e danneggiano i nemici che li caricano.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:BlackNumenoreanDesolation
-"Disperazione"
-END
-
-CONTROLBAR:ToolTipBlackNumenoreanDesolation
-"Richiede livello 5.\nRiduce notevolmente la corazza e il danno del nemico.\nAbilità passiva.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:BabyFireDrakeGrowth
-"Crescita"
-END
-
-CONTROLBAR:ToolTipBabyFireDrakeGrowth
-"Aumento di livello dal 2 al 9.\nLa progenie di draco di fuoco cresce ad ogni livello, aumentando tutte le sue statistiche e diminuendo la velocità.\n\nAbilità passiva."
-END
-
-CONTROLBAR:AdultFireDrakeParenting
-"Accudimento"
-END
-
-CONTROLBAR:ToolTipAdultFireDrakeParenting
-"Richiede livello 10.\nIl Draco di Fuoco adulto protegge i cuccioli più giovani vicini (di livello dall'1 al 4) che ottengono +50% corazza e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:ArquebusierSharpshooting
-"Tiro di Precisione"
-END
-
-CONTROLBAR:ToolTipArquebusierSharpshooting
-"Richiede livello 2.\nGli Archibugeri ottengono +50% di distanza di tiro e visione.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:ArquebusierExplosiveAmmunitions
-"Munizioni Esplosive"
-END
-
-CONTROLBAR:ToolTipArquebusierExplosiveAmmunitions
-"Richiede livello 5.\nGli Archibugeri infliggono danni aggiuntivi in un'area più ampia e possono far detonare le mine.\n\nAbilità passiva. Non cumulabile."
-END
 
 OBJECT:WildLugbol
 "Lugbol, il Re di Moria"
 END
-
 CONTROLBAR:WildLugbolHotkey
 "Recluta Lugbol, il Re di Moria"
 END
-
 CONTROLBAR:LugbolLeadership
 "Comando"
 END
-
 CONTROLBAR:ToolTipLugbolLeadership
 "Gli alleati vicini a Lugbol ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:LugbolFireball
 "&Palla di fuoco"
 END
-
 CONTROLBAR:ToolTipLugbolFireball
 "Richiede livello 3.\nLugbol lancia una palla di fuoco.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
-
 CONTROLBAR:LugbolBalrogSwing
 "&Spazzata di fuoco"
 END
-
 CONTROLBAR:ToolTipLugbolBalrogSwing
 "Richiede livello 5.\nLugbol, con la forza di un Balrog, \nesegue un colpo che spazza via le unità nemiche."
 END
-
 CONTROLBAR:LugbolFlamingWings
 "&Ali fiammeggianti"
 END
-
 CONTROLBAR:ToolTipLugbolFlamingWings
 "Richiede livello 7.\nLugbol esegue un volo di breve durata."
 END
-
 CONTROLBAR:LugbolInfernalDevastation
 "&Devastazione infernale"
 END
-
 CONTROLBAR:ToolTipLugbolInfernalDevastation
 "Richiede livello 9.\nLugbol genera un'esplosione di fuoco attorno a lui."
 END
@@ -52417,161 +51671,238 @@ END
 OBJECT:WildAzog
 "Azog"
 END
-
 CONTROLBAR:ConstructWildAzog
 "Recluta Azog"
 END
-
+CONTROLBAR:WildAzogRecruit
+"Recluta il Capitano degli Orchi di Gundabad."
+END
+CONTROLBAR:WildAzogRevive
+"Rianima Azog."
+END
+CONTROLBAR:WildAzogHotKey
+"A&zog di Gundabad"
+END
 CONTROLBAR:AzogLeadership
 "Comando"
 END
-
 CONTROLBAR:ToolTipAzogLeadership
 "Richiede livello 5.\nGli alleati vicini ad Azog ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:AzogBrigandage
+"Saccheggio"
+END
+CONTROLBAR:ToolTipAzogBrigandage
+"Richiede livello 2.\nI Goblin vicini ad Azog sottraggono risorse quando infliggono danni alle unità nemiche.\nAbilità passiva."
+END
+CONTROLBAR:ToolTipAzogFury
+"Richiede livello 4.\nAzog ottiene un aumento notevole di corazza, danno e velocità d'attacco.\nClicca con il pulsante sinistro per attivare."
+END
+CONTROLBAR:AzogCracktheWhip
+"Schiocco di frusta (&W)"
+END
+CONTROLBAR:ToolTipAzogCracktheWhip
+"Richiede livello 6.\nGoblin e mezzi-Troll ottengono esperienza.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
 
 OBJECT:WildShelob
 "Shelob"
 END
-
+CONTROLBAR:ShelobRecruit
+"Recluta il Ragno del passo di Cirith Ungol."
+END
+CONTROLBAR:ShelobRevive
+"Rianima Shelob."
+END
+CONTROLBAR:ShelobHotkey
+"&Shelob"
+END
 CONTROLBAR:WildShelobInstillTerror
 "Genera terrore (&I)"
 END
-
 CONTROLBAR:TooltipWildShelobInstillTerror
 "Richiede livello 3.\nGetta nel terrore le unità nemiche vicine.\nClicca con il pulsante sinistro per attivare."
 END
-
+CONTROLBAR:ShelobQueenOfSpider
+"&Regina dei ragni"
+END
+CONTROLBAR:ToolTipShelobQueenOfSpider
+"Richiede livello 3.\n Prende il controllo di una tana di ragni."
+END
+CONTROLBAR:ShelobWebbing
+"Ragnatela"
+END
+CONTROLBAR:WildShelobPoisonedStinger
+"Aculeo avvelenato (&R)"
+END
+CONTROLBAR:ToolTipWildShelobPoisonedStinger
+"Richiede livello 6.\nAvvelena il nemico, causando danni nel tempo."
+END
+CONTROLBAR:ShelobLeap
+"Salticida"
+END
+CONTROLBAR:ToolTipShelobLeap
+"Richiede livello 8. \nShelob salta in aria per poi atterrare sopra gli avversari."
+END
 CONTROLBAR:SpecialAbilityWildShelobTunnel
 "Galleria (&T)"
 END
-
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
 "Richiede livello 10.\nConsente a Shelob di scavare sottoterra e di emergere in un punto qualsiasi della mappa non coperto dalla nebbia.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
 END
 
-CONTROLBAR:ShelobQueenOfSpider
-"&Regina dei ragni"
+OBJECT:WildBolg
+"Bolg"
+END
+CONTROLBAR:WildBolgRecruit
+"Recluta Bolg, il figlio di Azog."
+END
+CONTROLBAR:WildBolgRevive
+"Rianima Bolg."
+END
+CONTROLBAR:WildBolgHotkey
+"&Bolg"
+END
+CONTROLBAR:BolgSummonGundabadWarriors
+"Richiama guardie del corpo"
+END
+CONTROLBAR:TooltipBolgSummonGundabadWarriors
+"Richiede livello 10.\nEvoca diverse unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
 END
 
-CONTROLBAR:ToolTipShelobQueenOfSpider
-"Richiede livello 3.\n???? Prende il controllo di una tana di ragni."
+OBJECT:WildHargont
+"Hargont"
 END
-
-
-
+OBJECT:WildHargontDescription
+"Hargont, Re dei Giganti"
+END
 CONTROLBAR:ConstructWildHargont
 "Recluta Hargont"
 END
-
-OBJECT:WildAgandaur
-"Agandaur, \nil Comandante delle armate corrotte del Nord."
+CONTROLBAR:WildHargontRecruit
+"Recluta Hargont, il Re dei giganti delle Montagne Nebbiose."
+END
+CONTROLBAR:WildHargontRevive
+"Rianima Hargont."
+END
+CONTROLBAR:WildHargontHotkey
+"&Hargont"
 END
 
+OBJECT:WildAbzagDurinu
+"Abzag Durinu"
+END
+CONTROLBAR:WildAbzagDurinuRecruit
+"Recluta il Flagello di Durin, il Balrog che ha mandato in rovina lo splendente reame di Moria."
+END
+CONTROLBAR:WildAbzagDurinuRevive
+"Rianima Abzag Durinu."
+END
+CONTROLBAR:WildAbzagDurinuHotkey
+"Abzag &Durinu"
+END
+
+OBJECT:WildAgandaur
+"Agandaur"
+END
+CONTROLBAR:WildAgandaurRevive
+"Rianima Agandaur."
+END
+CONTROLBAR:WildAgandaurHotkey
+"&Agandaur"
+END
 OBJECT:WildAgandaurDescription
 "TMP"
 END
-
 CONTROLBAR:WildAgandaurRecruit
 "Recluta Agandaur, il Comandante delle armate corrotte del Nord."
 END
-
 CONTROLBAR:ToolTipAgandaurLeadership
 "Gli alleati vicini ad Agandaur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:AgandaurBlink
 "&Teletrasporto"
 END
-
 CONTROLBAR:ToolTipAgandaurBlink
 "Richiede livello 3.\nAgandaur si teletrasporta a grande distanza danneggiando i nemici nel punto di partenza e nel punto di arrivo."
 END
-
 CONTROLBAR:ToolTipAgandaurFellBeast
 "Richiede livello 4.\nAgandaur sale in groppa ad una bestia alata."
 END
-
 CONTROLBAR:ToolTipAgandaurLightningStorm
 "Richiede livello 5.\nAgandaur evoca una tempesta di fulmini che colpisce il terreno nel punto indicato."
 END
-
 CONTROLBAR:AgandaurMorgulLightnings
 "&Stregoneria Morgul"
 END
-
 CONTROLBAR:ToolTipAgandaurMorgulLightnings
 "Richiede livello 9.\n Agandaur scaglia una saetta dalla spada \nche colpisce il bersaglio facendo danni ad area."
 END
 
+
+OBJECT:Smaug
+"Smaug"
+END
+CONTROLBAR:WildSmaugRecruit
+"Recluta Smaug, il dorato, guardiano del tesoro di Erebor ed uno dei più potenti draghi della Terza Era."
+END
+CONTROLBAR:WildSmaugRevive
+"Rianima Smaug, il dorato."
+END
+CONTROLBAR:WildSmaugHotkey
+"Sma&ug"
+END
 CONTROLBAR:SmaugGoAir
 "&Vola"
 END
-
 CONTROLBAR:ToolTipSmaugGoAir
 "Smaug prende il volo."
 END
-
 CONTROLBAR:SmaugGoFoot
 "&Atterra"
 END
-
 CONTROLBAR:ToolTipSmaugGoFoot
 "Smaug atterra."
 END
-
 CONTROLBAR:SmaugFireball
 "&Palla di fuoco"
 END
-
 CONTROLBAR:ToolTipSmaugFireball
 "Smaug sputa un proiettile di fuoco sul bersaglio."
 END
-
 CONTROLBAR:SmaugDreadfulRoar
 "&Ruggito del Drago"
 END
-
 CONTROLBAR:TooltipSmaugDreadfulRoar
 "Richiede livello 2.\nIncute paura nelle unità nemiche vicine. Abilità passiva.\n Attivando questo potere le unità nemiche fuggono."
 END
-
 CONTROLBAR:DragonHearth
 "Cuore di Drago"
 END
-
 CONTROLBAR:ToolTipSmaugDragonHearth
 "Richiede livello 3.\nGli alleati vicini a Smaug ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\nRiduce la corazza e il danno del nemico.\nDepreda i corpi dei nemici caduti e ottieni risorse.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:SmaugHurricane
 "&Uragano"
 END
-
 CONTROLBAR:ToolTipSmaugHurricane
 "Richiede livello 3.\nSmaug staziona a mezz'aria sbattendo le ali \natterrando e danneggiando i nemici sotto di lui."
 END
-
 CONTROLBAR:SmaugPoisonMind
 "A&vvelenatore di menti"
 END
-
 CONTROLBAR:ToolTipSmaugPoisonMind
 "Richiede livello 5.\nLe unità bersaglio cominciano a darsi battaglia.\nClicca con il pulsante sinistro sull'icona e quindi sulla zona bersaglio."
 END
-
 CONTROLBAR:SmaugRampage
 "&Furia del Drago"
 END
-
 CONTROLBAR:ToolTipSmaugRampage
 "Richiede livello 9.\nSmaug diventa più forte e più resistente."
 END
-
 CONTROLBAR:SmaugIncinerate
 "&Incenerimento"
 END
-
 CONTROLBAR:ToolTipSmaugIncinerate
 "Richiede livello 9.\nSmaug soffia fuoco nell'area indicata."
 END
@@ -52579,39 +51910,290 @@ END
 OBJECT:WildColdDrake
 "Draco Freddo"
 END
-
 CONTROLBAR:ConstructWildColdDrake
 "Draco Freddo"
 END
-
 CONTROLBAR:ToolTipWildColdDrake
 "Richiede struttura di livello 3. \nEfficace contro tutto."
 END
-
 CONTROLBAR:ToolTipColdDrakeManEater
 "Uccide il nemico bersaglio, ripristinando l'energia del drago e fornendo temporaneamente +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio.\nNon cumulabile."
 END
 
+
+CONTROLBAR:SelectMistyMountainsFaction
+"Montagne Nebbiose"
+END
+CONTROLBAR:TooltipCommandSelectMistyMountainsFaction
+"\nRecluta i goblin abitanti delle Montagne Nebbiose."
+END
+
+CONTROLBAR:SelectGundabadFaction
+"Gundabad"
+END
+CONTROLBAR:TooltipCommandSelectGundabadFaction
+"\nRecluta gli orchi del Monte Gundabad."
+END
+
+CONTROLBAR:SelectEttenmoorsFaction
+"Erenbrulli"
+END
+CONTROLBAR:TooltipCommandSelectEttenmoorsFaction
+"\nRecluta i Mezzi-troll della regione collinare degli Erenbrulli."
+END
+
+CONTROLBAR:PurchaseUpgradeWildPoisonArrows
+"Potenziamento Frecce velenose"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWildPoisonArrows
+"Potenzia l'unità con frecce avvelenate che fanno danno da veleno nel tempo."
+END
+
+OBJECT:WildGoblinPikeman
+"Picchiere Goblin"
+END
+OBJECT:WildGoblinPikemanHorde
+"Picchieri Goblin"
+END
+CONTROLBAR:ConstructWildGoblinPikemanHorde
+"Picchieri Goblin"
+END
+CONTROLBAR:ToolTipBuildWildGoblinPikemanHorde
+"Efficace contro cavalleria."
+END
+
+
+OBJECT:WildGundabadBanner
+"Portastendardo"
+END
+
+
+OBJECT:WildGundabadArcher
+"Arciere di Gundabad"
+END
+OBJECT:WildGundabadArcherHorde
+"Arceri di Gundabad"
+END
+CONTROLBAR:ConstructWildGundabadArcherHorde
+"Arcieri di Gundabad"
+END
+CONTROLBAR:ToolTipBuildWildGundabadArcherHorde
+"Efficace a distanza."
+END
+
+OBJECT:WildGundabadOrcFighter
+"Combattente di Gundabad"
+END
+OBJECT:WildGundabadFighterHorde
+"Combattenti di Gundabad"
+END
+CONTROLBAR:ConstructWildGundabadFighterHorde
+"Combattenti di Gundabad"
+END
+CONTROLBAR:ToolTipBuildWildGundabadFighterHorde
+"Efficace contro picchieri."
+END
+
+OBJECT:WildGundabadPikeman
+"Picchiere di Gundabad"
+END
+OBJECT:WildGundabadPikemanHorde
+"Picchieri di Gundabad"
+END
+CONTROLBAR:ConstructWildGundabadPikemanHorde
+"Picchieri di Gundabad"
+END
+CONTROLBAR:ToolTipBuildWildGundabadPikemanHorde
+"Efficace contro cavalleria."
+END
+
+OBJECT:WildGundabadWolfRider
+"Cavalca lupo di Gundabad"
+END
+OBJECT:WildGundabadWolfRiderHorde
+"Cavalca lupi di Gundabad"
+END
+CONTROLBAR:ConstructWildGundabadWolfRiders
+"Cavalieri Warg di Gundabad"
+END
+CONTROLBAR:ToolTipBuildWildGundabadWolfRiders
+"Efficace contro arcieri."
+END
+
+OBJECT:WildGundabadWarg
+"Warg di Gundabad"
+END
+OBJECT:WildGundabadWargHorde
+"Warg di Gundabad"
+END
+CONTROLBAR:ConstructWildGundabadWargHorde
+"Branco Warg di Gundabad"
+END
+CONTROLBAR:ToolTipBuildWildGundabadWargHorde
+"Efficace contro arcieri."
+END
+
+OBJECT:WildHobgoblinFighter
+"Guerriero Hobgoblin"
+END
+OBJECT:WildHobgoblinFighterHorde
+"Guerrieri Hobgoblin"
+END
+CONTROLBAR:ConstructHobgoblinFighterHorde
+"Guerrieri Hobgoblin"
+END
+CONTROLBAR:ToolTipBuildHobgoblinFighterHorde
+"Richiede caverna di livello 2.\nEfficace contro picchieri."
+END
+
+OBJECT:WildDrummerGoblin
+"Goblin tamburello"
+END
+CONTROLBAR:ConstructWildDrummerGoblin
+"Goblin tamburello"
+END
+CONTROLBAR:ToolTipConstructWildDrummerGoblin
+"Richiede caverna di livello 2.\nFornisce bonus comando alle truppe vicine."
+END
+
+OBJECT:WildJumpSpiderHorde
+"Ragni salticidi"
+END
+CONTROLBAR:ConstructWildJumpSpiderHorde
+"Ragni salticidi"
+END
+CONTROLBAR:ToolTipBuildWildJumpSpiderHorde
+"Recluta i ragni che si scagliano contro il nemico con ampi balzi.\nEfficaci contro arcieri."
+END
+
+OBJECT:WildForestTroll
+"Troll di foresta"
+END
+CONTROLBAR:ConstructWildForestTroll
+"Troll di Foresta"
+END
+CONTROLBAR:ToolTipBuildWildForestTroll
+"Efficace contro arcieri e strutture."
+END
+
+OBJECT:WildSnowTroll
+"Troll delle nevi"
+END
+CONTROLBAR:ConstructWildSnowTroll
+"Troll delle Nevi"
+END
+CONTROLBAR:ToolTipBuildWildSnowTroll
+"Richiede struttura di livello 2.\nEfficace contro arcieri, cavalleria e strutture."
+END
+
+
+CONTROLBAR:ConstructWildWarriorBats
+"Pipistrelli da Guerra"
+END
+CONTROLBAR:ToolTipBuildWildWarriorBats
+"Richiede struttura di livello 2.\nEfficace contro cavalleria e picchieri.\nIndebolisce le truppe nemiche."
+END
+CONTROLBAR:WarBatsDreadVisage
+"Visione raccapricciante"
+END
+CONTROLBAR:ToolTipWarBatsDreadVisage
+"Riduce la corazza e il danno del nemico.\nAbilità passiva."
+END
+CONTROLBAR:WarBatsBloodDrain
+"Risucchio di Sangue"
+END
+CONTROLBAR:ToolTipWarBatsBloodDrain
+"Danneggia le unità nemiche vicine curandosi di \nparte dei danni inflitti.\nAbilità passiva."
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+CONTROLBAR:NoldorBlessingOfValinor
+"Benedizione di Valinor"
+END
+CONTROLBAR:ToolTipNoldorBlessingOfValinor
+"Richiede livello 2.\nI Noldor ottengono un aumento della rigenerazione e +20% velocità d'attacco e distanza di tiro.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:NoldorWeaponSongAura
+"Canto Marziale"
+END
+CONTROLBAR:ToolTipNoldorWeaponSongAura
+"Richiede livello 5.\nGli alleati vicini ai Noldor ottengono +20% danni e velocità d'attacco.\n\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:DolAmrothValor
+"Valore"
+END
+CONTROLBAR:ToolTipDolAmrothValor
+"Richiede livello 2.\nI Cavalieri di Dol Amroth ottengono +50% corazza contro i picchieri e immunità al terrore.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:DolAmrothChivalricGlory
+"Gloria Cavalleresca"
+END
+CONTROLBAR:ToolTipDolAmrothChivalricGlory
+"Richiede livello 5.\nGli alleati vicini ai Cavalieri di Dol Amroth ottengono +30% corazza, danni e immunità alla paura.\n\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:BlackNumenoreanLacerate
+"Lacerazione"
+END
+CONTROLBAR:ToolTipBlackNumenoreanLacerate
+"Richiede livello 2.\nI Numenoreani Neri infliggono sanguinamento con i loro attacchi e danneggiano i nemici che li caricano.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:BlackNumenoreanDesolation
+"Disperazione"
+END
+CONTROLBAR:ToolTipBlackNumenoreanDesolation
+"Richiede livello 5.\nRiduce notevolmente la corazza e il danno del nemico.\nAbilità passiva.\n\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:BabyFireDrakeGrowth
+"Crescita"
+END
+CONTROLBAR:ToolTipBabyFireDrakeGrowth
+"Aumento di livello dal 2 al 9.\nLa progenie di draco di fuoco cresce ad ogni livello, aumentando tutte le sue statistiche e diminuendo la velocità.\n\nAbilità passiva."
+END
+CONTROLBAR:AdultFireDrakeParenting
+"Accudimento"
+END
+CONTROLBAR:ToolTipAdultFireDrakeParenting
+"Richiede livello 10.\nIl Draco di Fuoco adulto protegge i cuccioli più giovani vicini (di livello dall'1 al 4) che ottengono +50% corazza e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
+END
+
+
+
+
+
+
+
+
+
+
 OBJECT:MordorTahur
 "Tahur"
 END
-
 CONTROLBAR:MordorTahurRecruit
 "Recluta Tahur, il Capitano Olog-hai di Mordor."
 END
-
 CONTROLBAR:MordorTahurRevive
-"Riporta in vita Tahur."
+"Rianima Tahur."
 END
-
 CONTROLBAR:MordorTahurHotkey
 "&Tahur"
 END
-
 CONTROLBAR:TahurLeadership
 "Comando"
 END
-
 CONTROLBAR:TooltipTahurLeadership
 "Richiede livello 5.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
@@ -52619,39 +52201,30 @@ END
 OBJECT:MordorArhalik
 "Arhalik, il Re di Rhun"
 END
-
 CONTROLBAR:MordorArhalikHotkey
 "Arhalik, il Re di Rhun"
 END
-
 CONTROLBAR:MordorArhalikRecruit
 "Recluta il sovrano di Rhun."
 END
-
 CONTROLBAR:ArhalikLeadership
 "Comando"
 END
-
 CONTROLBAR:TooltipArhalikLeadership
 "Richiede livello 3.\nGli alleati vicini ad Arhalik ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:CallToArms
 "Chiamata alle armi"
 END
-
 CONTROLBAR:TooltipArhalikCallToArms
 "Richiede livello 5.\n Arhalik richiama sul campo di battaglia alcune unità di Immortali di Rhun."
 END
-
 CONTROLBAR:ArhalikBombard
 "Bombardamento"
 END
-
 CONTROLBAR:TooltipArhalikBombard
 "Richiede livello 7.\nArhalik da l'ordine di bombardare la zona indicata."
 END
-
 CONTROLBAR:ArhalikEastFury
 "Furia dell'Est"
 END
@@ -52659,6 +52232,19 @@ CONTROLBAR:TooltipArhalikEastFury
 "Richiede livello 7.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
 END
 
+
+OBJECT:MordorMouthOfSauron
+"Bocca di Sauron"
+END
+CONTROLBAR:MordorMouthofSauronHotkey
+"Bocca di Sauron (&M)"
+END
+CONTROLBAR:MordorMouthofSauronRecruit
+"Recluta il messaggero dell'Oscuro Sire"
+END
+CONTROLBAR:MordorMouthOfSauronRevive
+"Rianima la Bocca di Sauron."
+END
 CONTROLBAR:WillOfSauron
 "Volontà di Sauron"
 END
@@ -52671,34 +52257,111 @@ END
 CONTROLBAR:ToolTipMouthOfSauronDarkWave
 "Richiede livello 3.\n Attira i nemici verso di sè danneggiandoli e rigenerandosi la vita dell'ammontare dei danni inflitti. \n Si attiva anche automaticamente quando la vita è bassa."
 END
+CONTROLBAR:MouthOfSauronDoubt
+"Dubbio (&T)"
+END
+CONTROLBAR:ToolTipMouthOfSauronDoubt
+"Richiede livello 4.\n Riduce notevolmente l'armatura e il danno dell'unità bersaglio."
+END
+CONTROLBAR:MouthOfSauronDissent
+"D&issenso"
+END
+CONTROLBAR:ToolTipMouthOfSauronDissent
+"Richiede livello 6.\n Le unità bersaglio cominciano a darsi battaglia."
+END
 CONTROLBAR:ToolTipMouthOfSauronDominate
 "Richiede livello 9.\n Bocca di Sauron corrompe le unità nemiche. \n Permette al giocatore di prenderne il controllo."
 END
+CONTROLBAR:SpecialAbilityMouthOfSauronEvilEye
+"Occhio maligno (&Y)"
+END
+CONTROLBAR:ToolTipSpecialAbilityMouthOfSauronEvilEye
+"Richiede livello 10.\n Un potente raggio magico che danneggia le unità bersaglio."
+END
 
+
+
+
+
+
+OBJECT:MordorNazgul
+"Nazgûl"
+END
+CONTROLBAR:BlackRiderHotkey
+"&Nazgûl"
+END
+CONTROLBAR:BlackRiderRevive
+"Rianima il Nazgûl."
+END
+CONTROLBAR:ToolTipMorgulBlade
+"Attacco con lama avvelenata.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+END
 CONTROLBAR:BlackBreath
 "Alito Nero"
 END
-
 CONTROLBAR:ToolTipNazgulBlackBreath
 "Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura e i danni delle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unnità nemiche vicine. \n Abilità passiva. Non cumulabile."
 END
 
+CONTROLBAR:MordorWitchKingOnFellBeastHotkey
+"Re Stregone (&W)"
+END
+CONTROLBAR:MordorWitchKingOnFellBeastRecruit
+"Recluta il Signore dei Nazgûl."
+END
+CONTROLBAR:ToolTipBuildWitchKing
+"Recluta il Signore dei Nazgûl."
+END
+CONTROLBAR:MordorWitchKingOnFellBeastRevive
+"Rianima il Re Stregone."
+END
 CONTROLBAR:ToolTipWitchKingBlackBreath
 "Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo l'armatura e i danni delle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unnità nemiche vicine. \n Abilità passiva. Non cumulabile."
 END
+CONTROLBAR:FireWitchKingMace
+"Usa mazza da guerra"
+END
+CONTROLBAR:ToolTipFireWitchKingMace
+"Attacco devastante con la mazza."
+END
+CONTROLBAR:FireWitchKingMorgulBlade
+"Lama di Morgul"
+END
+
+CONTROLBAR:MordorFellBeastHotkey
+"Cavalcatura (&F)"
+END
+CONTROLBAR:MordorFellBeastRecruit
+"Recluta una cavalcatura."
+END
+CONTROLBAR:ToolTipBuildNazgulOnFellBeast
+"Recluta una cavalcatura."
+END
+CONTROLBAR:MordorFellBeastRevive
+"Rianima la cavalcatura."
+END
+CONTROLBAR:MountFellBeast
+"Sali su una cavalcatura alata dei Nazgûl."
+END
+
+
+
+
+
+
+
+
+
 
 OBJECT:MordorBlackNumenorean
 "Numenoreano Nero"
 END
-
 OBJECT:MordorBlackNumenoreanHorde
 "Numenoreani Neri"
 END
-
 CONTROLBAR:ContructMordorBlackNumenoreanHorde
 "&Numenoreani Neri"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackNumenoreanHorde
 "Richiede palazzo di livello 3. \nEfficace contro tutto."
 END
@@ -52706,15 +52369,12 @@ END
 OBJECT:MordorBlackOrc
 "Orchetto Nero"
 END
-
 OBJECT:HordeMordorBlackOrcs
 "Orchetti Neri"
 END
-
 CONTROLBAR:ConstructMordorBlackOrcHorde
 "Orchetti Neri (&K)"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackOrcHorde
 "Richiede abisso degli Orchetti di livello 2.\nEfficace contro picchieri."
 END
@@ -52730,7 +52390,6 @@ END
 OBJECT:MordorOrcPikeman
 "Picchiere Orchetto"
 END
-
 OBJECT:MordorOrcPikemanHorde
 "Picchieri Orchetto"
 END
@@ -52738,7 +52397,6 @@ END
 CONTROLBAR:ContructMordorOrcPikemanHorde
 "Picchieri Orchetti"
 END
-
 CONTROLBAR:ToolTipBuildMordorOrcPikemanHorde
 "Efficace contro cavalleria."
 END
@@ -52746,15 +52404,12 @@ END
 OBJECT:MordorBlackUrukFighter
 "Guerriero Uruk Nero"
 END
-
 OBJECT:MordorBlackUrukFighterHorde
 "Guerrieri Uruk Neri"
 END
-
 CONTROLBAR:ContructMordorBlackUrukFighterHorde
 "Guerrieri Uruk Neri"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackUrukFighterHorde
 "Richiede abisso di livello 2.\nEfficace contro picchieri."
 END
@@ -52762,15 +52417,12 @@ END
 OBJECT:MordorBlackUrukPikeman
 "Picchiere Uruk Neri"
 END
-
 OBJECT:MordorBlackUrukPikemanHorde
 "Picchieri Uruk Neri"
 END
-
 CONTROLBAR:ContructMordorBlackUrukPikemanHorde
 "Picchieri Uruk Neri"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackUrukPikemanHorde
 "Richiede abisso di livello 2. \nEfficace contro cavalleria."
 END
@@ -52778,15 +52430,12 @@ END
 OBJECT:MordorBlackUrukArcher
 "Arciere Uruk Nero"
 END
-
 OBJECT:MordorBlackUrukArcherHorde
 "Arcieri Uruk Neri"
 END
-
 CONTROLBAR:ContructMordorBlackUrukArcherHorde
 "Arcieri Uruk Neri"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackUrukArcherHorde
 "Richiede abisso di livello 2. \nEfficace a distanza."
 END
@@ -52794,11 +52443,9 @@ END
 OBJECT:MordorUrukChampion
 "Campione Uruk Nero"
 END
-
 CONTROLBAR:ContructMordorBlackUrukChampion
 "Campione Uruk Nero"
 END
-
 CONTROLBAR:ToolTipBuildMordorBlackUrukChampion
 "Richiede abisso livello 2. \nEfficace contro i picchieri."
 END
@@ -52806,7 +52453,6 @@ END
 CONTROLBAR:SelectRhunFaction
 "Rhun"
 END
-
 CONTROLBAR:ToolTipCommandSelectRhunFaction
 "\nRecluta le unità della regione delle pianure orientali."
 END
@@ -52814,11 +52460,9 @@ END
 OBJECT:RhunPikeman
 "Lanciere Esterling"
 END
-
 OBJECT:RhunPikemanHorde
 "Lancieri Esterling"
 END
-
 CONTROLBAR:ConstructRhunPikemanHorde
 "&Lancieri Esterling"
 END
@@ -52827,15 +52471,12 @@ END
 OBJECT:RhunArcher
 "Arciere Esterling"
 END
-
 OBJECT:RhunArcherHorde
 "Arcieri Esterling"
 END
-
 CONTROLBAR:ConstructRhunArcherHorde
 "&Arcieri Esterling"
 END
-
 CONTROLBAR:ToolTipBuildMordorEasterlingArcherHorde
 "Efficace a distanza."
 END
@@ -52843,15 +52484,12 @@ END
 OBJECT:RhunSwordsman
 "Soldato Esterling"
 END
-
 OBJECT:RhunSwordsmanHorde
 "Soldati Esterling"
 END
-
 CONTROLBAR:ConstructRhunSwordsmanHorde
 "&Soldati Esterling"
 END
-
 CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde
 "Efficace contro picchieri."
 END
@@ -52859,15 +52497,12 @@ END
 OBJECT:RhunRider
 "Cavaliere Esterling"
 END
-
 OBJECT:RhunRiderHorde
 "Cavalieri Esterling"
 END
-
 CONTROLBAR:ConstructRhunRiderHorde
 "&Cavalieri Esterling"
 END
-
 CONTROLBAR:ToolTipBuildRhunRiderHorde
 "Richiede palazzo di livello 2.\nEfficaci contro arcieri."
 END
@@ -52875,15 +52510,12 @@ END
 OBJECT:RhunCataphract
 "Catafratto di Rhun"
 END
-
 OBJECT:RhunCataphractHorde
 "Catafratti di Rhun"
 END
-
 CONTROLBAR:ConstructRhunCataphractHorde
 "Ca&tafratti di Rhun"
 END
-
 CONTROLBAR:TooltipBuildRhunCataphractHorde
 "Richiede palazzo di livello 2.\nCavalleria pesante corazzata.\nEfficace contro fanteria."
 END
@@ -52891,37 +52523,148 @@ END
 OBJECT:RhunImmortal
 "Immortale di Rhun"
 END
-
 OBJECT:RhunImmortalHorde
 "Immortali di Rhun"
 END
-
 CONTROLBAR:ConstructRhunImmortalHorde
 "&Immortali di Rhun"
 END
-
-
 CONTROLBAR:ToolTipBuildRhunImmortalHorde
 "Richiede palazzo di livello 3.\nEfficace contro picchieri."
 END
+
+OBJECT:MordorEasterling
+"Esterling"
+END
+CONTROLBAR:ConstructMordorEasterlingHorde
+"Es&terling"
+END
+OBJECT:HordeMordorEasterlings
+"Esterling"
+END
+
+CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde
+"Spadaccini Esterling"
+END
+
+CONTROLBAR:ConstructMordorEasterlingArcherHorde
+"Arcieri Esterling"
+END
+
+CONTROLBAR:ToolTipBuildMordorEasterlingRoyalGuardHorde
+"Richiede palazzo di livello 2.\nEfficace contro picchieri."
+END
+CONTROLBAR:ConstructMordorEasterlingRoyalGuardHorde
+"Guardia Reale Esterling"
+END
+
 
 CONTROLBAR:SelectHaradFaction
 "Harad"
 END
 
+CONTROLBAR:ConstructMordorHaradrimHorde
+"Arcieri Haradrim"
+END
+
+CONTROLBAR:ConstructMordorHaradrimHalfTrollHorde
+"Mezzi-troll di Harad"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimHalfTrollHorde
+"Richiede palazzo di livello 2.\nEfficace contro picchieri."
+END
+
+CONTROLBAR:ConstructMordorRhunRiderHorde
+"Cavalieri Esterling"
+END
+CONTROLBAR:ToolTipBuildMordorRhunRiderHorde
+"Richiede palazzo di livello 2.\nEfficaci contro arcieri."
+END
+
+CONTROLBAR:ConstructMordorHaradrimAssassin
+"Assassino Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimAssassin
+"Richiede Palazzo di Livello 3.\nEfficace contro singole unità e per spiare.\n"
+END
+
+CONTROLBAR:ConstructMordorHaradrimFighterHorde
+"Guerrieri Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimFighterHorde
+"Efficace contro picchieri."
+END
+
+CONTROLBAR:ConstructMordorHaradrimNobleHorde
+"Nobili Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimNobleHorde
+"Richiede palazzo di livello 2.\nEfficace contro picchieri."
+END
+
+CONTROLBAR:ConstructMordorHaradrimSpearmanHorde
+"Lanceri Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimSpearmanHorde
+"Efficace contro cavalleria."
+END
+
+CONTROLBAR:ConstructMordorHaradrimPikemanHorde
+"Lanceri Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimPikemanHorde
+"Efficace contro cavalleria."
+END
+
+
+CONTROLBAR:ConstructMordorHaradrimDesertSnakeHorde
+"Vipere del Deserto"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimDesertSnakeHorde
+"Richiede palazzo di livello 3.\nEfficace contro arcieri."
+END
+
+
+OBJECT:HordeMordorHaradrim
+"Arcieri Haradrim"
+END
+CONTROLBAR:ConstructMordorHaradrimArcherHorde
+"Arcieri H&aradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
+"Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
+END
+
+
+OBJECT:MordorHaradrimLancer
+"Lanciere Haradrim"
+END
+
+
+OBJECT:MordorHaradrimRiders
+"Lanciere Haradrim"
+END
+OBJECT:HordeMordorHaradrimRider
+"Lancieri Haradrim"
+END
+CONTROLBAR:ConstructMordorHaradrimRiderHorde
+"&Cavalieri Haradrim"
+END
+CONTROLBAR:ToolTipBuildMordorHaradrimRiderHorde
+"Richiede palazzo degli Haradrim di livello 2.\nCavalleria, efficace contro arcieri e spadaccini."
+END
+
+
 
 OBJECT:HaradrimFighter
 "Guerriero Haradrim"
 END
-
 OBJECT:HaradrimFighterHorde
 "Guerrieri Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimFighterHorde
 "&Guerrieri Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimFighterHorde
 "Efficace contro picchieri."
 END
@@ -52929,15 +52672,12 @@ END
 OBJECT:HaradrimPikeman
 "Lanciere Haradrim"
 END
-
 OBJECT:HaradrimPikemanHorde
 "Lancieri Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimPikemanHorde
 "&Lanceri Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimPikemanHorde
 "Efficace contro cavalleria."
 END
@@ -52945,15 +52685,12 @@ END
 OBJECT:HaradrimHalfTroll
 "Mezzo-troll di Harad"
 END
-
 OBJECT:HaradrimHalfTrollHorde
 "Mezzi-troll di Harad"
 END
-
 CONTROLBAR:ConstructHaradrimHalfTrollHorde
 "Mezzi-&troll di Harad"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimHalfTrollHorde
 "Richiede palazzo degli Haradrim di livello 2.\nEfficace contro picchieri."
 END
@@ -52961,15 +52698,12 @@ END
 OBJECT:HaradrimNoble
 "Nobile Haradrim"
 END
-
 OBJECT:HaradrimNobleHorde
 "Nobili Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimNobleHorde
 "&Nobili Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimNobleHorde
 "Richiede palazzo degli Haradrim di livello 2. \nEfficace contro picchieri."
 END
@@ -52977,15 +52711,12 @@ END
 OBJECT:HaradrimRiders
 "Cavaliere Haradrim"
 END
-
 OBJECT:HaradrimRiderHorde
 "Cavalieri Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimRiderHorde
 "&Cavalieri Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimRiderHorde
 "Richiede palazzo degli Haradrim di livello 2.\nCavalleria, efficace contro arcieri e spadaccini."
 END
@@ -52993,19 +52724,15 @@ END
 OBJECT:HordeHaradrim
 "Arciere Haradrim"
 END
-
 OBJECT:HaradrimArcherHorde
 "Arcieri Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimHorde
 "&Arcieri Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimArcherHorde
 "&Arcieri Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimArcherHorde
 "Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
 END
@@ -53013,15 +52740,12 @@ END
 OBJECT:HaradrimDesertSnake
 "Vipera del Deserto"
 END
-
 OBJECT:HaradrimDesertSnakeHorde
 "Vipere del Deserto"
 END
-
 CONTROLBAR:ConstructHaradrimDesertSnakeHorde
 "&Vipere del Deserto"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimDesertSnakeHorde
 "Richiede palazzo degli Haradrim di livello 3. \nEfficace contro arcieri."
 END
@@ -53029,159 +52753,185 @@ END
 OBJECT:HaradrimAssassin
 "Assassino Haradrim"
 END
-
 CONTROLBAR:ConstructHaradrimAssassin
 "A&ssassino Haradrim"
 END
-
 CONTROLBAR:ToolTipBuildHaradrimAssassin
 "Richiede Palazzo degli Haradrim di Livello 3. \nEfficace contro singole unità e per spiare."
 END
 
+
+
+
+
+
+
+
+OBJECT:GandalfTheGrey
+"Gandalf il Grigio"
+END
+OBJECT:GandalfTheWhite
+"Gandalf il Bianco"
+END
+CONTROLBAR:GandalfTheWhiteHotkey
+"&Gandalf"
+END
+CONTROLBAR:GandalfTheWhiteRecruit
+"Recluta lo Stregone conosciuto in tutta la Terra di Mezzo."
+END
+CONTROLBAR:ToolTipBuildGandalf
+"Recluta lo Stregone conosciuto in tutta la Terra di Mezzo."
+END
+CONTROLBAR:GandalfTheWhiteRevive
+"Rianima Gandalf."
+END
+CONTROLBAR:IstariPower
+"Potere degli Istari"
+END
+CONTROLBAR:GandalftheWhite
+"Gandalf il Bianco"
+END
+CONTROLBAR:ToolTipGandalftheWhite
+"+200% danno dai poteri di Gandalf.\n I poteri di Gandalf si ricaricano due volte più velocemente.\n Potere passivo."
+END
 CONTROLBAR:SpecialAbility_ShieldBubble
 "Potere dello Stregone"
 END
-
 CONTROLBAR:TooltipSpecialAbility_ShieldBubble
-"Gandalf viene circondato da una bolla luminosa che riduce i danni ricevuti e infligge danni e travolge le unità nemiche."
+"Gandalf viene circondato da una bolla luminosa che riduce i danni ricevuti e \n permette allo stregone di infliggere danni e travolge le unità nemiche."
 END
-
 CONTROLBAR:GandalfWordOfPowerSmall
 "Parola del Potere"
 END
-
 CONTROLBAR:ToolTipGandalfWordOfPowerSmall
 "Richiede livello 2.\nGandalf sbatte il bastone a terra creando \nuna piccola onda shock che danneggia e atterra le unità nemiche.\nSi potenzia al livello 5."
 END
-
 CONTROLBAR:GandalfWordOfPowerMed
 "Parola del Potere"
 END
-
 CONTROLBAR:ToolTipGandalfWordOfPowerMed
 "Gandalf sbatte il bastone a terra creando \nun'onda shock di medie dimensioni che danneggia e atterra le unità nemiche.\nSi potenzia al livello 10."
 END
-
 CONTROLBAR:WordofPower
 "Parola del potere"
 END
-
 CONTROLBAR:ToolTipWordofPower
 "Gandalf sbatte il bastone a terra creando \nun'onda shock di grandi dimensioni che danneggia e atterra le unità nemiche."
 END
-
 CONTROLBAR:LightningSword
 "Spada del fulmine"
 END
-
 CONTROLBAR:ToolTipLightningSword
 "Richiede livello 3.\nGandalf scaglia fulmini dalla spada immobilizzando e danneggiando il bersaglio."
 END
-
+CONTROLBAR:ToolTipGandalfLeadership
+"Richiede livello 4.\nGli alleati vicini a Gandalf ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
 CONTROLBAR:IstariLight
 "Luce degli &Istari"
 END
-
 CONTROLBAR:ToolTipIstariLight
 "Richiede livello 7.\nGandalf spara un raggio luminoso che colpisce il bersaglio."
 END
+
+
+
+
+
+
+OBJECT:GondorAragorn
+"Aragorn"
+END
+CONTROLBAR:ToolTipBuildAragorn
+"Recluta l'erede al trono di Gondor."
+END
+CONTROLBAR:GondorAragornHotkey
+"&Aragorn"
+END
+CONTROLBAR:GondorAragornRecruit
+"Recluta l'erede al trono di Gondor."
+END
+CONTROLBAR:GondorAragornRevive
+"Rianima Aragorn."
+END
+CONTROLBAR:ToggleRanger
+"Granpasso"
+END
+CONTROLBAR:ToolTipToggleRanger
+"Aragorn torna nelle vesti di un ramingo."
+END
+CONTROLBAR:ToggleWarrior
+"Vesti da Guerriero"
+END
+CONTROLBAR:ToolTipToggleWarrior
+"Aragorn torna nelle vesti di un guerriero."
+END
+CONTROLBAR:BladeMaster
+"Maest&ro di spada"
+END
+CONTROLBAR:TooltipBladeMaster
+"Richiede livello 2.\nAragorn ottiene temporaneamente +100% danno e +100% corazza."
+END
+CONTROLBAR:ToolTipAragornLeadership
+"Richiede livello 4.\nGli alleati vicini ad Aragorn ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:Elendil
+"&Elendil"
+END
+CONTROLBAR:ToolTipElendil
+"Richiede livello 6.\nFa fuggire le unità nemiche nelle vicinanze.\nClicca con il pulsante sinistro per attivare."
+END
+
 
 CONTROLBAR:TooltipAragornSummonDunedainAllies
 "Richiede livello 10. \nAragorn chiama a combattere i suoi fedeli compagni raminghi del nord sotto il vessillo di Elendil."
 END
 
-CONTROLBAR:ToggleRanger
-"Granpasso"
-END
 
-CONTROLBAR:ToolTipToggleRanger
-"Aragorn torna nelle vesti di un ramingo."
-END
 
-CONTROLBAR:ToggleWarrior
-"Vesti da Guerriero"
-END
-
-CONTROLBAR:ToolTipToggleWarrior
-"Aragorn torna nelle vesti di un guerriero."
-END
-
-CONTROLBAR:BladeMaster
-"Maest&ro di spada"
-END
-
-CONTROLBAR:TooltipBladeMaster
-"Richiede livello 2.\nAragorn ottiene temporaneamente +100% danno e +100% corazza."
-END
-
-CONTROLBAR:ToolTipAragornLeadership
-"Richiede livello 4.\nGli alleati vicini ad Aragorn ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:Elendil
-"&Elendil"
-END
-
-CONTROLBAR:ToolTipElendil
-"Richiede livello 6.\nFa fuggire le unità nemiche nelle vicinanze.\nClicca con il pulsante sinistro per attivare."
-END
 
 OBJECT:GondorHalbarad
 "Halbarad"
 END
-
 CONTROLBAR:GondorHalbaradHotkey
 "Halbarad"
 END
-
 CONTROLBAR:GondorHalbaradRecruit
 "Recluta il Capitano della Compagnia Grigia"
 END
-
 CONTROLBAR:HalbaradArrowVolley
 "Salva di frecce"
 END
-
 CONTROLBAR:ToolTipHalbaradArrowVolley
 "Richiede livello 2.\nHalbarad dà il segnale per scocccare una salva di frecce sulla zona bersaglio."
 END
-
 CONTROLBAR:HalbaradLeadership
 "Capitano della Compagnia Grigia"
 END
-
 CONTROLBAR:ToolTipHalbaradLeadership
 "Richiede livello 4.\nGli alleati vicini a Halbarad ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:HalbaradToggleStandard
 "Dono della Stella del Vespro"
 END
-
 CONTROLBAR:ToolTipHalbaradToggleStandard
 "Richiede livello 5.\nHalbarad innalza lo stendardo della Compagnia Grigia e combatte di spada."
 END
-
 CONTROLBAR:ToolTipHalbaradDreadVisage
 "Lo stendardo induce paura nelle unità nemiche.\nRiduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
 END
-
 CONTROLBAR:ToolTipHalbaradElendil
 "Fa fuggire le unità nemiche nelle vicinanze."
 END
-
 CONTROLBAR:HalbaradToggleRanger
 "Vesti da Ramingo"
 END
-
 CONTROLBAR:ToolTipHalbaradToggleRanger
 "Halbarad smette di impugnare lo stendardo."
 END
-
 CONTROLBAR:HalbaradSummonDunedain
 "Compagnia Grigia"
 END
-
 CONTROLBAR:TooltipHalbaradSummonDunedain
 "Richiede livello 8.\nHalbarad richiama 4 unità di Raminghi Dùnedain della Compagnia Grigia."
 END
@@ -53189,7 +52939,6 @@ END
 CONTROLBAR:SelectGondorFaction
 "Gondor"
 END
-
 CONTROLBAR:TooltipCommandSelectGondorFaction
 "\nRecluta gli uomini del Regno del Sud dei Dùnedain."
 END
@@ -53197,7 +52946,6 @@ END
 CONTROLBAR:SelectFallenArnorFaction
 "Arnor"
 END
-
 CONTROLBAR:TooltipCommandSelectFallenArnorFaction
 "\nRecluta gli uomini del Regno decaduto del Nord dei Dùnedain."
 END
@@ -53205,7 +52953,6 @@ END
 CONTROLBAR:SelectRohanFaction
 "Rohan"
 END
-
 CONTROLBAR:TooltipCommandSelectRohanFaction
 "\nRecluta gli uomini del regno dei Signori dei Cavalli"
 END
@@ -53213,19 +52960,15 @@ END
 OBJECT:RohanFighter
 "Guerriero di Rohan"
 END
-
 OBJECT:RohanSoldier
 "Guerriero di Rohan"
 END
-
 OBJECT:RohanSoldierHorde
 "Guerrieri di Rohan"
 END
-
 CONTROLBAR:ConstructRohanWarriorHorde
 "Guerrieri di Rohan"
 END
-
 CONTROLBAR:ToolTipBuildRohanWarriorHorde
 "Efficace contro picchieri."
 END
@@ -53233,15 +52976,12 @@ END
 OBJECT:RohanArcher
 "Arciere di Rohan"
 END
-
 OBJECT:RohanArcherHorde
 "Arciere di Rohan"
 END
-
 CONTROLBAR:ConstructRohanArcherHorde
 "Arcieri di Rohan"
 END
-
 CONTROLBAR:ToolTipBuildRohanArcherHorde
 "Efficace a distanza."
 END
@@ -53249,28 +52989,26 @@ END
 OBJECT:RohanRoyalGuard
 "Guardia di Meduseld"
 END
-
 OBJECT:RohanRoyalGuardHorde
 "Guardie di Meduseld"
 END
-
 CONTROLBAR:ConstructRohanRoyalGuardHorde
 "Guardie di Meduseld"
+END
+CONTROLBAR:ToolTipBuildRohanRoyalGuardHorde
+"Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
 
 
 OBJECT:RohanRoyalKnight
 "Guardia a cavallo di Meduseld"
 END
-
 OBJECT:RohanRoyalKnightHorde
 "Guardie a cavallo di Meduseld"
 END
-
 CONTROLBAR:ConstructRohanRoyalKnightHorde
 "Guardie a cavallo di Meduseld"
 END
-
 CONTROLBAR:ToolTipBuildRohanRoyalKnightHorde
 "Richiede scuderia di livello 3.\nEfficace contro arcieri."
 END
@@ -53286,15 +53024,12 @@ END
 OBJECT:GondorCitadelGuard
 "Guardia della Cittadella di Gondor"
 END
-
 OBJECT:GondorCitadelGuardHorde
 "Guardie della Cittadella di Gondor"
 END
-
 CONTROLBAR:ConstructGondorCitadelGuardHorde
 "Guardie della Cittadella di Gondor"
 END
-
 CONTROLBAR:ToolTipBuildGondorCitadelGuardHorde
 "Richiede caserma livello 2.\nEfficace contro picchieri."
 END
@@ -53302,15 +53037,12 @@ END
 OBJECT:GondorKnight
 "Cavaliere di Gondor"
 END
-
 OBJECT:GondorKnightHorde
 "Cavalieri di Gondor"
 END
-
 CONTROLBAR:ConstructGondorKnightHorde
 "Cavalieri di Gondor"
 END
-
 CONTROLBAR:ToolTipBuildGondorKnightHorde
 "Efficace contro arcieri."
 END
@@ -53318,15 +53050,12 @@ END
 OBJECT:GondorSpearmen
 "Picchiere di Gondor"
 END
-
 OBJECT:GondorSpearmenHorde
 "Picchieri di Gondor"
 END
-
 CONTROLBAR:ConstructGondorSpearmenHorde
 "Picchieri di Gondor"
 END
-
 CONTROLBAR:ToolTipBuildGondorSpearmenHorde
 "Efficace contro cavalleria."
 END
@@ -53334,190 +53063,259 @@ END
 OBJECT:GondorCitadelKnight
 "Cavaliere della Cittadella di Gondor"
 END
-
 OBJECT:GondorCitadelKnightHorde
 "Cavalieri della Cittadella di Gondor"
 END
-
 CONTROLBAR:ConstructGondorCitadelKnightHorde
 "Cavalieri della Cittadella di Gondor"
 END
-
 CONTROLBAR:ToolTipBuildGondorCitadelKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
+
+
+
+
+
+
+OBJECT:IsengardSaruman
+"Saruman"
+END
+CONTROLBAR:IsengardSarumanHotkey
+"&Saruman"
+END
+CONTROLBAR:ToolTipBuildSaruman
+"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
+END
+CONTROLBAR:IsengardSarumanRecruit
+"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
+END
+CONTROLBAR:IsengardSarumanRevive
+"Rianima Saruman."
+END
+CONTROLBAR:SpecialAbilitySarumanFireball
+"Sfe&ra di fuoco"
+END
+CONTROLBAR:ToolTipSpecialAbilitySarumanFireball
+"Richiede livello 2.\nLancia una sfera energetica.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+END
 CONTROLBAR:SarumanCraftRing
 "Saruman dai molti colori"
 END
-
 CONTROLBAR:ToolTipSarumanCraftRing
 "Richiede livello 10.\nL'eroe bersaglio guadagna +30% danno, +30% armatura, +30% vita.\n(Applicabile anche a Saruman).\nNon cumulabile."
 END
 
+
+
+
+OBJECT:IsengardWormTongue
+"Grima Vermilinguo"
+END
+CONTROLBAR:IsengardWormtongueHotkey
+"Grima &Vermilinguo"
+END
+CONTROLBAR:IsengardWormtongueRecruit
+"Recluta la spia di Saruman"
+END
+CONTROLBAR:IsengardWormtongueRevive
+"Rianima Grima Vermilinguo."
+END
 CONTROLBAR:Infiltrate
 "Infiltrazione"
 END
-
 CONTROLBAR:ToolTipInfiltrate
-"\nGrima diventa invisibile."
+"Grima è permanente invisibile fintanto che non prende danni o viene rivelato dalle abilità che scovano le unità invisibili. \n Grima rimane invisibile anche quando usa le sue abilità."
 END
-
 CONTROLBAR:WormtongueSabotage
 "Sabotaggio"
 END
-
 CONTROLBAR:ToolTipWormtongueSabotage
-"Grima rallenta la velocità di produzione dell'edificio bersaglio."
+"Grima rallenta la velocità di produzione dell'edificio bersaglio. \n Questa abilità permette a Grima di guadagnare esperienza."
 END
-
 CONTROLBAR:Backstab
 "Colpo alle spalle"
 END
-
 CONTROLBAR:ToolTipBackstab
-"Richiede livello 4.\nDanno da mischia elevato in grado anche di avvelenare il bersaglio.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
+"Richiede livello 4.\n Grima effettua un attacco corpo a corpo che causa elevati danni in grado di avvelenare il bersaglio."
 END
-
 CONTROLBAR:CorrodeAllegiance
-"Co&rrompi alleanza"
+"&Corrodi alleanza"
 END
-
 CONTROLBAR:ToolTipCorrodeAllegiance
-"Richiede livello 6.\nAssume temporaneamente il controllo dell'Eroe nemico bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Richiede livello 6.\n Assume temporaneamente il controllo dell'Eroe nemico bersaglio."
 END
-
 CONTROLBAR:WormtongueConvertStructure
 "Converti struttura"
 END
-
 CONTROLBAR:ToolTipWormtongueConvertStructure
 "Richiede livello 9.\nPrende il controllo della struttura bersaglio"
 END
 
+
 OBJECT:IsengardHurak
 "Hùrak"
 END
-
 CONTROLBAR:IsengardHurakRecruit
 "Recluta Hùrak, il Comandante dell'armata di Isengard."
 END
-
 CONTROLBAR:IsengardHurakRevive
-"Riporta in vita Hùrak."
+"Rianima Hùrak."
 END
-
 CONTROLBAR:IsengardHurakHotkey
 "Hu&rak"
 END
-
 CONTROLBAR:ToolTipLeadership
 "Richiede livello 3.\n Le unità alleate vicine a Hùrak ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:ToolTipHowlOfRage
 "Richiede livello 5.\nHùrak guadagna +50% di armatura e +50% danni."
 END
-
 CONTROLBAR:ToolTipHurakShieldCrush
 "Richiede livello 7.\nAumenta la velocità di movimento +50% \ne atterra i nemici a cui passa vicino.\nMentre si muove non prende danni danni da perforazione, eroico, cavalleria e strutturali.\n Contro gli altri tipi di danno guandagna armatura +50%."
 END
-
 CONTROLBAR:SummonUrukHai
 "Chiamata degli Uruk-hai"
 END
-
 CONTROLBAR:ToolTipHurakSummonUrukHai
 "Richiede livello 9.\nHùrak richiama 2 orde di spadaccini uruk-hai e 1 di arceri balestrieri\n che combatono al suo fianco."
 END
 
+
+
 OBJECT:IsengardUgluk
 "Uglúk"
 END
-
-CONTROLBAR:IsengardUglukRecruit
-"Recluta Uglúk, capitano degli Uruk-hai di Isengard."
-END
-
-CONTROLBAR:IsengardUglukRevive
-"Resuscita Uglùk"
-END
-
 CONTROLBAR:IsengardUglukHotkey
 "&Uglùk"
 END
-
+CONTROLBAR:IsengardUglukRecruit
+"Recluta Uglúk, capitano degli Uruk-hai di Isengard."
+END
+CONTROLBAR:IsengardUglukRevive
+"Rianima Uglùk"
+END
 CONTROLBAR:TooltipUglukBrigandage
 "Le unità alleate nelle vicinanze generano risorse a ogni uccisione.\nAbilità passiva."
 END
-
 CONTROLBAR:ScentOfFlesh
 "Odore di carne"
 END
-
 CONTROLBAR:TooltipUglukScentOfFlesh
 "Richiede livello 3.\nUglúk aumenta corazza, velocità di attacco e i danni che infligge."
 END
-
 CONTROLBAR:UglukLeadership
 "Comando"
 END
-
 CONTROLBAR:TooltipUglukLeadership
 "Richiede livello 5.\nLe unità alleate vicine a Uglúk ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
+CONTROLBAR:UglukShieldCrush
+"Carica impetuosa"
+END
+CONTROLBAR:ToolTipUglukShieldCrush
+"Richiede livello 7. \nUgluk carica i nemici a testa bassa facendoli cadere al suo passaggio, \nMaggior difesa per le armi a distanza."
+END
+CONTROLBAR:UglukHowlOfRage
+"Grido di battaglia"
+END
+CONTROLBAR:TooltipUglukHowlOfRage
+"Richiede livello 9. \nGrido di incoraggiamento per gli alleati che li chiama a combattere aumentandone attacco e difesa."
+END
+
+CONTROLBAR:UglukSummonUrukHai
+"Chiamata degli Uruk-hai"
+END
+CONTROLBAR:TooltipUglukSummonUrukHai
+"Richiede livello 3. \nUgluk chiama a combattere 2 orde di spadaccini uruk-hai e 1 di arceri."
+END
+CONTROLBAR:ToolTipUglukAxeThrow
+"Richiede livello 5. \nUgluk lanci la sua ascia per colpire gli avversari."
+END
+
+
+
 
 OBJECT:IsengardDunlandFaolan
 "Faolan"
 END
-
 CONTROLBAR:IsengardDunlandFaolanRecruit
 "Recluta Faolan, il Signore di Dunland."
 END
-
 CONTROLBAR:IsengardDunlandFaolanRevive
-"Riporta in vita Faolan."
+"Rianima Faolan."
 END
-
 CONTROLBAR:IsengardDunlandFaolanHotkey
 "&Faolan"
 END
-
 CONTROLBAR:DunlandLeadership
 "Comando"
 END
-
 CONTROLBAR:ToolTipDunlandLeadership
 "Richiede livello 5.\nLe unità alleate vicine a Faolan ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-
 CONTROLBAR:ToolTipFaolanTrainArmy
 "Garantisce esperienza alle truppe alleate bersaglio."
 END
 
+
+
+
+
 OBJECT:IsengardUrgann
 "Urgann"
 END
-
 CONTROLBAR:IsengardUrgannRecruit
 "Chiama a combattere il primo troll creato da Saruman, il più brutale berserker tra le fila di Isengard."
 END
-
 CONTROLBAR:IsengardUrgannRevive
-"Resuscita Urgann."
+"Rianima Urgann."
 END
-
 CONTROLBAR:IsengardUrgannHotkey
 "&Urgann"
 END
-
+CONTROLBAR:UrgannLeap
+"Balzo"
+END
+CONTROLBAR:ToolTipUrgannLeap
+"Urgann balza in aria per poi atterrare pesantemente sugli avversari."
+END
+CONTROLBAR:ToolTipUrgannDreadVisage
+"Richiede livello 3. \n Urgann terrorizza gli avversari con la sua terrificante mole ed il suo sguardo furente. \n Riduce notevolmente la corazza e il danno del nemico. \n Abilità passiva."
+END
 CONTROLBAR:UrgannThrowExplosiveMine
 "Mina esplosiva"
 END
-
 CONTROLBAR:ToolTipUrgannThrowExplosiveMine
 "Richiede livello 5.\nUrgann lancia una mina."
 END
+CONTROLBAR:ToolTipUrgannOilFire
+"Richiede livello 5. \nUrgann getta una chiazza d'olio infiammabile a terra. \n"
+END
+CONTROLBAR:ToolTipUrgannIgniteOilFire
+"Richiede livello 5. \nUrgann incendia la chiazza d'olio precedentemente gettata."
+END
+CONTROLBAR:ToolTipUrgannBerserkerRage
+"Richiede livello 7. \nLa furia berserker pervade Urgann fornendogli una potenza mostruosa."
+END
+CONTROLBAR:ToolTipUrgannFireBomb
+"Richiede livello 9. \nUrgann getta una bomba esplosiva contro gli avversari."
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 OBJECT:IsengardWargRider
 "Cavaliere Warg"
@@ -53526,11 +53324,9 @@ END
 OBJECT:IsengardOrcArcherHorde
 "Arcieri Orchetti"
 END
-
 CONTROLBAR:ConstructIsengardOrcArcherHorde
 "Arcieri Orchetti"
 END
-
 CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
 "Efficace a distanza."
 END
@@ -53538,11 +53334,9 @@ END
 OBJECT:IsengardOrcFighterHorde
 "Guerrieri Orchetti"
 END
-
 CONTROLBAR:ConstructIsengardOrcFighterHorde
 "Guerrieri Orchetti"
 END
-
 CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde
 "Efficace contro picchieri."
 END
@@ -53550,15 +53344,12 @@ END
 OBJECT:IsengardUrukScout
 "Esploratore Uruk-hai"
 END
-
 OBJECT:IsengardUrukScoutHorde
 "Esploratori Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardUrukScoutHorde
 "E&sploratori Uruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardUrukScoutHorde
 "Efficace a distanza."
 END
@@ -53566,15 +53357,12 @@ END
 OBJECT:IsengardFighter
 "Combattente Uruk-hai"
 END
-
 OBJECT:HordeIsengardFighter
 "Combattenti Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardUrukHai
 "&Combattenti U&ruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardUrukHai
 "Efficace contro picchieri."
 END
@@ -53582,11 +53370,9 @@ END
 OBJECT:IsengardPikeman
 "Picchiere Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardPikemen
 "&Picchieri Uruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardPikemen
 "Efficace contro cavalleria."
 END
@@ -53594,55 +53380,47 @@ END
 OBJECT:IsengardArcher
 "Balestrieri Uruk-hai"
 END
-
 OBJECT:HordeIsengardCrossbow
 "Balestrieri Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardCrossbowmen
 "&Balestrieri Uruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
 "Efficace a distanza."
-END
-
-OBJECT:IsengardBeserker
-"Berserker Uruk-hai"
-END
-
-CONTROLBAR:ConstructIsengardBerserker
-"Berser&ker Uruk-hai"
-END
-
-CONTROLBAR:ToolTipBuildIsengardBerserker
-"Richiede abisso degli Uruk-hai di livello 2.\nEfficace contro spadaccini e picchieri."
 END
 
 OBJECT:IsengardDefender
 "Difensore Uruk-hai"
 END
-
 OBJECT:IsengardDefenderHorde
 "Difensori Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardDefenderHorde
 "&Difensori Uruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDefenderHorde
-"Richiede abisso di livello 2. \nEfficace contro picchieri e arcieri."
+"Richiede abisso di livello 2. \n Efficace contro picchieri e arcieri."
 END
 
+OBJECT:IsengardBeserker
+"Berserker Uruk-hai"
+END
+OBJECT:IsengardBerserker
+"Berserker Uruk-hai"
+END
+CONTROLBAR:ConstructIsengardBerserker
+"Berser&ker Uruk-hai"
+END
+CONTROLBAR:ToolTipBuildIsengardBerserker
+"Richiede abisso degli Uruk-hai di livello 2.\nEfficace contro spadaccini e picchieri."
+END
 CONTROLBAR:IsengardBerserkerBloodLust
 "Sete di sangue"
 END
-
 CONTROLBAR:ToolTipIsengardBerserkerBloodLust
 "Richiede livello 3.\nRipristina la salute del Berserker del 7.5% dei danni inflitti ai nemici.\n\nAbilità passiva."
 END
-
 CONTROLBAR:IsengardBerserkerCaptLeadership
 "Capitano berserker"
 END
@@ -53653,47 +53431,53 @@ END
 OBJECT:IsengardExplosiveBerserker
 "Guastatore &Esplosivo"
 END
-
 CONTROLBAR:ConstructIsengardExplosiveBerserker
 "Guastatore Esplosivo"
 END
-
 CONTROLBAR:ToolTipBuildIsengardExplosiveBerserker
 "Richiede abisso di livello 2.\nEfficace contro strutture."
 END
-
 CONTROLBAR:IsengardExplosiveSuicide
 "Suicidio esplosivo"
 END
-
 CONTROLBAR:ToolTipIsengardExplosiveSuicide
 "\nIl guastatore si fa esplodere all'istante."
 END
 
+
 OBJECT:IsengardArquebusier
 "&Archibugiere Uruk-hai"
 END
-
 OBJECT:IsengardUrukArquebusierHorde
 "Archibugieri Uruk-hai"
 END
-
 CONTROLBAR:ConstructIsengardUrukArquebusierHorde
 "Archibugieri Uruk-hai"
 END
-
 CONTROLBAR:ToolTipBuildIsengardUrukArquebusierHorde
 "Richiede abisso di livello 3.\nEfficace contro tutto."
 END
+CONTROLBAR:ArquebusierSharpshooting
+"Tiro di Precisione"
+END
+CONTROLBAR:ToolTipArquebusierSharpshooting
+"Richiede livello 2.\nGli Archibugeri ottengono +50% di distanza di tiro e visione.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:ArquebusierExplosiveAmmunitions
+"Munizioni Esplosive"
+END
+CONTROLBAR:ToolTipArquebusierExplosiveAmmunitions
+"Richiede livello 5.\nGli Archibugeri infliggono danni aggiuntivi in un'area più ampia e possono far detonare le mine.\n\nAbilità passiva. Non cumulabile."
+END
+
+
 
 OBJECT:IsengardArmoredTroll
 "&Troll Corazzato"
 END
-
 CONTROLBAR:ConstructIsengardArmoredTroll
 "&Troll Corazzato"
 END
-
 CONTROLBAR:ToolTipBuildIsengardArmoredTroll
 "Richiede abisso di livello 3. \nEfficace contro arcieri, cavalleria e strutture."
 END
@@ -53701,15 +53485,12 @@ END
 OBJECT:IsengardWildman
 "Uomo Selvaggio di Dunland"
 END
-
 OBJECT:HordeWildman
 "Uomini Selvaggi di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardWildmanHorde
 "Uomini Selvaggi di Dunland (&W)"
 END
-
 CONTROLBAR:ToolTipBuildIsengardWildmanHorde
 "Efficace contro picchieri e strutture."
 END
@@ -53717,15 +53498,12 @@ END
 OBJECT:DunlandFighter
 "Combattente di Dunland"
 END
-
 OBJECT:IsengardDunlandFighterHorde
 "Combattenti di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandFighterHorde
 "Combattenti di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandFighterHorde
 "Efficace contro picchieri."
 END
@@ -53733,15 +53511,12 @@ END
 OBJECT:IsengardDunlandSpearman
 "Lanciere di Dunland"
 END
-
 OBJECT:IsengardDunlandSpearmanHorde
 "Lancieri di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandSpearmanHorde
 "Lancieri di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandSpearmanHorde
 "Efficace contro cavalleria."
 END
@@ -53749,15 +53524,12 @@ END
 OBJECT:IsengardDunlandArcher
 "Arciere di Dunland"
 END
-
 OBJECT:IsengardDunlandArcherHorde
 "Arcieri di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandArcherHorde
 "Arcieri di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandArcherHorde
 "Efficace a distanza."
 END
@@ -53765,15 +53537,12 @@ END
 OBJECT:IsengardDunlandCavalry
 "Cavaliere di Dunland"
 END
-
 OBJECT:IsengardDunlandCavalryHorde
 "Cavalieri di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandCavalryHorde
 "Cavalieri di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandCavalryHorde
 "Efficace contro arcieri."
 END
@@ -53781,15 +53550,12 @@ END
 OBJECT:IsengardDunlandEliteCavalry
 "Cavaliere del Clan di Dunland"
 END
-
 OBJECT:IsengardDunlandEliteCavalryHorde
 "Cavalieri del Clan di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandEliteCavalryHorde
 "Cavalieri del Clan di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandEliteCavalryHorde
 "Richiede tenuta di livello 2.\nEfficace contro arcieri."
 END
@@ -53797,15 +53563,12 @@ END
 OBJECT:IsengardDunlandEliteWarrior
 "Guerriero del Clan di Dunland."
 END
-
 OBJECT:IsengardDunlandEliteWarriorHorde
 "Guerrieri del Clan di Dunland."
 END
-
 CONTROLBAR:ConstructIsengardDunlandEliteWarriorHorde
 "Guerrieri del Clan di Dunland."
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandEliteWarriorHorde
 "Richiede tenuta di livello 2.\nEfficace contro picchieri."
 END
@@ -53813,35 +53576,37 @@ END
 OBJECT:IsengardDunlandHighlander
 "Campione del Clan di Dunland"
 END
-
 CONTROLBAR:ConstructIsengardDunlandHighlander
 "Campione del Clan di Dunland"
 END
-
 CONTROLBAR:ToolTipBuildIsengardDunlandHighlander
 "Richiede tenuta di livello 2.\nEfficace contro picchieri."
 END
-
 CONTROLBAR:HighlanderRegeneration
 "Rigenerazione"
 END
-
 CONTROLBAR:ToolTipHighlanderRegeneration
 "\nIl Campione del Clan si cura."
 END
-
 CONTROLBAR:HighlanderImmortal
 "Furore selvaggio"
 END
-
 CONTROLBAR:ToolTipHighlanderImmortal
 "Richiede livello 5.\nIl Campione del Clan ottiene +50% armatura, +10% danni e +10% velocità di movimento."
 END
 
+
+
+
+
+
+
+
+
+
 CONTROLBAR:SelectMirkwoodFaction
 "Bosco Atro"
 END
-
 CONTROLBAR:TooltipCommandSelectMirkwoodFaction
 "\nRecluta gli Elfi Silvani Bosco Atro."
 END
@@ -53849,7 +53614,6 @@ END
 CONTROLBAR:SelectLorienFaction
 "Lothlórien"
 END
-
 CONTROLBAR:TooltipCommandSelectLorienFaction
 "\nRecluta i Galadhrim, gli Elfi Silvani del Bosco Dorato."
 END
@@ -53857,7 +53621,6 @@ END
 CONTROLBAR:SelectLindonFaction
 "Lindon"
 END
-
 CONTROLBAR:TooltipCommandSelectLindonFaction
 "\nRecluta gli Elfi Cantori dell'ovest."
 END
@@ -53865,7 +53628,6 @@ END
 CONTROLBAR:SelectRivendellFaction
 "Imladris"
 END
-
 CONTROLBAR:TooltipCommandSelectRivendellFaction
 "\nRecluta gli Alti Elfi dell'ultima Casa Accogliente a Est del mare."
 END
@@ -53873,11 +53635,9 @@ END
 OBJECT:EagleLandroval
 "Landroval"
 END
-
 CONTROLBAR:LandrovalLeadership
 "Possanza della Grande Aquile"
 END
-
 CONTROLBAR:TooltipLandrovalLeadership
 "Richiede livello 2.\n Le Aquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
@@ -53885,7 +53645,6 @@ END
 OBJECT:EagleGwaihir
 "Gwaihir"
 END
-
 CONTROLBAR:GwaihirLeadership
 "Signore delle Grandi Aquile"
 END
@@ -53893,7 +53652,6 @@ END
 CONTROLBAR:ElvenTreeBeardHotkey
 "Barbalbero"
 END
-
 CONTROLBAR:ElvenTreeBeardRecruit
 "Recluta uno dei più antichi Pastori di alberi."
 END
@@ -53901,15 +53659,12 @@ END
 OBJECT:ElvenMirkwoodWarrior
 "Spadaccino di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodWarriorHorde
 "Spadaccini di Bosco Atro"
 END
-
 CONTROLBAR:ConstructElvenMirkwoodWarriorHorde
 "&Spadaccini di Bosco Atro"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodWarriorHorde
 "Efficace contro picchieri."
 END
@@ -53917,15 +53672,12 @@ END
 OBJECT:ElvenMirkwoodSpearman
 "Lanciere di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodSpearmanHorde
 "Lancieri di Bosco Atro"
 END
-
 CONTROLBAR:ConstructElvenMirkwoodSpearmanHorde
 "&Lancieri di Bosco Atro"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodSpearmanHorde
 "Efficace contro cavalleria."
 END
@@ -53933,15 +53685,12 @@ END
 OBJECT:ElvenMirkwoodArcher
 "Arciere di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodArcherHorde
 "Arcieri di Bosco Atro"
 END
-
 CONTROLBAR:ConstructElvenMirkwoodArcherHorde
 "&Arcieri di Bosco Atro"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodArcherHorde
 "Efficace a distanza.\nAcquisiscono furtività stando fermi."
 END
@@ -53949,15 +53698,12 @@ END
 OBJECT:ElvenMirkwoodRider
 "Cavaliere di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodRiderHorde
 "Cavalieri di Bosco Atro."
 END
-
 CONTROLBAR:BuildElvenMirkwoodRiderHorde
 "&Cavalieri di Bosco Atro"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodRiderHorde
 "Efficace contro arcieri."
 END
@@ -53965,15 +53711,12 @@ END
 OBJECT:ElvenMirkwoodRoyalGuard
 "Guardia Reale di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodRoyalGuardHorde
 "Guardie Reali di Bosco Atro"
 END
-
 CONTROLBAR:ConstructElvenMirkwoodRoyalGuardHorde
 "Guardie Reali di Bosco Atro (&P)"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodRoyalGuardHorde
 "Richiede caserma di livello 2.\nEfficace contro cavaleria."
 END
@@ -53981,31 +53724,26 @@ END
 OBJECT:ElvenMirkwoodRoyalWarrior
 "Guerriero Reale di Bosco Atro"
 END
-
 OBJECT:ElvenMirkwoodRoyalWarriorHorde
 "Guerrieri Reali di Bosco Atro"
 END
-
 CONTROLBAR:ConstructElvenMirkwoodRoyalWarriorHorde
 "Guerrieri Reali di Bosco Atro (&W)"
 END
-
 CONTROLBAR:ToolTipBuildElvenMirkwoodRoyalWarriorHorde
 "Richiede caserma di livello 2.\nEfficace a distanza."
 END
 
+
 OBJECT:ElvenLorienWarrior
 "Spadaccino di Lothlòrien"
 END
-
 OBJECT:ElvenLorienWarriorHorde
 "Spadaccini di Lothlòrien"
 END
-
 CONTROLBAR:ConstructElvenLorienWarriorHorde
 "&Spadaccini di Lothlòrien"
 END
-
 CONTROLBAR:ToolTipBuildElvenLorienWarriorHordeWithNoPrerequisites
 "Efficace contro picchieri.\nVicino agli alberi acquisisce furtività."
 END
@@ -54013,15 +53751,12 @@ END
 OBJECT:ElvenLorienPikeman
 "Picchiere di Lothlòrien"
 END
-
 OBJECT:ElvenLorienPikemanHorde
 "Picchieri di Lothlòrien"
 END
-
 CONTROLBAR:ConstructElvenLorienPikemanHorde
 "&Picchieri di Lothlòrien"
 END
-
 CONTROLBAR:ToolTipBuildElvenLorienPikemanHorde
 "Efficace contro cavalleria."
 END
@@ -54029,11 +53764,9 @@ END
 OBJECT:ElvenLorienArcher
 "Arciere di Lothlòrien"
 END
-
 CONTROLBAR:ConstructElvenLorienArcherHorde
 "&Arcieri di Lothlòrien"
 END
-
 CONTROLBAR:ToolTipBuildElvenLorienArcherHordeWithNoPrerequisites
 "Efficace a distanza.\nVicino agli alberi acquisiscono furtività."
 END
@@ -54041,15 +53774,12 @@ END
 OBJECT:ElvenLorienCavalry
 "Cavalleggero di Lothlòrien"
 END
-
 OBJECT:ElvenLorienCavalryHorde
 "Cavalleggeri di Lothlòrien"
 END
-
 CONTROLBAR:BuildElvenLorienCavalryHorde
 "Caval&leggeri di Lothlòrien"
 END
-
 CONTROLBAR:ToolTipBuildElvenLorienCavalryHorde
 "Efficace contro arcieri."
 END
@@ -54057,15 +53787,12 @@ END
 OBJECT:GaladhrimWarrior
 "Guerriero Galadhrim"
 END
-
 OBJECT:ElvenGaladhrimWarriorHorde
 "Guerrieri Galadhrim"
 END
-
 CONTROLBAR:ConstructElvenGaladhrimWarriorHorde
 "Guerrieri &Galadhrim"
 END
-
 CONTROLBAR:ToolTipBuildElvenGaladhrimWarriorHorde
 "Richiede caserma di livello 2.\nEfficace a distanza."
 END
@@ -54073,15 +53800,12 @@ END
 OBJECT:ElvenGaladhrimKnight
 "Cavaliere Galadhrim"
 END
-
 OBJECT:ElvenGaladhrimKnightHorde
 "Cavalieri Galadhrim"
 END
-
 CONTROLBAR:ConstructElvenGaladhrimKnightHorde
 "&Cavalieri Galadhrim"
 END
-
 CONTROLBAR:ToolTipBuildElvenGaladhrimKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
@@ -54089,75 +53813,60 @@ END
 OBJECT:ElvenLorienLoremaster
 "Saggio di Lothlòrien"
 END
-
 CONTROLBAR:ConstructElvenLorienLoremaster
 "Sa&ggio di Lothlòrien"
 END
-
 CONTROLBAR:ToolTipBuildElvenLorienLoremaster
 "Richiede caserma di livello 2.\nUnità di supporto."
 END
-
 CONTROLBAR:PurchaseUpgradeElvenLoremasterRangeShield
 "Potenzia con Scudo magico"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterRangeShield
 "Sblocca l'abilità del saggio di creare uno scudo temporaneo \nche protegge le unità alleate dagli attacchi a distanza. \nEsclude l'acquito delle altre abilità."
 END
-
 CONTROLBAR:LoremasterShieldBubble
 "Scudo magico"
 END
-
 CONTROLBAR:ToolTipLoremasterShieldBubble
-"Il saggio crea uno scudo temporaneo \nche protegge le unità alleate dagli attacchi a distanza."
+"Il saggio crea uno scudo temporaneo \n che protegge le unità alleate dagli attacchi a distanza."
 END
-
 CONTROLBAR:PurchaseUpgradeElvenLoremasterShockwave
 "Potenzia con Onda d'urto"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterShockwave
 "Sblocca l'abilità del saggio del saggio di creare un'onda d'urto che respinge le unità nemiche. \nEsclude l'acquito delle altre abilità."
 END
-
 CONTROLBAR:LoremasterShockwave
 "Onda d'urto"
 END
-
 CONTROLBAR:ToolTipLoremasterShockwave
 "Il saggio crea un'onda d'urto che respinge le unità nemiche."
 END
-
 CONTROLBAR:PurchaseUpgradeElvenLoremasterLightning
 "Potenzia con Fulmine"
 END
-
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterLightning
 "Sblocca l'abilità del saggio del saggio di lanciare un fulmine che danneggia le unità nemiche. \nEsclude l'acquito delle altre abilità."
 END
-
 CONTROLBAR:LoremasterLightning
 "Fulmine"
 END
-
 CONTROLBAR:ToolTipLoremasterLightning
 "Il saggio del saggio lancia un fulmine che danneggia le unità nemiche."
 END
 
+
+
 OBJECT:ElvenLindonWarrior
 "Guerriero di Lindon"
 END
-
 OBJECT:ElvenLindonWarriorHorde
 "Guerrieri di Lindon"
 END
-
 CONTROLBAR:ConstructElvenLindonWarriorHorde
 "&Guerrieri di Lindon"
 END
-
 CONTROLBAR:ToolTipBuildElvenLindonWarriorHordeWithNoPrerequisites
 "Efficace contro picchieri."
 END
@@ -54165,15 +53874,12 @@ END
 OBJECT:ElvenLindonPikeman
 "Picchiere di Lindon"
 END
-
 OBJECT:ElvenLindonPikemanHorde
 "Picchieri di Lindon"
 END
-
 CONTROLBAR:ConstructElvenLindonPikemanHorde
 "&Picchieri di Lindon"
 END
-
 CONTROLBAR:ToolTipBuildElvenLindonPikemanHorde
 "Efficace contro cavalleria."
 END
@@ -54181,15 +53887,12 @@ END
 OBJECT:ElvenLindonArcher
 "Arcieri di Lindon"
 END
-
 OBJECT:ElvenLindonArcherHorde
 "Arcieri di Lindon"
 END
-
 CONTROLBAR:ConstructElvenLindonArcherHorde
 "&Arcieri di Lindon"
 END
-
 CONTROLBAR:ToolTipBuildElvenLindonArcherHorde
 "Efficace a distanza."
 END
@@ -54197,15 +53900,12 @@ END
 OBJECT:ElvenLindonCavalry
 "Cavalleggero di Lindon"
 END
-
 OBJECT:ElvenLindonCavalryHorde
 "Cavalleggeri di Lindon"
 END
-
 CONTROLBAR:ConstructElvenLindonCavalryHorde
 "Caval&leggeri di Lindon"
 END
-
 CONTROLBAR:ToolTipBuildElvenLindonCavalryHorde
 "Efficace contro arcieri."
 END
@@ -54213,15 +53913,12 @@ END
 OBJECT:ElvenMithlondSentry
 "Sentinella di Mithlond"
 END
-
 OBJECT:HordeMithlondSentry
 "Sentinelle di Mithlond"
 END
-
 CONTROLBAR:ConstructElvenMithlondSentryHorde
 "&Sentinelle di Mithlond"
 END
-
 CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 "Richiede caserma di livello 3.\nEfficace contro cavalleria.\nVicino agli alberi acquisisce furtività."
 END
@@ -54229,31 +53926,54 @@ END
 OBJECT:ElvenMithlondrim
 "Guerrieri Mithlondrim"
 END
-
 OBJECT:ElvenMithlondrimHorde
 "Guerrieri Mithlondrim"
 END
-
 CONTROLBAR:ConstructElvenMithlondrimHorde
 "&Mithlondrim"
 END
-
 CONTROLBAR:ToolTipBuildElvenMithlondrimHorde
 "Richiede caserma di livello 3.\nEfficace a distanza."
+END
+
+CONTROLBAR:ConstructElvenLindonSwordsmanHorde
+"Guerrieri di Lindon"
+END
+CONTROLBAR:ToolTipBuildElvenLindonSwordsmanHorde
+"Efficace contro picchieri."
+END
+
+OBJECT:ElvenBeorning
+"Beorniano"
+END
+CONTROLBAR:BeorningShapeshift
+"Mutapelle"
+END
+CONTROLBAR:ToolTipBeorningShapeshift
+"\nIl Beorniano assume le sembianza di un possente guerriero oppure di un grande orso."
+END
+CONTROLBAR:MedicalHerbs
+"Erba medica"
+END
+CONTROLBAR:ToolTipMedicalHerbs
+"\n???"
+END
+CONTROLBAR:WildFury
+"Furia selvaggia"
+END
+CONTROLBAR:ToolTipMinorWildFury
+"Richiede livello 3.\n Aumenta del 50% i danni e raddoppia la velocità d'attacco per 20 secondi."
 END
 
 OBJECT:ElvenRivendellArcher
 "Arciere di Imladris"
 END
-
 OBJECT:ElvenRivendellArcherHorde
 "Arcieri di Imladris"
 END
-
 CONTROLBAR:BuildElvenRivendellArcherHorde
 "&Arcieri di Imladris"
 END
-
 CONTROLBAR:ToolTipBuildBuildElvenRivendellArcherHorde
 "Efficace a distanza."
 END
@@ -54261,15 +53981,12 @@ END
 OBJECT:ElvenRivendellSpearman
 "Lanciere di Imladris"
 END
-
 OBJECT:ElvenRivendellSpearmanHorde
 "Lancieri di Imladris"
 END
-
 CONTROLBAR:ConstructElvenRivendellSpearmanHorde
 "&Lancieri di Imladris"
 END
-
 CONTROLBAR:ToolTipBuildBuildElvenRivendellSpearmanHorde
 "Richiede caserma livello 2.\n Efficace contro cavalleria."
 END
@@ -54277,19 +53994,15 @@ END
 OBJECT:ElvenRivendellWarrior
 "Guerrieri di Imladris"
 END
-
 OBJECT:RivendellWarrior
 "Guerriero di Imladris"
 END
-
 OBJECT:ElvenRivendellWarriorHorde
 "Guerrieri di Imladris"
 END
-
 CONTROLBAR:ConstructElvenRivendellWarriorHorde
 "&Guerrieri di Imladris"
 END
-
 CONTROLBAR:ToolTipBuildBuildElvenRivendellWarriorHorde
 "Richiede caserma al 3.\nEfficace contro picchieri"
 END
@@ -54297,91 +54010,25 @@ END
 OBJECT:ElvenRivendellKnight
 "Cavaliere di Imladris"
 END
-
 OBJECT:ElvenRivendellKnightHorde
 "Cavalieri di Imladris"
 END
-
 CONTROLBAR:ConstructElvenRivendellKnightHorde
 "&Cavalieri di Imladris"
 END
-
 CONTROLBAR:ToolTipBuildBuildElvenRivendellKnightHorde
 "Richiede Verdi Pascoli al 3.\nEfficace contro fanteria."
 END
-
-OBJECT:ElvenBeorning
-"Beorniano"
+CONTROLBAR:ToolTipBuildElvenRivendellKnightHorde
+"Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
-CONTROLBAR:BeorningShapeshift
-"Mutapelle"
+CONTROLBAR:ToolTipBuildElvenRivendellWarriorHorde
+"Richiede caserma di livello 2.\nEfficace a distanza."
 END
-
-CONTROLBAR:ToolTipBeorningShapeshift
-"\nIl Beorniano assume le sembianza di un possente guerriero oppure di un grande orso."
-END
-
-CONTROLBAR:MedicalHerbs
-"Erba medica"
-END
-
-CONTROLBAR:ToolTipMedicalHerbs
-"\n???"
-END
-
-CONTROLBAR:WildFury
-"Furia selvaggia"
-END
-
-CONTROLBAR:ToolTipMinorWildFury
-"Richiede livello 3.\n Aumenta del 50% i danni e raddoppia la velocità d'attacco per 20 secondi."
-END
-
-CreateAHero:ClassName_Giant
-"Gigante"
-END
-
-CreateAHero:SubClassName_Giant
-"Gigante di Montagna"
-END
-
-OBJECT:ElvenRivendellLancer
-"Lanciere di Gran Burrone"
-END
-
-OBJECT:ElvenImladrisWarrior
-"Guerriero di Imladris"
-END
-
-OBJECT:IsengardBerserker
-"Berserker Uruk-hai"
-END
-
-OBJECT:MordorEasterling
-"Esterling"
-END
-
-CONTROLBAR:ConstructMordorHaradrimHorde
-"Arcieri Haradrim"
-END
-
-CONTROLBAR:ConstructMordorEasterlingHorde
-"Es&terling"
-END
-
-OBJECT:HordeMordorEasterlings
-"Esterling"
-END
-
-OBJECT:HordeMordorHaradrim
-"Arcieri Haradrim"
-END
-
 CONTROLBAR:ConstructElvenImladrisWarriorHorde
 "Addestra guerrieri di Imladris (&W)"
 END
-
 CONTROLBAR:ToolTipBuildElvenImladrisWarriorHordeWithNoPrerequisites
 "Efficace contro picchieri."
 END
@@ -54389,37 +54036,18 @@ END
 CONTROLBAR:BuildElvenRivendellLancers
 "Addestra &lancieri di Gran Burrone"
 END
-
 CONTROLBAR:ToolTipBuildElvenRivendellLancers
 "Efficace contro arcieri."
 END
 
-CONTROLBAR:ConstructMordorHaradrimArcherHorde
-"Arcieri H&aradrim"
+CONTROLBAR:ToolTipBuildElvenRivendellSpearmanHorde
+"Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
 
-CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
-"Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
-END
 
-CONTROLBAR:ConstructMordorHaradrimRiderHorde
-"&Cavalieri Haradrim"
-END
 
-OBJECT:HordeMordorHaradrimRider
-"Lancieri Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimRiderHorde
-"Richiede palazzo degli Haradrim di livello 2.\nCavalleria, efficace contro arcieri e spadaccini."
-END
-
-OBJECT:MordorHaradrimLancer
-"Lanciere Haradrim"
-END
-
-OBJECT:MordorHaradrimRiders
-"Lanciere Haradrim"
+CONTROLBAR:ToolTipBuildElvenRivendellArcherHorde
+"Efficace a distanza."
 END
 
 OBJECT:RivendellArchers
@@ -54446,125 +54074,14 @@ OBJECT:HordeElvenRivendellArcher
 "Arcieri a cavallo di Lindon"
 END
 
-OBJECT:HordeJuggernaut
-"Juggernaut"
+OBJECT:ElvenRivendellLancer
+"Lanciere di Gran Burrone"
 END
 
-CONTROLBAR:ConstructElvenLindonSwordsmanHorde
-"Guerrieri di Lindon"
+OBJECT:ElvenImladrisWarrior
+"Guerriero di Imladris"
 END
 
-CONTROLBAR:ToolTipBuildElvenLindonSwordsmanHorde
-"Efficace contro picchieri."
-END
-
-CONTROLBAR:ToolTipBuildElvenRivendellSpearmanHorde
-"Richiede caserma di livello 2.\nEfficace contro cavalleria."
-END
-
-CONTROLBAR:ToolTipBuildElvenRivendellKnightHorde
-"Richiede scuderia di livello 2.\nEfficace contro arcieri."
-END
-
-CONTROLBAR:ToolTipBuildElvenRivendellWarriorHorde
-"Richiede caserma di livello 2.\nEfficace a distanza."
-END
-
-CONTROLBAR:ToolTipBuildElvenRivendellArcherHorde
-"Efficace a distanza."
-END
-
-CONTROLBAR:ConstructMordorHaradrimAssassin
-"Assassino Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimAssassin
-"Richiede Palazzo di Livello 3.\nEfficace contro singole unità e per spiare.\n"
-END
-
-CONTROLBAR:ConstructMordorHaradrimFighterHorde
-"Guerrieri Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimFighterHorde
-"Efficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimNobleHorde
-"Nobili Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimNobleHorde
-"Richiede palazzo di livello 2.\nEfficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimSpearmanHorde
-"Lanceri Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimSpearmanHorde
-"Efficace contro cavalleria."
-END
-
-CONTROLBAR:ConstructMordorHaradrimPikemanHorde
-"Lanceri Haradrim"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimPikemanHorde
-"Efficace contro cavalleria."
-END
-
-CONTROLBAR:ConstructMordorHaradrimDesertSnakeHorde
-"Vipere del Deserto"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimDesertSnakeHorde
-"Richiede palazzo di livello 3.\nEfficace contro arcieri."
-END
-
-CONTROLBAR:ConstructMordorEasterlingArcherHorde
-"Arcieri Esterling"
-END
-
-CONTROLBAR:ConstructMordorEasterlingSwordsmanHorde
-"Spadaccini Esterling"
-END
-
-CONTROLBAR:ConstructMordorEasterlingRoyalGuardHorde
-"Guardia Reale Esterling"
-END
-
-CONTROLBAR:ToolTipBuildMordorEasterlingRoyalGuardHorde
-"Richiede palazzo di livello 2.\nEfficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimHalfTrollHorde
-"Mezzi-troll di Harad"
-END
-
-CONTROLBAR:ToolTipBuildMordorHaradrimHalfTrollHorde
-"Richiede palazzo di livello 2.\nEfficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorRhunRiderHorde
-"Cavalieri Esterling"
-END
-
-CONTROLBAR:ToolTipBuildMordorRhunRiderHorde
-"Richiede palazzo di livello 2.\nEfficaci contro arcieri."
-END
-
-CONTROLBAR:ToolTipWightDreadVisage
-"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
-END
-
-CONTROLBAR:WightInfestation
-"Infestazione"
-END
-
-CONTROLBAR:TooltipWightInfestation
-"Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
-END
 
 
 
@@ -54762,19 +54279,16 @@ OBJECT:HordeAngmarDarkRanger
 END
 
 
-OBJECT:WildGundabadBanner
-"Portastendardo"
+CONTROLBAR:ToolTipWightDreadVisage
+"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
 END
 
-
-
-
-
-
-
-
-
-
+CONTROLBAR:WightInfestation
+"Infestazione"
+END
+CONTROLBAR:TooltipWightInfestation
+"Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
+END
 
 
 
@@ -54793,7 +54307,6 @@ END
 CONTROLBAR:FactionConvertMirkwood
 "&Bosco Atro"
 END
-
 CONTROLBAR:ToolTipFactionConvertMirkwood
 "\n Recluta gli Elfi Silvani di Bosco Atro."
 END
@@ -54801,7 +54314,6 @@ END
 CONTROLBAR:FactionConvertLorien
 "&Lothlórien"
 END
-
 CONTROLBAR:ToolTipFactionConvertLorien
 "\n Recluta i Galadhrim, gli Elfi Silvani del Bosco Dorato."
 END
@@ -54809,7 +54321,6 @@ END
 CONTROLBAR:FactionConvertRivendell
 "&Imladris"
 END
-
 CONTROLBAR:ToolTipFactionConvertRivendell
 "\n Recluta gli Alti Elfi dell'ultima Casa Accogliente a Est del mare."
 END
@@ -54909,3 +54420,6 @@ END
 CONTROLBAR:ToolTipFactionConvertGundabad
 "\nRecluta gli orchi del Monte Gundabad."
 END
+
+
+
