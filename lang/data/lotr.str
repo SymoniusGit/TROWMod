@@ -53649,11 +53649,17 @@ CONTROLBAR:GwaihirLeadership
 "Signore delle Grandi Aquile"
 END
 
+OBJECT:ElvenTreebeard
+"Barbalbero"
+END
 CONTROLBAR:ElvenTreeBeardHotkey
 "Barbalbero"
 END
 CONTROLBAR:ElvenTreeBeardRecruit
 "Recluta uno dei più antichi Pastori di alberi."
+END
+CONTROLBAR:ElvenTreeBeardRevive
+"Rianima Barbalbero."
 END
 
 OBJECT:ElvenMirkwoodWarrior
