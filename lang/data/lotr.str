@@ -28283,7 +28283,7 @@ CONTROLBAR:ToolTipAncientMaster
 END
 
 CONTROLBAR:DreadVisage
-"Visione raccapricciante"
+"Visione terrificante"
 END
 CONTROLBAR:ToolTipDreadVisage
 "Riduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
@@ -52118,6 +52118,7 @@ END
 
 
 
+
 CONTROLBAR:NoldorBlessingOfValinor
 "Benedizione di Valinor"
 END
@@ -54265,16 +54266,19 @@ END
 
 
 CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
-"Ricerca Gelo Mortale"
+"Gelo Mortale"
 END
 CONTROLBAR:ToolTipPurchaseTechnologyAngmarMortalFrost
-"Consente alle unità di non-morti di acquistare il potenziamento Gelo Mortale che\n fornisce +100% all'armatura, +100% ai danni e infliggono danni da gelo."
+"Ricerca il potenziamento Gelo Mortale per i non-morti.\nQuando in uso, aumenta l'armatura e i danni oltre a fornire danni da gelo aggiuntivi."
 END
 CONTROLBAR:PurchaseUpgradeAngmarMortalFrost
-"Ricerca Gelo Mortale"
+"Gelo Mortale"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeAngmarMortalFrost
-"Le unità guadagnano +100% armatura, +100% danni e infliggono danni da gelo."
+"Le unità guadagnano bonus all'armatura e ai danni e infliggono danni da gelo aggiuntivi."
+END
+TOOLTIP:LackAngmarMortalFrost
+"Ricerca questo potenziamento nel\ntempio del crepuscolo per\nrendere disponibile questa infusione magica.\nQuando è in uso, aumenta l'armatura e i danni oltre a fornire danni da gelo aggiuntivi."
 END
 
 OBJECT:AngmarDarkRanger
