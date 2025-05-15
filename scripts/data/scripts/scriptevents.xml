@@ -135,6 +135,13 @@
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
     </EventList>
 
+    <!-- No Rampage for Undeads -->
+    <EventList Name="UndeadTrollFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnTrollCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="OnGenericEvent" ScriptFunctionName="OnTrollGenericEvent" DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="CreepTrollFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnCreepTrollCreated" DebugSingleStep="false"/>
