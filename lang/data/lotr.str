@@ -4947,7 +4947,7 @@ INI:FactionIsengard
 END
 
 INI:FactionWild
-"Goblin"
+"Selvaggi"
 END
 
 INI:FactionFellowship
@@ -28441,7 +28441,7 @@ CONTROLBAR:SummonRoyalGuard
 END
 
 CONTROLBAR:ToolTipSummonRoyalGuard
-"Richiede livello 10.\nEvoca diversi battaglioni di Nani che combattono al fianco di Dàin.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
+"Richiede livello 10.\n Evoca diversi battaglioni di Nani che combattono al fianco di Dàin."
 END
 
 CONTROLBAR:MightyRage
@@ -40048,7 +40048,7 @@ Controlbar:TooltipSpecialAbilityHeroBlink
 END
 
 Controlbar:TooltipSpecialAbilityKarshBlink
-"Richiede livello 7.\nKarsh può teletrasportarsi nella zona selezionata.\nClicca con il pulsante sinistro sull'icona, quindi su una zona adatta."
+"Richiede livello 7.\nKarsh può teletrasportarsi nella zona selezionata."
 END
 
 CONTROLBAR:ToolTipWordOfPoultry_Level1
@@ -45772,7 +45772,7 @@ CONTROLBAR:WhisperofDeath
 END
 
 CONTROLBAR:TooltipWhisperofDeath
-"Richiede livello 8.\nInfligge gravi danni a un'unità non morta.\nClicca con il pulsante sinistro sull'icona e quindi sull'unità bersaglio."
+"Richiede livello 8.\nInfligge gravi danni a un'unità bersaglio."
 END
 
 CONTROLBAR:PurchaseUpgradeAngmarDarkIronMail
@@ -50867,57 +50867,6 @@ CONTROLBAR:ToolTipToggleExplorer
 "Boromir indossa le sue vesti da esploratore, ottenendo un aumento in velocità con conseguente diminuzione della difesa."
 END
 
-TOOLTIP:LackDwarvenRune
-"Richiede il potenziamento Rune Naniche."
-END
-
-CONTROLBAR:PurchaseTechnologyDwarvenRune
-"Rune Naniche"
-END
-
-CONTROLBAR:ToolTipPurchaseTechnologyDwarvenRune
-"Permette ai Golem nanici di sbloccare le rune di potenziamento."
-END
-
-CONTROLBAR:PurchaseUpgradeFireRune
-"Runa del fuoco"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeFireRune
-"Aumenta l'attacco del golem."
-END
-
-CONTROLBAR:PurchaseUpgradeEarthRune
-"Runa della terra"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeEarthRune
-"Aumenta la resistenza del golem"
-END
-
-CONTROLBAR:PurchaseUpgradeWindRune
-"Runa del vento"
-END
-
-CONTROLBAR:ToolTipPurchaseUpgradeWindRune
-"Aumenta la velocità del golem."
-END
-
-CONTROLBAR:ConstructDwarvenFlameThrower
-"&Lanciafiamme"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenFlameThrower
-"Richiede fucina di livello 2.\nRecluta un utile lanciafiamme nanico, costruito grazie agli antichi progetti perduti di Moria. \nIl suo aspetto è un chiaro scherno ai draghi."
-END
-
-CONTROLBAR:ConstructDwarvenGolem
-"Gole&m"
-END
-
-CONTROLBAR:ToolTipBuildDwarvenGolem
-"Richiede fucina di livello 3.\nCostruisci un solido golem nanico, costrutto di pietra animato dal potere delle rune naniche, un'arte perduta per anni tra gli abissi di Moria. \nEfficace per la difesa."
-END
 
 OBJECT:WildGiantSpider
 "Ragno gigante"
@@ -51372,7 +51321,7 @@ CONTROLBAR:ThorinHeadbutt
 "Testata"
 END
 CONTROLBAR:ToolTipThorinHeadbutt
-"Richiede livello 2.\nStordisce un bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Richiede livello 2.\n Thorin da una testata la nemico bersaglio per stordirlo."
 END
 CONTROLBAR:ThorinIncreasedMining
 "Scavare in Profondità"
@@ -51619,10 +51568,72 @@ CONTROLBAR:BattleWagonBallista
 "Potenzia con balista"
 END
 CONTROLBAR:ToolTipBattleWagonBallista
-"Aggiunge un balista al carro\nEfficace contro unità e mostri, lievemente contro strutture."
+"Aggiunge una balista al carro. \n Efficace contro unità e mostri, lievi danni contro strutture."
+END
+UPGRADE:BattleWagonBallista
+"Carro con balista."
 END
 
 
+CONTROLBAR:ConstructDwarvenGolem
+"Gole&m"
+END
+CONTROLBAR:ToolTipBuildDwarvenGolem
+"Richiede fucina di livello 3.\nCostruisci un solido golem nanico, costrutto di pietra animato dal potere delle rune naniche, un'arte perduta per anni tra gli abissi di Moria. \nEfficace per la difesa."
+END
+TOOLTIP:LackDwarvenRune
+"Richiede il potenziamento Rune Naniche."
+END
+CONTROLBAR:PurchaseTechnologyDwarvenRune
+"Rune Naniche"
+END
+CONTROLBAR:ToolTipPurchaseTechnologyDwarvenRune
+"Permette ai Golem nanici di sbloccare le rune di potenziamento."
+END
+
+CONTROLBAR:PurchaseUpgradeFireRune
+"Runa del fuoco"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeFireRune
+"Aumenta l'attacco del golem."
+END
+UPGRADE:FireRune
+"Runa del fuoco"
+END
+TOOLTIP:FireRune
+"Runa del fuoco"
+END
+CONTROLBAR:PurchaseUpgradeEarthRune
+"Runa della terra"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeEarthRune
+"Aumenta la resistenza del golem"
+END
+UPGRADE:WindRune
+"Runa della terra"
+END
+TOOLTIP:WindRune
+"Runa della terra"
+END
+CONTROLBAR:PurchaseUpgradeWindRune
+"Runa del vento"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeWindRune
+"Aumenta la velocità del golem."
+END
+UPGRADE:EarthRune
+"Runa del vento"
+END
+TOOLTIP:EarthRune
+"Runa del vento"
+END
+
+CONTROLBAR:ConstructDwarvenFlameThrower
+"&Lanciafiamme"
+END
+CONTROLBAR:ToolTipBuildDwarvenFlameThrower
+"Richiede fucina di livello 2.\nRecluta un utile lanciafiamme nanico, costruito grazie agli antichi progetti perduti di Moria. \nIl suo aspetto è un chiaro scherno ai draghi."
+END
 
 
 
@@ -51632,9 +51643,12 @@ END
 
 
 OBJECT:WildLugbol
-"Lugbol, il Re di Moria"
+"Lugbol"
 END
 CONTROLBAR:WildLugbolHotkey
+"Recluta Lugbol"
+END
+CONTROLBAR:WildLugbolRecruit
 "Recluta Lugbol, il Re di Moria"
 END
 CONTROLBAR:LugbolLeadership
@@ -51812,7 +51826,7 @@ CONTROLBAR:WildAgandaurHotkey
 "&Agandaur"
 END
 OBJECT:WildAgandaurDescription
-"TMP"
+"."
 END
 CONTROLBAR:WildAgandaurRecruit
 "Recluta Agandaur, il Comandante delle armate corrotte del Nord."
@@ -54272,8 +54286,6 @@ OBJECT:HordeAngmarDarkRanger
 END
 
 
-
-
 CONTROLBAR:ToolTipWightDreadVisage
 "Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
 END
@@ -54284,8 +54296,6 @@ END
 CONTROLBAR:TooltipWightInfestation
 "Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
 END
-
-
 
 
 CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
@@ -54303,10 +54313,12 @@ END
 CONTROLBAR:PurchaseUpgradeAngmarMortalFrost
 "Gelo Mortale"
 END
-Upgrade:AngmarMortalFrost
+UPGRADE:AngmarMortalFrost
 "Gelo Mortale"
 END
-
+TOOLTIP:AngmarMortalFrost
+"Gelo Mortale"
+END
 
 
 
