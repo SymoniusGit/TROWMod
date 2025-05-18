@@ -52315,7 +52315,7 @@ CONTROLBAR:BlackBreath
 "Alito Nero"
 END
 CONTROLBAR:ToolTipNazgulBlackBreath
-"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia, incute paura riducendo la corazza e i danni delle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unnità nemiche vicine. \n Abilità passiva. Non cumulabile."
+"Richiede livello 2.\n Il Nazgûl emana un miasma che danneggia e incute paura riducendo corazza e danni alle unità nemiche vicine. \n Potenziamento al livello 4. \n Rallenta e infligge danni da veleno alle unità nemiche vicine. \n Abilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:MordorWitchKingOnFellBeastHotkey
@@ -53488,7 +53488,7 @@ END
 
 
 OBJECT:IsengardArmoredTroll
-"&Troll Corazzato"
+"Troll Corazzato"
 END
 CONTROLBAR:ConstructIsengardArmoredTroll
 "&Troll Corazzato"
@@ -54305,7 +54305,7 @@ CONTROLBAR:ToolTipPurchaseTechnologyAngmarMortalFrost
 "Ricerca il potenziamento Gelo Mortale per i non-morti.\nQuando in uso, aumenta l'armatura e i danni oltre a fornire danni da gelo aggiuntivi."
 END
 CONTROLBAR:ToolTipPurchaseUpgradeAngmarMortalFrost
-"Le unità guadagnano bonus all'armatura e ai danni e infliggono danni da gelo aggiuntivi."
+"Le unità guadagnano bonus alla corazza e ai danni e infliggono danni da gelo aggiuntivi."
 END
 TOOLTIP:LackAngmarMortalFrost
 "Ricerca questo potenziamento nel tempio del crepuscolo per\nrendere disponibile questa infusione magica.\nQuando è in uso, aumenta l'armatura e i danni oltre a fornire danni da gelo aggiuntivi."
