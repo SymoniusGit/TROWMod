@@ -4947,7 +4947,7 @@ INI:FactionIsengard
 END
 
 INI:FactionWild
-"Selvaggi"
+"Corrotti"
 END
 
 INI:FactionFellowship
@@ -52578,98 +52578,6 @@ CONTROLBAR:SelectHaradFaction
 "Harad"
 END
 
-CONTROLBAR:ConstructMordorHaradrimHorde
-"Arcieri Haradrim"
-END
-
-CONTROLBAR:ConstructMordorHaradrimHalfTrollHorde
-"Mezzi-troll di Harad"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimHalfTrollHorde
-"Richiede palazzo di livello 2.\nEfficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorRhunRiderHorde
-"Cavalieri Esterling"
-END
-CONTROLBAR:ToolTipBuildMordorRhunRiderHorde
-"Richiede palazzo di livello 2.\nEfficaci contro arcieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimAssassin
-"Assassino Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimAssassin
-"Richiede Palazzo di Livello 3.\nEfficace contro singole unità e per spiare.\n"
-END
-
-CONTROLBAR:ConstructMordorHaradrimFighterHorde
-"Guerrieri Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimFighterHorde
-"Efficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimNobleHorde
-"Nobili Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimNobleHorde
-"Richiede palazzo di livello 2.\nEfficace contro picchieri."
-END
-
-CONTROLBAR:ConstructMordorHaradrimSpearmanHorde
-"Lanceri Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimSpearmanHorde
-"Efficace contro cavalleria."
-END
-
-CONTROLBAR:ConstructMordorHaradrimPikemanHorde
-"Lanceri Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimPikemanHorde
-"Efficace contro cavalleria."
-END
-
-
-CONTROLBAR:ConstructMordorHaradrimDesertSnakeHorde
-"Vipere del Deserto"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimDesertSnakeHorde
-"Richiede palazzo di livello 3.\nEfficace contro arcieri."
-END
-
-
-OBJECT:HordeMordorHaradrim
-"Arcieri Haradrim"
-END
-CONTROLBAR:ConstructMordorHaradrimArcherHorde
-"Arcieri H&aradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimArcherHorde
-"Richiede palazzo degli Haradrim di livello 3.\nEfficace a distanza.\nPuò lanciare frecce uncinate."
-END
-
-
-OBJECT:MordorHaradrimLancer
-"Lanciere Haradrim"
-END
-
-
-OBJECT:MordorHaradrimRiders
-"Lanciere Haradrim"
-END
-OBJECT:HordeMordorHaradrimRider
-"Lancieri Haradrim"
-END
-CONTROLBAR:ConstructMordorHaradrimRiderHorde
-"&Cavalieri Haradrim"
-END
-CONTROLBAR:ToolTipBuildMordorHaradrimRiderHorde
-"Richiede palazzo degli Haradrim di livello 2.\nCavalleria, efficace contro arcieri e spadaccini."
-END
-
-
 
 OBJECT:HaradrimFighter
 "Guerriero Haradrim"
@@ -52684,18 +52592,34 @@ CONTROLBAR:ToolTipBuildHaradrimFighterHorde
 "Efficace contro picchieri."
 END
 
+
 OBJECT:HaradrimPikeman
-"Lanciere Haradrim"
+"Picchiere Haradrim"
 END
 OBJECT:HaradrimPikemanHorde
-"Lancieri Haradrim"
+"Picchiere Haradrim"
 END
 CONTROLBAR:ConstructHaradrimPikemanHorde
-"&Lanceri Haradrim"
+"&Picchieri Haradrim"
 END
 CONTROLBAR:ToolTipBuildHaradrimPikemanHorde
 "Efficace contro cavalleria."
 END
+
+
+OBJECT:HaradrimHunter
+"Cacciatore Haradrim"
+END
+OBJECT:HaradrimHunterHorde
+"Cacciatori Haradrim"
+END
+CONTROLBAR:ConstructHaradrimHunterHorde
+"&Cacciatori Haradrim"
+END
+CONTROLBAR:ToolTipBuildHaradrimHunterHorde
+"Efficace contro fanteria."
+END
+
 
 OBJECT:HaradrimHalfTroll
 "Mezzo-troll di Harad"
@@ -52710,6 +52634,7 @@ CONTROLBAR:ToolTipBuildHaradrimHalfTrollHorde
 "Richiede palazzo degli Haradrim di livello 2.\nEfficace contro picchieri."
 END
 
+
 OBJECT:HaradrimNoble
 "Nobile Haradrim"
 END
@@ -52722,6 +52647,7 @@ END
 CONTROLBAR:ToolTipBuildHaradrimNobleHorde
 "Richiede palazzo degli Haradrim di livello 2. \nEfficace contro picchieri."
 END
+
 
 OBJECT:HaradrimRiders
 "Cavaliere Haradrim"
@@ -52736,7 +52662,8 @@ CONTROLBAR:ToolTipBuildHaradrimRiderHorde
 "Richiede palazzo degli Haradrim di livello 2.\nCavalleria, efficace contro arcieri e spadaccini."
 END
 
-OBJECT:HordeHaradrim
+
+OBJECT:HaradrimArcher
 "Arciere Haradrim"
 END
 OBJECT:HaradrimArcherHorde
