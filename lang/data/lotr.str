@@ -46452,7 +46452,7 @@ OBJECT:HordeBlackRiders
 END
 
 CONTROLBAR:BlackRiderRecruit
-"Recluta i Cavalieri Neri (&K)"
+"Recluta uno dei Cavalieri Neri"
 END
 
 CONTROLBAR:LW_Unit_MordorBlackRiderHorde
@@ -51826,7 +51826,7 @@ CONTROLBAR:WildAgandaurHotkey
 "&Agandaur"
 END
 OBJECT:WildAgandaurDescription
-"."
+"Agandaur, il Comandante delle armate corrotte del Nord."
 END
 CONTROLBAR:WildAgandaurRecruit
 "Recluta Agandaur, il Comandante delle armate corrotte del Nord."
@@ -51840,7 +51840,7 @@ END
 CONTROLBAR:ToolTipAgandaurBlink
 "Richiede livello 3.\nAgandaur si teletrasporta a grande distanza danneggiando i nemici nel punto di partenza e nel punto di arrivo."
 END
-CONTROLBAR:ToolTipAgandaurFellBeast
+CONTROLBAR:AgandaurFellBeast
 "Richiede livello 4.\nAgandaur sale in groppa ad una bestia alata."
 END
 CONTROLBAR:ToolTipAgandaurLightningStorm
