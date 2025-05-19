@@ -54131,7 +54131,12 @@ CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
 END
 
 
-
+OBJECT:AngmarOrcWarriors
+"Combattente di Gundabad"
+END
+OBJECT:HordeAngmarOrcWarriors
+"Combattenti di Gundabad"
+END
 CONTROLBAR:AngmarGundabadFighter
 "Combattente di Gundabad"
 END
