@@ -54175,6 +54175,9 @@ CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
 END
 
+OBJECT:AngmarWolfRiders
+"Cavalca lupo di Gundabad"
+END
 CONTROLBAR:AngmarWolfRiders
 "Cavalca lupo di Gundabad"
 END
