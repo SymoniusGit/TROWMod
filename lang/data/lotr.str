@@ -4947,7 +4947,7 @@ INI:FactionIsengard
 END
 
 INI:FactionWild
-"Corrotti"
+"Selvaggi"
 END
 
 INI:FactionFellowship
@@ -54131,7 +54131,12 @@ CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
 END
 
 
-
+OBJECT:AngmarOrcWarriors
+"Combattente di Gundabad"
+END
+OBJECT:HordeAngmarOrcWarriors
+"Combattenti di Gundabad"
+END
 CONTROLBAR:AngmarGundabadFighter
 "Combattente di Gundabad"
 END
@@ -54175,6 +54180,9 @@ CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
 END
 
+OBJECT:AngmarWolfRiders
+"Cavalca lupo di Gundabad"
+END
 CONTROLBAR:AngmarWolfRiders
 "Cavalca lupo di Gundabad"
 END
@@ -54214,7 +54222,7 @@ END
 
 
 CONTROLBAR:ToolTipWightDreadVisage
-"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
+"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:WightInfestation
@@ -54222,6 +54230,13 @@ CONTROLBAR:WightInfestation
 END
 CONTROLBAR:TooltipWightInfestation
 "Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
+END
+
+CONTROLBAR:WerewolfStrenghtOfThePack
+"Forza del Branco"
+END
+CONTROLBAR:TooltipWerewolfStrenghtOfThePack
+"Richiede livello 2.\nI mannari vicini ottengono +20% corazza, danni e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
 END
 
 
