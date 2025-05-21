@@ -207,6 +207,10 @@
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnPorterCreated" DebugSingleStep="false"/>
     </EventList>
 
+    <EventList Name="HobbitFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated" ScriptFunctionName="OnHobbitCreated" DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="EvilPorterFunctions" Inherit="InfantryFunctions">
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnEvilPorterCreated" DebugSingleStep="false"/>
