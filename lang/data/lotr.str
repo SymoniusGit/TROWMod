@@ -52868,16 +52868,16 @@ CONTROLBAR:TooltipCommandSelectRohanFaction
 END
 
 OBJECT:RohanFighter
-"Guerriero di Rohan"
+"Miliziano di Rohan"
 END
 OBJECT:RohanSoldier
-"Guerriero di Rohan"
+"Miliziani di Rohan"
 END
 OBJECT:RohanSoldierHorde
-"Guerrieri di Rohan"
+"Miliziani di Rohan"
 END
 CONTROLBAR:ConstructRohanWarriorHorde
-"Guerrieri di Rohan"
+"Miliziani di Rohan"
 END
 CONTROLBAR:ToolTipBuildRohanWarriorHorde
 "Efficace contro picchieri."
