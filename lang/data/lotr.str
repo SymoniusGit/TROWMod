@@ -52178,7 +52178,7 @@ CONTROLBAR:TahurLeadership
 "Comando"
 END
 CONTROLBAR:TooltipTahurLeadership
-"Richiede livello 5.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 6.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:MordorArhalik
