@@ -28325,7 +28325,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 5.\nGli Warg alleati vicini e i Cavalieri Warg ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nI warg e i lupi alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SharkuManEater
