@@ -4947,7 +4947,7 @@ INI:FactionIsengard
 END
 
 INI:FactionWild
-"Corrotti"
+"Selvaggi"
 END
 
 INI:FactionFellowship
@@ -28325,7 +28325,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 5.\nGli Warg alleati vicini e i Cavalieri Warg ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nI warg e i lupi alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SharkuManEater
@@ -46452,7 +46452,7 @@ OBJECT:HordeBlackRiders
 END
 
 CONTROLBAR:BlackRiderRecruit
-"Recluta i Cavalieri Neri (&K)"
+"Recluta uno dei Cavalieri Neri"
 END
 
 CONTROLBAR:LW_Unit_MordorBlackRiderHorde
@@ -50108,7 +50108,7 @@ CONTROLBAR:ToolTipIdrialRestoration
 END
 
 CONTROLBAR:IdrialTornado
-"&Furia di Manwe"
+"&Furia di Manwë"
 END
 
 CONTROLBAR:TooltipIdrialTornado
@@ -50301,38 +50301,6 @@ END
 
 CONTROLBAR:LW_ToolTip_Alar
 "Tipo unità: Eroe"
-END
-
-CONTROLBAR:PowerOfThorondor
-"Forza di Thorondor"
-END
-
-CONTROLBAR:ToolTipPowerOfThorondor
-"Richiede livello 7. \nLa forza del potente Thorondor scorre nelle vene del figlio Landroval."
-END
-
-CONTROLBAR:BlowOfManwe
-"Soffio di Manwe."
-END
-
-CONTROLBAR:ToolTipBlowOfManwe
-"Richiede livello 7. \nGwaihir raddoppia la propria velocità."
-END
-
-CONTROLBAR:EagleWingBlast
-"Colpo d'Ali"
-END
-
-CONTROLBAR:ToolTipEagleWingBlast
-"Richiede livello 3. \nLe possenti ali sbaragliano i nemici sottostanti e alimentano le fiamme."
-END
-
-CONTROLBAR:EagleTrueSight
-"Occhio d'Aquila"
-END
-
-CONTROLBAR:ToolTipEagleTrueSight
-"La vista acuta delle Grandi Aquile ti permette di individuare i nemici nascosti."
 END
 
 CONTROLBAR:Mai'NgauShapeshiftWolf
@@ -51826,7 +51794,7 @@ CONTROLBAR:WildAgandaurHotkey
 "&Agandaur"
 END
 OBJECT:WildAgandaurDescription
-"."
+"Agandaur, il Comandante delle armate corrotte del Nord."
 END
 CONTROLBAR:WildAgandaurRecruit
 "Recluta Agandaur, il Comandante delle armate corrotte del Nord."
@@ -51840,7 +51808,7 @@ END
 CONTROLBAR:ToolTipAgandaurBlink
 "Richiede livello 3.\nAgandaur si teletrasporta a grande distanza danneggiando i nemici nel punto di partenza e nel punto di arrivo."
 END
-CONTROLBAR:ToolTipAgandaurFellBeast
+CONTROLBAR:AgandaurFellBeast
 "Richiede livello 4.\nAgandaur sale in groppa ad una bestia alata."
 END
 CONTROLBAR:ToolTipAgandaurLightningStorm
@@ -52210,7 +52178,7 @@ CONTROLBAR:TahurLeadership
 "Comando"
 END
 CONTROLBAR:TooltipTahurLeadership
-"Richiede livello 5.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 6.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:MordorArhalik
@@ -52900,16 +52868,16 @@ CONTROLBAR:TooltipCommandSelectRohanFaction
 END
 
 OBJECT:RohanFighter
-"Guerriero di Rohan"
+"Miliziano di Rohan"
 END
 OBJECT:RohanSoldier
-"Guerriero di Rohan"
+"Miliziani di Rohan"
 END
 OBJECT:RohanSoldierHorde
-"Guerrieri di Rohan"
+"Miliziani di Rohan"
 END
 CONTROLBAR:ConstructRohanWarriorHorde
-"Guerrieri di Rohan"
+"Miliziani di Rohan"
 END
 CONTROLBAR:ToolTipBuildRohanWarriorHorde
 "Efficace contro picchieri."
@@ -53583,6 +53551,12 @@ END
 CONTROLBAR:TooltipLandrovalLeadership
 "Richiede livello 2.\n Le Aquile vicine a Landroval ottengono\n +50% danno e +50% corazza\n ed esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
+CONTROLBAR:PowerOfThorondor
+"Forza di Thorondor"
+END
+CONTROLBAR:ToolTipPowerOfThorondor
+"Richiede livello 7. \nLa forza del potente Thorondor scorre nelle vene del figlio. \n Landroval ottiene +100% danno, +50% corazza, si cura più velocemente e aumenta temporaneamente del 50% la vita massima."
+END
 
 OBJECT:EagleGwaihir
 "Gwaihir"
@@ -53590,6 +53564,31 @@ END
 CONTROLBAR:GwaihirLeadership
 "Signore delle Grandi Aquile"
 END
+CONTROLBAR:TooltipGwaihirLeadership
+"Richiede livello 2.\n Gli alleati vicini a Gwaihir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:BlowOfManwe
+"Respiro di Manwë."
+END
+CONTROLBAR:ToolTipBlowOfManwe
+"Richiede livello 7. \nGwaihir ottiene +20% danno, +50% corazza, +100% velocità esi cura più velocemente."
+END
+
+CONTROLBAR:EagleWingBlast
+"Colpo d'Ali"
+END
+CONTROLBAR:ToolTipEagleWingBlast
+"Richiede livello 3. \nLe possenti ali sbaragliano i nemici sottostanti e alimentano le fiamme."
+END
+
+CONTROLBAR:EagleTrueSight
+"Occhio d'Aquila"
+END
+CONTROLBAR:ToolTipEagleTrueSight
+"La vista acuta delle Grandi Aquile ti permette di individuare i nemici nascosti."
+END
+
+
 
 OBJECT:ElvenTreebeard
 "Barbalbero"
@@ -54131,7 +54130,12 @@ CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
 END
 
 
-
+OBJECT:AngmarOrcWarriors
+"Combattente di Gundabad"
+END
+OBJECT:HordeAngmarOrcWarriors
+"Combattenti di Gundabad"
+END
 CONTROLBAR:AngmarGundabadFighter
 "Combattente di Gundabad"
 END
@@ -54175,6 +54179,9 @@ CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
 END
 
+OBJECT:AngmarWolfRiders
+"Cavalca lupo di Gundabad"
+END
 CONTROLBAR:AngmarWolfRiders
 "Cavalca lupo di Gundabad"
 END
@@ -54214,7 +54221,7 @@ END
 
 
 CONTROLBAR:ToolTipWightDreadVisage
-"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva."
+"Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:WightInfestation
@@ -54222,6 +54229,13 @@ CONTROLBAR:WightInfestation
 END
 CONTROLBAR:TooltipWightInfestation
 "Richiede livello 5.\nInfesta di spettri un'area o una struttura bersaglio, riducendo drasticamente produzione, visione, gittata e danno dei nemici colpiti per un lungo periodo."
+END
+
+CONTROLBAR:WerewolfStrenghtOfThePack
+"Forza del Branco"
+END
+CONTROLBAR:TooltipWerewolfStrenghtOfThePack
+"Richiede livello 2.\nI mannari vicini ottengono +20% corazza, danni e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
 END
 
 
