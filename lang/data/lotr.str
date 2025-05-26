@@ -50676,7 +50676,7 @@ OBJECT:IsengardLegWarg
 END
 
 CONTROLBAR:RecruitIsengardLegWarg
-"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
+"Recluta il Warg Leggendario, il mannaro più grande e anziano della Terra di Mezzo."
 END
 
 CONTROLBAR:ReviveIsengardLegWarg
@@ -50688,15 +50688,29 @@ CONTROLBAR:HotkeyIsengardLegWarg
 END
 
 CONTROLBAR:ToolTipLegWargTameTheBeast
-"Richiede livello 2. \nDomina i warg nemici. \nClicca col pulsante sinistro sull'icona, quindi sul bersaglio."
+"Il Warg Leggendario domina i warg e lupi nemici.\nClicca col pulsante sinistro sull'icona, quindi sui bersagli."
+END
+
+CONTROLBAR:StunningBite
+"Morso Stordente"
+END
+CONTROLBAR:ToolTipLegWargStunningBite
+"Richiede livello 3. \nIl morso devastante del Warg Leggendario incapacita il nemico bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipLegWargDreadVisage
-"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
+"Richiede livello 3.\nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
+END
+
+CONTROLBAR:LegWargSummonPack
+"Chiama il Branco"
+END
+CONTROLBAR:ToolTipLegWargSummonPack
+"Richiede livello 7.\nIl Warg Leggendario richiama dei branchi di warg che combattono al suo fianco."
 END
 
 CONTROLBAR:ToolTipLegWargManEater
-"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
+"Richiede livello 9. \nDivora il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
 END
 
 CONTROLBAR:DrakeMetamorph
