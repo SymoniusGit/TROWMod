@@ -52555,6 +52555,16 @@ CONTROLBAR:ConstructMordorEasterlingRoyalGuardHorde
 "Guardia Reale Esterling"
 END
 
+CONTROLBAR:UpgradeRhunHeavyChariot
+"Miglioramenti per il Carro"
+END
+CONTROLBAR:ToolTipUpgradeRhunHeavyChariot
+"Incrementa la velocità e la corazza del carro e gli permette di ripararsi fuori dal combattimento."
+END
+UPGRADE:MordorRhunHeavyChariot
+"Carro da Guerra Avanzato"
+END
+
 
 CONTROLBAR:SelectHaradFaction
 "Harad"
