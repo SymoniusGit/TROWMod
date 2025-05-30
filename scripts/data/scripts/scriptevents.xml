@@ -429,7 +429,7 @@
 
     <EventList Name="FireDrakeFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated" 	       ScriptFunctionName="OnGondorArcherCreated" DebugSingleStep="false"/>
-	  <EventHandler EventName="GrowUp"             ScriptFunctionName="FireDrakeGrowUp"             DebugSingleStep="false"/>
+	      <EventHandler EventName="GrowUp"             ScriptFunctionName="FireDrakeGrowUp"             DebugSingleStep="false"/>
     </EventList> 
         
     <EventList Name="ArcherFunctions" Inherit="InfantryFunctions">
@@ -451,6 +451,9 @@
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnElvenWarriorCreated" DebugSingleStep="false"/>
     </EventList> 
     
+    <EventList Name="ElvenLorienLoremasterFunctions" Inherit="InfantryFunctions">
+    </EventList> 
+
     <EventList Name="RangerFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGondorArcherCreated" DebugSingleStep="false"/>
     </EventList>    
