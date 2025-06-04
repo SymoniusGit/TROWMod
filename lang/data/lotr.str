@@ -53621,7 +53621,7 @@ CONTROLBAR:FuryOfDoriath
 "Furia del Doriath"
 END
 CONTROLBAR:ToolTipCelebornFuryOfDoriath
-"Richiede livello 5.\nCeleborn ottiene 100% danni e 100% corazza."
+"Richiede livello 5.\nCeleborn ottiene temporaneamente 100% danni e 100% corazza."
 END
 CONTROLBAR:CelebornCallOfCarasGaladhon
 "Chiamata di Caras Galadhon"
@@ -53629,6 +53629,37 @@ END
 CONTROLBAR:ToolTipCelebornCallOfCarasGaladhon
 "Richiede livello 9.\n Richiama due unità di cavalieri Galadhrim."
 END
+
+
+CONTROLBAR:ToolTipCirdanLeadership
+"Richiede livello 2.\nGli alleati (comprese le navi) vicini a Cirdan ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:CirdanShipwrightKing
+"Re carpentiere"
+END
+CONTROLBAR:TollTipCirdanShipwrightKing
+"Richiede livello 3.\nRaddoppia la velocità di costruzione delle navi e permette di creare il Vascello di Cirdan."
+END
+CONTROLBAR:CirdanUlmoCrush
+"Maglio d'Acqua"
+END
+CONTROLBAR:TollTipCirdanUlmoCrush
+"Richiede livello 5.\n Cirdan crea un'ondata d'acqua che danneggia le unità nemiche attorno a lui. \n +300% danni contro Nazgûl e strutture."
+END
+CONTROLBAR:CirdanRebuild
+"Ricostruzione"
+END
+CONTROLBAR:TollTipCirdanRebuild
+"Richiede livello 7.\n Ripara le strutture bersaglio."
+ENDEND
+CONTROLBAR:CirdanWaterVessel
+"Ricostruzione"
+END
+CONTROLBAR:CirdanWaterVessel
+"Richiede livello 9.\n Cirdan lancia un vascello d'acqua che danneggia tutte le unità nemiche che incontra. \n Gli edifici subiscono danni maggiorati."
+END
+
+
 
 OBJECT:ElvenTreebeard
 "Barbalbero"
@@ -53769,6 +53800,19 @@ CONTROLBAR:BuildElvenLorienCavalryHorde
 END
 CONTROLBAR:ToolTipBuildElvenLorienCavalryHorde
 "Efficace contro arcieri."
+END
+
+OBJECT:GaladhrimGuard
+"Guardia Galadhrim"
+END
+OBJECT:ElvenGaladhrimGuardHorde
+"Guardia Galadhrim"
+END
+CONTROLBAR:ConstructElvenGaladhrimGuardHorde
+"Guardie &Galadhrim"
+END
+CONTROLBAR:ToolTipBuildElvenGaladhrimGuardHorde
+"Richiede caserma di livello 2.\nEfficace a distanza."
 END
 
 OBJECT:GaladhrimWarrior
