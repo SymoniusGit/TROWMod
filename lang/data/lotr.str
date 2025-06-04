@@ -53655,7 +53655,7 @@ ENDEND
 CONTROLBAR:CirdanWaterVessel
 "Vascello d'acqua"
 END
-CONTROLBAR:CirdanWaterVessel
+CONTROLBAR:TollTipCirdanWaterVessel
 "Richiede livello 9.\n Cirdan lancia un vascello d'acqua che danneggia tutte le unità nemiche che incontra. \n Gli edifici subiscono danni maggiorati."
 END
 
