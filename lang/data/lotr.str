@@ -28325,7 +28325,7 @@ CONTROLBAR:BloodHunt
 END
 
 CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 5.\nI warg e i lupi alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nGli Warg alleati vicini e i Cavalieri Warg ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SharkuManEater
@@ -50676,7 +50676,7 @@ OBJECT:IsengardLegWarg
 END
 
 CONTROLBAR:RecruitIsengardLegWarg
-"Recluta il Warg Leggendario, il mannaro più grande e anziano della Terra di Mezzo."
+"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
 END
 
 CONTROLBAR:ReviveIsengardLegWarg
@@ -50688,29 +50688,15 @@ CONTROLBAR:HotkeyIsengardLegWarg
 END
 
 CONTROLBAR:ToolTipLegWargTameTheBeast
-"Il Warg Leggendario domina i warg e lupi nemici.\nClicca col pulsante sinistro sull'icona, quindi sui bersagli."
-END
-
-CONTROLBAR:StunningBite
-"Morso Stordente"
-END
-CONTROLBAR:ToolTipLegWargStunningBite
-"Richiede livello 3. \nIl morso devastante del Warg Leggendario incapacita il nemico bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Richiede livello 2. \nDomina i warg nemici. \nClicca col pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:ToolTipLegWargDreadVisage
-"Richiede livello 3.\nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
-END
-
-CONTROLBAR:LegWargSummonPack
-"Chiama il Branco"
-END
-CONTROLBAR:ToolTipLegWargSummonPack
-"Richiede livello 7.\nIl Warg Leggendario richiama dei branchi di warg che combattono al suo fianco."
+"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipLegWargManEater
-"Richiede livello 9. \nDivora il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
+"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
 END
 
 CONTROLBAR:DrakeMetamorph
@@ -51617,7 +51603,15 @@ CONTROLBAR:ToolTipBuildDwarvenFlameThrower
 "Richiede fucina di livello 2.\nRecluta un utile lanciafiamme nanico, costruito grazie agli antichi progetti perduti di Moria. \nIl suo aspetto è un chiaro scherno ai draghi."
 END
 
-
+OBJECT:DwarvenScorpion
+"Scorpione"
+END
+CONTROLBAR:DwarvenBallistaUpgrade
+"Potenziamento Scorpione"
+END
+CONTROLBAR:ToolTipDwarvenBallistaUpgrade
+"Potenzia con una ballista in cima alla torre che spara a lunga gittata."
+END
 
 
 
@@ -51829,10 +51823,10 @@ CONTROLBAR:ToolTipAgandaurLightningStorm
 "Richiede livello 5.\nAgandaur evoca una tempesta di fulmini che colpisce il terreno nel punto indicato."
 END
 CONTROLBAR:AgandaurMorgulLightnings
-"&Stregoneria Morgul"
+"&Fulmine Morgul"
 END
 CONTROLBAR:ToolTipAgandaurMorgulLightnings
-"Richiede livello 9.\n Agandaur scaglia una saetta dalla spada \nche colpisce il bersaglio facendo danni ad area."
+"Richiede livello 9.\n Agandaur scaglia una saetta \nche colpisce il bersaglio facendo danni ad area."
 END
 
 
@@ -51913,7 +51907,7 @@ CONTROLBAR:ToolTipWildColdDrake
 "Richiede struttura di livello 3. \nEfficace contro tutto."
 END
 CONTROLBAR:ToolTipColdDrakeManEater
-"Uccide il nemico bersaglio, ripristinando l'energia del drago e fornendo temporaneamente +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio.\nNon cumulabile."
+"Ripristina l'enerigia divorando il bersaglio (fanteria o cavalleria). \n Gli eroi non sono bersagliabili."
 END
 
 
@@ -51962,6 +51956,11 @@ END
 OBJECT:WildGundabadBanner
 "Portastendardo"
 END
+
+TOOLTIP:LackWildPoisonArrows
+"Ricerca questo potenziamento nella\n tesoreria per rendere disponibile questo equipaggiamento.\n Quando è in uso aggiunge danno da veleno."
+END
+
 
 
 OBJECT:WildGundabadArcher
@@ -52192,7 +52191,7 @@ CONTROLBAR:TahurLeadership
 "Comando"
 END
 CONTROLBAR:TooltipTahurLeadership
-"Richiede livello 6.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nGli alleati vicini ad Tahur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 OBJECT:MordorArhalik
@@ -52555,15 +52554,14 @@ CONTROLBAR:ConstructMordorEasterlingRoyalGuardHorde
 "Guardia Reale Esterling"
 END
 
-CONTROLBAR:UpgradeRhunHeavyChariot
-"Miglioramenti per il Carro"
+CONTROLBAR:ConstructRhunWarChariot
+"Carro da guerra"
 END
-CONTROLBAR:ToolTipUpgradeRhunHeavyChariot
-"Incrementa la velocità e la corazza del carro e gli permette di ripararsi fuori dal combattimento."
+CONTROLBAR:ToolTipBuildRhunWarChariot
+"Richiede officina dell'assedio livello 2. \n Efficace contro fanteria."
 END
-UPGRADE:MordorRhunHeavyChariot
-"Carro da Guerra Avanzato"
-END
+
+
 
 
 CONTROLBAR:SelectHaradFaction
@@ -53113,7 +53111,7 @@ CONTROLBAR:SummonUrukHai
 "Chiamata degli Uruk-hai"
 END
 CONTROLBAR:ToolTipHurakSummonUrukHai
-"Richiede livello 9.\nHùrak richiama delle orde d'elite di uruk-hai che combattono al suo fianco."
+"Richiede livello 9.\nHùrak richiama 2 orde di spadaccini uruk-hai e 1 di arceri balestrieri\n che combatono al suo fianco."
 END
 
 
@@ -53298,7 +53296,7 @@ CONTROLBAR:ConstructIsengardUrukHai
 "&Combattenti U&ruk-hai"
 END
 CONTROLBAR:ToolTipBuildIsengardUrukHai
-"Efficace contro picchieri."
+"Richiede abisso di livello 2.\n Efficace contro picchieri."
 END
 
 OBJECT:IsengardPikeman
@@ -53308,7 +53306,7 @@ CONTROLBAR:ConstructIsengardPikemen
 "&Picchieri Uruk-hai"
 END
 CONTROLBAR:ToolTipBuildIsengardPikemen
-"Efficace contro cavalleria."
+"Richiede abisso di livello 2.\n Efficace contro cavalleria."
 END
 
 OBJECT:IsengardArcher
@@ -53321,7 +53319,7 @@ CONTROLBAR:ConstructIsengardCrossbowmen
 "&Balestrieri Uruk-hai"
 END
 CONTROLBAR:ToolTipBuildIsengardCrossbowmen
-"Efficace a distanza."
+"Richiede abisso di livello 2.\n Efficace a distanza."
 END
 
 OBJECT:IsengardDefender
@@ -53334,7 +53332,7 @@ CONTROLBAR:ConstructIsengardDefenderHorde
 "&Difensori Uruk-hai"
 END
 CONTROLBAR:ToolTipBuildIsengardDefenderHorde
-"Richiede abisso di livello 2. \n Efficace contro picchieri e arcieri."
+"Richiede abisso di livello 2.\n Efficace contro picchieri e arcieri."
 END
 
 OBJECT:IsengardBeserker
@@ -53347,7 +53345,7 @@ CONTROLBAR:ConstructIsengardBerserker
 "Berser&ker Uruk-hai"
 END
 CONTROLBAR:ToolTipBuildIsengardBerserker
-"Richiede abisso degli Uruk-hai di livello 2.\nEfficace contro spadaccini e picchieri."
+"Richiede abisso degli Uruk-hai di livello 2.\n Efficace contro spadaccini e picchieri."
 END
 CONTROLBAR:IsengardBerserkerBloodLust
 "Sete di sangue"
@@ -53579,7 +53577,7 @@ CONTROLBAR:PowerOfThorondor
 "Forza di Thorondor"
 END
 CONTROLBAR:ToolTipPowerOfThorondor
-"Richiede livello 7. \nLa forza del potente Thorondor scorre nelle vene del figlio. \n Landroval ottiene +100% danno, +50% corazza, si cura più velocemente e aumenta temporaneamente del 50% la vita massima."
+"Richiede livello 7. \n La forza del potente Thorondor scorre nelle vene del figlio. \n Landroval ottiene +100% danno, +50% corazza, si cura più velocemente e aumenta temporaneamente del 50% la vita massima."
 END
 
 OBJECT:EagleGwaihir
@@ -53613,6 +53611,24 @@ CONTROLBAR:ToolTipEagleTrueSight
 END
 
 
+CONTROLBAR:ToolTipCelebornLeadership
+"Richiede livello 2.\nGli alleati vicini a Celeborn ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:ToolTipCelebornTrainArmy
+"Richiede livello 3.\nGarantisce esperienza alle truppe alleate bersaglio."
+END
+CONTROLBAR:FuryOfDoriath
+"Furia del Doriath"
+END
+CONTROLBAR:ToolTipCelebornFuryOfDoriath
+"Richiede livello 5.\nCeleborn ottiene 100% danni e 100% corazza."
+END
+CONTROLBAR:CelebornCallOfCarasGaladhon
+"Chiamata di Caras Galadhon"
+END
+CONTROLBAR:ToolTipCelebornCallOfCarasGaladhon
+"Richiede livello 9.\n Richiama due unità di cavalieri Galadhrim."
+END
 
 OBJECT:ElvenTreebeard
 "Barbalbero"
@@ -53824,7 +53840,7 @@ CONTROLBAR:LoremasterLightning
 "Fulmine"
 END
 CONTROLBAR:ToolTipLoremasterLightning
-"Il saggio del saggio lancia un fulmine che danneggia le unità nemiche."
+"Il saggio lancia un fulmine che danneggia le unità nemiche."
 END
 
 
@@ -53927,7 +53943,7 @@ CONTROLBAR:MedicalHerbs
 "Erba medica"
 END
 CONTROLBAR:ToolTipMedicalHerbs
-"\n???"
+"\n Cura se stesso e gli alleati vicini."
 END
 CONTROLBAR:WildFury
 "Furia selvaggia"
