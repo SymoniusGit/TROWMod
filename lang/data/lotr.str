@@ -53651,7 +53651,7 @@ CONTROLBAR:CirdanRebuild
 END
 CONTROLBAR:TollTipCirdanRebuild
 "Richiede livello 7.\n Ripara le strutture bersaglio."
-ENDEND
+END
 CONTROLBAR:CirdanWaterVessel
 "Vascello d'acqua"
 END
