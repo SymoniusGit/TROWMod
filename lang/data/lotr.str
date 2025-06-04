@@ -53653,7 +53653,7 @@ CONTROLBAR:TollTipCirdanRebuild
 "Richiede livello 7.\n Ripara le strutture bersaglio."
 ENDEND
 CONTROLBAR:CirdanWaterVessel
-"Ricostruzione"
+"Vascello d'acqua"
 END
 CONTROLBAR:CirdanWaterVessel
 "Richiede livello 9.\n Cirdan lancia un vascello d'acqua che danneggia tutte le unità nemiche che incontra. \n Gli edifici subiscono danni maggiorati."
