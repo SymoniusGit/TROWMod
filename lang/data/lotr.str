@@ -52462,6 +52462,9 @@ END
 CONTROLBAR:ConstructRhunPikemanHorde
 "&Lancieri Esterling"
 END
+CONTROLBAR:ToolTipBuildRhunPikemanHorde
+"Efficace contro cavalleria."
+END
 
 
 OBJECT:RhunArcher
@@ -52473,7 +52476,7 @@ END
 CONTROLBAR:ConstructRhunArcherHorde
 "&Arcieri Esterling"
 END
-CONTROLBAR:ToolTipBuildMordorEasterlingArcherHorde
+CONTROLBAR:ToolTipBuildRhunArcherHorde
 "Efficace a distanza."
 END
 
@@ -52486,7 +52489,7 @@ END
 CONTROLBAR:ConstructRhunSwordsmanHorde
 "&Soldati Esterling"
 END
-CONTROLBAR:ToolTipBuildMordorEasterlingSwordsmanHorde
+CONTROLBAR:ToolTipBuildRhunSwordsmanHorde
 "Efficace contro picchieri."
 END
 
@@ -52554,11 +52557,23 @@ CONTROLBAR:ConstructMordorEasterlingRoyalGuardHorde
 "Guardia Reale Esterling"
 END
 
+OBJECT:MordorRhunWarChariot
+"Carro da guerra di Rhun"
+END
 CONTROLBAR:ConstructRhunWarChariot
-"Carro da guerra"
+"Carro da guerra di Rhun"
 END
 CONTROLBAR:ToolTipBuildRhunWarChariot
 "Richiede officina dell'assedio livello 2. \n Efficace contro fanteria."
+END
+CONTROLBAR:UpgradeRhunHeavyChariot
+"Potenziamento Velocità"
+END
+CONTROLBAR:ToolTipUpgradeRhunHeavyChariot
+"Vengono aggiunti due cavalli che trainano il carro aumentandone la veloctià."
+END
+UPGRADE:MordorRhunHeavyChariot
+"Potenziamento Velocità"
 END
 
 
@@ -53660,6 +53675,22 @@ CONTROLBAR:TollTipCirdanWaterVessel
 END
 
 
+CONTROLBAR:TwinTeamworkBuff
+"Lavoro di coppia"
+END
+CONTROLBAR:TollTipTwinTeamworkBuff
+"Quando Elladan e Elrohir sono vicini, ottengono ???"
+END
+CONTROLBAR:TollTipElladanElrohirAthelas
+"Richiede livello 3.\nCura se stesso."
+END
+CONTROLBAR:ElladanElrohirLeadership
+"Richiede livello 7.\nGli alleati vicini a Elladan e Elrohir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
+
+
+
 
 OBJECT:ElvenTreebeard
 "Barbalbero"
@@ -53850,11 +53881,17 @@ END
 CONTROLBAR:ToolTipBuildElvenLorienLoremaster
 "Richiede caserma di livello 2.\nUnità di supporto."
 END
+CONTROLBAR:LoremasterElvenGrace
+"Grazia elfica"
+END
+CONTROLBAR:ToolTipLoremasterElvenGrace
+"Cura le unità alleate vicine."
+END
 CONTROLBAR:PurchaseUpgradeElvenLoremasterRangeShield
 "Potenzia con Scudo magico"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterRangeShield
-"Sblocca l'abilità del saggio di creare uno scudo temporaneo \nche protegge le unità alleate dagli attacchi a distanza. \nEsclude l'acquito delle altre abilità."
+"Sblocca l'abilità del saggio di creare uno scudo temporaneo \nche protegge le unità alleate dagli attacchi a distanza.\nL'attacco base diventa un proiettile magico.\nEsclude l'acquito delle altre abilità."
 END
 CONTROLBAR:LoremasterShieldBubble
 "Scudo magico"
@@ -53862,11 +53899,14 @@ END
 CONTROLBAR:ToolTipLoremasterShieldBubble
 "Il saggio crea uno scudo temporaneo \n che protegge le unità alleate dagli attacchi a distanza."
 END
+UPGRADE:ElvenLoremasterRangeShield
+"Scudo magico"
+END
 CONTROLBAR:PurchaseUpgradeElvenLoremasterShockwave
 "Potenzia con Onda d'urto"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterShockwave
-"Sblocca l'abilità del saggio del saggio di creare un'onda d'urto che respinge le unità nemiche. \nEsclude l'acquito delle altre abilità."
+"Sblocca l'abilità del saggio di creare un'onda d'urto che respinge le unità nemiche.\nL'attacco base diventa un attacco ad area a distanza molto ravvicinata. \nEsclude l'acquito delle altre abilità."
 END
 CONTROLBAR:LoremasterShockwave
 "Onda d'urto"
@@ -53874,17 +53914,23 @@ END
 CONTROLBAR:ToolTipLoremasterShockwave
 "Il saggio crea un'onda d'urto che respinge le unità nemiche."
 END
+UPGRADE:ElvenLoremasterShockwave
+"Onda d'urto"
+END
 CONTROLBAR:PurchaseUpgradeElvenLoremasterLightning
 "Potenzia con Fulmine"
 END
 CONTROLBAR:ToolTipPurchaseUpgradeElvenLoremasterLightning
-"Sblocca l'abilità del saggio del saggio di lanciare un fulmine che danneggia le unità nemiche. \nEsclude l'acquito delle altre abilità."
+"Sblocca l'abilità del saggio di lanciare un fulmine che danneggia le unità nemiche.\nL'attacco base diventa un fulmine.\nEsclude l'acquito delle altre abilità."
 END
 CONTROLBAR:LoremasterLightning
 "Fulmine"
 END
 CONTROLBAR:ToolTipLoremasterLightning
 "Il saggio lancia un fulmine che danneggia le unità nemiche."
+END
+UPGRADE:ElvenLoremasterLightning
+"Fulmine"
 END
 
 
