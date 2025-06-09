@@ -51810,6 +51810,9 @@ END
 CONTROLBAR:ToolTipAgandaurLeadership
 "Gli alleati vicini ad Agandaur ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
+CONTROLBAR:AgandaurToggleFellBeast
+"Agandaur monta sulla cavalcatura volante."
+END
 CONTROLBAR:AgandaurBlink
 "&Teletrasporto"
 END
@@ -51937,6 +51940,9 @@ CONTROLBAR:PurchaseUpgradeWildPoisonArrows
 END
 CONTROLBAR:ToolTipPurchaseUpgradeWildPoisonArrows
 "Potenzia l'unità con frecce avvelenate che fanno danno da veleno nel tempo."
+END
+UPGRADE:WildPoisonArrowUpgrade
+"Frecce velenose"
 END
 
 OBJECT:WildGoblinPikeman
@@ -53935,7 +53941,7 @@ END
 
 
 
-OBJECT:ElvenLindonWarrior
+OBJECT:ElvenLindonSwordsman
 "Guerriero di Lindon"
 END
 OBJECT:ElvenLindonWarriorHorde
@@ -54000,7 +54006,7 @@ CONTROLBAR:ToolTipBuildElvenMithlondSentryHorde
 "Richiede caserma di livello 3.\nEfficace contro cavalleria.\nVicino agli alberi acquisisce furtività."
 END
 
-OBJECT:ElvenMithlondrim
+OBJECT:Mithlondrim
 "Guerrieri Mithlondrim"
 END
 OBJECT:ElvenMithlondrimHorde
