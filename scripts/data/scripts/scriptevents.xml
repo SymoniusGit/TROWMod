@@ -135,6 +135,13 @@
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
     </EventList>
 
+    <!-- No Rampage for Undeads -->
+    <EventList Name="UndeadTrollFunctions" Inherit="BaseScriptFunctions">
+        <EventHandler EventName="OnCreated" ScriptFunctionName="OnTrollCreated" DebugSingleStep="false"/>
+        <EventHandler EventName="OnGenericEvent" ScriptFunctionName="OnTrollGenericEvent" DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+    </EventList>
+
     <EventList Name="CreepTrollFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GoIntoRampage" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnCreepTrollCreated" DebugSingleStep="false"/>
@@ -198,6 +205,10 @@
     <EventList Name="StandardPorterFunctions" Inherit="BaseScriptFunctions">
 		<EventHandler EventName="BeTerrified" ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
         <EventHandler EventName="OnCreated" ScriptFunctionName="OnPorterCreated" DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="HobbitFunctions" Inherit="InfantryFunctions">
+      <EventHandler EventName="OnCreated" ScriptFunctionName="OnHobbitCreated" DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="EvilPorterFunctions" Inherit="InfantryFunctions">
@@ -418,7 +429,7 @@
 
     <EventList Name="FireDrakeFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated" 	       ScriptFunctionName="OnGondorArcherCreated" DebugSingleStep="false"/>
-	  <EventHandler EventName="GrowUp"             ScriptFunctionName="FireDrakeGrowUp"             DebugSingleStep="false"/>
+	      <EventHandler EventName="GrowUp"             ScriptFunctionName="FireDrakeGrowUp"             DebugSingleStep="false"/>
     </EventList> 
         
     <EventList Name="ArcherFunctions" Inherit="InfantryFunctions">
@@ -440,6 +451,9 @@
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnElvenWarriorCreated" DebugSingleStep="false"/>
     </EventList> 
     
+    <EventList Name="ElvenLorienLoremasterFunctions" Inherit="InfantryFunctions">
+    </EventList> 
+
     <EventList Name="RangerFunctions" Inherit="ArcherFunctions">
         <EventHandler EventName="OnCreated"				ScriptFunctionName="OnGondorArcherCreated" DebugSingleStep="false"/>
     </EventList>    
