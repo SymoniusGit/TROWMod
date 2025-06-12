@@ -13569,7 +13569,7 @@ CONTROLBAR:HobbitInspiration
 END
 
 CONTROLBAR:ToolTipHobbitInspiration
-"Richiede livello 3.\nL'ispirazione dell'eroe Hobbit potenzia gli alleati vicini:\nGli eroi alleati ottengono +5 danno e corazza\nAltre unità alleate ottengono +20% danno, corazza ed esperienza.\nAbilità passiva."
+"Richiede livello 3.\nL'ispirazione dell'eroe Hobbit potenzia gli alleati vicini:\nGli eroi alleati ottengono +5% danno e corazza\nAltre unità alleate ottengono +20% danno, corazza ed esperienza.\nAbilità passiva."
 END
 
 CONTROLBAR:SummonHobbitAllies
