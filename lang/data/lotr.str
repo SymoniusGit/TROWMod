@@ -54213,6 +54213,49 @@ OBJECT:AngmarMorgramir
 "Morgomir"
 END
 
+CONTROLBAR:AngmarAzghurHotkey
+"Azghur"
+END
+CONTROLBAR:AngmarAzghurRecruit
+"Recluta il boia di Angmar"
+END
+OBJECT:AngmarAzghur
+"Azghur"
+END
+CONTROLBAR:AzghurCleaver
+"Mutilatore"
+END
+CONTROLBAR:ToolTipAzghurCleaver
+"Riduce corazza, danni, velocità di movimento e velocità d'attacco dei nemici colpiti.\n\nAbilità Passiva. Non cumulabile."
+END
+CONTROLBAR:AzghurExecution
+"Esecuzione"
+END
+CONTROLBAR:ToolTipAzghurExecution
+"Richiede livello 3.\nPotente colpo che riduce temporaneamente del 20% la vita massima del bersaglio. \n Danni maggiorati agli eroi."
+END
+CONTROLBAR:AzghurCurseVictim
+"Maledizione della vittima"
+END
+CONTROLBAR:ToolTipAzghurCurseVictim
+"Richiede livello 5.\nBlocca il bersaglio sul posto e riduce la corazza del 50%."
+END
+CONTROLBAR:AzghurTerrifyingSwing
+"Colpo Terrificante"
+END
+CONTROLBAR:ToolTipAzghurTerrifyingSwing
+"Richiede livello 7.\n Potente attacco ad area che spaventa i nemici colpiti."
+END
+CONTROLBAR:AzghurExecutionerGreed
+"Brama del Boia"
+END
+CONTROLBAR:ToolTipAzghurExecutionerGreed
+"Richiede livello 9.\nAzghur si rigenera la vita colpendo."
+END
+
+
+
+
 OBJECT:AngmarUndeadFighter
 "Guerriero non-morto"
 END
