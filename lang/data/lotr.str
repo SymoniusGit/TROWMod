@@ -44664,11 +44664,11 @@ BANNERUI:AngmarHillTrolls
 END
 
 BANNERUI:AngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 BANNERUI:AngmarNecromancers
-"Stregoni"
+"Negromanti"
 END
 
 BANNERUI:AngmarTrollSling
@@ -44884,15 +44884,15 @@ Upgrade:AngmarHallofTwilightLevel3
 END
 
 OBJECT:AngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 OBJECT:HordeAngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 CONTROLBAR:LW_Unit_AngmarNecromancerHorde
-"Stregone"
+"Negromante"
 END
 
 CONTROLBAR:LW_ToolTip_AngmarNecromancerHorde
@@ -44900,7 +44900,7 @@ CONTROLBAR:LW_ToolTip_AngmarNecromancerHorde
 END
 
 CONTROLBAR:LW_Unit_AngmarNecromancerHordePlural
-"Stregoni"
+"Negromanti"
 END
 
 CONTROLBAR:LW_ToolTipBuild_AngmarNecromancerHorde
@@ -45232,7 +45232,7 @@ OBJECT:AngmarNecroAcolyte
 END
 
 OBJECT:AngmarNecromancerBanner
-"Stregone"
+"Negromante"
 END
 
 OBJECT:HordeNecromancerGuardian
@@ -45696,7 +45696,7 @@ CONTROLBAR:AngmarKarshHotkey
 END
 
 CONTROLBAR:ConstructAngmarNecromancerHorde
-"St&regone"
+"Negromante"
 END
 
 CONTROLBAR:TooltipBuildAngmarNecromancerHorde
