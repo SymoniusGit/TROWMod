@@ -14918,7 +14918,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Richiede livello 5.\nGli alleati vicini a Lurtz ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nGli alleati vicini a questo eroe ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipWitchKingLeadership
@@ -15090,7 +15090,7 @@ CONTROLBAR:SpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Blocca un Eroe in un punto.\nSi può usare solo con l'arco equipaggiato.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Blocca l'eroe bersaglio sul posto.\nUtilizzabile solo con l'arco equipaggiato."
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
@@ -28320,14 +28320,6 @@ CONTROLBAR:ToolTipTameTheBeast
 "Richiede livello 2.\nGli Warg e i cavalieri Warg bersaglio passano sotto il controllo di Sharku.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
-CONTROLBAR:BloodHunt
-"Caccia di sangue"
-END
-
-CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 5.\nGli Warg alleati vicini e i Cavalieri Warg ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
-END
-
 CONTROLBAR:SharkuManEater
 "Divo&ratore di uomini"
 END
@@ -29118,6 +29110,14 @@ END
 
 CONTROLBAR:ToolTipSharkuWargMount
 "Monta e smonta dal Warg di Sharku."
+END
+
+CONTROLBAR:BloodHunt
+"Caccia di sangue"
+END
+
+CONTROLBAR:ToolTipGBloodHunt
+"Richiede livello 5.\nI Warg e i cavalierei warg alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipShelobWebbing
@@ -50588,7 +50588,7 @@ CONTROLBAR:IthilTameTheBeast
 END
 
 CONTROLBAR:ToolTipIthilTameTheBeast
-"Richiede livello 3. \nI lupi nemici si uniscono sotto la guida di Ithil."
+"I lupi nemici si uniscono sotto la guida di Ithil."
 END
 
 CONTROLBAR:IthilDreadVisage
@@ -50669,34 +50669,6 @@ END
 
 OBJECT:MordorWyvern
 "Viverna"
-END
-
-OBJECT:IsengardLegWarg
-"Warg Leggendario"
-END
-
-CONTROLBAR:RecruitIsengardLegWarg
-"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
-END
-
-CONTROLBAR:ReviveIsengardLegWarg
-"Rianima il Warg Leggendario."
-END
-
-CONTROLBAR:HotkeyIsengardLegWarg
-"&Warg Leggendario"
-END
-
-CONTROLBAR:ToolTipLegWargTameTheBeast
-"Richiede livello 2. \nDomina i warg nemici. \nClicca col pulsante sinistro sull'icona, quindi sul bersaglio."
-END
-
-CONTROLBAR:ToolTipLegWargDreadVisage
-"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
-END
-
-CONTROLBAR:ToolTipLegWargManEater
-"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
 END
 
 CONTROLBAR:DrakeMetamorph
@@ -51753,11 +51725,17 @@ END
 CONTROLBAR:WildBolgHotkey
 "&Bolg"
 END
+CONTROLBAR:SpecialAbilityBolgCarnage
+"Massacro"
+END
+CONTROLBAR:ToolTipSpecialAbilityBolgCarnage
+"???"
+END
 CONTROLBAR:BolgSummonGundabadWarriors
 "Richiama guardie del corpo"
 END
 CONTROLBAR:TooltipBolgSummonGundabadWarriors
-"Richiede livello 10.\nEvoca diverse unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
+"Richiede livello 8.\nEvoca tre unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
 END
 
 OBJECT:WildHargont
@@ -53259,15 +53237,42 @@ END
 
 
 
-
-
-
-
-
-
-
-
-
+OBJECT:IsengardLegWarg
+"Warg Leggendario"
+END
+CONTROLBAR:RecruitIsengardLegWarg
+"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
+END
+CONTROLBAR:ReviveIsengardLegWarg
+"Rianima il Warg Leggendario."
+END
+CONTROLBAR:HotkeyIsengardLegWarg
+"&Warg Leggendario"
+END
+CONTROLBAR:ToolTipLegWargTameTheBeast
+"Domina i warg nemici bersaglio."
+END
+CONTROLBAR:StunningBite
+"Morso stordente"
+END
+CONTROLBAR:ToolTipLegWargStunningBite
+"Richiede livello 3.\nBlocca il bersaglio sul posto."
+END
+CONTROLBAR:ToolTipLegWargDreadVisage
+"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
+END
+CONTROLBAR:ToolTipLegWargBloodHunt
+"Richiede livello 5.\nI Warg alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:LegWargSummonPack
+"Branco"
+END
+CONTROLBAR:ToolTipLegWargSummonPack
+"Richiede livello 7.\nEvoca tre branchi di warg.\n\nUn branco di warg segue sempre il Warg Leggendario.\nAbilità passiva."
+END
+CONTROLBAR:ToolTipLegWargManEater
+"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
+END
 
 
 OBJECT:IsengardWargRider
@@ -53685,10 +53690,10 @@ CONTROLBAR:TwinTeamworkBuff
 "Lavoro di coppia"
 END
 CONTROLBAR:TollTipTwinTeamworkBuff
-"Quando Elladan e Elrohir sono vicini, ottengono ???"
+"Quando Elladan e Elrohir sono vicini, ottengono +20% armatura, +20% danni e +20% velocità di esperienza."
 END
 CONTROLBAR:TollTipElladanElrohirAthelas
-"Richiede livello 3.\nCura se stesso."
+"Richiede livello 3.\nCura gli eroi vicini."
 END
 CONTROLBAR:ElladanElrohirLeadership
 "Richiede livello 7.\nGli alleati vicini a Elladan e Elrohir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
@@ -54417,6 +54422,15 @@ CONTROLBAR:TooltipWerewolfStrenghtOfThePack
 "Richiede livello 2.\nI mannari vicini ottengono +20% corazza, danni e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
 END
 
+OBJECT:GreaterBarrowWight
+"Spettro maggiore"
+END
+CONTROLBAR:GreaterWightBlink
+"Spettro maggiore"
+END
+CONTROLBAR:TollTipGreaterWightBlink
+"Richiede livello 7.\nLo spettro si teletrasporta nel punto indicato."
+END
 
 CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
 "Ricerca Gelo Mortale"
