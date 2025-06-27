@@ -53285,16 +53285,6 @@ OBJECT:IsengardWargRider
 "Cavaliere Warg"
 END
 
-OBJECT:IsengardOrcArcherHorde
-"Arcieri Orchetti"
-END
-CONTROLBAR:ConstructIsengardOrcArcherHorde
-"Arcieri Orchetti"
-END
-CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
-"Efficace a distanza."
-END
-
 OBJECT:IsengardOrcFighterHorde
 "Guerrieri Orchetti"
 END
@@ -53303,6 +53293,29 @@ CONTROLBAR:ConstructIsengardOrcFighterHorde
 END
 CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde
 "Efficace contro picchieri."
+END
+
+OBJECT:IsengardOrcPikeman
+"Picchiere Orchetto"
+END
+OBJECT:IsengardOrcPikemanHorde
+"Picchieri Orchetti"
+END
+CONTROLBAR:ConstructIsengardOrcPikemanHorde
+"Picchieri Orchetti"
+END
+CONTROLBAR:ToolTipBuildIsengardOrcPikemanHorde
+"Efficace contro cavalleria."
+END
+
+OBJECT:IsengardOrcArcherHorde
+"Arcieri Orchetti"
+END
+CONTROLBAR:ConstructIsengardOrcArcherHorde
+"Arcieri Orchetti"
+END
+CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
+"Efficace a distanza."
 END
 
 OBJECT:IsengardUrukScout
