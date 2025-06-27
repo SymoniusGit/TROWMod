@@ -15098,7 +15098,7 @@ CONTROLBAR:SpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Richiede livello 3.\nLurtz ottiene +100% danno e +50% corazza.\nSi può usare solo con la spada equipaggiata.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 3.\nLurtz ottiene +100% danno e +50% corazza.\nSi può usare solo con la spada equipaggiata."
 END
 
 CONTROLBAR:ToggleHorseBow
@@ -51729,7 +51729,13 @@ CONTROLBAR:SpecialAbilityBolgCarnage
 "Massacro"
 END
 CONTROLBAR:ToolTipSpecialAbilityBolgCarnage
-"???"
+"Richiede livello 3.\nBolg ottiene +100% danno e +50% corazza.\nSi può usare solo con l'arma corpo a corpo equipaggiata."
+END
+CONTROLBAR:BolgStun
+"Colpo stordente"
+END
+CONTROLBAR:ToolTipBolgStun
+"Blocca il bersaglio sul posto."
 END
 CONTROLBAR:BolgSummonGundabadWarriors
 "Richiama guardie del corpo"
@@ -52188,28 +52194,28 @@ CONTROLBAR:MordorArhalikRecruit
 "Recluta il sovrano di Rhun."
 END
 CONTROLBAR:ArhalikLeadership
-"Comando"
+"Sovrano di Rhun"
 END
 CONTROLBAR:TooltipArhalikLeadership
-"Richiede livello 3.\nGli alleati vicini ad Arhalik ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
-END
-CONTROLBAR:CallToArms
-"Chiamata alle armi"
-END
-CONTROLBAR:TooltipArhalikCallToArms
-"Richiede livello 5.\n Arhalik richiama sul campo di battaglia alcune unità di Immortali di Rhun."
-END
-CONTROLBAR:ArhalikBombard
-"Bombardamento"
-END
-CONTROLBAR:TooltipArhalikBombard
-"Richiede livello 7.\nArhalik da l'ordine di bombardare la zona indicata."
+"Richiede livello 2.\nGli alleati vicini ad Arhalik ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:ArhalikEastFury
 "Furia dell'Est"
 END
 CONTROLBAR:TooltipArhalikEastFury
-"Richiede livello 7.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
+"Richiede livello 4.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
+END
+CONTROLBAR:ArhalikBombard
+"Bombardamento"
+END
+CONTROLBAR:TooltipArhalikBombard
+"Richiede livello 6.\nArhalik ordine di bombardare la zona indicata."
+END
+CONTROLBAR:ArhalikSummonRoyalGuard
+"Richiama Guardia Reale"
+END
+CONTROLBAR:TooltipArhalikSummonRoyalGuard
+"Richiede livello 8.\nEvoca diversi battaglioni di Immortali di Rhun che combattono al tuo fianco."
 END
 
 
@@ -53663,25 +53669,25 @@ END
 CONTROLBAR:CirdanShipwrightKing
 "Re carpentiere"
 END
-CONTROLBAR:TollTipCirdanShipwrightKing
+CONTROLBAR:ToolTipCirdanShipwrightKing
 "Richiede livello 3.\nRaddoppia la velocità di costruzione delle navi e permette di creare il Vascello di Cirdan."
 END
-CONTROLBAR:CirdanUlmoCrush
+CONTROLBAR:CirdanUlmoCrash
 "Maglio d'Acqua"
 END
-CONTROLBAR:TollTipCirdanUlmoCrush
+CONTROLBAR:ToolTipCirdanUlmoCrash
 "Richiede livello 5.\n Cirdan crea un'ondata d'acqua che danneggia le unità nemiche attorno a lui. \n +300% danni contro Nazgûl e strutture."
 END
 CONTROLBAR:CirdanRebuild
 "Ricostruzione"
 END
-CONTROLBAR:TollTipCirdanRebuild
+CONTROLBAR:ToolTipCirdanRebuild
 "Richiede livello 7.\n Ripara le strutture bersaglio."
 END
 CONTROLBAR:CirdanWaterVessel
 "Vascello d'acqua"
 END
-CONTROLBAR:TollTipCirdanWaterVessel
+CONTROLBAR:ToolTipCirdanWaterVessel
 "Richiede livello 9.\n Cirdan lancia un vascello d'acqua che danneggia tutte le unità nemiche che incontra. \n Gli edifici subiscono danni maggiorati."
 END
 
@@ -53689,13 +53695,13 @@ END
 CONTROLBAR:TwinTeamworkBuff
 "Lavoro di coppia"
 END
-CONTROLBAR:TollTipTwinTeamworkBuff
+CONTROLBAR:ToolTipTwinTeamworkBuff
 "Quando Elladan e Elrohir sono vicini, ottengono +20% armatura, +20% danni e +20% velocità di esperienza."
 END
-CONTROLBAR:TollTipElladanElrohirAthelas
+CONTROLBAR:ToolTipElladanElrohirAthelas
 "Richiede livello 3.\nCura gli eroi vicini."
 END
-CONTROLBAR:ElladanElrohirLeadership
+CONTROLBAR:ToolTipElladanElrohirLeadership
 "Richiede livello 7.\nGli alleati vicini a Elladan e Elrohir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
@@ -54426,9 +54432,9 @@ OBJECT:GreaterBarrowWight
 "Spettro maggiore"
 END
 CONTROLBAR:GreaterWightBlink
-"Spettro maggiore"
+"Teletrasporto"
 END
-CONTROLBAR:TollTipGreaterWightBlink
+CONTROLBAR:ToolTipGreaterWightBlink
 "Richiede livello 7.\nLo spettro si teletrasporta nel punto indicato."
 END
 
