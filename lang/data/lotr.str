@@ -14918,7 +14918,7 @@ CONTROLBAR:ToolTipEomerLeadership
 END
 
 CONTROLBAR:ToolTipLurtzLeadership
-"Richiede livello 5.\nGli alleati vicini a Lurtz ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 5.\nGli alleati vicini a questo eroe ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipWitchKingLeadership
@@ -15090,7 +15090,7 @@ CONTROLBAR:SpecialAbilityLurtzCripple
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCripple
-"Blocca un Eroe in un punto.\nSi può usare solo con l'arco equipaggiato.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
+"Blocca l'eroe bersaglio sul posto.\nUtilizzabile solo con l'arco equipaggiato."
 END
 
 CONTROLBAR:SpecialAbilityLurtzCarnage
@@ -15098,7 +15098,7 @@ CONTROLBAR:SpecialAbilityLurtzCarnage
 END
 
 CONTROLBAR:ToolTipSpecialAbilityLurtzCarnage
-"Richiede livello 3.\nLurtz ottiene +100% danno e +50% corazza.\nSi può usare solo con la spada equipaggiata.\nClicca con il pulsante sinistro per attivare."
+"Richiede livello 3.\nLurtz ottiene +100% danno e +50% corazza.\nSi può usare solo con la spada equipaggiata."
 END
 
 CONTROLBAR:ToggleHorseBow
@@ -28320,14 +28320,6 @@ CONTROLBAR:ToolTipTameTheBeast
 "Richiede livello 2.\nGli Warg e i cavalieri Warg bersaglio passano sotto il controllo di Sharku.\nClicca con il pulsante sinistro sull'icona e poi sul bersaglio."
 END
 
-CONTROLBAR:BloodHunt
-"Caccia di sangue"
-END
-
-CONTROLBAR:ToolTipGBloodHunt
-"Richiede livello 5.\nGli Warg alleati vicini e i Cavalieri Warg ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
-END
-
 CONTROLBAR:SharkuManEater
 "Divo&ratore di uomini"
 END
@@ -29118,6 +29110,14 @@ END
 
 CONTROLBAR:ToolTipSharkuWargMount
 "Monta e smonta dal Warg di Sharku."
+END
+
+CONTROLBAR:BloodHunt
+"Caccia di sangue"
+END
+
+CONTROLBAR:ToolTipGBloodHunt
+"Richiede livello 5.\nI Warg e i cavalierei warg alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipShelobWebbing
@@ -44664,11 +44664,11 @@ BANNERUI:AngmarHillTrolls
 END
 
 BANNERUI:AngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 BANNERUI:AngmarNecromancers
-"Stregoni"
+"Negromanti"
 END
 
 BANNERUI:AngmarTrollSling
@@ -44884,15 +44884,15 @@ Upgrade:AngmarHallofTwilightLevel3
 END
 
 OBJECT:AngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 OBJECT:HordeAngmarNecromancer
-"Stregone"
+"Negromante"
 END
 
 CONTROLBAR:LW_Unit_AngmarNecromancerHorde
-"Stregone"
+"Negromante"
 END
 
 CONTROLBAR:LW_ToolTip_AngmarNecromancerHorde
@@ -44900,7 +44900,7 @@ CONTROLBAR:LW_ToolTip_AngmarNecromancerHorde
 END
 
 CONTROLBAR:LW_Unit_AngmarNecromancerHordePlural
-"Stregoni"
+"Negromanti"
 END
 
 CONTROLBAR:LW_ToolTipBuild_AngmarNecromancerHorde
@@ -45232,7 +45232,7 @@ OBJECT:AngmarNecroAcolyte
 END
 
 OBJECT:AngmarNecromancerBanner
-"Stregone"
+"Negromante"
 END
 
 OBJECT:HordeNecromancerGuardian
@@ -45696,7 +45696,7 @@ CONTROLBAR:AngmarKarshHotkey
 END
 
 CONTROLBAR:ConstructAngmarNecromancerHorde
-"St&regone"
+"Negromante"
 END
 
 CONTROLBAR:TooltipBuildAngmarNecromancerHorde
@@ -50588,7 +50588,7 @@ CONTROLBAR:IthilTameTheBeast
 END
 
 CONTROLBAR:ToolTipIthilTameTheBeast
-"Richiede livello 3. \nI lupi nemici si uniscono sotto la guida di Ithil."
+"I lupi nemici si uniscono sotto la guida di Ithil."
 END
 
 CONTROLBAR:IthilDreadVisage
@@ -50669,34 +50669,6 @@ END
 
 OBJECT:MordorWyvern
 "Viverna"
-END
-
-OBJECT:IsengardLegWarg
-"Warg Leggendario"
-END
-
-CONTROLBAR:RecruitIsengardLegWarg
-"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
-END
-
-CONTROLBAR:ReviveIsengardLegWarg
-"Rianima il Warg Leggendario."
-END
-
-CONTROLBAR:HotkeyIsengardLegWarg
-"&Warg Leggendario"
-END
-
-CONTROLBAR:ToolTipLegWargTameTheBeast
-"Richiede livello 2. \nDomina i warg nemici. \nClicca col pulsante sinistro sull'icona, quindi sul bersaglio."
-END
-
-CONTROLBAR:ToolTipLegWargDreadVisage
-"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
-END
-
-CONTROLBAR:ToolTipLegWargManEater
-"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
 END
 
 CONTROLBAR:DrakeMetamorph
@@ -51753,11 +51725,23 @@ END
 CONTROLBAR:WildBolgHotkey
 "&Bolg"
 END
+CONTROLBAR:SpecialAbilityBolgCarnage
+"Massacro"
+END
+CONTROLBAR:ToolTipSpecialAbilityBolgCarnage
+"Richiede livello 3.\nBolg ottiene +100% danno e +50% corazza.\nSi può usare solo con l'arma corpo a corpo equipaggiata."
+END
+CONTROLBAR:BolgStun
+"Colpo stordente"
+END
+CONTROLBAR:ToolTipBolgStun
+"Blocca il bersaglio sul posto."
+END
 CONTROLBAR:BolgSummonGundabadWarriors
 "Richiama guardie del corpo"
 END
 CONTROLBAR:TooltipBolgSummonGundabadWarriors
-"Richiede livello 10.\nEvoca diverse unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
+"Richiede livello 8.\nEvoca tre unità di mezzi-troll che combattono al fianco di Bolg.\nClicca con il pulsante sinistro sull'icona e poi su una zona adatta."
 END
 
 OBJECT:WildHargont
@@ -52210,28 +52194,28 @@ CONTROLBAR:MordorArhalikRecruit
 "Recluta il sovrano di Rhun."
 END
 CONTROLBAR:ArhalikLeadership
-"Comando"
+"Sovrano di Rhun"
 END
 CONTROLBAR:TooltipArhalikLeadership
-"Richiede livello 3.\nGli alleati vicini ad Arhalik ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
-END
-CONTROLBAR:CallToArms
-"Chiamata alle armi"
-END
-CONTROLBAR:TooltipArhalikCallToArms
-"Richiede livello 5.\n Arhalik richiama sul campo di battaglia alcune unità di Immortali di Rhun."
-END
-CONTROLBAR:ArhalikBombard
-"Bombardamento"
-END
-CONTROLBAR:TooltipArhalikBombard
-"Richiede livello 7.\nArhalik da l'ordine di bombardare la zona indicata."
+"Richiede livello 2.\nGli alleati vicini ad Arhalik ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:ArhalikEastFury
 "Furia dell'Est"
 END
 CONTROLBAR:TooltipArhalikEastFury
-"Richiede livello 7.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
+"Richiede livello 4.\nArhalik entra in uno stato di furia infliggendo più danni, \naumentando la corazza e infliggendo danni ad area."
+END
+CONTROLBAR:ArhalikBombard
+"Bombardamento"
+END
+CONTROLBAR:TooltipArhalikBombard
+"Richiede livello 6.\nArhalik ordine di bombardare la zona indicata."
+END
+CONTROLBAR:ArhalikSummonRoyalGuard
+"Richiama Guardia Reale"
+END
+CONTROLBAR:TooltipArhalikSummonRoyalGuard
+"Richiede livello 8.\nEvoca diversi battaglioni di Immortali di Rhun che combattono al tuo fianco."
 END
 
 
@@ -53259,29 +53243,46 @@ END
 
 
 
-
-
-
-
-
-
-
-
-
+OBJECT:IsengardLegWarg
+"Warg Leggendario"
+END
+CONTROLBAR:RecruitIsengardLegWarg
+"Recluta il Warg Leggendario, il mannaro più grande che la Terra di Mezzo abbia mai visto."
+END
+CONTROLBAR:ReviveIsengardLegWarg
+"Rianima il Warg Leggendario."
+END
+CONTROLBAR:HotkeyIsengardLegWarg
+"&Warg Leggendario"
+END
+CONTROLBAR:ToolTipLegWargTameTheBeast
+"Domina i warg nemici bersaglio."
+END
+CONTROLBAR:StunningBite
+"Morso stordente"
+END
+CONTROLBAR:ToolTipLegWargStunningBite
+"Richiede livello 3.\nBlocca il bersaglio sul posto."
+END
+CONTROLBAR:ToolTipLegWargDreadVisage
+"Richiede livello 3. \nLa visione dell'enorme Warg terrorizza i nemici. \nAbilità passiva."
+END
+CONTROLBAR:ToolTipLegWargBloodHunt
+"Richiede livello 5.\nI Warg alleati vicini ottengono +50% danno, +50% corazza.\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:LegWargSummonPack
+"Branco"
+END
+CONTROLBAR:ToolTipLegWargSummonPack
+"Richiede livello 7.\nEvoca tre branchi di warg.\n\nUn branco di warg segue sempre il Warg Leggendario.\nAbilità passiva."
+END
+CONTROLBAR:ToolTipLegWargManEater
+"Richiede livello 10. \nUccide il nemico bersaglio, ripristinando l'energia del Warg Leggendario e fornendo temporaneamente +50% danno e +50% corazza. \nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio. \nNon cumulabile."
+END
 
 
 OBJECT:IsengardWargRider
 "Cavaliere Warg"
-END
-
-OBJECT:IsengardOrcArcherHorde
-"Arcieri Orchetti"
-END
-CONTROLBAR:ConstructIsengardOrcArcherHorde
-"Arcieri Orchetti"
-END
-CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
-"Efficace a distanza."
 END
 
 OBJECT:IsengardOrcFighterHorde
@@ -53292,6 +53293,29 @@ CONTROLBAR:ConstructIsengardOrcFighterHorde
 END
 CONTROLBAR:ToolTipBuildIsengardOrcFighterHorde
 "Efficace contro picchieri."
+END
+
+OBJECT:IsengardOrcPikeman
+"Picchiere Orchetto"
+END
+OBJECT:IsengardOrcPikemanHorde
+"Picchieri Orchetti"
+END
+CONTROLBAR:ConstructIsengardOrcPikemanHorde
+"Picchieri Orchetti"
+END
+CONTROLBAR:ToolTipBuildIsengardOrcPikemanHorde
+"Efficace contro cavalleria."
+END
+
+OBJECT:IsengardOrcArcherHorde
+"Arcieri Orchetti"
+END
+CONTROLBAR:ConstructIsengardOrcArcherHorde
+"Arcieri Orchetti"
+END
+CONTROLBAR:ToolTipBuildIsengardOrcArcherHorde
+"Efficace a distanza."
 END
 
 OBJECT:IsengardUrukScout
@@ -53658,25 +53682,25 @@ END
 CONTROLBAR:CirdanShipwrightKing
 "Re carpentiere"
 END
-CONTROLBAR:TollTipCirdanShipwrightKing
+CONTROLBAR:ToolTipCirdanShipwrightKing
 "Richiede livello 3.\nRaddoppia la velocità di costruzione delle navi e permette di creare il Vascello di Cirdan."
 END
-CONTROLBAR:CirdanUlmoCrush
+CONTROLBAR:CirdanUlmoCrash
 "Maglio d'Acqua"
 END
-CONTROLBAR:TollTipCirdanUlmoCrush
+CONTROLBAR:ToolTipCirdanUlmoCrash
 "Richiede livello 5.\n Cirdan crea un'ondata d'acqua che danneggia le unità nemiche attorno a lui. \n +300% danni contro Nazgûl e strutture."
 END
 CONTROLBAR:CirdanRebuild
 "Ricostruzione"
 END
-CONTROLBAR:TollTipCirdanRebuild
+CONTROLBAR:ToolTipCirdanRebuild
 "Richiede livello 7.\n Ripara le strutture bersaglio."
 END
 CONTROLBAR:CirdanWaterVessel
 "Vascello d'acqua"
 END
-CONTROLBAR:TollTipCirdanWaterVessel
+CONTROLBAR:ToolTipCirdanWaterVessel
 "Richiede livello 9.\n Cirdan lancia un vascello d'acqua che danneggia tutte le unità nemiche che incontra. \n Gli edifici subiscono danni maggiorati."
 END
 
@@ -53684,13 +53708,13 @@ END
 CONTROLBAR:TwinTeamworkBuff
 "Lavoro di coppia"
 END
-CONTROLBAR:TollTipTwinTeamworkBuff
-"Quando Elladan e Elrohir sono vicini, ottengono ???"
+CONTROLBAR:ToolTipTwinTeamworkBuff
+"Quando Elladan e Elrohir sono vicini, ottengono +20% armatura, +20% danni e +20% velocità di esperienza."
 END
-CONTROLBAR:TollTipElladanElrohirAthelas
-"Richiede livello 3.\nCura se stesso."
+CONTROLBAR:ToolTipElladanElrohirAthelas
+"Richiede livello 3.\nCura gli eroi vicini."
 END
-CONTROLBAR:ElladanElrohirLeadership
+CONTROLBAR:ToolTipElladanElrohirLeadership
 "Richiede livello 7.\nGli alleati vicini a Elladan e Elrohir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
@@ -54213,6 +54237,49 @@ OBJECT:AngmarMorgramir
 "Morgomir"
 END
 
+CONTROLBAR:AngmarAzghurHotkey
+"Azghur"
+END
+CONTROLBAR:AngmarAzghurRecruit
+"Recluta il boia di Angmar"
+END
+OBJECT:AngmarAzghur
+"Azghur"
+END
+CONTROLBAR:AzghurCleaver
+"Mutilatore"
+END
+CONTROLBAR:ToolTipAzghurCleaver
+"Riduce corazza, danni, velocità di movimento e velocità d'attacco dei nemici colpiti.\n\nAbilità Passiva. Non cumulabile."
+END
+CONTROLBAR:AzghurExecution
+"Esecuzione"
+END
+CONTROLBAR:ToolTipAzghurExecution
+"Richiede livello 3.\nPotente colpo che riduce temporaneamente del 20% la vita massima del bersaglio. \n Danni maggiorati agli eroi."
+END
+CONTROLBAR:AzghurCurseVictim
+"Maledizione della vittima"
+END
+CONTROLBAR:ToolTipAzghurCurseVictim
+"Richiede livello 5.\nBlocca il bersaglio sul posto e riduce la corazza del 50%."
+END
+CONTROLBAR:AzghurTerrifyingSwing
+"Colpo Terrificante"
+END
+CONTROLBAR:ToolTipAzghurTerrifyingSwing
+"Richiede livello 7.\n Potente attacco ad area che spaventa i nemici colpiti."
+END
+CONTROLBAR:AzghurExecutionerGreed
+"Brama del Boia"
+END
+CONTROLBAR:ToolTipAzghurExecutionerGreed
+"Richiede livello 9.\nAzghur si rigenera la vita colpendo."
+END
+
+
+
+
 OBJECT:AngmarUndeadFighter
 "Guerriero non-morto"
 END
@@ -54374,6 +54441,15 @@ CONTROLBAR:TooltipWerewolfStrenghtOfThePack
 "Richiede livello 2.\nI mannari vicini ottengono +20% corazza, danni e velocità di esperienza.\n\nAbilità passiva. Non cumulabile."
 END
 
+OBJECT:GreaterBarrowWight
+"Spettro maggiore"
+END
+CONTROLBAR:GreaterWightBlink
+"Teletrasporto"
+END
+CONTROLBAR:ToolTipGreaterWightBlink
+"Richiede livello 7.\nLo spettro si teletrasporta nel punto indicato."
+END
 
 CONTROLBAR:PurchaseTechnologyAngmarMortalFrost
 "Ricerca Gelo Mortale"
