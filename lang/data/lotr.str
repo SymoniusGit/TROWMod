@@ -54598,5 +54598,18 @@ CONTROLBAR:ToolTipFactionConvertGundabad
 "\nRecluta gli orchi del Monte Gundabad."
 END
 
+CONTROLBAR:ConstructMenHobbitHorde
+"Recluta Hobbit"
+END
 
+CONTROLBAR:ToolTipBuildMenHobbitHorde
+"Recluta gli Hobbit che possono combattere corpo a copro o a distanza lanciando sassi."
+END
 
+CONTROLBAR:onstructDunedainRangerHorde
+"Raminghi Dúnedain"
+END
+
+CONTROLBAR:ToolTipBuildDunedainRangerHorde
+"Efficaci a distanza"
+END
