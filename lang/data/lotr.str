@@ -14873,6 +14873,10 @@ CONTROLBAR:Leadership
 "Comando"
 END
 
+CONTROLBAR:SauronRingPower
+"Potere dell'Unico Anello"
+END
+
 CONTROLBAR:InspiringPresence
 "Presenza ispiratrice"
 END
@@ -14923,6 +14927,10 @@ END
 
 CONTROLBAR:ToolTipWitchKingLeadership
 "Gli alleati vicino al Re Stregone ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:ToolTipSauronRingPower
+"Gli alleati vicino a Sauron ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nRiduce notevolmente la corazza e il danno del nemico.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
