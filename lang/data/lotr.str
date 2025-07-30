@@ -53757,13 +53757,13 @@ CONTROLBAR:ToolTipBuildElvenMirkwoodWarriorHorde
 END
 
 OBJECT:ElvenMirkwoodSpearman
-"Lanciere di Bosco Atro"
+"Picchiere di Bosco Atro"
 END
 OBJECT:ElvenMirkwoodSpearmanHorde
-"Lancieri di Bosco Atro"
+"Picchieri di Bosco Atro"
 END
 CONTROLBAR:ConstructElvenMirkwoodSpearmanHorde
-"&Lancieri di Bosco Atro"
+"&Picchieri di Bosco Atro"
 END
 CONTROLBAR:ToolTipBuildElvenMirkwoodSpearmanHorde
 "Efficace contro cavalleria."
@@ -53881,7 +53881,7 @@ CONTROLBAR:ConstructElvenGaladhrimGuardHorde
 "Guardie &Galadhrim"
 END
 CONTROLBAR:ToolTipBuildElvenGaladhrimGuardHorde
-"Richiede caserma di livello 2.\nEfficace a distanza."
+"Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
 
 OBJECT:GaladhrimWarrior
