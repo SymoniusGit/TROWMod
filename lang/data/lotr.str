@@ -53881,7 +53881,7 @@ CONTROLBAR:ConstructElvenGaladhrimGuardHorde
 "Guardie &Galadhrim"
 END
 CONTROLBAR:ToolTipBuildElvenGaladhrimGuardHorde
-"Richiede caserma di livello 2.\nEfficace a distanza."
+"Richiede caserma di livello 2.\nEfficace contro cavalleria."
 END
 
 OBJECT:GaladhrimWarrior
