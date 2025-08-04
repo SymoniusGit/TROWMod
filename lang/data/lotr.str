@@ -14873,10 +14873,6 @@ CONTROLBAR:Leadership
 "Comando"
 END
 
-CONTROLBAR:SauronRingPower
-"Potere dell'Unico Anello"
-END
-
 CONTROLBAR:InspiringPresence
 "Presenza ispiratrice"
 END
@@ -14927,10 +14923,6 @@ END
 
 CONTROLBAR:ToolTipWitchKingLeadership
 "Gli alleati vicino al Re Stregone ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
-END
-
-CONTROLBAR:ToolTipSauronRingPower
-"Gli alleati vicino a Sauron ottengono\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\nRiduce notevolmente la corazza e il danno del nemico.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipTheodenLeadership
@@ -24855,7 +24847,7 @@ CONTROLBAR:ConstructDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon
-"Richiede fucina di livello 2.\nEfficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
+"Efficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -53757,13 +53749,13 @@ CONTROLBAR:ToolTipBuildElvenMirkwoodWarriorHorde
 END
 
 OBJECT:ElvenMirkwoodSpearman
-"Picchiere di Bosco Atro"
+"Lanciere di Bosco Atro"
 END
 OBJECT:ElvenMirkwoodSpearmanHorde
-"Picchieri di Bosco Atro"
+"Lancieri di Bosco Atro"
 END
 CONTROLBAR:ConstructElvenMirkwoodSpearmanHorde
-"&Picchieri di Bosco Atro"
+"&Lancieri di Bosco Atro"
 END
 CONTROLBAR:ToolTipBuildElvenMirkwoodSpearmanHorde
 "Efficace contro cavalleria."
@@ -53881,7 +53873,7 @@ CONTROLBAR:ConstructElvenGaladhrimGuardHorde
 "Guardie &Galadhrim"
 END
 CONTROLBAR:ToolTipBuildElvenGaladhrimGuardHorde
-"Richiede caserma di livello 2.\nEfficace contro cavalleria."
+"Richiede caserma di livello 2.\nEfficace a distanza."
 END
 
 OBJECT:GaladhrimWarrior
@@ -53999,7 +53991,7 @@ CONTROLBAR:ToolTipBuildElvenLindonPikemanHorde
 "Efficace contro cavalleria."
 END
 
-OBJECT:LindonArcher
+OBJECT:ElvenLindonArcher
 "Arcieri di Lindon"
 END
 OBJECT:ElvenLindonArcherHorde
@@ -54606,18 +54598,5 @@ CONTROLBAR:ToolTipFactionConvertGundabad
 "\nRecluta gli orchi del Monte Gundabad."
 END
 
-CONTROLBAR:ConstructMenHobbitHorde
-"Recluta Hobbit"
-END
 
-CONTROLBAR:ToolTipBuildMenHobbitHorde
-"Recluta gli Hobbit che possono combattere corpo a copro o a distanza lanciando sassi."
-END
 
-CONTROLBAR:onstructDunedainRangerHorde
-"Raminghi Dúnedain"
-END
-
-CONTROLBAR:ToolTipBuildDunedainRangerHorde
-"Efficaci a distanza"
-END
