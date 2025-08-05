@@ -24847,7 +24847,7 @@ CONTROLBAR:ConstructDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon
-"Richiede fucina di livello 2.\Efficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
+"Richiede fucina di livello 2.\nEfficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
