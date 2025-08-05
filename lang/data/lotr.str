@@ -24835,11 +24835,11 @@ CONTROLBAR:ConstructDwarvenDemolisher
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
-"Richiede fucina di livello 2.\nEfficace contro le strutture."
+"Efficace contro le strutture."
 END
 
 TOOLTIP:LackLevel2ForgeWorksDemolisher
-"Richiede fucina di livello 2.\nEfficace contro le strutture."
+"Efficace contro le strutture."
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
@@ -24847,7 +24847,7 @@ CONTROLBAR:ConstructDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon
-"Efficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
+"Richiede fucina di livello 2.\Efficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -28957,7 +28957,7 @@ CONTROLBAR:ToolTipBuildDwarvenBatteringRam
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
-"Permette di realizzare demolitore e catapulta e di ricercare il potenziamento Lame temprate."
+"Permette di realizzare carri da battaglia, catapulte e di ricercare il potenziamento Lame temprate."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
