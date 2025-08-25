@@ -24835,11 +24835,11 @@ CONTROLBAR:ConstructDwarvenDemolisher
 END
 
 CONTROLBAR:ToolTipBuildDwarvenDemolisher
-"Efficace contro le strutture."
+"Richiede fucina di livello 2.\nEfficace contro le strutture."
 END
 
 TOOLTIP:LackLevel2ForgeWorksDemolisher
-"Efficace contro le strutture."
+"Richiede fucina di livello 2.\nEfficace contro le strutture."
 END
 
 CONTROLBAR:ConstructDwarvenBattleWagon
@@ -24847,7 +24847,7 @@ CONTROLBAR:ConstructDwarvenBattleWagon
 END
 
 CONTROLBAR:ToolTipBuildDwarvenBattleWagon
-"Richiede fucina di livello 2.\nEfficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
+"Efficace contro spadaccini e arcieri.\nPuò essere potenziato con vari miglioramenti."
 END
 
 CONTROLBAR:ConstructDwarvenCatapult
@@ -28957,7 +28957,7 @@ CONTROLBAR:ToolTipBuildDwarvenBatteringRam
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel2Upgrade
-"Permette di realizzare carri da battaglia, catapulte e di ricercare il potenziamento Lame temprate."
+"Permette di realizzare demolitore e catapulta e di ricercare il potenziamento Lame temprate."
 END
 
 CONTROLBAR:ToolTipBuildDwarvenForgeWorksLevel3Upgrade
@@ -51999,7 +51999,7 @@ OBJECT:WildGundabadWolfRiderHorde
 "Cavalca lupi di Gundabad"
 END
 CONTROLBAR:ConstructWildGundabadWolfRiders
-"Cavalieri Warg di Gundabad"
+"Cavalca lupi di Gundabad"
 END
 CONTROLBAR:ToolTipBuildWildGundabadWolfRiders
 "Efficace contro arcieri."
@@ -52377,9 +52377,8 @@ OBJECT:MordorOrcPikeman
 "Picchiere Orchetto"
 END
 OBJECT:MordorOrcPikemanHorde
-"Picchieri Orchetto"
+"Picchiere Orchetto"
 END
-
 CONTROLBAR:ContructMordorOrcPikemanHorde
 "Picchieri Orchetti"
 END
@@ -52516,10 +52515,23 @@ OBJECT:RhunImmortalHorde
 "Immortali di Rhun"
 END
 CONTROLBAR:ConstructRhunImmortalHorde
-"&Immortali di Rhun"
+"Immortali di Rhun"
 END
 CONTROLBAR:ToolTipBuildRhunImmortalHorde
 "Richiede palazzo di livello 3.\nEfficace contro picchieri."
+END
+
+OBJECT:MordorRhunPalaceGuard
+"Guardia del Palazzo di Rhun"
+END
+OBJECT:MordorRhunPalaceGuardHorde
+"Guardie del Palazzo di Rhun"
+END
+CONTROLBAR:ConstructMordorRhunPalaceGuardHorde
+"Guardie del Palazzo di Rhun"
+END
+CONTROLBAR:ToolTipBuildMordorRhunPalaceGuardHorde
+"Richiede palazzo di livello 3.\nEfficace contro cavalleria."
 END
 
 OBJECT:MordorEasterling
@@ -53991,8 +54003,8 @@ CONTROLBAR:ToolTipBuildElvenLindonPikemanHorde
 "Efficace contro cavalleria."
 END
 
-OBJECT:ElvenLindonArcher
-"Arcieri di Lindon"
+OBJECT:LindonArcher
+"Arciere di Lindon"
 END
 OBJECT:ElvenLindonArcherHorde
 "Arcieri di Lindon"
@@ -54332,7 +54344,6 @@ CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
 "Efficace contro arcieri."
 END
 
-
 OBJECT:AngmarOrcWarriors
 "Combattente di Gundabad"
 END
@@ -54352,13 +54363,11 @@ CONTROLBAR:ToolTipBuildAngmarGundabadFighterHorde
 "Efficace contro picchieri."
 END
 
-
-
 CONTROLBAR:AngmarGundabadPikeman
 "Picchiere  di Gundabad"
 END
 CONTROLBAR:HordeWildGundabadPikemanHorde
-"Picchieri  di Gundabad"
+"Picchieri di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadPikemanHorde
 "Picchieri  di Gundabad"
@@ -54366,8 +54375,6 @@ END
 CONTROLBAR:ToolTipBuildAngmarGundabadPikemanHorde
 "Efficace contro cavalleria."
 END
-
-
 
 CONTROLBAR:AngmarGundabadArcher
 "Arcere di Gundabad"
@@ -54380,6 +54387,13 @@ CONTROLBAR:ConstructAngmarGundabadArcherHorde
 END
 CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
+END
+
+CONTROLBAR:ConstructAngmarGundabadWargHorde
+"Warg di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadWargHorde
+"Efficace contro arcieri."
 END
 
 OBJECT:AngmarWolfRiders
