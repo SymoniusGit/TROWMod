@@ -54389,7 +54389,7 @@ CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
 END
 
-CONTROLBAR:ConstructAngmarGundabadWarg
+CONTROLBAR:ConstructAngmarGundabadWargHorde
 "Warg di Gundabad"
 END
 CONTROLBAR:ToolTipBuildAngmarGundabadWargHorde
