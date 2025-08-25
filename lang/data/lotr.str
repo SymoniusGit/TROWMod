@@ -51999,7 +51999,7 @@ OBJECT:WildGundabadWolfRiderHorde
 "Cavalca lupi di Gundabad"
 END
 CONTROLBAR:ConstructWildGundabadWolfRiders
-"Cavalieri Warg di Gundabad"
+"Cavalca lupi di Gundabad"
 END
 CONTROLBAR:ToolTipBuildWildGundabadWolfRiders
 "Efficace contro arcieri."
@@ -54344,7 +54344,6 @@ CONTROLBAR:ToolTipBuildAngmarUndeadCavalryHorde
 "Efficace contro arcieri."
 END
 
-
 OBJECT:AngmarOrcWarriors
 "Combattente di Gundabad"
 END
@@ -54364,13 +54363,11 @@ CONTROLBAR:ToolTipBuildAngmarGundabadFighterHorde
 "Efficace contro picchieri."
 END
 
-
-
 CONTROLBAR:AngmarGundabadPikeman
 "Picchiere  di Gundabad"
 END
 CONTROLBAR:HordeWildGundabadPikemanHorde
-"Picchieri  di Gundabad"
+"Picchieri di Gundabad"
 END
 CONTROLBAR:ConstructAngmarGundabadPikemanHorde
 "Picchieri  di Gundabad"
@@ -54378,8 +54375,6 @@ END
 CONTROLBAR:ToolTipBuildAngmarGundabadPikemanHorde
 "Efficace contro cavalleria."
 END
-
-
 
 CONTROLBAR:AngmarGundabadArcher
 "Arcere di Gundabad"
@@ -54392,6 +54387,13 @@ CONTROLBAR:ConstructAngmarGundabadArcherHorde
 END
 CONTROLBAR:ToolTipBuildAngmarGundabadArcherHorde
 "Efficace contro fanteria."
+END
+
+CONTROLBAR:ConstructAngmarGundabadWarg
+"Warg di Gundabad"
+END
+CONTROLBAR:ToolTipBuildAngmarGundabadWargHorde
+"Efficace contro arcieri."
 END
 
 OBJECT:AngmarWolfRiders
