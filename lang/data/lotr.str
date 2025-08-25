@@ -54003,8 +54003,8 @@ CONTROLBAR:ToolTipBuildElvenLindonPikemanHorde
 "Efficace contro cavalleria."
 END
 
-OBJECT:ElvenLindonArcher
-"Arcieri di Lindon"
+OBJECT:LindonArcher
+"Arciere di Lindon"
 END
 OBJECT:ElvenLindonArcherHorde
 "Arcieri di Lindon"
