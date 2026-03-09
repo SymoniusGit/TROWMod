@@ -54486,6 +54486,12 @@ END
 TOOLTIP:AngmarMortalFrost
 "Gelo Mortale"
 END
+CONTROLBAR:SpellBookWightInfestation
+"Infestazione di spettri"
+END
+CONTROLBAR:TooltipSpellBookWightInfestation
+"Evoca degli spettri dei tumuli"
+END
 
 
 
