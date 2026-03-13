@@ -7674,6 +7674,10 @@ OBJECT:RohanGimli
 "Gimli"
 END
 
+OBJECT:RohanSamu
+"Samu"
+END
+
 OBJECT:RohanFrodo
 "Frodo"
 END
