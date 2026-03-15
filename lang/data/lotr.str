@@ -50652,7 +50652,7 @@ CONTROLBAR:SummonGraugumMumakil
 END
 
 CONTROLBAR:TooltipSummonGraugumMumakil
-"Richiede livello 3.\nRichiama dei mumakil sotto il tuo comando.\nClicca sull'icona, quindi sul terreno."
+"Richiede livello 10.\nRichiama dei mumakil sotto il tuo comando.\nClicca sull'icona, quindi sul terreno."
 END
 
 INI:FactionWardenage
@@ -51280,6 +51280,9 @@ CONTROLBAR:ThorinIronHillsForge
 END
 CONTROLBAR:ToolTipThorinIronHillsForge
 "Richiede livello 7.\nLe macchine d'assedio vicine a Thorin ottengono \n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:ToolTipMordorGraugumMumakillLeadership
+"Richiede livello 7.\nGli olifanti vicino a Graugum ottengono \n+20% danno e +20% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:ThorinArmorBreaker
 "Frantuma Corazza"
