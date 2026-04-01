@@ -50893,7 +50893,7 @@ CONTROLBAR:AlatarWizardBlast
 END
 
 CONTROLBAR:ToolTipAlatarWizardBlast
-"Richiede livello 3. \nAlatar genera una forte onda d'urto che respinge e annienta gli avversari."
+"Richiede livello 3. \nAlatar genera una forte onda d'urto che respinge e danneggia gli avversari."
 END
 
 CONTROLBAR:AlatarBlueFireball
@@ -51234,10 +51234,64 @@ CONTROLBAR:ElvenGaladrielHotkey
 "&Galadriel"
 END
 
+CONTROLBAR:GaladrielRingBlessingProtectionAura
+"Benedizione di Lothlòrien"
+END
+CONTROLBAR:ToolTipGaladrielRingBlessingProtectionAura
+"Gli alleati vicini a Galadriel ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:GaladrielRingCamoufageAura
+"Benedizione di Nenya"
+END
+CONTROLBAR:ToolTipGaladrielRingCamoufageAura
+autoheal: 1% ogni 2s camoufage: nebbia attorno che  nasconde i nemici 
+"Galadriel crea una nebbia attorno a se che nasconde le unità alleate,\ninoltre gli alleati vicini a Galadriel si curano del 1% ogni 2 secondi.\nAbilità passiva."
+END
+
+CONTROLBAR:GaladrielRingPowerNenya
+"Infida come il mare"
+END
+CONTROLBAR:ToolTipGaladrielRingPowerNenya
+"Galadriel lancia davanti a se un'enorme sfera d'acqua che travolge e danneggia i nemici."
+END
 
 
 
+CONTROLBAR:GaladrielBlessingProtectionAura
+"Signora di Lothlòrien"
+END
+CONTROLBAR:ToolTipGaladrielBlessingProtectionAura
+"Gli alleati vicini a Galadriel ottengono\n+50% danno e immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
+END
 
+CONTROLBAR:GaladrielElvenWood
+"Allieva di Yavanna"
+END
+CONTROLBAR:TooltipGaladrielElvenWood
+"Richiede lv5.\nCrea un gruppo di alberi nella zona bersaglio."
+END
+
+CONTROLBAR:GaladrielWizardBlast
+"Seguace di Feanor"
+END
+CONTROLBAR:ToolTipGaladrielWizardBlast
+"Richiede livello 3.\nGaladriel genera una forte onda d'urto che respinge e danneggia gli avversari."
+END
+
+CONTROLBAR:GaladrielRestoration
+"Riposo di Caras Galadhon"
+END
+CONTROLBAR:ToolTipGaladrielRestoration
+"Richiede lv 7.\n Rigenera 80% della vita massima le unità bersaglio."
+END
+
+CONTROLBAR:GaladrielPowerNenya
+"Potere di Nenya"
+END
+CONTROLBAR:ToolTipGaladrielPowerNenya
+"Richiede lv 10. \nGaladriel lancia davanti a se una sfera d'acqua che travolge e danneggia i nemici.\n\nAbilità passiva. Non cumulabile."
+END
 
 
 
