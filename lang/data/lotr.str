@@ -51238,7 +51238,7 @@ CONTROLBAR:GaladrielRingBlessingProtectionAura
 "Benedizione di Lothlòrien"
 END
 CONTROLBAR:ToolTipGaladrielRingBlessingProtectionAura
-"Gli alleati vicini a Galadriel ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Galadriel ottengono\n+50% danno e +50% corazza, esperienza a velocità doppia \ned immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:GaladrielRingCamoufageAura
@@ -51282,7 +51282,7 @@ CONTROLBAR:GaladrielRestoration
 "Riposo di Caras Galadhon"
 END
 CONTROLBAR:ToolTipGaladrielRestoration
-"Richiede livello 7.\n Rigenera 80% della vita massima le unità bersaglio."
+"Richiede livello 7.\n Rigenera la vita delle unità bersaglio."
 END
 
 CONTROLBAR:GaladrielPowerNenya
