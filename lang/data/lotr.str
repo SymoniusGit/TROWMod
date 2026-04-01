@@ -51238,14 +51238,14 @@ CONTROLBAR:GaladrielRingBlessingProtectionAura
 "Benedizione di Lothlòrien"
 END
 CONTROLBAR:ToolTipGaladrielRingBlessingProtectionAura
-"Gli alleati vicini a Galadriel ottengono\n+50% danno e +50% corazza, esperienza a velocità doppia \ned immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Galadriel ottengono +50% danno e +50% corazza, esperienza a velocità doppia ed immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:GaladrielRingCamoufageAura
 "Benedizione di Nenya"
 END
 CONTROLBAR:ToolTipGaladrielRingCamoufageAura
-"Galadriel crea una nebbia attorno a se che nasconde le unità alleate,\ninoltre gli alleati vicini a Galadriel si curano del 1% ogni 2 secondi.\nAbilità passiva."
+"Galadriel crea una nebbia attorno a se che nasconde le unità alleate, inoltre gli alleati vicini a Galadriel si curano del 1% ogni 2 secondi.\nAbilità passiva."
 END
 
 CONTROLBAR:GaladrielRingPowerNenya
@@ -51261,7 +51261,7 @@ CONTROLBAR:GaladrielBlessingProtectionAura
 "Signora di Lothlòrien"
 END
 CONTROLBAR:ToolTipGaladrielBlessingProtectionAura
-"Gli alleati vicini a Galadriel ottengono\n+50% danno e immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Galadriel ottengono +50% danno e immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:GaladrielWizardBlast
@@ -51275,14 +51275,14 @@ CONTROLBAR:GaladrielElvenWood
 "Allieva di Yavanna"
 END
 CONTROLBAR:TooltipGaladrielElvenWood
-"Richiede livello 5.\nCrea un gruppo di alberi nella zona bersaglio."
+"Richiede livello 5.\nGaladriel crea degli alberi nella zona bersaglio.\nTutte le unità del Bene guadagnano +50% corazza.\nTutte le unità del Male perdono tutti i bonus comando.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 
 CONTROLBAR:GaladrielRestoration
 "Riposo di Caras Galadhon"
 END
 CONTROLBAR:ToolTipGaladrielRestoration
-"Richiede livello 7.\n Rigenera la vita delle unità bersaglio."
+"Richiede livello 7.\n Rigenera 80% della vita totale delle unità bersaglio alleate."
 END
 
 CONTROLBAR:GaladrielPowerNenya
