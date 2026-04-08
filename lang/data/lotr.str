@@ -53178,7 +53178,7 @@ CONTROLBAR:ToolTipHowlOfRage
 "Richiede livello 5.\nHùrak guadagna +50% di corazza e +50% danni."
 END
 CONTROLBAR:ToolTipHurakShieldCrush
-"Richiede livello 7.\nAumenta la velocità di movimento +50% \ne atterra i nemici a cui passa vicino.\nMentre si muove non prende danni danni da perforazione, eroico, cavalleria e strutturali.\n Contro gli altri tipi di danno guandagna corazza +50%."
+"Richiede livello 7.\nAumenta la velocità di movimento +50% \ne atterra i nemici a cui passa vicino.\nMentre si muove non prende danni da perforazione, eroico, cavalleria e strutturali.\n Contro gli altri tipi di danno guandagna corazza +50%."
 END
 CONTROLBAR:SummonUrukHai
 "Chiamata degli Uruk-hai"
