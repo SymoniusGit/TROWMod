@@ -14382,11 +14382,11 @@ CONTROLBAR:ElvenGlorfindelHotkey
 END
 
 CONTROLBAR:ToolTipBuildThranduil
-"Recluta il capo degli Elfi di Bosco Atro"
+"Recluta il Re degli Elfi di Bosco Atro"
 END
 
 CONTROLBAR:ElvenThranduilRecruit
-"Recluta il capo degli Elfi di Bosco Atro"
+"Recluta il Re degli Elfi di Bosco Atro"
 END
 
 CONTROLBAR:ElvenThranduilRevive
@@ -28402,6 +28402,10 @@ END
 
 CONTROLBAR:ToolTipElvenCloakThranduil
 "Richiede livello 4.\nDiventa invisibile quando è immobile.\nClicca con il pulsante sinistro per attivare."
+END
+
+CONTROLBAR:ToolTipThranduilLeadership
+"Gli alleati vicino a Thranduil\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile. "
 END
 
 CONTROLBAR:MoveUnseen
