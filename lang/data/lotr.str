@@ -53098,8 +53098,19 @@ CONTROLBAR:ToolTipBuildGondorCitadelKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
+CONTROLBAR:ConstructDunedainRangerHorde
+"Raminghi Dúnedain"
+END
+CONTROLBAR:ToolTipBuildDunedainRangerHorde
+"Recluta i Raminghi del Nord.\nRichiede campo d'allenamento di livello 3.\nEfficace a distanza."
+END
 
-
+CONTROLBAR:ConstructMenHobbitHorde
+"Confinieri Hobbit"
+END
+CONTROLBAR:ToolTipBuildMenHobbitHorde
+"Recluta i confinieri della Contea.\nEfficace a distanza."
+END
 
 
 
@@ -53131,9 +53142,6 @@ END
 CONTROLBAR:ToolTipSarumanCraftRing
 "Richiede livello 10.\nL'eroe bersaglio guadagna +30% danno, +30% corazza, +30% vita.\n(Applicabile anche a Saruman).\nNon cumulabile."
 END
-
-
-
 
 OBJECT:IsengardWormTongue
 "Grima Vermilinguo"
