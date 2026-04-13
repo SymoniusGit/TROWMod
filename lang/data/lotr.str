@@ -52768,6 +52768,22 @@ END
 CONTROLBAR:ToolTipBuildHaradrimAssassin
 "Richiede Palazzo degli Haradrim di Livello 3. \nEfficace contro singole unità e per spiare."
 END
+CONTROLBAR:ToolTipAssassinBackstab
+"L'assassino effettua un attacco corpo a corpo che causa elevati danni al bersaglio."
+END
+CONTROLBAR:AssassinPoisonDart
+"Dardo avvelenato"
+END
+CONTROLBAR:ToolTipAssassinPoisonDart
+"L'assassino spara un dardo avvelenato sul bersaglio, causando danni nel tempo."
+END
+CONTROLBAR:PurchaseUpgradeMordorAssassinPoison
+"Potenzia con lama avvelenata"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorAssassinPoison
+"L'assassino infliggerà danno da veleno ai nemici bersaglio, causando danni nel tempo."
+END
+
 
 
 
