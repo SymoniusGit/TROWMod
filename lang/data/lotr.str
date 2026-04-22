@@ -46526,26 +46526,24 @@ END
 CONTROLBAR:GothmogIronHand
 "Mano d&i ferro"
 END
-
 CONTROLBAR:ToolTipGothmogIronHand
 "Richiede livello 2.\nGli Orchetti vicino a Gothmog ottengono immunità alla paura.\nAbilità passiva.\nNon cumulabile."
-END
-
-CONTROLBAR:GothmogDayoftheOrc
-"Giorno dell'Orchetto"
-END
-
-CONTROLBAR:ToolTipGothmogDayoftheOrc
-"Richiede livello 6.\nGli Orchetti vicini a Gothmog ottengono\n+50% danno e +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SpecialAbilityGothmogCarnage
 "Furia (&Y)"
 END
-
 CONTROLBAR:ToolTipSpecialAbilityGothmogCarnage
 "Richiede livello 4.\nGothmog ottiene +100% danno, +50% corazza.\nClicca con il pulsante sinistro per attivare."
 END
+
+CONTROLBAR:GothmogDayoftheOrc
+"Giorno dell'Orchetto"
+END
+CONTROLBAR:ToolTipGothmogDayoftheOrc
+"Richiede livello 6.\nGli Orchetti vicini a Gothmog ottengono\n+50% danno e +50% corazza.\nAbilità passiva. Non cumulabile."
+END
+
 
 TOOLTIP:LackLevel2SiegeForgedBlades
 "Richiede officina dell'assedio di livello 2."
