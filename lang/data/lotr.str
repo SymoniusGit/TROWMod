@@ -46539,6 +46539,10 @@ CONTROLBAR:ToolTipGothmogDayoftheOrc
 "Richiede livello 6.\nGli Orchetti vicini a Gothmog ottengono\n+50% danno e +50% corazza.\nAbilità passiva. Non cumulabile."
 END
 
+CONTROLBAR:ToolTipMordorGottyGrondLeadership
+"Richiede livello 10.\nGrond vicino a Gothmog ottiene\n+30% velocità e +30% corazza.\nAbilità passiva. Non cumulabile."
+END
+
 CONTROLBAR:SpecialAbilityGothmogCarnage
 "Furia (&Y)"
 END
