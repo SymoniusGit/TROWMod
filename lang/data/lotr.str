@@ -14898,7 +14898,7 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:TooltipElrondLeadership
-"Richiede livello 3.\nGli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
