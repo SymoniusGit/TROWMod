@@ -14382,11 +14382,11 @@ CONTROLBAR:ElvenGlorfindelHotkey
 END
 
 CONTROLBAR:ToolTipBuildThranduil
-"Recluta il capo degli Elfi di Bosco Atro"
+"Recluta il Re degli Elfi di Bosco Atro"
 END
 
 CONTROLBAR:ElvenThranduilRecruit
-"Recluta il capo degli Elfi di Bosco Atro"
+"Recluta il Re degli Elfi di Bosco Atro"
 END
 
 CONTROLBAR:ElvenThranduilRevive
@@ -14898,7 +14898,7 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:TooltipElrondLeadership
-"Richiede livello 3.\nGli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -28402,6 +28402,10 @@ END
 
 CONTROLBAR:ToolTipElvenCloakThranduil
 "Richiede livello 4.\nDiventa invisibile quando è immobile.\nClicca con il pulsante sinistro per attivare."
+END
+
+CONTROLBAR:ToolTipThranduilLeadership
+"Gli alleati vicino a Thranduil\n+50% danno, +50% corazza e\naccumulano esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile. "
 END
 
 CONTROLBAR:MoveUnseen
@@ -46524,7 +46528,7 @@ CONTROLBAR:GothmogIronHand
 END
 
 CONTROLBAR:ToolTipGothmogIronHand
-"Richiede livello 2.\nGli Orchetti vicino a Gothmog ottengono immunità alla paura.\nAbilità passiva.\nNon cumulabile."
+"Richiede livello 2.\nTBD.\nAbilità passiva.\nNon cumulabile."
 END
 
 CONTROLBAR:GothmogDayoftheOrc
@@ -46533,6 +46537,10 @@ END
 
 CONTROLBAR:ToolTipGothmogDayoftheOrc
 "Richiede livello 6.\nGli Orchetti vicini a Gothmog ottengono\n+50% danno e +50% corazza.\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:ToolTipMordorGottyGrondLeadership
+"Richiede livello 10.\nGrond vicino a Gothmog ottiene\n+30% velocità e +30% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SpecialAbilityGothmogCarnage
@@ -52764,6 +52772,22 @@ END
 CONTROLBAR:ToolTipBuildHaradrimAssassin
 "Richiede Palazzo degli Haradrim di Livello 3. \nEfficace contro singole unità e per spiare."
 END
+CONTROLBAR:ToolTipAssassinBackstab
+"L'assassino effettua un attacco corpo a corpo che causa elevati danni al bersaglio."
+END
+CONTROLBAR:AssassinPoisonDart
+"Dardo avvelenato"
+END
+CONTROLBAR:ToolTipAssassinPoisonDart
+"L'assassino spara un dardo avvelenato sul bersaglio, causando danni nel tempo."
+END
+CONTROLBAR:PurchaseUpgradeMordorAssassinPoison
+"Potenzia con lama avvelenata"
+END
+CONTROLBAR:ToolTipPurchaseUpgradeMordorAssassinPoison
+"L'assassino infliggerà danno da veleno ai nemici bersaglio, causando danni nel tempo."
+END
+
 
 
 
@@ -53078,8 +53102,19 @@ CONTROLBAR:ToolTipBuildGondorCitadelKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
+CONTROLBAR:ConstructDunedainRangerHorde
+"Raminghi Dúnedain"
+END
+CONTROLBAR:ToolTipBuildDunedainRangerHorde
+"Recluta i Raminghi del Nord.\nRichiede campo d'allenamento di livello 3.\nEfficace a distanza."
+END
 
-
+CONTROLBAR:ConstructMenHobbitHorde
+"Confinieri Hobbit"
+END
+CONTROLBAR:ToolTipBuildMenHobbitHorde
+"Recluta i confinieri della Contea.\nEfficace a distanza."
+END
 
 
 
@@ -53111,9 +53146,6 @@ END
 CONTROLBAR:ToolTipSarumanCraftRing
 "Richiede livello 10.\nL'eroe bersaglio guadagna +30% danno, +30% corazza, +30% vita.\n(Applicabile anche a Saruman).\nNon cumulabile."
 END
-
-
-
 
 OBJECT:IsengardWormTongue
 "Grima Vermilinguo"
