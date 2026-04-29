@@ -14898,7 +14898,7 @@ CONTROLBAR:ToolTipBoromirLeadership
 END
 
 CONTROLBAR:TooltipElrondLeadership
-"Richiede livello 3.\nGli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:ToolTipHaldirLeadership
@@ -46528,7 +46528,7 @@ CONTROLBAR:GothmogIronHand
 END
 
 CONTROLBAR:ToolTipGothmogIronHand
-"Richiede livello 2.\nGli Orchetti vicino a Gothmog ottengono immunità alla paura.\nAbilità passiva.\nNon cumulabile."
+"Richiede livello 2.\nTBD.\nAbilità passiva.\nNon cumulabile."
 END
 
 CONTROLBAR:GothmogDayoftheOrc
@@ -46537,6 +46537,10 @@ END
 
 CONTROLBAR:ToolTipGothmogDayoftheOrc
 "Richiede livello 6.\nGli Orchetti vicini a Gothmog ottengono\n+50% danno e +50% corazza.\nAbilità passiva. Non cumulabile."
+END
+
+CONTROLBAR:ToolTipMordorGottyGrondLeadership
+"Richiede livello 10.\nGrond vicino a Gothmog ottiene\n+30% velocità e +30% corazza.\nAbilità passiva. Non cumulabile."
 END
 
 CONTROLBAR:SpecialAbilityGothmogCarnage
