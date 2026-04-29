@@ -52146,7 +52146,7 @@ CONTROLBAR:WarBatsDreadVisage
 "Visione raccapricciante"
 END
 CONTROLBAR:ToolTipWarBatsDreadVisage
-"Riduce la corazza e il danno del nemico.\nAbilità passiva."
+"Il nemico subisce -15% danno e -15% corazza.\nAbilità passiva."
 END
 CONTROLBAR:WarBatsBloodDrain
 "Risucchio di Sangue"
@@ -52947,7 +52947,7 @@ CONTROLBAR:ToolTipHalbaradToggleStandard
 "Richiede livello 5.\nHalbarad innalza lo stendardo della Compagnia Grigia e combatte di spada."
 END
 CONTROLBAR:ToolTipHalbaradDreadVisage
-"Lo stendardo induce paura nelle unità nemiche.\nRiduce notevolmente la corazza e il danno del nemico.\nAbilità passiva."
+"Lo stendardo induce paura nelle unità nemiche.\nIl nemico subisce -25% danno e -25% corazza.\nAbilità passiva."
 END
 CONTROLBAR:ToolTipHalbaradElendil
 "Fa fuggire le unità nemiche nelle vicinanze."
