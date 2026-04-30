@@ -25303,7 +25303,7 @@ CONTROLBAR:PurchaseUpgradeEregionForgeLevel3
 END
 
 CONTROLBAR:ToolTipBuildEregionForgeLevel3
-"Consente la ricerca di Frecce Puntargento."
+"Consente la ricerca di Frecce Puntargento e Freccie Avvelenate."
 END
 
 CONTROLBAR:ToolTipGreenPasture
@@ -37600,11 +37600,16 @@ CONTROLBAR:ToolTipPurchaseUpgradeElvenHeavyArmor
 END
 
 CONTROLBAR:PurchaseTechnologyElvenSilverthornArrows
-"Ricerca Frecce Puntargento (&W)"
+"Ricerca potenziamento freccie (&W)"
 END
 
 CONTROLBAR:ToolTipPurchaseTechnologyElvenSilverthornArrows
-"Consente ai battaglioni di acquistare il potenziamento Frecce Puntargento.\nQuando in uso, aumenta notevolmente il danno inflitto dalle frecce."
+"Consente ai battaglioni di acquistare il potenziamento Frecce Puntargento. Quando in uso, aumenta il danno inflitto dalle frecce.\nConsente ai battaglioni di Bosco Atro di acquistare il potenziamento Frecce velenose.\nQuando in uso le frecce causano danno nel tempo e rallentano il bersaglio."
+END
+
+CONTROLBAR:ToolTipPurchaseTechnologyElvenForgedBlades
+"Consente ai battaglioni di acquistare il potenziamento Lame temprate. Quando in uso, aumenta il danno inflitto.\nConsente ai battaglioni di Bosco Atro di acquistare il potenziamento Lame velenose.\nQuando in uso causano danno nel tempo e rallentano il bersaglio."
+
 END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
@@ -37648,7 +37653,7 @@ CONTROLBAR:PurchaseTechnologyDwarvenSiegeHammer
 END
 
 CONTROLBAR:PurchaseTechnologyElderRacesMagicArrows
-"Ricerca Frecce Puntargento (&W)"
+"Ricerca Potenziamento frecce (&W)"
 END
 
 CONTROLBAR:PurchaseTechnologyElvenCloak
