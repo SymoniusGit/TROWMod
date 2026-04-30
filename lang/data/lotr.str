@@ -43479,6 +43479,10 @@ SIDE:Arnor
 "Arnor"
 END
 
+SIDE:Mirkwood
+"Mirkwood"
+END
+
 INI:FactionArnor
 "Arnor"
 END
