@@ -51252,7 +51252,7 @@ CONTROLBAR:ElvenGaladrielHotkey
 END
 
 CONTROLBAR:GaladrielRingBlessingProtectionAura
-"Benedizione di Lothlòrien"
+"Signora di Lothlòrien"
 END
 CONTROLBAR:ToolTipGaladrielRingBlessingProtectionAura
 "Gli alleati vicini a Galadriel ottengono +50% danno e +50% corazza, esperienza a velocità doppia ed immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
@@ -51281,15 +51281,29 @@ CONTROLBAR:ToolTipGaladrielBlessingProtectionAura
 "Gli alleati vicini a Galadriel ottengono +50% danno e immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
 END
 
+CONTROLBAR:GaladrielBrightDread
+"Terrore splendente"
+END
+CONTROLBAR:ToolTipGaladrielBrightDread
+"Richiede livello 3.\n Le unità nemiche vicine a Galadriel subiscono -25% di armatura e infliggono -25% di danni. "
+END
+
 CONTROLBAR:GaladrielWizardBlast
-"Seguace di Feanor"
+"NON USATA Onda d'urto"
 END
 CONTROLBAR:ToolTipGaladrielWizardBlast
 "Richiede livello 3.\nGaladriel genera una forte onda d'urto che respinge e danneggia gli avversari."
 END
 
+CONTROLBAR:GaladrielBurningLight
+"Luce ardente"
+END
+CONTROLBAR:ToolTipGaladrielBurningLight
+"Richiede livello 5.\nGaladriel genera un'enorme ondata di luce che danneggia i nemici circostanti."
+END
+
 CONTROLBAR:GaladrielElvenWood
-"Allieva di Yavanna"
+"NON USATA Allieva di Yavanna"
 END
 CONTROLBAR:TooltipGaladrielElvenWood
 "Richiede livello 5.\nGaladriel crea degli alberi nella zona bersaglio.\nTutte le unità del Bene guadagnano +50% corazza.\nTutte le unità del Male perdono tutti i bonus comando.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
