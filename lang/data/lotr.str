@@ -51252,7 +51252,7 @@ CONTROLBAR:ElvenGaladrielHotkey
 END
 
 CONTROLBAR:GaladrielRingBlessingProtectionAura
-"Benedizione di Lothlòrien"
+"Signora di Lothlòrien"
 END
 CONTROLBAR:ToolTipGaladrielRingBlessingProtectionAura
 "Gli alleati vicini a Galadriel ottengono +50% danno e +50% corazza, esperienza a velocità doppia ed immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
@@ -51272,8 +51272,6 @@ CONTROLBAR:ToolTipGaladrielRingPowerNenya
 "Galadriel lancia davanti a se un'enorme sfera d'acqua che travolge e danneggia i nemici."
 END
 
-
-
 CONTROLBAR:GaladrielBlessingProtectionAura
 "Signora di Lothlòrien"
 END
@@ -51281,15 +51279,42 @@ CONTROLBAR:ToolTipGaladrielBlessingProtectionAura
 "Gli alleati vicini a Galadriel ottengono +50% danno e immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
 END
 
-CONTROLBAR:GaladrielWizardBlast
-"Seguace di Feanor"
+
+
+CONTROLBAR:GaladrielBlessingAura
+"Signora di Lothlòrien"
 END
-CONTROLBAR:ToolTipGaladrielWizardBlast
-"Richiede livello 3.\nGaladriel genera una forte onda d'urto che respinge e danneggia gli avversari."
+CONTROLBAR:ToolTipGaladrielBlessingAura
+"Gli alleati vicini a Galadriel ottengono +50% danno e +50% corazza, esperienza a velocità doppia ed immunità a paura/terrore.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:GaladrielBrightDread
+"Terrore Splendente"
+END
+CONTROLBAR:ToolTipGaladrielBrightDread
+"Richiede livello 3.\n Le unità nemiche vicine a Galadriel subiscono -25% di armatura e infliggono -25% di danni.\n\nAbilità passiva. Non cumulabile.""
+END
+CONTROLBAR:GaladrielNenyaProtection
+"Protezione di Nenya"
+END
+CONTROLBAR:ToolTipGaladrielNenyaProtection
+"Richiede livello 5.\nGaladriel crea una nebbia attorno a sè che nasconde le unità alleate, inoltre gli alleati dentro alla nebbia si curano del 1% ogni 2 secondi.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:GaladrielBurningLight
+"Bagliore Ardente"
+END
+CONTROLBAR:ToolTipGaladrielBurningLight
+"Richiede livello 7.\nGaladriel genera un'enorme ondata di luce che danneggia i nemici circostanti."
+END
+CONTROLBAR:GaladrielValinorLight
+"Luce di Valinor"
+END
+CONTROLBAR:ToolTipGaladrielValinorLight
+"Richiede livello 9.\nGaladriel emana un raggio di luce divina che colpisce il bersaglio."
 END
 
+
 CONTROLBAR:GaladrielElvenWood
-"Allieva di Yavanna"
+"NON USATA Allieva di Yavanna"
 END
 CONTROLBAR:TooltipGaladrielElvenWood
 "Richiede livello 5.\nGaladriel crea degli alberi nella zona bersaglio.\nTutte le unità del Bene guadagnano +50% corazza.\nTutte le unità del Male perdono tutti i bonus comando.\nNon ha effetto sugli Eroi.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
