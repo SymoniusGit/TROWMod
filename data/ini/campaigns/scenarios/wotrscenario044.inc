@@ -558,7 +558,7 @@ End
 SpawnArmy
 	ScriptingName = HeroArmy4
 	SpawnForTemplates = PlayerMordor
-	HeroTemplateName = MordorGothmog
+	HeroTemplateName = MordorGotty
 	PlayerArmy = GothmogPlayerArmy
 	Icon = HeroGothmogIcon
 	Banner = BannerMordor
