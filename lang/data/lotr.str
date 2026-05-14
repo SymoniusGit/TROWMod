@@ -32257,7 +32257,7 @@ OBJECT:IsengardWallHubExpansion
 END
 
 TOOLTIP:LackGondorFireArrowsTechnology
-"Richiede campo d'allenamento di livello 2."
+"Richiede fabbro di livello 3."
 END
 
 TOOLTIP:LackSilverthornTechnology
