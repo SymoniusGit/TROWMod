@@ -51509,7 +51509,7 @@ CONTROLBAR:ConstructDwarvenIronHillsGoatRiderHorde
 "Cavalca caproni dei Colli Ferrosi"
 END
 CONTROLBAR:ToolTipBuildDwarvenIronHillsGoatRiderHorde
-"Recluta l'unità di cavalleria dei Colli Ferrosi.\nEfficace contro Arcieri."
+"Richiede caserma di livello 2.\nRecluta l'unità di cavalleria dei Colli Ferrosi.\nEfficace contro Arcieri."
 END
 
 OBJECT:DwarvenIronHillsPikeman
@@ -51589,7 +51589,7 @@ CONTROLBAR:JuggernautSteadiness
 "Fermezza"
 END
 CONTROLBAR:ToolTipJuggernautSteadiness
-"Richiede livello 2.\nI Juggernaut si mantengono ben saldi e resistono alla maggior parte degli impatti oltre che diventare immuni al terrore.\n\nAbilit? passiva. Non cumulabile."
+"Richiede livello 2.\nI Juggernaut si mantengono ben saldi e resistono alla maggior parte degli impatti oltre che diventare immuni al terrore.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:JuggernautAuraProtection
 "Aura di Protezione"
