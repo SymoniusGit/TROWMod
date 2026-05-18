@@ -289,7 +289,7 @@ LivingWorldPlayerArmy
 	Name = GothmogPlayerArmy
 	DisplayNameTag = LWA:MordorHeroArmy
 	ArmyEntry
-		ThingTemplate = MordorGothmog
+		ThingTemplate = MordorGotty
 		Quantity = 1
 	End	
 End
