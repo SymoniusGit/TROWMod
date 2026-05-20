@@ -52983,6 +52983,12 @@ END
 CONTROLBAR:ToolTipHalbaradDreadVisage
 "Lo stendardo induce paura nelle unità nemiche.\nIl nemico subisce -25% danno e -25% corazza.\nAbilità passiva."
 END
+CONTROLBAR:HalbaradStandardBuff
+"Stendardo di Elessar"
+END
+CONTROLBAR:ToolTipHalbaradStandardBuff
+"Lo Stendardo di Elessar porta i simboli della stirpe di Elendil che donano vigore agli alleati e infondono terrore nei nemici.\nGli alleati vicini a Halbarad ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\nIl nemico subisce -25% danno e -25% corazza.\n\nAbilità passiva. Non cumulabile."
+END
 CONTROLBAR:ToolTipHalbaradElendil
 "Fa fuggire le unità nemiche nelle vicinanze."
 END
