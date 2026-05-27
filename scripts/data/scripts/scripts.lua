@@ -58,6 +58,10 @@ function OnTrollCreated(self)
 	ObjectGrantUpgrade( self, "Upgrade_SwitchToRockThrowing" )
 end
 
+function OnAssaultTrollCreated(self)
+	ObjectHideSubObjectPermanently( self, "ROCK", true )
+end
+
 function OnHobbitCreated(self)
 	ObjectGrantUpgrade( self, "Upgrade_SwitchToRockThrowing" )
 end
