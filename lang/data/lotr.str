@@ -50624,51 +50624,51 @@ CONTROLBAR:ToolTipIthilManEater
 "Richiede livello 10. \nIthil divora un nemico e si cura."
 END
 
-OBJECT:MordorGraugum
-"Graugum, Il Domatore"
+OBJECT:MordorTasukh
+"Tasukh, Il Domatore"
 END
 
-CONTROLBAR:MordorGraugumRecruit
-"Recluta Graugum, il maestro domatore di bestie dell'Harad."
+CONTROLBAR:MordorTasukhRecruit
+"Recluta Tasukh, il maestro domatore di bestie dell'Harad."
 END
 
-CONTROLBAR:MordorGraugumRevive
-"Rianima Graugum."
+CONTROLBAR:MordorTasukhRevive
+"Rianima Tasukh."
 END
 
-CONTROLBAR:MordorGraugumHotkey
-"&Graugum"
+CONTROLBAR:MordorTasukhHotkey
+"&Tasukh"
 END
 
-CONTROLBAR:SummonGraugumWyvern
+CONTROLBAR:SummonTasukhWyvern
 "Richiama Viverne"
 END
 
-CONTROLBAR:TooltipSummonGraugumWyvern
+CONTROLBAR:TooltipSummonTasukhWyvern
 "Richiede livello 5.\nRichiama tre viverne, note per essere le cavalcature dei Nazgûl. \nClicca sull'icona, quindi sul terreno."
 END
 
-CONTROLBAR:SummonGraugumWatcher
+CONTROLBAR:SummonTasukhWatcher
 "Richiama l'Osservatore"
 END
 
-CONTROLBAR:TooltipGraugumSummonWatcher
+CONTROLBAR:TooltipTasukhSummonWatcher
 "Richiama un enorme creatura armata di tentacoli. \nClicca sull'icona, quindi sul terreno."
 END
 
-CONTROLBAR:SummonGraugumDragon
+CONTROLBAR:SummonTasukhDragon
 "Richiama Drago"
 END
 
-CONTROLBAR:TooltipSummonGraugumDragon
+CONTROLBAR:TooltipSummonTasukhDragon
 "Richiede livello 10.\nRichiama un drago che combatte sotto il tuo comando. \nClicca sull'icona, quindi sul terreno."
 END
 
-CONTROLBAR:SummonGraugumMumakil
+CONTROLBAR:SummonTasukhMumakil
 "Richiama Mumakil"
 END
 
-CONTROLBAR:TooltipSummonGraugumMumakil
+CONTROLBAR:TooltipSummonTasukhMumakil
 "Richiede livello 10.\nRichiama dei mumakil sotto il tuo comando.\nClicca sull'icona, quindi sul terreno."
 END
 
@@ -50680,7 +50680,7 @@ INI:FactionHobbit
 "Hobbit"
 END
 
-CONTROLBAR:TooltipSummonGraugumWatcher
+CONTROLBAR:TooltipSummonTasukhWatcher
 "Richiede livello 7.\nRichiama un enorme mostro marino armato di tentacoli. \nClicca sull'icona, quindi sul terreno."
 END
 
@@ -51376,8 +51376,8 @@ END
 CONTROLBAR:ToolTipThorinIronHillsForge
 "Richiede livello 7.\nLe macchine d'assedio vicine a Thorin ottengono \n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
-CONTROLBAR:ToolTipMordorGraugumMumakillLeadership
-"Richiede livello 7.\nGli olifanti vicino a Graugum ottengono \n+20% danno e +20% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+CONTROLBAR:ToolTipMordorTasukhMumakillLeadership
+"Richiede livello 7.\nGli olifanti vicino a Tasukh ottengono \n+20% danno e +20% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:ThorinArmorBreaker
 "Frantuma Corazza"

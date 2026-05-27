@@ -1624,10 +1624,10 @@ LivingWorldPlayerArmy
 End
 
 LivingWorldPlayerArmy
-	Name = GraugumArmy
+	Name = TasukhArmy
 	DisplayNameTag = LWA:MordorHeroArmy
 	ArmyEntry
-		ThingTemplate = MordorGraugum
+		ThingTemplate = MordorTasukh
 		Quantity = 1
 	End
 End
