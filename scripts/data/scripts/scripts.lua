@@ -706,6 +706,64 @@ end
 --	end
 --end
 
+function SpiderlingRandomVariation(self)
+	local number = GetRandomNumber()
+	if  number <= 0.07 then 
+		ObjectGrantUpgrade(self, "Upgrade_Variation1")
+	elseif number <= 0.14 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation2")
+	elseif number <= 0.21 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation3")
+	elseif number <= 0.28 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation4")
+	elseif number <= 0.35 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation5")
+	elseif number <= 0.42 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation6")
+	elseif number <= 0.49 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation7")
+	elseif number <= 0.56 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation8")
+	elseif number <= 0.63 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation9")
+	elseif number <= 0.70 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation10")
+	elseif number <= 0.77 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation11")
+	elseif number <= 0.84 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation12")
+	elseif number <= 0.93 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation13")
+	else
+		ObjectGrantUpgrade(self, "Upgrade_Variation14")
+	end
+end
+
+function JumpSpiderlingRandomVariation(self)
+	local number = GetRandomNumber()
+	if  number <= 0.10 then 
+		ObjectGrantUpgrade(self, "Upgrade_Variation1")
+	elseif number <= 0.20 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation2")
+	elseif number <= 0.30 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation3")
+	elseif number <= 0.40 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation4")
+	elseif number <= 0.50 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation5")
+	elseif number <= 0.60 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation6")
+	elseif number <= 0.70 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation7")
+	elseif number <= 0.80 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation8")
+	elseif number <= 0.90 then
+		ObjectGrantUpgrade(self, "Upgrade_Variation9")
+	else
+		ObjectGrantUpgrade(self, "Upgrade_Variation10")
+	end
+end
+
 function BalrogTriggerBreatheFire(self)
 	ObjectCreateAndFireTempWeapon(self, "MordorBalrogBreath")
 end

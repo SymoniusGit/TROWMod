@@ -7,9 +7,11 @@
         <InternalEvent Name="OnDestroyed" /> <!-- OnDestroyed(self) No parameters. Note that self is dead, but name and team are still valid. -->
         <InternalEvent Name="OnArrived" /> <!-- OnArrived(self) Arrived at the end of a waypoint path.  No parameters. -->
         <InternalEvent Name="OnUnitEntered" /> <!-- OnUnitEntered(self, areaName) Unit entered an area. Name of area is parameter. -->
-        <!-- disabled since its really slow and nobody is using it... [mh, 5/7/2004]--><InternalEvent Name="OnTeamEntered" /> <!-- OnTeamEntered(self, areaName) Sent to the last unit of a team entering an area. -->
+        <!-- disabled since its really slow and nobody is using it... [mh, 5/7/2004]-->
+        <InternalEvent Name="OnTeamEntered" /> <!-- OnTeamEntered(self, areaName) Sent to the last unit of a team entering an area. -->
         <InternalEvent Name="OnUnitExited" /> <!-- OnUnitExited(self, areaName) Unit left an area. Name of area is parameter. -->
-        <!-- disabled since its really slow and nobody is using it... [mh, 5/7/2004] --><InternalEvent Name="OnTeamExited" /> <!-- OnTeamExited(self, areaName) Sent to the last unit of a team leaving an area. -->
+        <!-- disabled since its really slow and nobody is using it... [mh, 5/7/2004] -->
+        <InternalEvent Name="OnTeamExited" /> <!-- OnTeamExited(self, areaName) Sent to the last unit of a team leaving an area. -->
         <InternalEvent Name="OnTeamDestroyed" /> <!-- OnTeamDestroyed(self) Sent to the last unit of a team as it is destroyed. -->
         <InternalEvent Name="BeScary" /> <!-- Broadcast to a unit when he uses a power that makes him radiate scariness.. -->
 		<InternalEvent Name="OnAflame" /> <!-- OnAflame(self) Broadcast to allies that I am on fire :) -->
@@ -478,7 +480,20 @@
 		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateTerrorEx" DebugSingleStep="false"/>
 		<EventHandler EventName="BeTerrified"		ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
 		<EventHandler EventName="GrowUp"             ScriptFunctionName="FireDrakeGrowUp"             DebugSingleStep="false"/>
+    </EventList>
 
+    <EventList Name="SpiderlingFunctions">
+		<EventHandler EventName="BeAfraidOfPhial"	ScriptFunctionName="ShelobBecomeAfraidOfPhial" DebugSingleStep="false"/>
+		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateTerrorEx" DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified"		ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"         ScriptFunctionName="SpiderlingRandomVariation"             DebugSingleStep="false"/>
+    </EventList>
+
+    <EventList Name="JumpSpiderlingFunctions">
+		<EventHandler EventName="BeAfraidOfPhial"	ScriptFunctionName="ShelobBecomeAfraidOfPhial" DebugSingleStep="false"/>
+		<EventHandler EventName="BeScary"			ScriptFunctionName="RadiateTerrorEx" DebugSingleStep="false"/>
+		<EventHandler EventName="BeTerrified"		ScriptFunctionName="BecomeTerrified" DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"         ScriptFunctionName="JumpSpiderlingRandomVariation"             DebugSingleStep="false"/>
     </EventList>
 
     <EventList Name="GwaihirFunctions">
