@@ -52157,6 +52157,9 @@ CONTROLBAR:ToolTipConstructWildDrummerGoblin
 "Richiede caverna di livello 2.\nFornisce bonus comando alle truppe vicine."
 END
 
+OBJECT:WildJumpSpider
+"Ragno salticida"
+END
 OBJECT:WildJumpSpiderHorde
 "Ragni salticidi"
 END
@@ -52765,6 +52768,16 @@ CONTROLBAR:ConstructHaradrimHalfTrollHorde
 END
 CONTROLBAR:ToolTipBuildHaradrimHalfTrollHorde
 "Richiede palazzo degli Haradrim di livello 2.\nEfficace contro picchieri."
+END
+
+OBJECT:MordorHaradGiantScorpion
+"Scorpione Gigante"
+END
+CONTROLBAR:ConstructMordorHaradGiantScorpion
+"Scorpione Gigante"
+END
+CONTROLBAR:ToolTipBuildMordorHaradGiantScorpion
+"Richiede palazzo degli Haradrim di livello 2.\nEfficace contro unità e mostri. Debole contro picchieri."
 END
 
 
