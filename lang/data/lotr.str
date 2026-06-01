@@ -50828,13 +50828,31 @@ END
 OBJECT:WildGiantSpider
 "Ragno gigante"
 END
-
 CONTROLBAR:ConstructWildGiantSpider
 "Ragno gigante"
 END
-
 CONTROLBAR:ToolTipBuildWildGiantSpider
 "Richiede Abisso dei Ragni al livello 2. \nRecluta un ragno gigante, subdolo discendente della stirpe di Ungoliant. \nEfficace contro spadaccini e arceri."
+END
+
+OBJECT:WildGiantJumpSpider
+"Ragno Salticida Gigante"
+END
+CONTROLBAR:ConstructWildGiantJumpSpider
+"Ragno Salticida Gigante"
+END
+CONTROLBAR:ToolTipBuildWildGiantJumpSpider
+"Richiede Abisso dei Ragni al livello 2. \nRecluta un ragno salticida gigante, in grado di compiere ampi balzi letali. \nEfficace contro unità e strutture."
+END
+
+OBJECT:WildGiantSpittingSpider
+"Ragno Sputatore Gigante"
+END
+CONTROLBAR:ConstructWildGiantSpittingSpider
+"Ragno Sputatore Gigante"
+END
+CONTROLBAR:ToolTipBuildWildGiantSpittingSpider
+"Richiede Abisso dei Ragni al livello 2. \nRecluta un ragno sputatore gigante, scaglia grandi getti di veleno acido. \nEfficace contro unità e strutture."
 END
 
 CONTROLBAR:ToolTipWildSpiderPoisonedStinger
@@ -52147,6 +52165,16 @@ CONTROLBAR:ConstructWildJumpSpiderHorde
 END
 CONTROLBAR:ToolTipBuildWildJumpSpiderHorde
 "Recluta i ragni che si scagliano contro il nemico con ampi balzi.\nEfficaci contro arcieri."
+END
+
+OBJECT:WildSpittingSpiderHorde
+"Ragni sputatori"
+END
+CONTROLBAR:ConstructWildSpittingSpiderHorde
+"Ragni sputatori"
+END
+CONTROLBAR:ToolTipBuildWildSpittingSpiderHorde
+"Recluta i ragni che sputano veleno.\nEfficaci contro arcieri."
 END
 
 OBJECT:WildForestTroll
