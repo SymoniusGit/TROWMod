@@ -50824,6 +50824,15 @@ CONTROLBAR:ToolTipToggleExplorer
 "Boromir indossa le sue vesti da esploratore, ottenendo un aumento in velocità con conseguente diminuzione della difesa."
 END
 
+OBJECT:WildSpiderSwarm
+"Sciame di Ragni"
+END
+CONTROLBAR:ConstructWildSpiderSwarm
+"Sciame di Ragni"
+END
+CONTROLBAR:ToolTipBuildWildSpiderSwarm
+"Recluta un brulicante sciame di ragni.\nEfficace contro tutte le unità."
+END
 
 OBJECT:WildGiantSpider
 "Ragno gigante"
@@ -51827,6 +51836,19 @@ CONTROLBAR:SpecialAbilityWildShelobTunnel
 END
 CONTROLBAR:ToolTipSpecialAbilityWildShelobTunnel
 "Richiede livello 10.\nConsente a Shelob di scavare sottoterra e di emergere in un punto qualsiasi della mappa non coperto dalla nebbia.\nClicca con il pulsante sinistro sull'icona, quindi sulla zona bersaglio."
+END
+
+OBJECT:WildSaenathra
+"Saenathra"
+END
+CONTROLBAR:SaenathraRecruit
+"Recluta l'infida regina di Bosco Atro."
+END
+CONTROLBAR:SaenathraRevive
+"Rianima Saenathra."
+END
+CONTROLBAR:SaenathraHotkey
+"&Saenathra"
 END
 
 OBJECT:WildBolg
