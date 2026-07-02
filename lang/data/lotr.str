@@ -28445,7 +28445,7 @@ CONTROLBAR:MightyRage
 END
 
 CONTROLBAR:ToolTipMightyRage
-"Richiede livello 4.\nCura le unità bersaglio.\nLe unità bersaglio ottengono +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e poi sulle unità bersaglio.\nNon cumulabile."
+"Richiede livello 4.\nCura le unità bersaglio del 50% della vita totale.\nLe unità bersaglio ottengono +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e poi sulle unità bersaglio.\nNon cumulabile."
 END
 
 CONTROLBAR:GloinSlam
