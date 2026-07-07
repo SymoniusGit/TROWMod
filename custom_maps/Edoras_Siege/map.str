@@ -1,0 +1,11 @@
+MAP:Edoras_Siege
+"L'Assedio di Edoras"
+End
+
+MAP:Edoras_Siege/Desc
+"Mappa PvE cooperativa o in solitaria (Max 2 Giocatori).\nComando Truppe: 4500 CP.\n\nObiettivo: Espugna la fortezza di Rohan e sopravvivi alle imboscate nemiche regolate da trigger.\n\n[INFO MODALITÀ]: Attiva gli Eroi dell'Anello per la modalità Normale, oppure disattivali per affrontare la modalità HARDCORE!"
+End
+
+CustomGeneric:Hardcoremode
+"MODALITÀ HARDCORE ATTIVATA! Gli Eroi dell'Anello sono disabilitati. Le difese di Edoras saranno implacabili."
+End
