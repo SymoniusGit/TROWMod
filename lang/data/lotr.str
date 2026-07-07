@@ -54809,5 +54809,6 @@ CONTROLBAR:ToolTipFactionConvertGundabad
 "\nRecluta gli orchi del Monte Gundabad."
 END
 
-
-
+CustomGeneric:Hardcoremode
+"Hardcore mode selezionata! Buona fortuna!"
+END
