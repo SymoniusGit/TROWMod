@@ -51644,7 +51644,7 @@ CONTROLBAR:ConstructDwarvenGolem
 "Gole&m"
 END
 CONTROLBAR:ToolTipBuildDwarvenGolem
-"Richiede fucina di livello 3.\nCostruisci un solido golem nanico, costrutto di pietra animato dal potere delle rune naniche, un'arte perduta per anni tra gli abissi di Moria. \nEfficace per la difesa."
+"Richiede fucina di livello 3.\nCostruisci un solido golem nanico, costrutto di pietra animato dal potere delle rune naniche, un'arte perduta per anni tra gli abissi di Moria. \nEfficace per la difesa.\nPossono esistere solo 3 unità di Golem in un determinato momento."
 END
 TOOLTIP:LackDwarvenRune
 "Richiede il potenziamento Rune Naniche."
