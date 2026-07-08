@@ -54812,3 +54812,1958 @@ END
 CustomGeneric:Hardcoremode
 "Hardcore mode selezionata! Buona fortuna!"
 END
+
+
+// CUSTOM MAPS //
+
+
+
+Map:MAPMPAmonAmarth
+"Amon Amarth"
+END
+
+Map:MAPMPAmonAmarth/Desc
+"Amon Amarth, la montagna del fato, si trova nelle profondità del Mordor. È anche conosciuta come Monte Fato.\nDimensione: 433 x 500\nTane: 3x Tana dei Troll\nStrutture Neutrali: 1x Avamposto"
+END
+
+
+
+
+Map:MAPMPAnorien/Desc
+"Il territorio nord-occidentale del Gondor che forma il confine tra Gondor e Rohan.\nDimensione: 421 x 361\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPAzanulbizarValley
+"Valle di Azanulbizar"
+END
+
+Map:MAPMPAzanulbizarValley/Desc
+"Una grande valle situata tra le colline ai piedi delle montagne intorno al lago di Kheled-zaram. La battaglia finale della Guerra tra Nani e Orchi ebbe luogo qui.\nDimensione: 370 x 380\nTane: 4x Tana dei Goblin, 4x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 2x Locanda"
+END
+
+Map:MAPMPDale
+"Dale"
+END
+
+Map:MAPMPDale/Desc
+"Una fiorente città degli Uomini situata ai piedi della Montagna Solitaria.\nDimensione: 360 x 400\nTane: 4x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPDesertofRhun
+"Deserto di Rhun"
+END
+
+Map:MAPMPDesertofRhun/Desc
+"Un vasto deserto situato a sud-est di Rhun. Molti viaggiatori impreparati perdono la strada tentando di attraversare questa regione aspra.\nDimensione: 550 x 550\nTane: 6x Tana dei Goblin\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPDruwaithReef
+"Scogliera di Druwaith"
+END
+
+Map:MAPMPDruwaithReef/Desc
+"Questa regione costiera, un tempo abitata dai Druedain, è stata teatro di sacrifici offerti a Ulmo per placare le pesanti inondazioni. Ora rimangono solo le rovine di questo culto mentre le acque sono ancora irrequiete.\nDimensione: 410 x 350\nTane: 2x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPDungeonsOfErebor
+"Sotterranei di Erebor"
+END
+
+Map:MAPMPDungeonsOfErebor/Desc
+"Una vasta caverna all'interno della Montagna Solitaria dove i Nani estraggono le loro ricchezze e commerciano con gli Uomini di Dale.\nDimensione: 500 x 500\nTane: 2x Tana dei Goblin, 4x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPEastBight
+"Insenatura Est"
+END
+
+Map:MAPMPEastBight/Desc
+"L'indentazione sul lato orientale di Bosco Atro, causata da generazioni di disboscamento. Gli alberi ora crescono radi in questa zona.\nDimensione: 200 x 300\nTane:\nStrutture Neutrali: 2x Avamposto"
+END
+
+
+
+Map:MAPMPErech
+"Erech"
+END
+
+Map:MAPMPErech/Desc
+"Un antico sito ai piedi delle Montagne Bianche nel Gondor. Erech era famosa per un'enorme Pietra, che si diceva fosse caduta dal cielo, anche se, in realtà, fu portata nella Terra di Mezzo da Isildur.\nDimensione: 350 x 350\nTane: 2x Tana dei Ragni, 2x Tana dei Barrow Wight\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPErechII
+"Erech II"
+END
+
+Map:MAPMPErechII/Desc
+"Una collina a ovest di Minas Tirith, dove in epoche passate il infedele Re delle Montagne giurò fedeltà a Isildur.\nDimensione: 320 x 320\nTane: 2x Tana dei Troll, 2x Tana dei Barrow Wight\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPEredMithrin
+"Ered Mithrin"
+END
+
+Map:MAPMPEredMithrin/Desc
+"Un tempo le Ered Mithrin erano state estratte e abitate dai Nani del Popolo di Durin, ma nella Terza Era rimaneva solo una fortezza nanica, che resisteva alle incursioni dei Draghi dalla vicina Brughiera Appassita.\nDimensione: 600 x 500\nTane: 4x Tana dei Warg, 1x Tana dei Troll, 3x Tana dei Drake, 1x Ambiente Distruttibile\nStrutture Neutrali: 1x Avamposto, 1x Locanda, 1x Fuoco Segnale, 2x Torre"
+END
+
+Map:MAPMPEregion
+"Eregion"
+END
+
+Map:MAPMPEregion/Desc
+"Conosciuta anche come Hollin, Eregion era un regno degli Elfi Noldor nell'Eriador durante la Seconda Era. Si trova vicino alla Porta Occidentale di Moria sotto l'ombra delle Hithaeglir.\nDimensione: 350 x 400\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPErynLaer
+"Eryn Laer"
+END
+
+Map:MAPMPErynLaer/Desc
+"Gli alti alberi di Eryn Laer, i Boschi del Canto, si ergono profondi nel regno di Lothlórien, il cuore dell'Elvendom rimasto nella Terra di Mezzo.\nDimensione: 325 x 375\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPFarHarad
+"Lontano Harad"
+END
+
+Map:MAPMPFarHarad/Desc
+"Profondo nel sud della Terra di Mezzo, la regione del Lontano Harad è la patria dei selvaggi Haradrim, fedeli servitori di Sauron.\nDimensione: 380 x 370\nTane: 2x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPFordsOfHarnen
+"Guadi dell'Harnen"
+END
+
+Map:MAPMPFordsOfHarnen/Desc
+"Il fiume Harnen era un fiume a sud del Gondor. A sud dell'Harnen si trovava la terra del Vicino Harad.\nDimensione: 560 x 450\nTane: 4x Tana dei Troll\nStrutture Neutrali: 4x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPFordsofIsenII
+"Guadi dell'Isen II"
+END
+
+
+Map:MAPMPFordsOfRohan
+"Guadi del Rohan"
+END
+
+Map:MAPMPFordsOfRohan/Desc
+"Un campo di battaglia pacifico situato tra le terre del Rohan e Isengard, separato dal fiume Isen.\nDimensione: 350 x 375\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+
+Map:MAPMPForochel/Desc
+"Terre desolate ghiacciate nel nord della Terra di Mezzo. L'antica roccaforte di Morgoth, Utumno, si trovava qui.\nDimensione: 500 x 400\nTane: 2x Goblin, 4x Tana dei Troll\nStrutture Neutrali: 3x Fuoco Segnale"
+END
+
+Map:MAPMPGatesofMoria
+"Cancelli di Moria"
+END
+
+Map:MAPMPGatesofMoria/Desc
+"Un enorme e antichissimo complesso sotterraneo nel nord-ovest della Terra di Mezzo che attraversa le Montagne Nebbiose.\nDimensione: 400 x 400\nTane: 2x Tana dei Troll, 2x Tana dei Barrow Wight\nStrutture Neutrali: 1x Avamposto, 1x Locanda, 1x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPGorgoroth
+"Gorgoroth"
+END
+
+Map:MAPMPGorgoroth/Desc
+"Una regione ostile e desolata nel Mordor, frequentemente rimodellata dalle attività vulcaniche.\nDimensione: 480 x 580\nTane: 2x Tana dei Goblin, 4x Tana dei Troll, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPHaradOasis
+"Oasi di Harad"
+END
+
+Map:MAPMPHaradOasis/Desc
+"Una regione nel profondo di Harad dove si possono trovare preziose pozze d'acqua.\nDimensione: 400 x 400\nTane: 2x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPHillsofEriador
+"Colline dell'Eriador"
+END
+
+Map:MAPMPHillsOfEriador/Desc
+"Un antico campo di battaglia nell'Eriador dove innumerevoli scaramucce sono avvenute nel corso delle ere.\nDimensione: 500 x 500\nTane: 8x Tana dei Goblin, 4x Tana dei Barrow Wight\nStrutture Neutrali: 4x Avamposto, 1x Torre"
+END
+
+Map:MAPMPHobbiton
+"Hobbiton"
+END
+
+Map:MAPMPHobbiton/Desc
+"Un antico villaggio nella parte centrale della Contea. È la dimora di molti illustri Hobbit.\nDimensione: 403 x 400\nTane: 4x Tana dei Barrow Wight\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPHollin
+"Hollin"
+END
+
+Map:MAPMPHollin/Desc
+"Hollin era un tempo dimora dei famosi fabbri gioiellieri Elfi di Eregion, i forgiatori dei grandi anelli del potere. Ma ora le rovine delle loro grandi città stanno in silenzio tra le pietre.\nDimensione: 350 x 300\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPLanthirLamath
+"Lanthir Lamath"
+END
+
+Map:MAPMPLanthirLamath/Desc
+"Lanthir Lamath era la cascata scintillante e luccicante che scorreva accanto alla casa di Dior Eluchil nell'Ossiriand, che formava parte del ruscello del Fiume Adurant.\nDimensione: 600 x 600\nTane: 6x Tana dei Ragni\nStrutture Neutrali: 4x Avamposto"
+END
+
+Map:MAPMPLorienPlateau
+"Altopiano di Lorien"
+END
+
+Map:MAPMPLorienPlateau/Desc
+"Un'area di altopiano nei Boschi di Lothlórien, il più bel regno forestale degli Elfi rimasto nella Terra di Mezzo.\nDimensione: 550 x 550\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Avamposto, 2x Locanda"
+END
+
+Map:MAPMPMithlondValley
+"Valle di Mithlond"
+END
+
+Map:MAPMPMithlondValley/Desc
+"Un insediamento periferico dei Porti Grigi, costruito in una grande valle che origina nelle Ered Lindon.\nDimensione: 450 x 500\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPMountGram
+"Monte Gram"
+END
+
+Map:MAPMPMountGram/Desc
+"La montagna fu a lungo abitata da un gruppo di Orchi guidati da Golfimbul. Terrorizzarono alcuni degli abitanti dell'Eriador orientale, inclusi quelli della Contea.\nDimensione: 340 x 340\nTane: 2x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPNanduhirion
+"Nanduhirion"
+END
+
+Map:MAPMPNanduhirion/Desc
+"Questa valle fu teatro della battaglia decisiva nella Guerra tra Nani e Orchi.\nDimensione: 550 x 450\nTane: 2x Tana dei Goblin, 4x Tana dei Troll, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPNevrast
+"Nevrast"
+END
+
+Map:MAPMPNevrast/Desc
+"Una terra riparata sulla costa occidentale della Terra di Mezzo, situata tra Hithlum a nord-nordest e il Beleriand Occidentale a sud.\nDimensione: 500 x 500\nTane: 8x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPOldBrownLands
+"Antiche Terre Brune"
+END
+
+Map:MAPMPOldBrownLands/Desc
+"Terre a est del Fiume Anduin bruciate da Sauron alla fine della Seconda Era. Un tempo la rigogliosa dimora delle Mogli degli Ent, questa zona è desolata dalle battaglie dell'Ultima Alleanza.\nDimensione: 500 x 500\nTane: 10x Tana dei Goblin\nStrutture Neutrali:"
+END
+
+Map:MAPMPOldForest
+"Vecchia Foresta"
+END
+
+Map:MAPMPOldForest/Desc
+"Situata tra i confini della Terra di Buck e la regione di Brea, la Vecchia Foresta nasconde grande mistero e pericolo sotto la sua oscura chioma.\nDimensione: 360 x 310\nTane: 4x Tana dei Ragni, 2x Tana dei Barrow Wight\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPPlainsofRohan
+"Pianure del Rohan"
+END
+
+Map:MAPMPPlainsOfRohan/Desc
+"Tra il Valico del Rohan e i confini del Gondor si estendono le vaste pianure del Riddermark, dimora dei grandi signori dei cavalli della Terra di Mezzo.\nDimensione: 350 x 375\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPRedDesertofKhand
+"Deserto Rosso di Khand"
+END
+
+Map:MAPMPRedDesertofKhand/Desc
+"Una terra desertica rossa che si trovava a sud-est del Mordor e a est del Vicino Harad.\nDimensione: 440 x 440\nTane: 2x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:mapmpRingloRiver
+"Fiume Ringló"
+END
+
+Map:mapmpRingloRiver/Desc
+"Un fiume tortuoso nelle regioni centrali del Gondor che fungeva da confine tra Anfalas a ovest e Belfalas a est.\nDimensione: 500 x 450\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 1x Locanda"
+END
+
+Map:MAPMPRiverLangwell
+"Fiume Langwell"
+END
+
+Map:MAPMPRiverLangwell/Desc
+"Il Langwell era uno dei fiumi del Rhovanion che scorreva a est dalle Montagne Nebbiose nell'Anduin. L'altezza del fiume dipende dalla stagione dell'anno. Nel tempo il livello dell'acqua sale e scende.\nDimensione: 600 x 20\nTane: 4x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPRiverOfOrodruin
+"Fiume dell'Orodruin"
+END
+
+Map:MAPMPRiverOfOrodruin/Desc
+"Orodruin, conosciuto anche come Monte Fato, è un vulcano imponente nella terra del Mordor. Intorno ad esso, c'è un altopiano arido separato da fiumi di lava.\nDimensione: 380 x 340\nTane: 2x Tana dei Goblin, 2x Tana dei Troll, 2x Tana dei Barrow Wight\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPRiverRunning
+"Fiume Corrente"
+END
+
+Map:MAPMPRiverRunning/Desc
+"Il Fiume Corrente, conosciuto anche come Celduin, è un lungo fiume che scorre dalla Montagna Solitaria, attraverso la vasta regione del Rhovanion, nel Mare Interno di Rhun.\nDimensione: 360 x 420\nTane: 1x Tana dei Goblin, 3x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPRohanII
+"Rohan II"
+END
+
+Map:MAPMPRohanII/Desc
+"Un grande regno nella Terra di Mezzo governato dal Re Théoden. È la dimora dei Rohirrim, i migliori cavalieri della Terra di Mezzo.\nDimensione: 300 x 300\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPRohanFortifications
+"Fortificazioni del Rohan"
+END
+
+Map:MAPMPRohanFortifications/Desc
+"Il Rohan è una terra erbosa abitata dai Rohirrim. Prima e durante la Battaglia del Fosso di Helm dovettero combattere con i Dunlandiani, uomini imparentati con la Casa di Haleth.\nDimensione: 360 x 380\nTane: 2x Tana dei Ragni, 2x Tana dei Troll, 2x Cancelli Distruttibili\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPSouthDowns
+"Downs del Sud"
+END
+
+Map:MAPMPSouthDowns/Desc
+"Camminando lungo la Strada Est-Ovest da Brea alle Colline del Tempo, si potevano vedere i Downs a sud. La Via Verde, che attraversava l'Andrath, separava i Downs del Sud dai Tumuli.\nDimensione: 460 x 460\nTane: 6x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 1x Locanda"
+END
+
+Map:MAPMPStaddle
+"Staddle"
+END
+
+Map:MAPMPStaddle/Desc
+"Un villaggio nella Terra di Brea, situato sul lato sud-orientale della Collina di Brea.\nDimensione: 498 x 518\nTane: 4x Tana dei Warg, 4x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPStonewainCanyon
+"Canyon di Stonewain"
+END
+
+Map:MAPMPStonewainCanyon/Desc
+"Il Canyon di Stonewain è una strada che era stata costruita in tempi antichi dagli Uomini del Gondor. Théoden usò il vecchio canyon come percorso per raggiungere il Gondor per aiutare gli Uomini di Minas Tirith.\nDimensione: 550 x 460\nTane: 8x Tana dei Troll, 3x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPStonewainValley
+"Valle di Stonewain"
+END
+
+Map:MAPMPStonewainValley/Desc
+"Questa valle fu costruita in tempi antichi dagli Uomini come percorso dalle cave sotto Nardol a Minas Anor.\nDimensione: 550 x 250\nTane: 4x Tana dei Troll, 2x Tana dei Drake\nStrutture Neutrali: 2x Avamposto, 1x Fuoco Segnale"
+END
+
+Map:MAPMPTombsOfKarna
+"Tombe di Karna"
+END
+
+Map:MAPMPTombsOfKarna/Desc
+"Scelte per la loro fertilità e bellezza, queste oasi servono come luoghi di sepoltura per i governanti del Lontano Harad.\nDimensione: 380 x 380\nTane: 4x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPTyrnGorthad
+"Tyrn Gorthad"
+END
+
+Map:MAPMPTyrnGorthad/Desc
+"Meglio conosciuti come i Tumuli, gli antichi luoghi di sepoltura dei re di Arnor furono corrotti con spiriti malvagi dal Re Stregone.\nDimensione: 370 x 320\nTane: 7x Tana dei Barrow Wight\nStrutture Neutrali: 2x Locanda"
+END
+
+
+
+Map:MAPMPWasteOfForodwaith
+"Deserto di Forodwaith"
+END
+
+Map:MAPMPWasteOfForodwaith/Desc
+"Una tundra ghiacciata nel lontano nord che rende un campo di battaglia equilibrato.\nDimensione: 220 x 390\nTane:\nStrutture Neutrali: 4x Avamposto, 2x Locanda"
+END
+
+
+
+
+
+Map:MAPMPWestmarch
+"Marcia Occidentale"
+END
+
+Map:MAPMPWestmarch/Desc
+"Una terra di prati e alture, tra le Colline delle Torri e la Contea.\nDimensione: 500 x 350\nTane: 4x Tana dei Troll\nStrutture Neutrali: 4x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPWildsOfForochel
+"Terre Selvagge di Forochel"
+END
+
+Map:MAPMPWildsOfForochel/Desc
+"Una regione selvaggia e pericolosa di Forochel scarsamente abitata da piccole tribù di uomini del nord.\nDimensione: 500 x 500\nTane: 5x Tana dei Warg, 5x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+
+
+
+
+Map:MAPMPWoodyEnd
+"Bosco Terminale"
+END
+
+Map:MAPMPWoodyEnd/Desc
+"Il Bosco Terminale era una regione boscosa sopraelevata del Decumano Est della Contea, situata tra il Paese delle Colline Verdi a ovest e la Palude a est.\nDimensione: 580 x 480\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale, 1x Torre"
+END
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Map:MAPMPEphelduath
+"Ephel Dúath"
+END
+
+Map:MAPMPEphelduath/Desc
+"L'Ephel Dúath, o le Montagne dell'Ombra, erano una catena montuosa che proteggeva i confini occidentali e meridionali del Mordor.\nDimensione: 375 x 375\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+
+
+Map:MAPMPRiverNimrodel
+"Fiume Nimrodel"
+END
+
+Map:MAPMPRiverNimrodel/Desc
+"Nimrodel era il piccolo fiume che nasceva nelle colline orientali delle Montagne Nebbiose, e scorreva a est per incontrare il Celebrant sui confini occidentali di Lothlórien.\nDimensione: 386 x 320\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPSuperTestArena
+"*Mappa Test: Super Arena di Test"
+END
+
+Map:MAPMPSuperTestArena/Desc
+"Mappa di test per Patch 2.02 per tutti gli scopi con tempi di reclutamento istantaneo e ricarica delle abilità.\nDimensione: 500 x 500\nTane: 4x Tana dei Drake, 4x Tana dei Troll, 4x Tana dei Barrow Wight, 4x Tana dei Ragni, 4x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 4x Locanda, 4x Fuoco Segnale, 4x Cantiere Navale"
+END
+
+Map:MAPMPEmeraldIslet
+"Isola Smeralda"
+END
+
+Map:MAPMPEmeraldIslet/Desc
+"Una delle tante isole inesplorate nel Mare di Umbar.\nDimensione: 500 x 450\nTane: 2x Tana dei Ragni, 2x Tana dei Goblin"
+END
+
+Map:MAPWORBucklandII
+"Terra di Buck II"
+END
+
+Map:MAPWORBucklandII/Desc
+"Il confine orientale della Contea era la dimora di Merry Brandybuck.\nDimensione: 400 x 395\nTane: 2x Tana dei Troll, 2x Tana dei Ragni\nStrutture Neutrali: 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPFenmarch
+"Fenmarch"
+END
+
+Map:MAPMPFenmarch/Desc
+"La Fenmarch era una terra paludosa di confine lungo il Mering Stream nell'est del Rohan.\nDimensione: 380 x 330\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPMouthsoftheEntwash
+"Foci dell'Entwash"
+END
+
+Map:MAPMPMouthsoftheEntwash/Desc
+"La terra umida e paludosa dove il Fiume Entwash sfocia nell'Anduin.\nDimensione: 550 x 500\nTane: 1x Tana dei Troll, 5x Tana dei Warg\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPBucklandIII
+"Terra di Buck del Nord"
+END
+
+Map:MAPMPBucklandIII/Desc
+"Una regione a est del Fiume Brandywine, confinante con la Vecchia Foresta.\nDimensione: 550 x 550\nTane: 2x Tana dei Troll, 2x Tana dei Barrow Wight\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MapMPDunlandii
+"Dunland Bassa"
+END
+
+Map:MapMPDunlandii/Desc
+"Una regione un po' collinare nelle parti meridionali dell'Enedwaith.\nDimensione: 540 x 540\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MapMPRuinsofDunland
+"Rovine di Dunland"
+END
+
+Map:MapMPRuinsofDunland/Desc
+"Una regione nel Dunland segnata dai resti ardenti di un accampamento dunlandiano.\nDimensione: 380 x 380\nTane: 4x Accampamento dei Dunlandiani, 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPWestArthedain
+"Arthedain Occidentale"
+END
+
+Map:MAPMPWestArthedain/Desc
+"Una rigogliosa regione occidentale nel regno di Arnor.\nDimensione: 380 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Goblin, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPWestfarthing
+"Decumano Ovest"
+END
+
+Map:MAPMPWestfarthing/Desc
+"Il Decumano Ovest era il decumano occidentale e più popolato della Contea, ed era il sito delle città Michel Delving, Tuckborough e Hobbiton.\nDimensione: 375 x 365\nTane: 2x Tana dei Troll, 4x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPIsleofBalar
+"Isola di Balar"
+END
+
+Map:MAPMPIsleofBalar/Desc
+"Un'isola situata nella grande Baia di Balar a sud del Beleriand.\nDimensione: 450 x 500\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MapMPTharbad
+"Tharbad"
+END
+
+Map:MapMPTharbad/Desc
+"Tharbad era un guado e una città fortificata sul fiume Gwathló al confine meridionale dell'Eriador.\nDimensione: 415 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPTheLonelands
+"Le Terre Solitarie"
+END
+
+Map:MAPMPTheLonelands/Desc
+"Le Terre Solitarie erano un nome usato dagli Hobbit per la wilderness a est della Terra di Brea. Questa area conteneva, tra le altre caratteristiche, le Colline del Tempo e Vettacima.\nDimensione: 350 x 360\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPShallowsofIsen
+"Secche dell'Isen"
+END
+
+Map:MAPMPShallowsofIsen/Desc
+"Un punto poco profondo situato vicino a Isenford attraverso il quale i viaggiatori sulla Grande Strada potevano attraversare il fiume.\nDimensione: 375 x 313\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPFrozenShallowsofIsen
+"Secche Gelate dell'Isen"
+END
+
+Map:MAPMPFrozenShallowsofIsen/Desc
+"Un punto di attraversamento ghiacciato durante la stagione fredda situato vicino a Isenford, conosciuto anche come i Guadi dell'Isen.\nDimensione: 375 x 313\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MapMapTheGreatDesert
+"Il Grande Deserto"
+END
+
+Map:MapMapTheGreatDesert/Desc
+"Una grande regione desertica desolata situata a sud di Khand.\nDimensione: 370 x 315\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPPelennorFields
+"Campi del Pelennor"
+END
+
+Map:MAPMPPelennorFields/Desc
+"I Campi del Pelennor sono un grande campo aperto che circonda Minas Tirith. Una delle più grandi battaglie della Guerra dell'Anello ebbe luogo qui.\nDimensione: 500 x 500\nTane: 4x Tana dei Goblin, 2x Tana dei Barrow Wight\nStrutture Neutrali: 4x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPPelennorFieldsOutskirts
+"Periferia dei Campi del Pelennor"
+END
+
+Map:MAPMPPelennorFieldsOutskirts/Desc
+"Il punto più settentrionale dei Campi del Pelennor dove si può trovare una piccola formazione di colline.\nDimensione: 500 x 500\nTane: 4x Tana dei Troll, 4x Tana dei Warg, 2x Tana dei Barrow Wight, 2x Tana dei Goblin\nStrutture Neutrali: 4x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPSouthIthilien
+"Ithilien del Sud"
+END
+
+Map:MAPMPSouthIthilien/Desc
+"Una striscia di terra tra l'Anduin a ovest e l'Ephel Dúath a est.\nDimensione: 600 x 500\nTane: 6x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPOst-in-Edhil
+"Ost-in-Edhil"
+END
+
+Map:MAPMPOst-in-Edhil/Desc
+"Ost-in-Edhil fu fondata dai Noldor durante le prime parti della Seconda Era, situata dove il Sirannon incontrava il Glanduin.\nDimensione: 400 x 400\nTane: 2x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPCrossroadsII
+"L'Incrocio"
+END
+
+Map:MAPMPCrossroadsII/Desc
+"L'Incrocio dell'Ithilien è un punto dove la strada che porta al Cancello Nero incontra la strada che porta a Minas Tirith. Frodo e Sam passarono dall'Incrocio nel loro viaggio verso Cirith Ungol.\nDimensione: 400 x 400\nTane: 2x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPUdun
+"Udun"
+END
+
+Map:MAPMPUdun/Desc
+"Le terre dietro il Cancello Nero conosciute come Udun prendono il nome dell'oltretomba a causa della cenere vulcanica e dei fumi nocivi che le coprono.\nDimensione: 400 x 400\nTane: 2x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPUdunII
+"Udun II"
+END
+
+Map:MAPMPUdunII/Desc
+"Le terre dietro il Cancello Nero conosciute come Udun prendono il nome dell'oltretomba a causa della cenere vulcanica e dei fumi nocivi che le coprono.\nDimensione: 430 x 430\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPGlanduinCanyon
+"Canyon del Glanduin"
+END
+
+Map:MAPMPGlanduinCanyon/Desc
+"Il Glanduin era un fiume nella regione dell'Eriador nella Terra di Mezzo e un braccio orientale del Gwathló.\nDimensione: 380 x 368\nTane: 2x Tana dei Troll, 4x Tana dei Warg, 2x Accampamento dei Dunlandiani\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPMountDoomII
+"Fornaci del Monte Fato"
+END
+
+Map:MAPMPMountDoomII/Desc
+"Un'area vicino al Monte Fato dove si trovano le fornaci infuocate del Mordor.\nDimensione: 500 x 500\nTane: 6x Tana dei Troll, 2x Tana dei Drake, 2x Tana dei Goblin\nStrutture Neutrali: 3x Locanda"
+END
+
+Map:MAPMPFordsofBruinen
+"Guadi del Bruinen"
+END
+
+Map:MAPMPFordsofBruinen/Desc
+"Le foreste sopraelevate, per lo più composte da faggi, si trovano a ovest di Gran Burrone dove scorre il fiume Bruinen, un terreno di caccia preferito per i troll che scendevano dalle montagne per attaccare i viaggiatori sulla grande autostrada occidentale.\nDimensione: 385 x 320\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:mapmpthelaststand
+"*Difesa della Fortezza: L'Ultima Resistenza"
+END
+
+Map:mapmpthelaststand/Desc
+"Unisciti all'Ultima Battaglia e aiuta le Forze della Luce a sconfiggere le Forze dell'Oscurità\nOnde: 17\nModalità di gioco: 1-4 giocatori\nModalità Hardcore: Abilita Eroi dell'Anello"
+END
+
+Map:mappuzzlersringwar
+"*Difesa della Fortezza: La Guerra dell'Anello di Puzzler"
+END
+
+Map:mappuzzlersringwar/Desc
+"C'è solo un Signore dell'Anello, solo uno che può piegarlo alla sua volontà. E non condivide il potere.\nModalità di gioco: 2-4 giocatori\nModalità Hardcore: Nessuna"
+END
+
+Map:mapmpbesiegeedoras
+"*Assedio: Edoras"
+END
+
+Map:mapmpbesiegeedoras/Desc
+"Espelli i contadini da Edoras. Mostra loro che sei il miglior agricoltore.\nModalità di gioco: 1-2 giocatori\nModalità Hardcore: Abilita Eroi dell'Anello"
+END
+
+Map:mapmptheinvasionofsauron
+"*Difesa degli Eroi: L'Invasione di Sauron"
+END
+
+Map:mapmptheinvasionofsauron/Desc
+"Sauron vuole conquistare la Terra di Mezzo, e solo 18 eroi sono contro di lui. Fai attenzione, perché i tuoi eroi hanno solo una vita.\nOnde: 23\nModalità di gioco: 1-4 giocatori\nModalità Hardcore: Abilita Eroi dell'Anello"
+END
+
+Map:mapmpshockwavehc
+"*Difesa della Fortezza: Shockwave HC"
+END
+
+Map:mapmpshockwavehc/Desc
+"Difendi la tua Fortezza! Combatti e distruggi potenti ondate!\nOnde: 23\nModalità di gioco: 1-4 giocatori\nModalità Hardcore: Abilita Eroi dell'Anello"
+END
+
+Map:mapmpblackwave
+"*Difesa della Fortezza: Onda Nera"
+END
+
+Map:mapmpblackwave/Desc
+"Risollevati e affronta gli eserciti della Terra di Mezzo\nOnde: Infinite\nModalità di gioco: 1-4 giocatori\nModalità Hardcore: Nessuna"
+END
+
+Map:mappheroesarena
+"*Difesa degli Eroi: Arena degli Eroi"
+END
+
+Map:mappheroesarena/Desc
+"Uccidi i tuoi nemici e sopravvivi per sbloccare bonus\nOnde: 35\nModalità di gioco: 1-4 giocatori\nModalità Hardcore: Abilita Eroi dell'Anello"
+END
+
+Map:MAPMPGreenham
+"Greenham"
+END
+
+Map:MAPMPGreenham/Desc
+"Greenham era una città del Gondor e la capitale della provincia di Lamedon. Era situata all'interno di un campo recintato in cima a una piccola collina e si trovava lungo il fiume Ciril.\nDimensione: 326x372\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPBeleriand
+"Beleriand"
+END
+
+Map:MAPMPBeleriand/Desc
+"Alla fine della Prima Era della Terra di Mezzo, il Beleriand fu spezzato nella Guerra dell'Ira dai Maiar, contro Morgoth. Mentre gli abitanti fuggivano, gran parte del Beleriand affondò nel mare. Le anime rimaste combattono ancora la loro battaglia per il predominio delle terre sommerse.\nDimensione: 400 x 400\nTane: 3x Tana dei Troll, 3x Tana dei Warg\nStrutture Neutrali: 3x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPForlond
+"Forlond"
+END
+
+Map:MAPMPForlond/Desc
+"Forlond era un porto che si trovava sulla costa settentrionale del Golfo di Lune, nella terra elfica del Forlindon. Aveva una controparte sulla costa meridionale: l'Harlond. Forlond era situato alla foce di un fiume senza nome che attraversava il Forlindon, a circa duecento miglia a nord-ovest dei Porti Grigi.\nDimensione: 450 x 450\nTane: 5x Tana dei Troll"
+END
+
+Map:MAPMPHillsofEvendim
+"Colline di Evendim"
+END
+
+Map:MAPMPHillsofEvendim/Desc
+"Le Colline di Evendim, o Emyn Uial in Sindarin, erano una serie di colline nel nord dell'Eriador.\nDimensione: 500 x 550\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 1x Tana dei Warg\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPIcebayofForochel
+"Baia Ghiacciata di Forochel"
+END
+
+Map:MAPMPIcebayofForochel/Desc
+"Un immenso corpo d'acqua situato a nord dell'Eriador e a nord-ovest del Forodwaith nelle fredde regioni settentrionali della Terra di Mezzo. Una striscia di terra chiamata Capo di Forochel formava il confine occidentale della baia, creando un ingresso stretto a sud.\nDimensione: 550 x 550\nTane: 2x Tana dei Troll, 4x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPIsleofRhun
+"Isola di Rhun"
+END
+
+Map:MAPMPIsleofRhun/Desc
+"Un'isola palmy situata nella parte sud-orientale del Mare di Rhun.\nDimensione: 500 x 500\nTane: 3x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPLaketown
+"Pontelagolungo"
+END
+
+Map:MAPMPLaketown/Desc
+"Pontelagolungo, conosciuta anche come Esgaroth, era un piccolo insediamento indipendente di Uomini nella parte nord-occidentale del Lago Lungo nel Rhovanion.\nDimensione: 600 x 520\nTane: 2x Tana dei Troll, 2x Tana dei Warg, 5x Tana dei Goblin\nStrutture Neutrali: 2x Avamposto, 1x Locanda"
+END
+
+Map:MAPMPLune
+"Lune"
+END
+
+Map:MAPMPLune/Desc
+"Il fiume Lune è un fiume del nord-ovest dell'Eriador. I Porti Grigi si trovano alla foce di questo fiume.\nDimensione: 350 x 350\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPTumladenValley
+"Valle di Tumladen"
+END
+
+Map:MAPMPTumladenValley/Desc
+"Una valle nascosta all'interno delle Montagne Circondanti dove la città elfica di Gondolin fu costruita durante la Prima Era.\nDimensione: 550 x 550\nTane: 3x Tana dei Troll, 4x Tana dei Ragni, 2x Tana dei Warg\nStrutture Neutrali: 4x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPTumladen
+"Passo di Tumladen"
+END
+
+Map:MAPMPTumladen/Desc
+"Tumladen è una valle profonda tra i fiumi Celos e Sirith. Era il rifugio di molti civili di Minas Tirith durante la Guerra dell'Anello.\nDimensione: 490 x 460\nTane: 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPUpperAnduin
+"Alto Anduin"
+END
+
+Map:MAPMPUpperAnduin/Desc
+"L'Anduin scorre dalle regioni settentrionali della Terra di Mezzo fino alla baia di Belfalas, lontano a sud. Gli antenati dei Rohirrim vivevano vicino alle sorgenti del Grande Fiume.\nDimensione: 400 x 400\nTane: 1x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 1x Locanda"
+END
+
+Map:MAPMPStockbrook
+"Guadi di Stockbrook"
+END
+
+Map:MAPMPStockbrook/Desc
+"Lo Stockbrook era un ruscello situato nel Decumano Est della Contea. Si univa al Brandywine dopo aver superato l'omonimo villaggio di Stock. Aveva sponde ripide fiancheggiate da rovi che gradualmente diventano più basse mentre si dirige verso il fiume.\nDimensione: 313 x 375\nTane: 2x Tana dei Barrow Wight, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPHobbitonHill
+"Collina di Hobbiton"
+END
+
+Map:MAPMPHobbitonHill/Desc
+"La Collina di Hobbiton, a volte chiamata La Collina, era una collina nel Decumano Ovest tra Hobbiton e Overhill.\nDimensione: 402 x 400\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPArchet
+"Archet"
+END
+
+Map:MAPMPArchet/Desc
+"Archet era un remoto villaggio della Terra di Brea, situato tra gli alberi ai margini del Chetwood, a est di Brea stessa.\nDimensione: 380 x 350\nTane: 1x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPBuckleburyFerry
+"Traghetto di Buckland"
+END
+
+Map:MAPMPBuckleburyFerry/Desc
+"Il Traghetto di Buckland era una zattera-traghetto usata come secondo principale punto di attraversamento del Fiume Brandywine dalla Contea alla Terra di Buck.\nDimensione: 335 x 370\nTane: 2x Tana dei Troll, 4x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPNearKhand
+"Vicino a Khand"
+END
+
+Map:MAPMPNearKhand/Desc
+"Khand era il nome di una terra che si trovava a sud-est del Mordor, situata a sud di Rhun e a est del Vicino Harad.\nDimensione: 420 x 380\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPRiverCelon
+"Fiume Celon"
+END
+
+Map:MAPMPRiverCelon/Desc
+"Il Celon era un lungo fiume nel Beleriand Orientale durante la Prima Era della Terra di Mezzo. Il Celon iniziava nella Collina di Himring e scorreva a sud-ovest tra le terre di Estolad e Himlad, e passava i confini di Nan Elmoth e Doriath. Era un affluente del fiume Aros.\nDimensione: 320 x 325\nTane: 4x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPRiverHarnen
+"Fiume Harnen"
+END
+
+Map:MAPMPRiverHarnen/Desc
+"Il Fiume Harnen, conosciuto come Southing in Ovestron, era un fiume a sud del Gondor.\nDimensione: 330 x 370\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPEmeraldIsletii
+"Isola Smeralda II"
+END
+
+Map:MAPMPEmeraldIsletii/Desc
+"Una delle tante isole inesplorate nel Mare di Umbar.\nDimensione: 500 x 450\nTane: 2x Tana dei Drake, 4x Tana dei Warg, 3x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale, 2x Avamposto"
+END
+
+Map:MAPMPNorthernWaste
+"Deserto del Nord"
+END
+
+Map:MAPMPNorthernWaste/Desc
+"Conosciuto anche come Forodwaith, il Deserto del Nord era una vasta e fredda regione all'estremo nord della Terra di Mezzo, oltre le Montagne di Angmar, il Monte Gundabad e l'Ered Mithrin.\nDimensione: 500 x 500\nTane: 4x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale, 2x Locanda, 2x Avamposto"
+END
+
+Map:MAPMPNorthernWasteII
+"Deserto del Nord II"
+END
+
+Map:MAPMPNorthernWasteII/Desc
+"Conosciuto anche come Forodwaith, il Deserto del Nord era una vasta e fredda regione all'estremo nord della Terra di Mezzo, oltre le Montagne di Angmar, il Monte Gundabad e l'Ered Mithrin.\nDimensione: 500 x 500\nTane: 4x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale, 2x Locanda, 1x Avamposto"
+END
+
+Map:MAPMPUmbarPeninsula
+"Penisola di Umbar"
+END
+
+Map:MAPMPUmbarPeninsula/Desc
+"Una penisola a nord-ovest della Città dei Corsari.\nDimensione: 500 x 500\nTane: 3x Tana dei Troll, 1x Tana dei Barrow Wight, 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale, 2x Locanda, 1x Avamposto"
+END
+
+Map:MAPMPSouthMirkwood
+"Bosco Atro del Sud"
+END
+
+Map:MAPMPSouthMirkwood/Desc
+"Una regione oscura e collinosa nel sud di Bosco Atro.\nDimensione: 400 x 400\nTane: 2x Tana dei Ragni, 2x Tana dei Barrow Wight"
+END
+
+Map:MAPMPSeaofNurnen
+"Mare di Nurnen"
+END
+
+Map:MAPMPSeaofNurnen/Desc
+"Le terre intorno al Mare di Nurnen sono rigogliose e fiorenti. È qui, lontano dai fumi dell'Orodruin, dove innumerevoli uomini lavorano i campi per gli eserciti del Signore Oscuro.\nDimensione: 500 x 400\nTane: 2x Tana dei Warg, 2x Tana dei Barrow Wight\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPBree
+"Brea"
+END
+
+Map:MAPMPBree/Desc
+"Un villaggio di Uomini e Hobbit, situato a est della Contea e a sud di Fornost nell'Eriador.\nDimensione: 500 x 500\nTane: 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPCarnenMire
+"Palude del Carnen"
+END
+
+Map:MAPMPCarnenMire/Desc
+"Il Fiume Carnen aveva origine nelle Colline di Ferro ed era a est della Montagna Solitaria. Scorreva verso sud prima di sfociare nel Fiume Corrente, che era a circa 250 miglia numenoreane a sud. Questo fiume, a sua volta, scorreva oltre la terra di Dorwinion e nel Mare di Rhun.\nDimensione: 375 x 325\nTane: 2x Tana dei Drake, 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MapMPRhudaur
+"Colline di Rhudaur"
+END
+
+Map:MapMPRhudaur/Desc
+"Il territorio collinare del Rhudaur si è sempre dimostrato un campo di battaglia pronto per gli uomini delle colline locali e i loro nemici invasori.\nDimensione: 400 x 340\nTane: 2x Tana dei Troll 2x Tana dei Warg\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPNurnII
+"Nurn"
+END
+
+Map:MAPMPNurnII/Desc
+"Le terre meridionali del Mordor che circondano un grande mare interno.\nDimensione: 500 x 500\nTane: 8x Tana dei Troll, 4x Tana dei Goblin, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 1x Fuoco Segnale, 2x Locanda"
+END
+
+Map:MAPMPDeadMarshesII
+"Paludi Morte Inferiori"
+END
+
+Map:MAPMPDeadMarshesII/Desc
+"Una palude infestata, situata appena fuori dal Mordor. Gollum guidò Frodo e Sam attraverso queste terre nel loro viaggio verso il Monte Fato.\nDimensione: 500 x 450\nTane: 4x Tana dei Barrow Wight, 6x Tana dei Goblin\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPEnedwaithII
+"Ovest Enedwaith"
+END
+
+Map:MAPMPEnedwaithII/Desc
+"Una regione della Terra di Mezzo situata tra Arnor e Gondor, che fu dimora degli uomini conosciuti come Haladin.\nDimensione: 500 x 500\nTane: 7x Tana dei Troll, 4x Tana dei Goblin\nStrutture Neutrali: 4x Avamposto, 4x Fuoco Segnale"
+END
+
+Map:MAPMPMorthondValley
+"Valle del Morthond"
+END
+
+Map:MAPMPMorthondValley/Desc
+"Il Morthond era uno dei sette fiumi del Gondor. Aragorn, Gimli, Legolas e l'Esercito dei Morti uscirono dai Sentieri dei Morti lungo il suo corso.\nDimensione: 320 x 380\nTane: 2x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPRhunShore
+"Sponda di Rhun"
+END
+
+Map:MAPMPRhunShore/Desc
+"Il Mare di Rhun è un vasto mare interno situato nell'arido dominio degli Esterling. Dopo la caduta di Sauron, Aragorn ed Eomer vi si recarono per scovare gli ultimi resti delle forze nemiche.\nDimensione: 380 x 350\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 1x Locanda"
+END
+
+Map:MAPMPDwarrowdelf
+"Scavatura dei Nani"
+END
+
+Map:MAPMPDwarrowdelf/Desc
+"Khazad-dum, conosciuta anche come Hadhodrond, Casarrondo e Phurunargian, che si traduce in Scavatura dei Nani, in seguito nota come Moria.\nDimensione: 600 x 500\nTane: 8x Tana dei Goblin, 4x Tana dei Troll\nStrutture Neutrali: 4x Avamposto, 4x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPKhamulTomb
+"Valle dell'Harnen"
+END
+
+Map:MAPMPKhamulTomb/Desc
+"L'Harnen formava il confine sud-orientale della contesa terra dell'Harondor, conosciuta anche come Gondor del Sud, e come tale formava il confine meridionale dell'influenza dei Dúnedain.\nDimensione: 600 x 600\nTane: 1x Tana dei Troll, 2x Tana dei Goblin, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+
+
+Map:MAPMPWestRohan
+"Rohan Ovest"
+END
+
+Map:MAPMPWestRohan/Desc
+"Una regione situata all'interno della terra di Rohan. Conosciuta anche come Westemnet, la regione si estende lungo le montagne fino al Fosso di Helm e al Valico di Rohan.\nDimensione: 600 x 600\nTane: 5x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPBelfalasAbyss
+"Abisso di Belfalas"
+END
+
+Map:MAPMPBelfalasAbyss/Desc
+"Le meravigliose profondità del Mare di Belfalas.\nDimensione: 380 x 360\nTane: 2x Tana dei Ragni, 2x Tana dei Wight"
+END
+
+Map:MAPMPBlackGateII
+"Cancello Nero II"
+END
+
+Map:MAPMPBlackGateII/Desc
+"L'ingresso settentrionale alle terre del Mordor e il sito dello scontro finale tra bene e male.\nDimensione: 400 x 400\nTane: 2x Tana dei Troll\nStrutture Neutrali: 2x Avamposto, 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPBlackrootVale
+"Valle del Mora"
+END
+
+Map:MAPMPBlackrootVale/Desc
+"La Valle del Mora, conosciuta come Mornan in Sindarin, era una valle di ricchi pascoli attraverso cui scorreva il Fiume Mora.\nDimensione: 600 x 600\nTane: 4x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPFarDowns
+"Downs Lontani"
+END
+
+Map:MAPMPFarDowns/Desc
+"Le terre delle colline che segnavano gli antichi confini occidentali della Contea, quaranta leghe a ovest dal Ponte del Brandyvino.\nDimensione: 400 x 440\nTane: 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPBrithombar
+"Brithombar"
+END
+
+Map:MAPMPBrithombar/Desc
+"Una fertile baia nel Beleriand occidentale. Come tutte le altre regioni del Beleriand tranne l'Ered Luin e il Lindon, sprofondò alla fine della Prima Era.\nDimensione: 400 x 400\nTane: 2x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPBywater
+"Bywater"
+END
+
+Map:MAPMPBywater/Desc
+"Bywater era un villaggio nel Decumano Ovest della Contea, a nord della Strada Est. Ospitava la locanda del Drago Verde e tra i suoi residenti c'erano la Famiglia Cotton e il Vecchio Noakes.\nDimensione: 375 x 375\nTane: 2x Tana dei Warg"
+END
+
+Map:MAPMPCapeofNightfall
+"Capo del Tramonto"
+END
+
+Map:MAPMPCapeofNightfall/Desc
+"Mentre il mare sempre crescente allontanava gli abitanti di questa terra oscura dalle loro case vicino al fiume, si spostarono nell'entroterra e costruirono una spettacolare fortezza in cima alle colline.\nDimensione: 480 x 480\nTane: 4x Tana dei Ragni, 2x Tana dei Warg, 2x Tana dei Wight\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale, 2x Cantiere Navale"
+END
+
+Map:MAPMPCirdansCove
+"Baia di Cirdan"
+END
+
+Map:MAPMPCirdansCove/Desc
+"Il santuario nascosto di Cirdan sulle sponde dell'Harlindon.\nDimensione: 400 x 412\nTane: 4x Tana dei Goblin\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPNorthDruadanForest
+"Foresta di Druadan del Nord"
+END
+
+Map:MAPMPNorthDruadanForest/Desc
+"Il punto più settentrionale della Foresta di Druadan dove la Grande Strada dell'Ovest si interseca.\nDimensione: 490 x 490\nTane: 2x Tana dei Ragni, 6x Tana dei Goblin\nStrutture Neutrali: 1x Locanda"
+END
+
+
+
+Map:MAPMPSouthEmynMuil
+"Emyn Muil del Sud"
+END
+
+Map:MAPMPSouthEmynMuil/Desc
+"Una catena di colline a nord del Nindalf. L'Anduin attraversa le colline per poi raccogliersi nel Nen Hithoel.\nDimensione: 500 x 500\nTane: 4x Tana dei Troll, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPNarrowsoftheForest
+"Strettoie della Foresta"
+END
+
+Map:MAPMPNarrowsoftheForest/Desc
+"Le Strettoie si trovavano nella parte centro-meridionale di Bosco Atro. Erano indicate come la 'vita' della foresta causata dall'indentazione dell'Est Bight.\nDimensione: 500 x 500\nTane: 4x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 1x Avamposto, 1x Locanda"
+END
+
+Map:MAPMPGlenford
+"Glenford"
+END
+
+Map:MAPMPGlenford/Desc
+"Una delle tante piccole ma vivaci città a sud-ovest del Fiume Corrente.\nDimensione: 370 x 370\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 1x Locanda"
+END
+
+Map:MAPMPLithlad
+"Lithlad"
+END
+
+Map:MAPMPLithlad/Desc
+"Lithlad era una pianura cinerea del Mordor, a sud dell'Ered Lithui e ad est dell'Altopiano di Gorgoroth.\nDimensione: 600 x 600\nTane: 5x Tana dei Troll, 1x Tana dei Drake, 2x Tana dei Warg, 8x Tana dei Goblin\nStrutture Neutrali: 1x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPHardbottle
+"Hardbottle"
+END
+
+Map:MAPMPHardbottle/Desc
+"Un insediamento di Hobbit situato nella sezione settentrionale rocciosa della Contea.\nDimensione: 550 x 500\nTane: 3x Tana dei Troll, 2x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+
+
+Map:MAPMPHarondorII
+"Harondor del Nord"
+END
+
+Map:MAPMPHarondorII/Desc
+"Il Gondor del Sud, conosciuto in Sindarin come Harondor, era una regione a sud dell'Ithilien.\nDimensione: 323 x 365\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPEntwood
+"Bosco degli Ent"
+END
+
+Map:MAPMPEntwood/Desc
+"Chiamato così dai Rohirrim, il Bosco degli Ent era noto per essere l'ultima dimora degli Ent e degli Huorn.\nDimensione: 600 x 530\nTane: 2x Tana dei Troll, 4x Tana dei Warg, 4x Tana dei Goblin"
+END
+
+Map:MAPMPErechIII
+"Erech III"
+END
+
+Map:MAPMPErechIII/Desc
+"Una pianura nelle Terre Esterne del Gondor che si trova ai piedi delle Montagne Bianche, vicino alla Valle del Mora.\nDimensione: 390 x 355\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg, 2x Tana dei Goblin"
+END
+
+Map:MAPMPErynRhun
+"Eryn Rhun"
+END
+
+Map:MAPMPErynRhun/Desc
+"Eryn Rhun significa Foresta Orientale, usato per indicare la misteriosa regione boscosa a est del mare di Rhun, irrigata dalle foci dei fiumi provenienti dalle Montagne Rosse.\nDimensione: 432 x 432\nTane: 4x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPLossarnach
+"Lossarnach"
+END
+
+Map:MAPMPLossarnach/Desc
+"Lossarnach, chiamato anche Valle dei Fiori, era una fertile regione e feudo nel Gondor del Sud. Situato a sud-ovest di Minas Tirith e direttamente a est di Lebennin, era popolato da molti rifugiati provenienti dall'Ithilien e da Osgiliath.\nDimensione: 370 x 337\nTane: 2x Tana dei Troll, 2x Tana dei Warg, 2x Tana dei Goblin"
+END
+
+
+
+Map:MAPMPAmonHen
+"Amon Hen"
+END
+
+Map:MAPMPAmonHen/Desc
+"Una collina nell'Emyn Muil a ovest del Nen Hithoel. Sulla sua sommità si trovava il Seggio della Vista, una struttura in rovina alla fine della Terza Era.\nDimensione: 390 x 415\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPChetwood
+"Chetwood"
+END
+
+Map:MAPMPChetwood/Desc
+"Questa foresta situata a est di Bree era delimitata dalle paludi di Midgewater a est e dalla Grande Strada dell'Est a sud. Aragorn guidò gli hobbit attraverso questa foresta nel loro viaggio verso Gran Burrone.\nDimensione: 360 x 325\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPColdfells
+"Coldfells"
+END
+
+Map:MAPMPColdfells/Desc
+"Un tempo parte del regno di Rhudaur, queste colline sono ora selvagge e pericolose. Molti troll si aggirano nella zona.\nDimensione: 450 x 450\nTane: 5x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPDimrilldale
+"Valle di Dimrill"
+END
+
+Map:MAPMPDimrilldale/Desc
+"Questa valle a est di Moria fu il campo di battaglia finale della Guerra tra Nani e Orchi.\nDimensione: 420 x 350\nTane: 2x Tana dei Goblin"
+END
+
+Map:MAPMPEredlithui
+"Ered Lithui"
+END
+
+Map:MAPMPEredlithui/Desc
+"L'Ered Lithui o le Montagne di Cenere formano il confine settentrionale del Mordor. La strada che corre a est lungo di esse è usata esclusivamente dagli Esterling fedeli al Grande Occhio.\nDimensione: 420 x 375\nTane: 2x Tana dei Goblin"
+END
+
+Map:MAPMPPlateauofGorgoroth
+"Altopiano di Gorgoroth"
+END
+
+Map:MAPMPPlateauofGorgoroth/Desc
+"Una regione mortale e desolata coperta di cenere e fumi.\nDimensione: 500 x 500\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPSirannon
+"Sirannon"
+END
+
+Map:MAPMPSirannon/Desc
+"Questo un tempo tumultuoso fiume scorre dalle Porte di Durin a Ost-in-Edhil, la città elfica in rovina dell'Eregion.\nDimensione: 350 x 350\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 1x Locanda"
+END
+
+Map:MAPMPFirienDale
+"Valle di Firien"
+END
+
+Map:MAPMPFirienDale/Desc
+"Una profonda spaccatura che separa la collina di Halifirien dal suo sperone delle Montagne Bianche, la sorgente del Mering Stream.\nDimensione: 410 x 315\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPMeringStream
+"Mering Stream"
+END
+
+Map:MAPMPMeringStream/Desc
+"Il Mering Stream era noto per essere uno dei confini tra i regni del Gondor e del Rohan. Il ruscello nasce nella Valle di Firien, scorre attraverso il Bosco di Firien e piega verso est attraverso le paludi della Fenmarch.\nDimensione: 380 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPSouthHollin
+"Hollin del Sud"
+END
+
+Map:MAPMPSouthHollin/Desc
+"Hollin era un regno dei Noldor nell'Eriador durante la Seconda Era, situato vicino alle Mura di Moria, sotto l'ombra delle Montagne Nebbiose. Era l'unico regno duraturo dei Noldor al di fuori del Lindon.\nDimensione: 500 x 460\nTane: 2x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPBamfurlong
+"Bamfurlong"
+END
+
+Map:MAPMPBamfurlong/Desc
+"Bamfurlong era una fattoria nella paludosa regione del Pantano nella Contea orientale. Era la dimora del Fattore Maggot, che viveva in superficie piuttosto che in una tradizionale tana hobbit.\nDimensione: 352 x 352\nTane: 2x Tana dei Troll, 4x Tana dei Warg"
+END
+
+Map:MAPMPCanyonsofKhand
+"Canyon di Khand"
+END
+
+Map:MAPMPCanyonsofKhand/Desc
+"Khand era il nome di una terra che si trovava a sud del Mordor e a est del Vicino Harad. Poco si sa di Khand o della sua gente, ma si diceva che fosse una terra arida e desolata.\nDimensione: 500 x 500\nTane: 2x Tana dei Drake\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPIronMountains
+"Montagne di Ferro"
+END
+
+Map:MAPMPIronMountains/Desc
+"Le Montagne di Ferro, conosciute anche come Ered Engrin e le Montagne di Ferro, erano un'immensa catena montuosa nella parte settentrionale della Terra di Mezzo.\nDimensione: 400 x 400\nTane: 4x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPLastBridge
+"Ultimo Ponte"
+END
+
+Map:MAPMPLastBridge/Desc
+"L'Ultimo Ponte era un antico ponte di pietra che portava la Strada dell'Est sopra il fiume Hoarwell, circa cento miglia a est di Vettacima e grossomodo la stessa distanza a ovest di Gran Burrone.\nDimensione: 325 x 400\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPSlopesoftheLonelyMountain
+"Pendii della Montagna Solitaria"
+END
+
+Map:MAPMPSlopesoftheLonelyMountain/Desc
+"La Battaglia delle Cinque Armate ebbe luogo in questa valle, situata tra la Montagna Solitaria e Dale.\nDimensione: 600 x 500\nTane: 2x Tana dei Troll"
+END
+
+Map:MAPMPNorthMirkwood
+"Bosco Atro del Nord"
+END
+
+Map:MAPMPNorthMirkwood/Desc
+"Bosco Atro era la più grande foresta della Terra di Mezzo, situata nella regione orientale del Rhovanion tra le Montagne Grigie e il Calenardhon. A nord si trova il regno degli Elfi del Reame Boscoso.\nDimensione: 415 x 360\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPMarshesofMidgewater
+"Paludi di Midgewater"
+END
+
+Map:MAPMPMarshesofMidgewater/Desc
+"Un'area all'interno della Terra di Bree nella regione sud-orientale. È nota per le sue paludi insidiose che si estendono fino alle Colline del Tempo.\nDimensione: 500 x 500\nTane: 2x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 1x Locanda"
+END
+
+Map:MAPMPSouthEnedwaith
+"Enedwaith del Sud"
+END
+
+Map:MAPMPSouthEnedwaith/Desc
+"Una regione montuosa tra il fiume Gwathlo e la costa del mare di Belegaer.\nDimensione: 550 x 600\nTane: 5x Tana dei Troll, 4x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPHarnenOasis
+"Oasi dell'Harnen"
+END
+
+Map:MAPMPHarnenOasis/Desc
+"Una vasta oasi situata a nord della Valle dell'Harnen.\nDimensione: 525 x 525\nTane: 4x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPSorrowIsles
+"Isole del Dolore"
+END
+
+Map:MAPMPSorrowIsles/Desc
+"Un gruppo di isole solitarie nel Mare di Belfalas. Si dice che siano la prigione di due spiriti malvagi che spingono i visitatori ignari dell'isola alla follia.\nDimensione: 470 x 470\nTane: 2x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 2x Fuoco Segnale, 2x Cantiere Navale"
+END
+
+
+
+
+
+Map:MAPMPNorthWold
+"Wold del Nord"
+END
+
+Map:MAPMPNorthWold/Desc
+"Una vecchia area desolata a nord della Sommità di Amon Hen.\nDimensione: 460 x 460\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPEmynSul
+"Emyn Sul"
+END
+
+Map:MAPMPEmynSul/Desc
+"Conosciute anche come Colline del Tempo, Emyn Sul era una regione collinare a nord della Grande Strada dell'Est tra Bree e Mitheithel, un tempo il confine tra Arthedain e Rhudaur.\nDimensione: 600 x 450\nTane: 2x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPBaranduin
+"Fiume Baranduin"
+END
+
+Map:MAPMPBaranduin/Desc
+"Il fiume Baranduin dell'Eriador è conosciuto dagli Hobbit come il Fiume Brandyvino. Segna il confine tra il conosciuto e l'ignoto.\nDimensione: 500 x 500\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali:"
+END
+
+Map:MAPMPBrandyHills
+"Colline di Brandy"
+END
+
+Map:MAPMPBrandyHills/Desc
+"Questa è un'area a nord di Buckland lungo le sponde orientali del Fiume Brandyvino fino al Brandywood. L'Isola di Girdley è l'unico punto di interesse nominato di queste colline, sebbene siano punteggiate da piccole rovine arnoriane.\nDimensione: 420 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali:"
+END
+
+Map:MAPMPEastCarrock
+"Carrock dell'Est"
+END
+
+Map:MAPMPEastCarrock/Desc
+"La Carrock era un isolotto roccioso nel corso superiore del Fiume Anduin, a nord del Guado Vecchio. Il fiume girava intorno alla roccia anche se c'era un guado di pietre verso la sponda orientale, mentre c'era un canale vorticoso sotto la sua scogliera occidentale.\nDimensione: 352 x 416\nTane: 4x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali:"
+END
+
+Map:MAPMPEnchantedRiver
+"Fiume Incantato"
+END
+
+Map:MAPMPEnchantedRiver/Desc
+"Il Fiume Incantato era un fiume nero a Bosco Atro che scorreva a nord dalla sua sorgente nelle Montagne di Bosco Atro verso il Fiume della Foresta.\nDimensione: 420 x 308\nTane: 2x Tana dei Drake, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPGardensofFarHarad
+"Giardini del Lontano Harad"
+END
+
+Map:MAPMPGardensofFarHarad/Desc
+"I Giardini del Lontano Harad erano descritti come una notevole impresa di ingegneria con una serie ascendente di giardini terrazzati contenenti una grande varietà di alberi, arbusti e viti, che ricordavano una grande montagna verde costruita con mattoni di fango.\nDimensione: 420 x 480\nTane: 4x Tana dei Warg, 2x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPGladdenFields
+"Campi del Gaggiolo"
+END
+
+Map:MAPMPGladdenFields/Desc
+"I Campi del Gaggiolo erano una palude situata nella valle del fiume Gaggiolo, e sulle sponde del fiume Anduin. Fu lì che l'Unico Anello fu perduto da Isildur, e ritrovato secoli dopo da Déagol lo Stoor.\nDimensione: 460 x 396\nTane: 5x Tana dei Warg, 4x Tana dei Goblin\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPHarrowdale
+"Harrowdale"
+END
+
+Map:MAPMPHarrowdale/Desc
+"Harrowdale era una profonda valle nord-sud scavata dalle Montagne Bianche dal fiume Snowbourn nel Rohan. Alla sua estremità meridionale, tra le montagne conosciute come Starkhorn e Irensaga, sorgeva Dunharrow, un grande rifugio sulla scogliera dei Rohirrim.\nDimensione: 460 x 462\nTane: 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPSouthMeringStream
+"Mering Stream II"
+END
+
+Map:MAPMPSouthMeringStream/Desc
+"La Grande Strada dell'Ovest attraversa il Mering Stream, un fiume di confine che separa Rohan e Gondor.\nDimensione: 380 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPNumenorsDownfall
+"Caduta di Numenor"
+END
+
+Map:MAPMPNumenorsDownfall/Desc
+"L'isola di Numenor era una grande civiltà di Uomini che fu distrutta a causa del loro orgoglio e della loro ribellione contro la volontà dei Valar. La terra un tempo grande fu inghiottita dal mare, lasciando dietro di sé solo rovine inquietanti e isole semi-sommerse come tristi promemoria della follia e delle trasgressioni degli uomini.\nDimensione: 400 x 430\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPPortLinhir
+"Mercati di Linhir"
+END
+
+Map:MAPMPPortLinhir/Desc
+"Situata a sud del Gondor, nella confluenza dei fiumi Gilrain e Serni, Linhir è una città portuale nota per il suo opulento mercato e i suoi servizi. Durante la Guerra dell'Anello ebbe luogo uno scontro tra gli Invasori di Umbar e l'Esercito dei Morti di Aragorn.\nDimensione: 536 x 536\nTane: 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPSouthRoad
+"Strada del Sud"
+END
+
+Map:MAPMPSouthRoad/Desc
+"La Strada del Sud collega Minas Tirith con i porti del Gondor meridionale. Questa strada larga e ben pavimentata attraversa le terre di Lossarnach e Lebennin, attraversa il fiume Erui e raggiunge Pelargir.\nDimensione: 480 x 437\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Torre in Rovina"
+END
+
+Map:MAPMPTrollfells
+"Ettenmoors"
+END
+
+Map:MAPMPTrollfells/Desc
+"Le Ettenmoors, conosciute anche come Troll-fells, erano una regione montuosa dell'Eriador, che si trovava a ovest delle Montagne Nebbiose. Questo territorio aspro è dimora di molte creature selvagge.\nDimensione: 400 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPTwilitShores
+"Sponde del Crepuscolo"
+END
+
+Map:MAPMPTwilitShores/Desc
+"Perdute nei mari di Tol Eressea, le isole del Crepuscolo si dice siano quasi innavigabili per gli uomini mortali.\nDimensione: 600 x 600\nTane: 2x Tana dei Drake, 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale, 4x Avamposto, 6x Cantiere Navale"
+END
+
+Map:MAPMPCardolanHighlands
+"Alture di Cardolan"
+END
+
+Map:MAPMPCardolanHighlands/Desc
+"Cardolan era un regno che un tempo faceva parte del Regno Dúnedain di Arnor. I confini di Cardolan si estendevano dal Fiume Brandyvino a ovest, al Fiume Hoarwell a est, e al Fiume Greyflood a sud.\nDimensione: 378 x 378\nTane: 1x Tana dei Troll, 2x Tana dei Wight, 2x Tana dei Warg\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPOldFord
+"Guado Vecchio"
+END
+
+Map:MAPMPOldFord/Desc
+"Il Guado Vecchio era il punto dove la Vecchia Strada della Foresta attraversava il Fiume Anduin, circa quaranta miglia a valle dalla Carrock. In tempi antichi, il fiume era attraversato da un ponte di pietra qui, ma alla fine della Terza Era, il ponte era scomparso da tempo, e l'attraversamento non era altro che un semplice guado.\nDimensione: 500 x 500\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Goblin, 6x Tana dei Warg\nStrutture Neutrali: 4x Locanda, 2x Fuoco Segnale, 2x Avamposto"
+END
+
+Map:MAPMPGladdenRiver
+"Fiume Gaggiolo"
+END
+
+Map:MAPMPGladdenRiver/Desc
+"Il Gaggiolo, chiamato anche Fiume Goldwater dagli Elfi, era un breve ma importante fiume delle Valli dell'Anduin.\nDimensione: 378 x 342\nTane: 2x Tana dei Troll, 2x Tana dei Warg\nStrutture Neutrali:"
+END
+
+Map:MAPMPPazghar
+"Pazghar"
+END
+
+Map:MAPMPPazghar/Desc
+"L'Oasi di Pazghar, la grande città dell'Harad dell'Est.\nDimensione: 490 x 490\nTane: 8x Tana dei Ragni, 5x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPBrandyHillsCanyon
+"Canyon delle Colline di Brandy"
+END
+
+Map:MAPMPBrandyHillsCanyon/Desc
+"Questa è un'area a nord di Buckland lungo le sponde orientali del Fiume Brandyvino fino al Brandywood. L'Isola di Girdley è l'unico punto di interesse nominato di queste colline, sebbene siano punteggiate da piccole rovine arnoriane. Alcuni giovani cacciatori possono essere visti cacciare orsi e cinghiali riparandosi in quelle rovine.\nDimensione: 500 x 500\nTane: 1x Tana dei Wight\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPWoodmenTown
+"Città degli Uomini del Bosco"
+END
+
+Map:MAPMPWoodmenTown/Desc
+"L'insediamento più antico degli Uomini del Bosco fu fondato dal popolo di Balthi molto tempo fa. Egli portò la Lampada fuori dall'oscurità, e la luce della Lampada ha sempre protetto la Città degli Uomini del Bosco e i suoi abitanti. La città si annida sulle sponde del Fiume Incantato, che blocca gli attacchi da est. Gli Uomini del Bosco usano anche il fiume per andare avanti e indietro tra la Città degli Uomini del Bosco e la Sala del Bosco.\nDimensione: 404 x 404\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPHaradOasisii
+"Oasi del Sud Harad"
+END
+
+Map:MAPMPHaradOasisii/Desc
+"Harad era il nome delle immense terre a sud del Gondor e del Mordor. Era abitato da molte tribù diverse chiamate Haradrim.\nDimensione: 500 x 500\nTane: 8x Tana dei Goblin, 4x Tana dei Troll\nStrutture Neutrali: 4x Avamposto"
+END
+
+
+
+Map:MAPMPAnfalasII
+"Sponde dell'Anfalas"
+END
+
+Map:MAPMPAnfalasII/Desc
+"L'Anfalas, o Lunga Costa, conosciuta anche in Ovestron come Langstrand o la Costa, si trovava tra i fiumi Lefnui e Morthond, a sud del Pinnath Gelin.\nDimensione: 360 x 390\nTane: 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 1x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPAnorienII
+"Anórien Superiore"
+END
+
+Map:MAPMPAnorienII/Desc
+"Un piccolo ma aperto campo di battaglia boscoso vicino al confine del Gondor con il Rohan.\nDimensione: 330 x 360\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPBucklandII
+"Campi di Buckland"
+END
+
+Map:MAPMPBucklandII/Desc
+"Il confine orientale della Contea era la dimora di Merry Brandybuck.\nDimensione: 330 x 360\nTane: 4x Tana dei Wight, 2x Tana dei Troll\nStrutture Neutrali: 2x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPRhudaurII
+"Rhudaur Superiore"
+END
+
+Map:MAPMPRhudaurII/Desc
+"Il territorio collinare di Rhudaur si è sempre dimostrato un campo di battaglia pronto per gli uomini delle colline locali e i loro nemici invasori.\nDimensione: 500 x 350\nTane:\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPIronHillsII
+"Colline di Ferro Centrali"
+END
+
+Map:MAPMPIronHillsII/Desc
+"Una regione ricca di minerali che è la sorgente del Fiume Acqua Rossa, il nome dato al fiume per le particelle di ferro rossastre trovate nella sua acqua.\nDimensione: 600 x 535\nTane: 7x Tana dei Ragni\nStrutture Neutrali: 1x Avamposto, 1x Locanda, 1x Fuoco Segnale, 2x Fortezza"
+END
+
+Map:MAPMPIronHillsIII
+"Colline di Ferro del Nord"
+END
+
+Map:MAPMPIronHillsIII/Desc
+"Una catena montuosa situata nella Terra di Mezzo settentrionale. È il regno dei Nani del Popolo di Durin.\nDimensione: 498 x 398\nTane: 8x Tana dei Ragni, 2x Tana dei Drake, 4x Ambiente Distruttibile\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPIronHillsIV
+"Colline di Ferro Inferiori"
+END
+
+Map:MAPMPIronHillsIV/Desc
+"Una regione ricca di minerali che è la sorgente del Fiume Acqua Rossa, il nome dato al fiume per le particelle di ferro rossastre trovate nella sua acqua.\nDimensione: 550 x 550\nTane: 4x Tana dei Ragni, 2x Tana dei Drake, 10x Ambiente Distruttibile\nStrutture Neutrali: 4x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPIronHillsV
+"Periferia delle Colline di Ferro"
+END
+
+Map:MAPMPIronHillsV/Desc
+"Queste colline, ricche di ferro, furono a lungo detenute dai Nani e da Dain Piediferro.\nDimensione: 600 x 600\nTane: 8x Tana dei Troll\nStrutture Neutrali: 1x Avamposto"
+END
+
+Map:MAPMPMountGundabadII
+"Monte Gundabad Centrale"
+END
+
+Map:MAPMPMountGundabadII/Desc
+"I passaggi gelati del Monte Gundabad hanno visto innumerevoli battaglie tra le tribù di Orchi locali e i loro nemici.\nDimensione: 500 x 500\nTane: 4x Tana dei Goblin\nStrutture Neutrali: 4x Fuoco Segnale"
+END
+
+Map:MAPMPTombsOfKarnaII
+"Tombe di Karna Inferiori"
+END
+
+Map:MAPMPTombsOfKarnaII/Desc
+"Scelte per la loro fertilità e bellezza, queste oasi servono come luoghi di sepoltura per i governanti del Lontano Harad.\nDimensione: 360 x 380\nTane: 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPTombsOfKarnaIII
+"Tombe di Karna Superiori"
+END
+
+Map:MAPMPTombsOfKarnaIII/Desc
+"Scelte per la loro fertilità e bellezza, queste oasi servono come luoghi di sepoltura per i governanti del Lontano Harad.\nDimensione: 500 x 480\nTane: 2x Tana dei Warg\nStrutture Neutrali: 1x Avamposto, 2x Fuoco Segnale"
+END
+
+Map:MAPMPTombsOfKarnaIV
+"Tombe di Karna Centrali"
+END
+
+Map:MAPMPTombsOfKarnaIV/Desc
+"Scelte per la loro fertilità e bellezza, queste oasi servono come luoghi di sepoltura per i governanti del Lontano Harad.\nDimensione: 550 x 550\nTane: 16x Tana dei Ragni, 2x Tana dei Troll\nStrutture Neutrali: 4x Avamposto, 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPEastfoldII
+"Pianure dell'Eastfold"
+END
+
+Map:MAPMPEastfoldII/Desc
+"Le terre orientali del Rohan, confinanti con il Gondor.\nDimensione: 455 x 390\nTane: 6x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 1x Avamposto"
+END
+
+Map:MAPMPTowerHillsII
+"Colline delle Torri Superiori"
+END
+
+Map:MAPMPTowerHillsII/Desc
+"Queste colline sono la dimora delle antiche torri elfiche che custodivano la Pietra di Elendil, l'ultimo dei Palantír del Nord.\nDimensione: 315 x 375\nTane: 2x Tana dei Goblin, 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Torre"
+END
+
+Map:MAPMPGapOfRohanII
+"Valico del Rohan del Sud"
+END
+
+Map:MAPMPGapOfRohanII/Desc
+"L'unico grande e facilmente percorribile valico tra le Montagne Nebbiose e le Montagne Bianche.\nDimensione: 330 x 500\nTane: 4x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPLebenninII
+"Lebennin Superiore"
+END
+
+Map:MAPMPLebenninII/Desc
+"Lebennin è una regione tra il sud delle Montagne Bianche e il delta dell'Anduin. Conosciuta come la terra dei cinque fiumi, è uno dei feudi più fedeli del Gondor, i cui ampi prati verdi sono pieni di alte erbe e fiori.\nDimensione: 428 x 428\nTane: 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MapMPRingofIsengard
+"Anello di Isengard"
+END
+
+Map:MapMPRingofIsengard/Desc
+"Isengard, conosciuta anche come Angrenost, era una grande fortezza situata all'interno di una valle all'estremità meridionale delle Montagne Nebbiose, vicino al Valico di Rohan. Al centro dell'Anello di Isengard si ergeva la torre di pietra di Orthanc.\nDimensione: 500 x 500\nTane:\nStrutture Neutrali: 1x Fuoco Segnale (Orthanc), 4x Avamposto"
+END
+
+Map:MapMPIslesofJoy
+"Isole della Gioia"
+END
+
+Map:MapMPIslesofJoy/Desc
+"Un gruppo di isole idilliache nel Mare di Harlindon. Si dice che portino gioia e fortuna a chiunque si avventuri sulle loro coste.\nDimensione: 600 x 600\nTane: 2x Tana dei Troll, 8x Tana dei Goblin\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale, 4x Cantiere Navale"
+END
+
+Map:MapMPSouthfarthing
+"Decumano Sud"
+END
+
+Map:MapMPSouthfarthing/Desc
+"Essendo un'area rurale, fertile e leggermente più calda della Contea, il Decumano Sud era il sito di gran parte della produzione di Erba Pipa.\nDimensione: 446 x 446\nTane: 2x Tana dei Troll, 4x Tana dei Warg\nStrutture Neutrali: 1x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MapMPFirienForest
+"Foresta di Firien"
+END
+
+Map:MapMPFirienForest/Desc
+"La foresta di Firien è un bosco di querce situato ai piedi delle Montagne Bianche, al confine con il Mering Stream e l'Estfold.\nDimensione: 420 x 399\nTane: 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MapMPCarnenMire
+"Palude del Carnen"
+END
+
+Map:MapMPCarnenMire/Desc
+"Il Fiume Carnen aveva origine nelle Colline di Ferro ed era a est della Montagna Solitaria. Scorreva verso sud prima di sfociare nel Fiume Corrente, che era a circa 250 miglia numenoreane a sud. Questo fiume, a sua volta, scorreva oltre la terra di Dorwinion e nel Mare di Rhun.\nDimensione: 375 x 325\nTane: 2x Tana dei Drake, 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+
+
+Map:MapMPNurnII
+"Nurn"
+END
+
+Map:MapMPNurnII/Desc
+"Le terre meridionali del Mordor che circondano un grande mare interno.\nDimensione: 500 x 500\nTane: 8x Tana dei Troll, 4x Tana dei Goblin, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 1x Fuoco Segnale, 2x Locanda"
+END
+
+
+
+MAP:MAPMPEastEmnet
+"Est Emnet"
+END
+
+MAP:MAPMPEastEmnet/Desc
+"Le pianure orientali del Rohan, punteggiate da insediamenti nomadi e terre coltivate.\n\nDimensione: 480 x 360\nTane: 2x Tana dei Warg, 3x Tana dei Troll\nStrutture Neutrali: 1x Locanda"
+END
+
+Map:MAPMPEastMarch
+"Marcia Orientale"
+END
+
+Map:MAPMPEastMarch/Desc
+"Una piccola ma densamente popolata striscia di terra tra la Vecchia Foresta e la sponda orientale del fiume Brandywine, abitata dagli Hobbit.\n\nDimensione: 600 x 500\nTane: 8x Tana dei Goblin, 8x Tana dei Troll\nStrutture Neutrali: 1x Torre"
+END
+
+MAP:MAPMPEasternRohan
+"Rohan Orientale"
+END
+
+MAP:MAPMPEasternRohan/Desc
+"Verdeggianti terre nel Rohan Orientale, tagliate a metà dal Fiume Entwash.\n\nDimensione: 270 x 420\nTane: 6x Tana dei Warg\nStrutture Neutrali: 2x Avamposto, 2x Locanda, 2x Fuoco Segnale"
+END
+
+
+
+Map:MAPMPEredLuinValley
+"Valle dell'Ered Luin"
+END
+
+Map:MAPMPEredLuinValley/Desc
+"Una vasta valle nella parte orientale delle Montagne Blu.\n\nDimensione: 440 x 390\nTane: 2x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPFordsOfGlanduin
+"Guadi del Glanduin"
+END
+
+Map:MAPMPFordsOfGlanduin/Desc
+"Iniziando nell'Hithaeglir a sud di Khazad-dum, il Glanduin formava il confine meridionale dell'Eregion con il Dunland.\n\nDimensione: 500 x 500\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPFrostfallCanyon
+"Canyon della Caduta Gelata"
+END
+
+Map:MAPMPFrostfallCanyon/Desc
+"Valli segrete situate nelle profondità delle Montagne Grigie.\n\nDimensione: 470 x 470\nTane: 6x Tana dei Warg, 2x Tana dei Goblin, 2x Tana dei Troll, 4x Tana dei Wight\nStrutture Neutrali: 2x Locanda, 1x Avamposto"
+END
+
+Map:MAPMPFrozenRift
+"Rift Gelato"
+END
+
+Map:MAPMPFrozenRift/Desc
+"Un rift ghiacciato che si può trovare nelle desolate terre ghiacciate del Nord, vicino alla Baia Ghiacciata di Forochel. I Lossoth sono tra i pochi che osano sfidare queste terre gelate.\n\nDimensione: 500 x 500\nTane: 2x Tana dei Goblin, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
+END
+
+Map:MAPMPGondorOutpost
+"Avamposto di Gondor"
+END
+
+Map:MAPMPGondorOutpost/Desc
+"Un avamposto al confine dell'Harondor che serviva a sorvegliare le strade meridionali.\n\nDimensione: 500 x 500\nTane: 8x Tana dei Warg\nStrutture Neutrali: 1x Avamposto"
+END
+
+Map:MAPMPGreenleafForest
+"Foresta di Greenleaf"
+END
+
+Map:MAPMPGreenleafForest/Desc
+"Dopo la caduta di Sauron nella Terza Era, Bosco Atro fu purificato e divenne Eryn Lasgalen, una bella foresta una volta di più.\n\nDimensione: 425 x 410\nTane: 5x Tana dei Ragni\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+Map:MAPMPHitherLandsOfKhand
+"Terre di Khand"
+END
+
+Map:MAPMPHitherLandsOfKhand/Desc
+"Una terra desolata desertica dove si possono trovare pozze di acqua dolce.\n\nDimensione: 465 x 430\nTane: 2x Tana dei Goblin, 4x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPJunglesofFarHarad
+"Giungle del Lontano Harad"
+END
+
+Map:MAPMPJunglesofFarHarad/Desc
+"Una regione nel profondo sud del Lontano Harad densamente forestata con alberi e cespugli tropicali. È rifornita d'acqua da fiumi che alla fine sfociano nel Grande Mare.\n\nDimensione: 380 x 400\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPLamedon
+"Lamedon"
+END
+
+Map:MAPMPLamedon/Desc
+"Il Lamedon era una regione e feudo nel Gondor meridionale, una serie di valli attraverso le quali i fiumi Ringlo e Ciril scorrevano verso sud.\n\nDimensione: 600 x 600\nTane: 2x Tana dei Warg, 4x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Avamposto, 2x Fuoco Segnale"
+END
+
+MAP:MAPMPMirkwoodForest
+"Foresta di Bosco Atro"
+END
+
+MAP:MAPMPMirkwoodForest/Desc
+"Una foresta oscura e insidiosa situata nella parte nord-occidentale della Terra di Mezzo.\n\nDimensione: 380 x 380\nTane: 4x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Fuoco Segnale"
+END
+
+Map:MAPMPMoongladeVale
+"Valle della Radura Lunare"
+END
+
+Map:MAPMPMoongladeVale/Desc
+"Una foresta lunare che gli Elfi della Terra di Mezzo venerano in adorazione di Varda, creatrice della luce stellata, che essi chiamano Elbereth.\n\nDimensione: 480 x 480\nTane: 2x Tana dei Troll, 2x Tana dei Goblin\nStrutture Neutrali:"
+END
+
+Map:MAPMPNanMarillion
+"Nan Marillion"
+END
+
+Map:MAPMPNanMarillion/Desc
+"Una terra tropicale di fiori e fiumi protetta dal potere mistico dei tre cristalli che sono sparsi attraverso la grande valle in luoghi sacri.\n\nDimensione: 440 x 390\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda, 2x Fuoco Segnale"
+END
+
+Map:MAPMPPlainsOfLindon
+"Pianure del Lindon"
+END
+
+Map:MAPMPPlainsOfLindon/Desc
+"Una verde e tranquilla terra elfica oltre il Lune.\n\nDimensione: 313 x 375\nTane: 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 2x Locanda"
+END
+
+Map:MAPMPRhovanionSteppes
+"Steppe del Rhovanion"
+END
+
+Map:MAPMPRhovanionSteppes/Desc
+"A est del Bosco Atro meridionale si estendono leghe di pianure che hanno visto secoli di espansione e guerra.\n\nDimensione: 375 x 450\nTane: 4x Tana dei Goblin, 4x Tana dei Warg\nStrutture Neutrali: 2x Locanda, 1x Torre"
+END
+
+
+MAP:MAPMPVolcanosOfForodwaith
+"Vulcani del Forodwaith"
+END
+
+MAP:MAPMPVolcanosOfForodwaith/Desc
+"Il Deserto del Nord era una vasta, fredda regione di per lo più ghiaccio e neve, nell'estremo nord della Terra di Mezzo, oltre il Monte Gundabad e l'Ered Mithrin.\n\nDimensione: 500 x 500\nTane: 2x Tana dei Troll\nStrutture Neutrali:"
+END
+
+
+
+
+
+
+
+
+
+
+
+Map:MAPMPMidgewater
+"Midgewater"
+END
+
+Map:MAPMPMidgewater/Desc
+"Un'area all'interno della Terra di Brea nella regione sud-orientale. È nota per le sue paludi insidiose che si estendono fino alle Colline del Tempo.\n\nDimensione: 370 x 310\nTane: 2x Tana dei Ragni, 2x Tana dei Troll, 2x Tana dei Wight\nStrutture Neutrali: 2x Locanda, 1x Fuoco Segnale"
+END
+
+
+
+
+
+
+
+
+
+Map:MAPMPSakuraForest
+"Foresta di Sakura"
+END
+
+
+Map:MapMPCrossingofPoros
+"Guado del Poros"
+END
+
+Map:MapMPCrossingofPoros/Desc
+"I Guadi del Poros segnavano il punto in cui la Strada di Harad attraversava il fiume Poros dall'Ithilien al Gondor del Sud.\nDimensione: 355 x 340\nTane: 2x Tana dei Troll, 2x Tana dei Ragni, 2x Tana dei Warg\nStrutture Neutrali: 2x Locanda"
+END
+
