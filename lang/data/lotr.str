@@ -52206,7 +52206,7 @@ OBJECT:WildForestTroll
 "Troll di foresta"
 END
 CONTROLBAR:ConstructWildForestTroll
-"Troll di Foresta"
+"Troll di foresta"
 END
 CONTROLBAR:ToolTipBuildWildForestTroll
 "Efficace contro arcieri e strutture."
@@ -52216,7 +52216,7 @@ OBJECT:WildForestAssaultTroll
 "Troll di foresta armato"
 END
 CONTROLBAR:ConstructWildForestAssaultTroll
-"Troll di Foresta armato"
+"Troll di foresta armato"
 END
 CONTROLBAR:ToolTipBuildWildForestAssaultTroll
 "Efficace contro fanteria e strutture."
