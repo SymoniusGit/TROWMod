@@ -13521,7 +13521,7 @@ CONTROLBAR:SummonArmyoftheDead
 END
 
 CONTROLBAR:ToolTipSummonArmyoftheDead
-"Evoca l'Esercito Grigio.\nClicca con il pulsante sinistro sull'icona, quindi su una zona adatta."
+"Richiama l'Esercito dei Morti.\nClicca con il pulsante sinistro sull'icona, quindi su una zona adatta."
 END
 
 CONTROLBAR:SummonEagleAllies
@@ -52212,6 +52212,16 @@ CONTROLBAR:ToolTipBuildWildForestTroll
 "Efficace contro arcieri e strutture."
 END
 
+OBJECT:WildForestAssaultTroll
+"Troll di foresta armato"
+END
+CONTROLBAR:ConstructWildForestAssaultTroll
+"Troll di Foresta armato"
+END
+CONTROLBAR:ToolTipBuildWildForestAssaultTroll
+"Efficace contro fanteria e strutture."
+END
+
 OBJECT:WildSnowTroll
 "Troll delle nevi"
 END
@@ -52801,6 +52811,18 @@ END
 CONTROLBAR:ToolTipBuildMordorHaradGiantScorpion
 "Richiede palazzo degli Haradrim di livello 2.\nEfficace contro unità e mostri. Debole contro picchieri."
 END
+CONTROLBAR:GiantScorpionPoisonedStinger
+"Pungiglione velenoso"
+END
+CONTROLBAR:ToolTipGiantScorpionPoisonedStinger
+"Infligge danni medi al bersaglio avvelenandolo."
+END
+
+
+OBJECT:MordorHaradrimLancer
+"Lanciere Haradrim"
+END
+
 
 
 OBJECT:HaradrimNoble
@@ -53025,6 +53047,9 @@ END
 CONTROLBAR:GondorHalbaradRecruit
 "Recluta il Capitano della Compagnia Grigia"
 END
+CONTROLBAR:GondorHalbaradRevive
+"Rianima il Capitano della Compagnia Grigia"
+END
 CONTROLBAR:HalbaradArrowVolley
 "Salva di frecce"
 END
@@ -53205,7 +53230,7 @@ CONTROLBAR:ToolTipBuildGondorCitadelKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
-CONTROLBAR:ConstructDunedainRangerHorde
+CONTROLBAR:onstructDunedainRangerHorde
 "Raminghi Dúnedain"
 END
 CONTROLBAR:ToolTipBuildDunedainRangerHorde
@@ -54134,6 +54159,12 @@ CONTROLBAR:ToolTipLoremasterShieldBubble
 END
 UPGRADE:ElvenLoremasterRangeShield
 "Scudo magico"
+END
+CONTROLBAR:LoremasterRangeShieldBubble
+"Scudo magico"
+END
+CONTROLBAR:ToolTipLoremasterRangeShieldBubble
+"Il saggio crea uno scudo temporaneo \n che protegge le unità alleate dagli attacchi a distanza."
 END
 CONTROLBAR:PurchaseUpgradeElvenLoremasterShockwave
 "Potenzia con Onda d'urto"
