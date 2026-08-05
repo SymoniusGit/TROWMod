@@ -37572,7 +37572,7 @@ CONTROLBAR:TooltipPurchaseUpgradeElvenSilverthornArrows
 END
 
 CONTROLBAR:PurchaseTechnologyElvenForgedBlades
-"Ricerca &Lame temprate"
+"Ricerca potenziamento lame"
 END
 
 CONTROLBAR:PurchaseUpgradeElvenForgedBlades
@@ -37609,7 +37609,6 @@ END
 
 CONTROLBAR:ToolTipPurchaseTechnologyElvenForgedBlades
 "Consente ai battaglioni di acquistare il potenziamento Lame temprate. Quando in uso, aumenta il danno inflitto.\nConsente ai battaglioni di Bosco Atro di acquistare il potenziamento Lame velenose.\nQuando in uso causano danno nel tempo e rallentano il bersaglio."
-
 END
 
 CONTROLBAR:PurchaseTechnologyMordorForgedBlades
@@ -44957,15 +44956,15 @@ Upgrade:AngmarForgeWorksLevel3
 END
 
 OBJECT:AngmarTrollSling
-"Troll lanciatore di pietre"
+"Trabucco dei troll"
 END
 
 OBJECT:HordeAngmarTrollSling
-"Troll lanciatore di pietre"
+"Trabucco dei troll"
 END
 
 CONTROLBAR:LW_Unit_AngmarTrollSling
-"Troll lanciatore di pietre"
+"Trabucco dei troll"
 END
 
 CONTROLBAR:LW_ToolTip_AngmarTrollSlingHorde
@@ -53230,7 +53229,7 @@ CONTROLBAR:ToolTipBuildGondorCitadelKnightHorde
 "Richiede scuderia di livello 2.\nEfficace contro arcieri."
 END
 
-CONTROLBAR:onstructDunedainRangerHorde
+CONTROLBAR:ConstructDunedainRangerHorde
 "Raminghi Dúnedain"
 END
 CONTROLBAR:ToolTipBuildDunedainRangerHorde
