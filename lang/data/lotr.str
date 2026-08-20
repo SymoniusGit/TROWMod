@@ -28493,7 +28493,7 @@ CONTROLBAR:GoblinKingSkullTotem
 END
 
 CONTROLBAR:TooltipGoblinKingSkullTotem
-"Richiede livello 2.\nCrea un totem del tesc"
+"Richiede livello 2.\nPiazza un totem per terra creando un'area di contaminazione, gli alleati all'interno ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia."
 END
 
 CONTROLBAR:SpecialAbilityFireDrakeInferno
@@ -52191,6 +52191,9 @@ CONTROLBAR:ToolTipBuildWildJumpSpiderHorde
 "Recluta i ragni che si scagliano contro il nemico con ampi balzi.\nEfficaci contro arcieri."
 END
 
+OBJECT:WildSpittingSpider
+"Ragno sputatore"
+END
 OBJECT:WildSpittingSpiderHorde
 "Ragni sputatori"
 END
