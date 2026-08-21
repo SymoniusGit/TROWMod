@@ -52325,14 +52325,14 @@ END
 OBJECT:MordorGorthaur
 "Gorthaur"
 END
+CONTROLBAR:MordorGorthaurHotkey
+"Il &Signore degli Anelli"
+END
 CONTROLBAR:MordorGorthaurRecruit
-"Recluta il Signore degli Anelli, Mairon, Annatar, Artano, Aulendil, Zigûr, Gorthaur il Crudele, Thauron, Thû, Grande Occhio, Il Nemico, Ingannatore, Mano Nera, Negromante, Ombra dell'Est, Oscuro Potere, Oscuro Signore, Signore dei Mannari, Signore di Mordor, Signore di Barad-dûr, Signore della Terra, Signore del Mondo, Re dei Re, Re degli Uomini"
+"Recluta Mairon, Annatar, Artano, Aulendil, Zigûr, Gorthaur il Crudele, Thauron, Thû, Grande Occhio, Il Nemico, Ingannatore, Mano Nera, Negromante, Ombra dell'Est, Oscuro Potere, Oscuro Signore, Signore dei Mannari, Signore di Mordor, Signore di Barad-dûr, Signore della Terra, Signore del Mondo, Re dei Re, Re degli Uomini"
 END
 CONTROLBAR:MordorGorthaurRevive
 "Fai tornare il Signore degli Anelli"
-END
-CONTROLBAR:MordorGorthaurHotkey
-"&Gorthaur"
 END
 CONTROLBAR:MordorGorthaurBlink
 "Teletrasporto"
