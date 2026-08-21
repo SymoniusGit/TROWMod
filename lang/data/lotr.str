@@ -15443,7 +15443,7 @@ CONTROLBAR:Dominate
 END
 
 CONTROLBAR:ToolTipDominate
-"Richiede livello 4.\nOttiene il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio nemico."
+"Richiede livello 4.\nOttieni il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio nemico."
 END
 
 CONTROLBAR:Disguise
@@ -52326,16 +52326,44 @@ OBJECT:MordorGorthaur
 "Gorthaur"
 END
 CONTROLBAR:MordorGorthaurRecruit
-"Recluta Gorthaur, Mairon, Sauron, il Negromante, il Signore Oscuro"
+"Recluta il Signore degli Anelli, Mairon, Annatar, Artano, Aulendil, Zigûr, Gorthaur il Crudele, Thauron, Thû, Grande Occhio, Il Nemico, Ingannatore, Mano Nera, Negromante, Ombra dell'Est, Oscuro Potere, Oscuro Signore, Signore dei Mannari, Signore di Mordor, Signore di Barad-dûr, Signore della Terra, Signore del Mondo, Re dei Re, Re degli Uomini"
 END
 CONTROLBAR:MordorGorthaurRevive
-"Rianima Gorthaur"
+"Fai tornare il Signore degli Anelli"
 END
 CONTROLBAR:MordorGorthaurHotkey
 "&Gorthaur"
 END
-
-
+CONTROLBAR:MordorGorthaurBlink
+"Teletrasporto"
+END
+Controlbar:TooltipMordorGorthaurBlink
+"Gorthaur si teletrasporta a grande distanza danneggiando i nemici nel punto di partenza e nel punto di arrivo."
+END
+CONTROLBAR:MordorGorthaurDominate
+"Domina menti"
+END
+CONTROLBAR:ToolTipMordorGorthaurDominate
+"Richiede livello 3.\nOttieni il controllo temporaneo dei nemici scelti come bersaglio.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio nemico."
+END
+CONTROLBAR:MordorGorthaurNecromance
+"Negromanzia"
+END
+CONTROLBAR:ToolTipMordorGorthaurNecromance
+"Gorthaur prende il controllo dei Fea dei nemici uccisi, generando degli spettri."
+END
+CONTROLBAR:MordorGorthaurGift
+"Latore di doni"
+END
+CONTROLBAR:ToolTipMordorGorthaurGift
+"Il nemico bersaglio ottiene vita notevolmente aumentata, riduce i danni che infligge e la velocità di movimento."
+END
+CONTROLBAR:MordorGorthaurNazgulDiscount
+"Maestro dei 9"
+END
+CONTROLBAR:ToolTipMordorGorthaurNazgulDiscount
+"Riduce il costo di reclutemento dei Nazgûl,\ni Nazgûl ottengono +20% armatura, +20%danno, +20% esperienza."
+END
 
 
 
