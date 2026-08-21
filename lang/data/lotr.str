@@ -52322,7 +52322,18 @@ END
 
 
 
-
+OBJECT:MordorGorthaur
+"Gorthaur"
+END
+CONTROLBAR:MordorGorthaurRecruit
+"Recluta Gorthaur, Mairon, Sauron, il Negromante, il Signore Oscuro"
+END
+CONTROLBAR:MordorGorthaurRevive
+"Rianima Gorthaur"
+END
+CONTROLBAR:MordorGorthaurHotkey
+"&Gorthaur"
+END
 
 
 
