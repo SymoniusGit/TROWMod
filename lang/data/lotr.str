@@ -46536,7 +46536,7 @@ CONTROLBAR:GothmogIronHand
 END
 
 CONTROLBAR:ToolTipGothmogIronHand
-"Richiede livello 2.\nTBD.\nAbilità passiva.\nNon cumulabile."
+"Richiede livello 5.\nDiminuisce del 30% il tempo di reclutamento negli abissi degli orchetti vicini.\nAbilità passiva.\nNon cumulabile."
 END
 
 CONTROLBAR:GothmogDayoftheOrc
