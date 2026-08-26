@@ -52350,22 +52350,53 @@ CONTROLBAR:MordorGorthaurNecromance
 "Negromanzia"
 END
 CONTROLBAR:ToolTipMordorGorthaurNecromance
-"Gorthaur prende il controllo dei Fea dei nemici uccisi, generando degli spettri."
+"Richiede livello 5.\nGorthaur prende il controllo dei Fea dei nemici uccisi, generando degli spettri."
 END
 CONTROLBAR:MordorGorthaurGift
 "Latore di doni"
 END
 CONTROLBAR:ToolTipMordorGorthaurGift
-"Il nemico bersaglio ottiene vita notevolmente aumentata, riduce i danni che infligge e la velocità di movimento."
+"Richiede livello 7.\nIl nemico bersaglio ottiene vita notevolmente aumentata, riduce i danni che infligge e la velocità di movimento."
 END
 CONTROLBAR:MordorGorthaurNazgulDiscount
 "Signore degli Anelli"
 END
 CONTROLBAR:ToolTipMordorGorthaurNazgulDiscount
-"Riduce il costo di reclutemento dei Nazgûl,\ni Nazgûl ottengono +20% armatura, +20%danno, +20% esperienza."
+"Richiede livello 10.\nRiduce il costo di reclutemento dei Nazgûl,\ni Nazgûl ottengono +20% armatura, +20%danno, +20% esperienza."
+END
+CONTROLBAR:TooltipHowl
+"Richiede livello 5\nLancia un potente ululato che genera un'onda d'urto concentrata.\nRespinge i nemici vicini, infligge danni moderati e rompe le loro formazioni, lasciandoli temporaneamente vulnerabili"
+END
+CONTROLBAR:GShadeChomp
+"Divora"
+END
+CONTROLBAR:ToolTipGorthaurShadeChomp
+"Richiede livello 10.\nUccide la fanteria nemica bersaglio, ripristinando energia a se stesso e le truppe alleate, fornendo temporaneamente a se stesso +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e quindi sul nemico bersaglio.\nNon cumulabile."
+END
+CONTROLBAR:ToolTipGorthaurInfiltrate
+"Annatar è temporaneamente invisibile fintanto che non prende danni, attacca o viene rivelato dalle abilità che scovano le unità invisibili."
 END
 
+CONTROLBAR:GorthaurShift
+"Forma di Gorthaur"
+END
+CONTROLBAR:ToolTipGorthaurShift
+"Rivela la vera e terribile forma del Crudele per scatenare una potenza distruttiva immensa.\nGorthaur padroneggia le oscure arti della Necromanzia per rianimare i caduti e piegare gli spiriti al suo volere, mentre la sua presenza infonde ferocia e coraggio nei Nove Spettri dell'Anello.\nPerde tuttavia la grazia ingannevole necessaria a corrompere sottilmente le truppe avversarie."
+END
 
+CONTROLBAR:GorthaurShapeshiftWolf
+"Forma di Lupo Mannaro"
+END
+CONTROLBAR:ToolTipGorthaurShapeshiftWolf
+"Mutazione nel gigantesco e famelico Capo dei Lupi Mannari.\nIn questa forma bestiale, la velocità di movimento aumenta drasticamente e dimezza i danni subiti, potendo inoltre travolgere le linee nemiche.\nPerde le abilità magiche e di comando, ma ottiene un letale balzo d'assalto."
+END
+
+CONTROLBAR:ToggleAnnatar
+"Forma di Annatar"
+END
+CONTROLBAR:ToolTipToggleAnnatar
+"Assume le sembianze di Annatar, il Signore dei Doni.\nQuesta metamorfosi occulta la sua vera natura malevola, conferendogli l'abilità di manipolare e corrompere i battaglioni nemici vicini. Tuttavia, in questa forma non può utilizzare attacchi fisici distruttivi."
+END
 
 OBJECT:MordorTahur
 "Tahur"
