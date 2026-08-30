@@ -52512,6 +52512,12 @@ END
 CONTROLBAR:BlackRiderRevive
 "Rianima il Nazgûl."
 END
+CONTROLBAR:MordorNazgulHotkey
+"&Nazgûl"
+END
+CONTROLBAR:MordorNazgulRevive
+"Rianima il Nazgûl."
+END
 CONTROLBAR:ToolTipMorgulBlade
 "Attacco con lama avvelenata.\nClicca con il pulsante sinistro sull'icona e quindi sul bersaglio."
 END
@@ -53585,6 +53591,9 @@ OBJECT:IsengardWargRider
 "Cavaliere Warg"
 END
 
+OBJECT:IsengardOrcFighter
+"Guerriero Orchetto"
+END
 OBJECT:IsengardOrcFighterHorde
 "Guerrieri Orchetti"
 END
