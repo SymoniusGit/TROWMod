@@ -666,11 +666,6 @@ function BoromirUseLastChance(self, other, delay, amount)
 	return
 end
 
-function  HighlanderHardness(self, other, delay, amount)
-	ObjectDoSpecialPower(self, "SpecialAbilityLastChance")
-	return
-end
-
 function  HighlanderLastChance(self, other, delay, amount)
 	ObjectDoSpecialPower(self, "SpecialAbilityLastChance2")
 	return
@@ -978,7 +973,6 @@ function CreateAHeroHideEverything(self)
 	ObjectHideSubObjectPermanently( self, "TrollBane_FX02", true )
 	ObjectHideSubObjectPermanently( self, "TrollMace", true )
 	ObjectHideSubObjectPermanently( self, "TrollSword", true )
-	ObjectHideSubObjectPermanently( self, "WestronSword", true )
 	ObjectHideSubObjectPermanently( self, "WestronSword", true )
 	ObjectHideSubObjectPermanently( self, "WestronSword_SM", true )
 	ObjectHideSubObjectPermanently( self, "WizardStaff01", true )

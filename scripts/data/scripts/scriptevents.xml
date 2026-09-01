@@ -230,7 +230,6 @@
     </EventList>
 
     <EventList Name="IsengardBerserkerFunctions" Inherit="InfantryFunctions">
-		<EventHandler EventName="Damaged"	ScriptFunctionName="HighlanderHardness" DebugSingleStep="false"/>
 		<EventHandler EventName="ReallyDamaged"	ScriptFunctionName="HighlanderLastChance" DebugSingleStep="false"/>
     </EventList>
     
@@ -240,7 +239,6 @@
     
     <EventList Name="GandalfFunctions" Inherit="BaseScriptFunctions">
         <EventHandler EventName="UsingSpecialOne" ScriptFunctionName="GandalfTriggerWizardBlast" DebugSingleStep="false"/>
-	  <EventHandler EventName="OnDamage" ScriptFunctionName="GandalfUseDefensePower" DebugSingleStep="false"/>
 	  <EventHandler EventName="ReallyDamaged"	ScriptFunctionName="GandalfUseDefensePower" DebugSingleStep="false"/>
     </EventList>
     
@@ -647,7 +645,7 @@
     
     <EventList Name="FramFunctions" Inherit="FrodoFunctions">
 		<!-- This contains events specific to Frodo -->
-		<EventHandler EventName="onCreated"	ScriptFunctionName="MakeMeAlert"	DebugSingleStep="false"/>
+		<EventHandler EventName="OnCreated"	ScriptFunctionName="MakeMeAlert"	DebugSingleStep="false"/>
     </EventList>    
 
     <EventList Name="BalrogFunctions" Inherit="BaseScriptFunctions">
