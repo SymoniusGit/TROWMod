@@ -45548,7 +45548,7 @@ CONTROLBAR:ToolTipMorgramirRuin
 END
 
 CONTROLBAR:ToolTipHwaldarLeadership
-"I lanciatori d'asce di Rhudaur e i lancieri vicini all'Eroe ottengono +20% danno e +20% corazza.\nAbilità passiva."
+"I lanciatori d'asce di Rhudaur e i lancieri vicini all'Eroe ottengono +50% danno e +50% corazza.\nAbilità passiva."
 END
 
 CONTROLBAR:ToolTipHwaldarBrigandage
