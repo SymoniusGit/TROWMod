@@ -53872,13 +53872,13 @@ CONTROLBAR:HighlanderRegeneration
 "Rigenerazione"
 END
 CONTROLBAR:ToolTipHighlanderRegeneration
-"\nIl Campione del Clan si cura."
+"Richiede livello 3.\nIl Campione del Clan si cura.\nAbilità passiva."
 END
 CONTROLBAR:HighlanderImmortal
 "Furore selvaggio"
 END
 CONTROLBAR:ToolTipHighlanderImmortal
-"Richiede livello 5.\nIl Campione del Clan ottiene +50% corazza, +10% danni e +10% velocità di movimento."
+"Richiede livello 5.\nIl Campione del Clan ottiene +50% corazza, +10% danni e +10% velocità di movimento, e aumenta la rigenerazione fuori dal combattimento."
 END
 
 
