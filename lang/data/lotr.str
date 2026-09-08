@@ -20598,10 +20598,6 @@ Map:MAPMPDunharrow
 "Dunclivo"
 END
 
-Map:MAPMPEastEmnet
-"Estemnet"
-END
-
 Map:MAPMPEastRohan
 "Rohan orientale"
 END
@@ -20910,7 +20906,7 @@ Map:MAPMPTournamentUdun
 "Udûn"
 END
 
-Map:MAPMPFordsofIsenii
+Map:MAPMPFordsofIsenII
 "Guadi dell'Isen II"
 END
 
@@ -21064,10 +21060,6 @@ END
 
 Map:MAPMPDunharrow/Desc
 "Il punto di raduno delle genti di Rohan, situato ai piedi dei Monti Bianchi.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 8\nTane: Troll, Goblin e Warg"
-END
-
-Map:MAPMPEastEmnet/Desc
-"Pianure orientali di Rohan, punteggiate da insediamenti nomadi e fattorie.\nPosizioni iniziali: castelli\nPunti di espansione: 4\nInsediamenti: 8\nTane: Troll e Warg"
 END
 
 Map:MAPMPEastRohan/Desc
@@ -55057,13 +55049,6 @@ Map:MAPMPFordsOfHarnen/Desc
 "Il fiume Harnen era un fiume a sud del Gondor. A sud dell'Harnen si trovava la terra del Vicino Harad.\nDimensione: 560 x 450\nTane: 4x Tana dei Troll\nStrutture Neutrali: 4x Fuoco Segnale"
 END
 
-
-
-Map:MAPMPFordsofIsenII
-"Guadi dell'Isen II"
-END
-
-
 Map:MAPMPFordsOfRohan
 "Guadi del Rohan"
 END
@@ -56672,25 +56657,6 @@ END
 Map:MapMPFirienForest/Desc
 "La foresta di Firien è un bosco di querce situato ai piedi delle Montagne Bianche, al confine con il Mering Stream e l'Estfold.\nDimensione: 420 x 399\nTane: 4x Tana dei Warg\nStrutture Neutrali: 1x Fuoco Segnale"
 END
-
-Map:MapMPCarnenMire
-"Palude del Carnen"
-END
-
-Map:MapMPCarnenMire/Desc
-"Il Fiume Carnen aveva origine nelle Colline di Ferro ed era a est della Montagna Solitaria. Scorreva verso sud prima di sfociare nel Fiume Corrente, che era a circa 250 miglia numenoreane a sud. Questo fiume, a sua volta, scorreva oltre la terra di Dorwinion e nel Mare di Rhun.\nDimensione: 375 x 325\nTane: 2x Tana dei Drake, 2x Tana dei Warg, 2x Tana dei Troll\nStrutture Neutrali: 1x Fuoco Segnale"
-END
-
-
-
-Map:MapMPNurnII
-"Nurn"
-END
-
-Map:MapMPNurnII/Desc
-"Le terre meridionali del Mordor che circondano un grande mare interno.\nDimensione: 500 x 500\nTane: 8x Tana dei Troll, 4x Tana dei Goblin, 2x Tana dei Drake\nStrutture Neutrali: 4x Avamposto, 1x Fuoco Segnale, 2x Locanda"
-END
-
 
 
 MAP:MAPMPEastEmnet
