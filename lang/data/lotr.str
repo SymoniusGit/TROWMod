@@ -52013,6 +52013,19 @@ CONTROLBAR:ToolTipSmaugIncinerate
 "Richiede livello 9.\nSmaug soffia fuoco nell'area indicata."
 END
 
+OBJECT:Ancalagon
+"Ancalagon"
+END
+CONTROLBAR:WildAncalagonRecruit
+"Recluta Ancalagon, il Nero, antico e immenso padre dei draghi alati."
+END
+CONTROLBAR:WildAncalagonRevive
+"Rianima Ancalagon, il Nero."
+END
+CONTROLBAR:WildAncalagonHotkey
+"Ancalago&n"
+END
+
 OBJECT:WildColdDrake
 "Draco Freddo"
 END
