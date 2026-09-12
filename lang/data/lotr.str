@@ -50775,6 +50775,13 @@ OBJECT:DwarvenGolem
 "Golem"
 END
 
+OBJECT:DwarvenGoldenGolem
+"Titano Dorato"
+END
+CONTROLBAR:DwarvenGoldenGolemRecruit
+"Recluta il Titano Dorato di Erebor, la creazione più possente di tutta la razza nanica."
+END
+
 OBJECT:DwarvenFlameThrower
 "Lanciafiamme Nanico"
 END
