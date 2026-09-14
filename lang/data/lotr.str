@@ -53023,6 +53023,12 @@ END
 CONTROLBAR:GandalfTheWhiteRevive
 "Rianima Gandalf."
 END
+OBJECT:GandalfTheBlack
+"Gandalf il Nero"
+END
+CONTROLBAR:GandalfTheBlackRecruit
+"Recluta il Mithrandir perduto che ha fallito nella sua missione e si è lasciato corrompere dall'anello."
+END
 CONTROLBAR:IstariPower
 "Potere degli Istari"
 END
