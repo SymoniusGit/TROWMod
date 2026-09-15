@@ -14901,6 +14901,10 @@ CONTROLBAR:TooltipElrondLeadership
 "Gli alleati vicini a Elrond ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 
+CONTROLBAR:TooltipSarumanLeadership
+"Gli alleati vicini a Saruman ottengono\n+50% danno, +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+END
+
 CONTROLBAR:ToolTipHaldirLeadership
 "Richiede livello 6.\nLe unità alleate vicine ad Haldir ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
@@ -28774,6 +28778,10 @@ END
 
 CONTROLBAR:ElrondLeadership
 "Comando"
+END
+
+CONTROLBAR:SarumanLeadership
+"Signore di Orthanc"
 END
 
 CONTROLBAR:EvacuateAndEnterGarrison
@@ -53350,10 +53358,10 @@ CONTROLBAR:IsengardSarumanHotkey
 "&Saruman"
 END
 CONTROLBAR:ToolTipBuildSaruman
-"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
+"Recluta Saruman il Multicolore, ex leader degli Stregoni e corrotto signore di Isengard."
 END
 CONTROLBAR:IsengardSarumanRecruit
-"Recluta il leader degli Stregoni dotato di un arsenale di potenti incantesimi."
+"Recluta Saruman il Multicolore, ex leader degli Stregoni e corrotto signore di Isengard."
 END
 CONTROLBAR:IsengardSarumanRevive
 "Rianima Saruman."
@@ -53365,7 +53373,7 @@ CONTROLBAR:ToolTipSpecialAbilitySarumanFireball
 "Richiede livello 2.\nLancia una sfera energetica.\nClicca con il pulsante sinistro sull'icona, quindi sul bersaglio."
 END
 CONTROLBAR:SarumanCraftRing
-"Saruman dai molti colori"
+"Creatore di Anelli"
 END
 CONTROLBAR:ToolTipSarumanCraftRing
 "Richiede livello 10.\nL'eroe bersaglio guadagna +30% danno, +30% corazza, +30% vita.\n(Applicabile anche a Saruman).\nNon cumulabile."
