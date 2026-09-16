@@ -53992,7 +53992,7 @@ END
 
 
 CONTROLBAR:ToolTipCelebornLeadership
-"Richiede livello 2.\nGli alleati vicini a Celeborn ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
+"Gli alleati vicini a Celeborn ottengono\n+50% danno e +50% corazza\ned esperienza a velocità doppia.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:ToolTipCelebornTrainArmy
 "Richiede livello 3.\nGarantisce esperienza alle truppe alleate bersaglio."
@@ -54003,11 +54003,17 @@ END
 CONTROLBAR:ToolTipCelebornFuryOfDoriath
 "Richiede livello 5.\nCeleborn ottiene temporaneamente 100% danni e 100% corazza."
 END
+CONTROLBAR:CelebornEregionSmiths
+"Mastri Fabbri dell'Eregion"
+END
+CONTROLBAR:ToolTipCelebornEregionSmiths
+"Richiede livello 7.\nLe macchine d'assedio e le strutture vicine a Celeborn ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
+END
 CONTROLBAR:CelebornCallOfCarasGaladhon
 "Chiamata di Caras Galadhon"
 END
 CONTROLBAR:ToolTipCelebornCallOfCarasGaladhon
-"Richiede livello 9.\n Richiama due unità di cavalieri Galadhrim."
+"Richiede livello 9.\n Richiama due unità di guerrieri Galadhrim e due di cavalieri Galadhrim."
 END
 
 
