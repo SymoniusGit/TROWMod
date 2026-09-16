@@ -395,6 +395,3 @@
 
 //	Summon reinforcements
 #define CREATE_A_HERO_REINFORCEMENT_LIFETIME					90000
-
-;; Patch 9.7.7 adapter ;;
-#define CREATE_A_HERO_ATHELAS_HEAL_AMOUNT				1000 ;,;
