@@ -54007,7 +54007,7 @@ CONTROLBAR:CelebornEregionSmiths
 "Mastri Fabbri dell'Eregion"
 END
 CONTROLBAR:ToolTipCelebornEregionSmiths
-"Richiede livello 7.\nLe macchine d'assedio e le strutture vicine a Celeborn ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
+"Richiede livello 7.\nLe macchine d'assedio e le strutture vicine a Celeborn e Celeborn stesso ottengono +50% corazza.\n\nAbilità passiva. Non cumulabile."
 END
 CONTROLBAR:CelebornCallOfCarasGaladhon
 "Chiamata di Caras Galadhon"
