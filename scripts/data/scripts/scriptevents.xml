@@ -424,7 +424,7 @@
 
     <EventList Name="RhunWarChariotFunctions" Inherit="DwarvenBattleWagonFunctions">
         <!--NO MORE NEEDED, THERE ARE 2 MODELS NOW <EventHandler EventName="OnCreated" ScriptFunctionName="OnRhunWarChariotCreated" DebugSingleStep="false"/>-->
-	  <EventHandler EventName="OnHeroMode" ScriptFunctionName="RhunWarChariotToDoublePower" DebugSingleStep="false"/>
+	  <!-- <EventHandler EventName="OnHeroMode" ScriptFunctionName="RhunWarChariotToDoublePower" DebugSingleStep="false"/> -->
     </EventList>
 	
 
