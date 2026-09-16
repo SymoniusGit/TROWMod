@@ -13745,7 +13745,7 @@ CONTROLBAR:ToolTipBuildGondorRangerHordeForGoodIthilien
 END
 
 CONTROLBAR:ToolTipBuildGondorShieldGuardHorde
-"Richiede caserma di livello 2.\nEfficace contro cavalleria."
+"Richiede caserma di livello 3.\nEfficace contro cavalleria."
 END
 
 CONTROLBAR:ToolTipBuildGondorTrebuchet
