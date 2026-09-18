@@ -52382,7 +52382,7 @@ CONTROLBAR:MordorGorthaurNazgulDiscount
 "Signore degli Anelli"
 END
 CONTROLBAR:ToolTipMordorGorthaurNazgulDiscount
-"Richiede livello 10.\nRiduce il costo di reclutemento dei Nazgûl,\ni Nazgûl ottengono +20% armatura, +20%danno, +20% esperienza."
+"Richiede livello 10.\nRiduce il costo di reclutemento dei Nazgûl,\ni Nazgûl ottengono +20% armatura, +20%danno, +20% esperienza.\n\nAbilità passiva."
 END
 CONTROLBAR:TooltipHowl
 "Richiede livello 5.\nLancia un potente ululato che genera un'onda d'urto concentrata.\nRespinge i nemici vicini, infligge danni moderati e rompe le loro formazioni, lasciandoli temporaneamente vulnerabili"
@@ -52394,7 +52394,7 @@ CONTROLBAR:ToolTipGorthaurShadeChomp
 "Richiede livello 10.\nUccide la fanteria nemica bersaglio, ripristinando energia a se stesso e alle truppe alleate, fornendo temporaneamente a se stesso +50% danno e +50% corazza.\nClicca con il pulsante sinistro sull'icona e quindi sul nemico bersaglio.\nNon cumulabile."
 END
 CONTROLBAR:ToolTipGorthaurInfiltrate
-"Annatar è temporaneamente invisibile fintanto che non prende danni, attacca o viene rivelato dalle abilità che scovano le unità invisibili."
+"Annatar è invisibile fintanto che non prende danni, attacca o viene rivelato dalle abilità che scovano le unità invisibili.\n\nAbilità passiva."
 END
 
 CONTROLBAR:GorthaurShift
