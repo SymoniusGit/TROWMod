@@ -461,7 +461,7 @@ end
 function OnDunland2HFighterCreated(self)
 
     local weaponList = {"AXE00","AXE01"}
-    local weaponhideList = {"AXE00","AXE01", "HAMMER_00"}
+    local weaponhideList = {"AXE00","AXE01", "HAMMER00"}
 
     HideAllSubObjects(self,weaponhideList )
 
