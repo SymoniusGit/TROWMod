@@ -50782,12 +50782,39 @@ END
 OBJECT:DwarvenGolem
 "Golem"
 END
-
 OBJECT:DwarvenGoldenGolem
+"Golem Dorato"
+END
+
+OBJECT:DwarvenGoldenTitan
 "Titano Dorato"
 END
-CONTROLBAR:DwarvenGoldenGolemRecruit
+CONTROLBAR:DwarvenGoldenTitanRecruit
 "Recluta il Titano Dorato di Erebor, la creazione più possente di tutta la razza nanica."
+END
+CONTROLBAR:GoldenTitanGreed
+"Avidità dei Nani"
+END
+CONTROLBAR:ToolTipGoldenTitanGreed
+"Aumento +200% produzione delle miniere vicine e \nle unità alleate nelle vicinanze generano risorse a ogni uccisione.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:GoldenTitanAuleBlessing
+"Benedizione di Aule"
+END
+CONTROLBAR:ToolTipGoldenTitanAuleBlessing
+"Le macchine d'assedio e le strutture vicine a ottengono +50% corazza e si rigenerano nel tempo.\n\nAbilità passiva. Non cumulabile."
+END
+CONTROLBAR:GoldenTitanBurningEyes
+"Raggio d'Arkenfiamma"
+END
+CONTROLBAR:ToolTipGoldenTitanBurningEyes
+"Un potente raggio magico che danneggia le unità bersaglio."
+END
+CONTROLBAR:GoldenTitanAuricPullulation
+"Gemmazione Aurea"
+END
+CONTROLBAR:ToolTipGoldenTitanAuricPullulation
+"Quando il Titano Dorato viene distrutto, dai suoi resti sorgono tre golem dorati."
 END
 
 OBJECT:DwarvenFlameThrower
