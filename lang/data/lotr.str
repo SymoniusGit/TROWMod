@@ -54810,6 +54810,16 @@ OBJECT:HordeAngmarDarkRanger
 "Raminghi oscuri"
 END
 
+OBJECT:AngmarColdDrake
+"Draco Freddo"
+END
+CONTROLBAR:ConstructAngmarColdDrake
+"Draco Freddo"
+END
+CONTROLBAR:ToolTipAngmarColdDrake
+"Richiede struttura di livello 3.\nEfficace contro tutto."
+END
+
 
 CONTROLBAR:ToolTipWightDreadVisage
 "Richiede livello 3.\nRiduce del 25% la corazza e il danno del nemico.\nAbilità passiva. Non cumulabile."
