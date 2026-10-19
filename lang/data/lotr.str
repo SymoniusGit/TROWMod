@@ -51987,6 +51987,18 @@ CONTROLBAR:ToolTipAgandaurMorgulLightnings
 "Richiede livello 9.\n Agandaur scaglia una saetta \nche colpisce il bersaglio facendo danni ad area."
 END
 
+OBJECT:WildEyfvandir
+"Eyfvandir"
+END
+CONTROLBAR:WildEyfvandirRecruit
+"Recluta Eyfvandir, il Bianco Flagello del nord."
+END
+CONTROLBAR:WildEyfvandirRevive
+"Rianima Eyfvandir, il Bianco Flagello."
+END
+CONTROLBAR:WildEyfvandirHotkey
+"E&yfvandir"
+END
 
 OBJECT:Smaug
 "Smaug"
